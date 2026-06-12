@@ -4,7 +4,8 @@ This is the focused QA Lead collection for the final authentication/session regr
 
 ## Final base URLs
 
-- Authentication APIs: `{{baseCookieUrl}}` = `https://cookie.foodstg.com`
+- Authentication bootstrap APIs used by latest working cURLs: `{{baseApiUrl}}` = `https://api.foodstg.com`
+- Refresh / Logout APIs: `{{baseCookieUrl}}` = `https://cookie.foodstg.com`
 - Business APIs: `{{baseApiUrl}}` = `https://api.foodstg.com`
 
 ## Collection variables
@@ -104,13 +105,16 @@ newman run postman/tapsi_food_qa_final_21tc.postman_collection.json \
 
 ## APIs used
 
-Authentication APIs on cookie base:
+Authentication bootstrap APIs on API base:
 
-- `POST /v1/api/Authentication/guest-token`
-- `POST /v1/api/Authentication/otp`
-- `POST /v1/api/Authentication/token`
-- `POST /v1/api/Authentication/refresh`
-- `POST /v1/api/Authentication/logout`
+- `POST {{baseApiUrl}}/v1/api/Authentication/guest-token`
+- `POST {{baseApiUrl}}/v1/api/Authentication/otp`
+- `POST {{baseApiUrl}}/v1/api/Authentication/token`
+
+Refresh / Logout APIs on cookie base:
+
+- `POST {{baseCookieUrl}}/v1/api/Authentication/refresh`
+- `POST {{baseCookieUrl}}/v1/api/Authentication/logout`
 
 Business APIs on API base:
 
