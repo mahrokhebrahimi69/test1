@@ -14,7 +14,7 @@ The collection stores all runtime values as collection variables:
 
 - `baseCookieUrl`
 - `baseApiUrl`
-- `mobile`
+- `cellPhone`
 - `latitude`
 - `longitude`
 - `guestToken`
@@ -80,7 +80,7 @@ Only `Authorization` keeps token variables such as `Bearer {{guestToken}}` and `
 ## Execution notes
 
 1. Import `tapsi_food_qa_final_21tc.postman_collection.json` into Postman.
-2. Set `mobile` and `otpCode` before login if OTP is not returned by STG.
+2. Set `cellPhone` and `otpCode` before login if OTP is not returned by STG.
 3. Run folders in order for the full lifecycle.
 4. For real expiry validation:
    - Set access token TTL in STG to 60 seconds.
@@ -115,7 +115,7 @@ Refresh fails
 ```bash
 newman run postman/tapsi_food_qa_final_21tc.postman_collection.json \
   --env-var otpCode=12345 \
-  --env-var mobile=09015649636
+  --env-var cellPhone=09015649636
 ```
 
 ## APIs used
@@ -135,3 +135,7 @@ Business APIs on API base:
 
 - `GET /v1/api/Profile/get-me`
 - `GET /v1/api/Address/smart-addresses?latitude={{latitude}}&longitude={{longitude}}`
+
+## Variable and header strategy
+
+The collection keeps only runtime/state values as variables: base URLs, `cellPhone`, OTP, generated tokens, coordinates, TTL/expiry values, and refresh-lock state. Fixed browser/device headers stay as literal sample values in the Headers tab to keep requests close to the provided cURLs without adding unnecessary variable noise.

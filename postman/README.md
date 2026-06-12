@@ -259,7 +259,7 @@ curl 'https://api.tapsi.food/v1/api/Authentication/guest-token' \
   -H 'Referer: https://tapsi.food/' \
   -H 'sec-ch-ua: "Google Chrome";v="149", "Chromium";v="149", "Not)A;Brand";v="24"' \
   -H 'X-Usw: 679' \
-  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-cellPhone: ?0' \
   -H 'X-Usid: {{usid}}' \
   -H 'x-app-version: {{appVersion}}' \
   -H 'x-d-sx94k: {{deviceHash}}' \
@@ -316,7 +316,7 @@ curl 'https://pwa.foodstg.com/static/assets/lotties/login.json' \
   -H 'User-Agent: {{userAgent}}' \
   -H 'sec-ch-ua: "Chromium";v="148", "Google Chrome";v="148", "Not/A)Brand";v="99"' \
   -H 'DNT: 1' \
-  -H 'sec-ch-ua-mobile: ?0'
+  -H 'sec-ch-ua-cellPhone: ?0'
 ```
 
 ### Send OTP
@@ -397,3 +397,7 @@ curl 'https://api.foodstg.com/v1/api/Address/smart-addresses?latitude={{latitude
 ## Latest import note
 
 The Enterprise collection now keeps sample browser/device headers as literal values in the Headers tab, matching the provided cURLs. Authentication bootstrap endpoints use literal `https://api.foodstg.com` URLs, while Refresh and Logout use literal `https://cookie.foodstg.com` URLs. Only Authorization token values remain variable because they are generated during the run.
+
+## Variable and header strategy
+
+The collection keeps only runtime/state values as variables: base URLs, `cellPhone`, OTP, generated tokens, coordinates, TTL/expiry values, and refresh-lock state. Fixed browser/device headers stay as literal sample values in the Headers tab to keep requests close to the provided cURLs without adding unnecessary variable noise.
