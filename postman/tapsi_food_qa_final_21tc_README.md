@@ -139,3 +139,15 @@ Business APIs on API base:
 ## Variable and header strategy
 
 The collection keeps only runtime/state values as variables: base URLs, `cellPhone`, OTP, generated tokens, coordinates, TTL/expiry values, and refresh-lock state. Fixed browser/device headers stay as literal sample values in the Headers tab to keep requests close to the provided cURLs without adding unnecessary variable noise.
+
+## Login bootstrap order
+
+The observed PWA flow calls the login lottie asset before OTP and token requests:
+
+```text
+GET {{pwaBaseUrl}}/static/assets/lotties/login.json
+POST {{baseApiUrl}}/v1/api/Authentication/otp
+POST {{baseApiUrl}}/v1/api/Authentication/token
+```
+
+The login asset request uses the fixed sample `Referer` value `https://pwa.foodstg.com/auth?path:redirect-url=/?smart-address-fallback-modal=true` and is inserted before OTP flows.
