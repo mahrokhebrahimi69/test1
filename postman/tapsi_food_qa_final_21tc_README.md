@@ -159,3 +159,7 @@ The Login/Token request sends `"otpCode": "{{otpCode}}"`. The backend returns a 
 ## OTP response mapping
 
 The staging OTP API can return the OTP in `response.message`, for example `{ "status": true, "message": "32638" }`. The OTP request tests now save numeric `message` values into `otpCode` and `lastOtpCode`. Login/Token also accepts a literal `otpCode` typed directly in the body, but keeping `{{otpCode}}` is recommended for collection runs.
+
+## Reset stale Postman variables
+
+If old values from a previous import, Environment, or Globals are used instead of newly generated tokens/OTP, run `00 - Reset Runtime State / Clear Runtime Variables` first. It clears runtime auth/session variables from Collection, Environment, and Globals, then re-seeds only stable defaults such as base URLs, `cellPhone`, coordinates, and TTLs.
