@@ -30,6 +30,21 @@ The collection stores all runtime values as collection variables:
 - `enableRealAccessExpiryWait`
 - `enableRealIdleWait`
 
+
+## Header values
+
+The request Headers tab keeps the same fixed browser/device values from the provided sample cURLs:
+
+- `User-Agent`: Chrome 149 Windows user agent
+- `sec-ch-ua`: `"Google Chrome";v="149", "Chromium";v="149", "Not)A;Brand";v="24"`
+- `x-platform`: `desktop`
+- `x-app-version`: empty value, matching `x-app-version;` in the sample cURL
+- `X-Usw`: `682`
+- `X-Usid`: `gtjdcnagu9amqamd2do`
+- `x-d-sx94k`: `a9e2269d5b8e836d4962db133aadf7f375f75af147ea03170913694de4a84ff8`
+
+Only `Authorization` keeps token variables such as `Bearer {{guestToken}}` and `Bearer {{accessToken}}`, because those tokens are generated and refreshed during the collection run.
+
 ## Folders and test cases
 
 1. `01 - Guest Session`
