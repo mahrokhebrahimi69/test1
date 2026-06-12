@@ -413,3 +413,7 @@ POST {{baseApiUrl}}/v1/api/Authentication/token
 ```
 
 The login asset request uses the fixed sample `Referer` value `https://pwa.foodstg.com/auth?path:redirect-url=/?smart-address-fallback-modal=true` and is inserted before OTP flows.
+
+## OTP variable requirement
+
+The Login/Token request sends `"otpCode": "{{otpCode}}"`. The backend returns a validation error when `otpCode` is empty. The collection now blocks Login/Token before sending if `otpCode` is not set, with a clear pre-request error. After running OTP, copy the current SMS/STG OTP into the runtime variable `otpCode` and then run Token/Login.
