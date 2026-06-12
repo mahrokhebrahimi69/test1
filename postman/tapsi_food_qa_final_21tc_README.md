@@ -1,165 +1,88 @@
-# Tapsi Food QA Final Auth Session Regression - 21 TC
+# Tapsi Food Strict Login / Session / Refresh Regression Pack - 21 TC
 
-This is the focused QA Lead collection for the final authentication/session regression pack.
+This is the final QA regression collection for the login/session/refresh scope. It intentionally excludes the old 70-TC enterprise truth matrix from the download bundle.
 
-## Final base URLs
+## Import this file
 
-- Authentication bootstrap APIs used by latest working cURLs: `{{baseApiUrl}}` = `https://api.foodstg.com`
-- Refresh / Logout APIs: `{{baseCookieUrl}}` = `https://cookie.foodstg.com`
-- Business APIs: `{{baseApiUrl}}` = `https://api.foodstg.com`
+- `tapsi_food_qa_final_21tc.postman_collection.json`
+- Optional environment: `tapsi_food_auth_session_regression.postman_environment.json`
 
-## Collection variables
+## Runtime strategy
 
-The collection stores all runtime values as collection variables:
+- URL, token, OTP, coordinates, TTL, and refresh-lock state stay dynamic.
+- Fixed browser/device headers stay literal in the Headers tab, matching the provided cURLs.
+- Run `00 - Reset Runtime State / Clear Runtime Variables` first if Postman reuses stale Collection, Environment, or Global variables.
 
-- `baseCookieUrl`
-- `baseApiUrl`
-- `cellPhone`
-- `latitude`
-- `longitude`
-- `guestToken`
-- `accessToken`
-- `refreshToken`
-- `otpCode`
-- `invalidAccessToken`
-- `invalidRefreshToken`
-- `expiredAccessToken`
-- `expiredRefreshToken`
-- `refreshInProgress`
-- `refreshCount`
-- `enableRealAccessExpiryWait`
-- `enableRealIdleWait`
+## State-transition folders
 
-
-## Header values
-
-The request Headers tab keeps the same fixed browser/device values from the provided sample cURLs:
-
-- `User-Agent`: Chrome 149 Windows user agent
-- `sec-ch-ua`: `"Google Chrome";v="149", "Chromium";v="149", "Not)A;Brand";v="24"`
-- `x-platform`: `desktop`
-- `x-app-version`: empty value, matching `x-app-version;` in the sample cURL
-- `X-Usw`: `682`
-- `X-Usid`: `gtjdcnagu9amqamd2do`
-- `x-d-sx94k`: `a9e2269d5b8e836d4962db133aadf7f375f75af147ea03170913694de4a84ff8`
-
-Only `Authorization` keeps token variables such as `Bearer {{guestToken}}` and `Bearer {{accessToken}}`, because those tokens are generated and refreshed during the collection run.
-
-## Folders and test cases
-
-1. `01 - Guest Session`
+1. `01 - Authentication Bootstrap`
    - TC-01 Guest Token
-2. `02 - Authentication`
-   - TC-02 OTP Request
-   - TC-03 Login Success
-3. `03 - Authenticated APIs`
+   - TC-02 OTP Request (`GET Login Asset` then `POST OTP Request`)
+   - TC-03 Login Token
+2. `02 - Session Validation`
    - TC-04 Get Me
    - TC-05 Smart Address
-4. `04 - Refresh Flow`
+3. `03 - Refresh Flow`
    - TC-06 Refresh Token
    - TC-07 Get Me After Refresh
    - TC-08 Smart Address After Refresh
-5. `05 - Negative Authentication`
+4. `04 - Negative Cases`
    - TC-09 Missing Access Token
    - TC-10 Missing Refresh Token
    - TC-11 Invalid Access Token
-   - TC-12 Invalid Refresh Token
+5. `05 - Regression Bugs`
+   - TC-12 GetMe 401 -> Refresh -> Retry GetMe 200
+   - TC-13 SmartAddress 401 -> Refresh -> Retry SmartAddress 200
+   - TC-14 Multiple 401 Requests - Simulation Only
+   - TC-15 Single Refresh Lock - Simulation Only
+   - TC-16 API 401 Handling: 401 -> Refresh Fail -> Guest Token/Login Flow
 6. `06 - Session Expiration`
-   - TC-13 Access Token Expired
-   - TC-14 Refresh Token Expired
-   - TC-15 Idle Session Expired
-7. `07 - Regression`
-   - TC-16 GetMe 401 -> Refresh -> GetMe 200
-   - TC-17 SmartAddress 401 -> Refresh -> SmartAddress 200
-   - TC-18 Multiple 401 Requests
-   - TC-19 Single Refresh Lock
-   - TC-20 No Refresh Loop
-8. `08 - Logout`
-   - TC-21 Logout Flow
+   - TC-17 Refresh Token Expired
+   - TC-18 Idle Session Timeout
+   - TC-19 Active User Session
+7. `07 - Logout Flow`
+   - TC-20 Logout API And Guest Token
+   - TC-21 Get Me As Guest
 
-## Execution notes
+## Critical regression flow
 
-1. Import `tapsi_food_qa_final_21tc.postman_collection.json` into Postman.
-2. Set `cellPhone` and `otpCode` before login if OTP is not returned by STG.
-3. Run folders in order for the full lifecycle.
-4. For real expiry validation:
-   - Set access token TTL in STG to 60 seconds.
-   - Set `enableRealAccessExpiryWait=true` to wait `accessExpiryWaitMs=70000` before expiry-dependent requests.
-   - Set `enableRealIdleWait=true` to wait `idleWaitMs=150000` for idle timeout checks.
-5. Keep these wait flags `false` for faster CI smoke runs.
-
-## Main regression target
-
-The critical bug flow is covered by TC-16 and TC-17:
+TC-12 and TC-13 implement the core bug chain:
 
 ```text
-Logged-in user
--> Access token expires
--> GetMe or SmartAddress returns 401
--> Refresh API returns new token
--> Original request retries
--> Original request returns 200
+Protected API with expired/invalid access token
+-> 401/403
+-> Refresh API
+-> Save new access/refresh token
+-> Retry original request
+-> 200
 ```
 
-If refresh fails, the expected product behavior is:
+By default these use `expiredAccessToken` to force the first 401. To validate real token expiry, set:
 
 ```text
-Refresh fails
--> Logout/session cleanup
--> Guest token
--> Login modal
+enableRealAccessExpiryWait = true
+accessExpiryWaitMs = 70000
 ```
 
-## Newman example
+## Idle session
 
-```bash
-newman run postman/tapsi_food_qa_final_21tc.postman_collection.json \
-  --env-var otpCode=12345 \
-  --env-var cellPhone=09015649636
-```
-
-## APIs used
-
-Authentication bootstrap APIs on API base:
-
-- `POST {{baseApiUrl}}/v1/api/Authentication/guest-token`
-- `POST {{baseApiUrl}}/v1/api/Authentication/otp`
-- `POST {{baseApiUrl}}/v1/api/Authentication/token`
-
-Refresh / Logout APIs on cookie base:
-
-- `POST {{baseCookieUrl}}/v1/api/Authentication/refresh`
-- `POST {{baseCookieUrl}}/v1/api/Authentication/logout`
-
-Business APIs on API base:
-
-- `GET /v1/api/Profile/get-me`
-- `GET /v1/api/Address/smart-addresses?latitude={{latitude}}&longitude={{longitude}}`
-
-## Variable and header strategy
-
-The collection keeps only runtime/state values as variables: base URLs, `cellPhone`, OTP, generated tokens, coordinates, TTL/expiry values, and refresh-lock state. Fixed browser/device headers stay as literal sample values in the Headers tab to keep requests close to the provided cURLs without adding unnecessary variable noise.
-
-## Login bootstrap order
-
-The observed PWA flow calls the login lottie asset before OTP and token requests:
+TC-18 uses simulated idle expiry by default. To run the real Keycloak idle wait, set:
 
 ```text
-GET {{pwaBaseUrl}}/static/assets/lotties/login.json
-POST {{baseApiUrl}}/v1/api/Authentication/otp
-POST {{baseApiUrl}}/v1/api/Authentication/token
+enableRealIdleWait = true
+idleWaitMs = 130000
 ```
 
-The login asset request uses the fixed sample `Referer` value `https://pwa.foodstg.com/auth?path:redirect-url=/?smart-address-fallback-modal=true` and is inserted before OTP flows.
+## Simulation-only scenarios
 
-## OTP variable requirement
+TC-14 and TC-15 are marked `Simulation Only` because Postman cannot generate true browser-level parallel traffic. Use Playwright/k6/JMeter for real concurrency.
 
-The Login/Token request sends `"otpCode": "{{otpCode}}"`. The backend returns a validation error when `otpCode` is empty. The collection now blocks Login/Token before sending if `otpCode` is not set, with a clear pre-request error. After running OTP, copy the current SMS/STG OTP into the runtime variable `otpCode` and then run Token/Login.
+## OTP handling
 
-## OTP response mapping
+The staging OTP API may return:
 
-The staging OTP API can return the OTP in `response.message`, for example `{ "status": true, "message": "32638" }`. The OTP request tests now save numeric `message` values into `otpCode` and `lastOtpCode`. Login/Token also accepts a literal `otpCode` typed directly in the body, but keeping `{{otpCode}}` is recommended for collection runs.
+```json
+{ "status": true, "message": "32638" }
+```
 
-## Reset stale Postman variables
-
-If old values from a previous import, Environment, or Globals are used instead of newly generated tokens/OTP, run `00 - Reset Runtime State / Clear Runtime Variables` first. It clears runtime auth/session variables from Collection, Environment, and Globals, then re-seeds only stable defaults such as base URLs, `cellPhone`, coordinates, and TTLs.
+The OTP request saves numeric `message` into `otpCode` and `lastOtpCode`. Login also accepts a literal `otpCode` typed directly into the body.
