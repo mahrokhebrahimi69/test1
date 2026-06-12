@@ -393,3 +393,7 @@ curl 'https://api.foodstg.com/v1/api/Address/smart-addresses?latitude={{latitude
 - SSO endpoints were not provided, so TC-42 to TC-48 are placeholders.
 - Some expiry scenarios simulate client-side TTL by setting expiry variables. For backend-enforced expiry, configure staging token TTLs accordingly.
 - Login-dependent tests require a valid OTP or a staging test OTP.
+
+## Latest import note
+
+The Enterprise collection now keeps sample browser/device headers as literal values in the Headers tab, matching the provided cURLs. Authentication bootstrap endpoints use literal `https://api.foodstg.com` URLs, while Refresh and Logout use literal `https://cookie.foodstg.com` URLs. Only Authorization token values remain variable because they are generated during the run.
