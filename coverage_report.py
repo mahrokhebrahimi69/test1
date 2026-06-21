@@ -8,27 +8,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 DATA_DIR = ROOT / "data"
-OVERRIDES = [
-    "override_01_brand",
-    "override_02_political",
-    "override_03_pii",
-    "override_04_offensive",
-    "override_05_discount",
-    "override_06_advertising",
-    "override_07_hygiene",
-    "override_08_privacy",
-    "override_09_order_change",
-    "override_10_comparison",
-    "override_11_indirect_advertising",
-    "override_12_delivery_problem",
-    "override_13_offtopic",
-    "override_14_non_persian",
-    "override_15_religious",
-    "override_17_emoji",
-    "override_18_app_problem",
-    "override_19_courier",
-    "override_20_incomplete",
-]
+OVERRIDES = ['override_01_brand', 'override_02_political', 'override_03_pii', 'override_04_offensive', 'override_05_discount', 'override_06_advertising', 'override_07_hygiene', 'override_08_privacy', 'override_09_order_change', 'override_10_comparison', 'override_11_indirect_advertising', 'override_12_delivery_problem', 'override_13_offtopic', 'override_14_non_persian', 'override_15_religious', 'override_17_emoji', 'override_18_app_problem', 'override_19_courier', 'override_20_incomplete']
+REASON_CODES = ['استفاده_از_کلمات_نامناسب', 'انتقاد_و_پیشنهاد', 'برخورد_نامناسب_پیک', 'تبلیغات', 'درخواست_ویرایش_سفارش', 'دیدگاه_نامرتبط', 'سياسي', 'مشکلات_اپلیکیشن', 'مقایسه_دو_مجموعه_با_یکدیگر', 'موارد_بهداشتی', 'موارد_مرتبط_با_کد_تخفیف', 'نقض_حریم_شخصی']
 MINIMUMS = {
     "boundary_cases.json": 100,
     "sarcasm_cases.json": 100,
@@ -71,15 +52,19 @@ def main() -> int:
     for label, count in sorted(label_counts.items()):
         print(f"  {label}: {count}")
 
+    print("\nReason-code counts:")
+    for reason in REASON_CODES:
+        print(f"  {reason}: {reason_counts[reason]}")
+
     print("\nOverride coverage in regression_cases.json:")
     regression = load_cases("regression_cases.json")
     failures = []
-    for reason in OVERRIDES:
-        count = sum(1 for case in regression if case.get("expected_reason") == reason)
+    for override_id in OVERRIDES:
+        count = sum(1 for case in regression if case.get("expected_override") == override_id)
         status = "OK" if count >= 50 else "LOW"
-        print(f"  {reason}: {count} ({status})")
+        print(f"  {override_id}: {count} ({status})")
         if count < 50:
-            failures.append(f"{reason} has {count} cases, expected at least 50")
+            failures.append(f"{override_id} has {count} cases, expected at least 50")
 
     print("\nRequired data-file minimums:")
     for filename, minimum in MINIMUMS.items():

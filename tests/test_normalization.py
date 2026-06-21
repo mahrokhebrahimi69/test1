@@ -20,7 +20,7 @@ def test_normalization_cases(classify, case):
 def test_normalization_equivalence_groups_have_consistent_expectations():
     groups = {}
     for case in CASES:
-        groups.setdefault(case.get("equivalence_group"), set()).add((case["expected_label"], case["expected_reason"]))
+        groups.setdefault(case.get("equivalence_group"), set()).add((case["expected_label"], case["expected_reason"], case["expected_override"]))
     for group, expectations in groups.items():
         assert group is not None
         assert len(expectations) == 1, f"{group} mixes expectations: {expectations}"

@@ -13,6 +13,6 @@ def test_boundary_logic_has_minimum_coverage():
 
 @pytest.mark.parametrize("case", CASES, ids=case_ids(CASES))
 def test_boundary_logic_cases(classify, case):
-    """Boundary cases distinguish near misses, ambiguity, and real overrides."""
+    """Boundary cases distinguish Golden Rule, unknown, incomplete, and hard overrides."""
     assert_case(classify, case)
 

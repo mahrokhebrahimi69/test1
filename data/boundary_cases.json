@@ -1,1292 +1,1427 @@
 [
   {
-    "id": "boundary_approval_001",
-    "text": "پیتزا خوب بود؛ عبارت سیاست قیمت گذاری رستوران در اینجا فقط توصیف تجربه غذاست نه تخلف.",
+    "id": "boundary_golden_001",
+    "text": "پیتزا کمی کم حجم بود ولی نقد من محترمانه و کامل است.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.85,
+    "max_confidence": 0.95,
     "tags": [
       "boundary",
-      "near_miss",
-      "golden_rule"
+      "golden_rule",
+      "near_miss"
     ]
   },
   {
-    "id": "boundary_approval_002",
-    "text": "برگر معمولی بود؛ عبارت برند بسته بندی خود رستوران در اینجا فقط توصیف تجربه غذاست نه تخلف.",
+    "id": "boundary_golden_002",
+    "text": "کاش برگر گرم تر می رسید اما در کل قابل قبول بود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.85,
+    "max_confidence": 0.95,
     "tags": [
       "boundary",
-      "near_miss",
-      "golden_rule"
+      "golden_rule",
+      "near_miss"
     ]
   },
   {
-    "id": "boundary_approval_003",
-    "text": "کباب گرم بود؛ عبارت تخفیف طعم و کیفیت در اینجا فقط توصیف تجربه غذاست نه تخلف.",
+    "id": "boundary_golden_003",
+    "text": "کباب معمولی بود و انتظار بهتری داشتم.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.85,
+    "max_confidence": 0.95,
     "tags": [
       "boundary",
-      "near_miss",
-      "golden_rule"
+      "golden_rule",
+      "near_miss"
     ]
   },
   {
-    "id": "boundary_approval_004",
-    "text": "چلو مرغ کم نمک بود؛ عبارت آدرس مزه غذا در اینجا فقط توصیف تجربه غذاست نه تخلف.",
+    "id": "boundary_golden_004",
+    "text": "سرعت تحویل خوب بود ولی چلو مرغ کمی سرد شده بود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.85,
+    "max_confidence": 0.95,
     "tags": [
       "boundary",
-      "near_miss",
-      "golden_rule"
+      "golden_rule",
+      "near_miss"
     ]
   },
   {
-    "id": "boundary_approval_005",
-    "text": "سوپ پر ادویه بود؛ عبارت پیک طعم ادویه در اینجا فقط توصیف تجربه غذاست نه تخلف.",
+    "id": "boundary_golden_005",
+    "text": "سوپ کمی کم حجم بود ولی نقد من محترمانه و کامل است.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.85,
+    "max_confidence": 0.95,
     "tags": [
       "boundary",
-      "near_miss",
-      "golden_rule"
+      "golden_rule",
+      "near_miss"
     ]
   },
   {
-    "id": "boundary_approval_006",
-    "text": "سالاد تازه بود؛ عبارت سیاست قیمت گذاری رستوران در اینجا فقط توصیف تجربه غذاست نه تخلف.",
+    "id": "boundary_golden_006",
+    "text": "کاش سالاد گرم تر می رسید اما در کل قابل قبول بود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.85,
+    "max_confidence": 0.95,
     "tags": [
       "boundary",
-      "near_miss",
-      "golden_rule"
+      "golden_rule",
+      "near_miss"
     ]
   },
   {
-    "id": "boundary_approval_007",
-    "text": "ساندویچ دیررسیده بود؛ عبارت برند بسته بندی خود رستوران در اینجا فقط توصیف تجربه غذاست نه تخلف.",
+    "id": "boundary_golden_007",
+    "text": "ساندویچ معمولی بود و انتظار بهتری داشتم.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.85,
+    "max_confidence": 0.95,
     "tags": [
       "boundary",
-      "near_miss",
-      "golden_rule"
+      "golden_rule",
+      "near_miss"
     ]
   },
   {
-    "id": "boundary_approval_008",
-    "text": "قورمه سبزی خوشمزه بود؛ عبارت تخفیف طعم و کیفیت در اینجا فقط توصیف تجربه غذاست نه تخلف.",
+    "id": "boundary_golden_008",
+    "text": "سرعت تحویل خوب بود ولی قورمه سبزی کمی سرد شده بود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.85,
+    "max_confidence": 0.95,
     "tags": [
       "boundary",
-      "near_miss",
-      "golden_rule"
+      "golden_rule",
+      "near_miss"
     ]
   },
   {
-    "id": "boundary_approval_009",
-    "text": "لازانیا سنگین بود؛ عبارت آدرس مزه غذا در اینجا فقط توصیف تجربه غذاست نه تخلف.",
+    "id": "boundary_golden_009",
+    "text": "لازانیا کمی کم حجم بود ولی نقد من محترمانه و کامل است.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.85,
+    "max_confidence": 0.95,
     "tags": [
       "boundary",
-      "near_miss",
-      "golden_rule"
+      "golden_rule",
+      "near_miss"
     ]
   },
   {
-    "id": "boundary_approval_010",
-    "text": "سیب زمینی سبک بود؛ عبارت پیک طعم ادویه در اینجا فقط توصیف تجربه غذاست نه تخلف.",
+    "id": "boundary_golden_010",
+    "text": "کاش سیب زمینی گرم تر می رسید اما در کل قابل قبول بود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.85,
+    "max_confidence": 0.95,
     "tags": [
       "boundary",
-      "near_miss",
-      "golden_rule"
+      "golden_rule",
+      "near_miss"
     ]
   },
   {
-    "id": "boundary_approval_011",
-    "text": "قهوه بدون سس بود؛ عبارت سیاست قیمت گذاری رستوران در اینجا فقط توصیف تجربه غذاست نه تخلف.",
+    "id": "boundary_golden_011",
+    "text": "قهوه معمولی بود و انتظار بهتری داشتم.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.85,
+    "max_confidence": 0.95,
     "tags": [
       "boundary",
-      "near_miss",
-      "golden_rule"
+      "golden_rule",
+      "near_miss"
     ]
   },
   {
-    "id": "boundary_approval_012",
-    "text": "چای پر سس بود؛ عبارت برند بسته بندی خود رستوران در اینجا فقط توصیف تجربه غذاست نه تخلف.",
+    "id": "boundary_golden_012",
+    "text": "سرعت تحویل خوب بود ولی چای کمی سرد شده بود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.85,
+    "max_confidence": 0.95,
     "tags": [
       "boundary",
-      "near_miss",
-      "golden_rule"
+      "golden_rule",
+      "near_miss"
     ]
   },
   {
-    "id": "boundary_approval_013",
-    "text": "کیک خشک بود؛ عبارت تخفیف طعم و کیفیت در اینجا فقط توصیف تجربه غذاست نه تخلف.",
+    "id": "boundary_golden_013",
+    "text": "کیک کمی کم حجم بود ولی نقد من محترمانه و کامل است.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.85,
+    "max_confidence": 0.95,
     "tags": [
       "boundary",
-      "near_miss",
-      "golden_rule"
+      "golden_rule",
+      "near_miss"
     ]
   },
   {
-    "id": "boundary_approval_014",
-    "text": "بستنی آبدار بود؛ عبارت آدرس مزه غذا در اینجا فقط توصیف تجربه غذاست نه تخلف.",
+    "id": "boundary_golden_014",
+    "text": "کاش بستنی گرم تر می رسید اما در کل قابل قبول بود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.85,
+    "max_confidence": 0.95,
     "tags": [
       "boundary",
-      "near_miss",
-      "golden_rule"
+      "golden_rule",
+      "near_miss"
     ]
   },
   {
-    "id": "boundary_approval_015",
-    "text": "نودل ترد بود؛ عبارت پیک طعم ادویه در اینجا فقط توصیف تجربه غذاست نه تخلف.",
+    "id": "boundary_golden_015",
+    "text": "نودل معمولی بود و انتظار بهتری داشتم.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.85,
+    "max_confidence": 0.95,
     "tags": [
       "boundary",
-      "near_miss",
-      "golden_rule"
+      "golden_rule",
+      "near_miss"
     ]
   },
   {
-    "id": "boundary_approval_016",
-    "text": "فلافل نرم بود؛ عبارت سیاست قیمت گذاری رستوران در اینجا فقط توصیف تجربه غذاست نه تخلف.",
+    "id": "boundary_golden_016",
+    "text": "سرعت تحویل خوب بود ولی فلافل کمی سرد شده بود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.85,
+    "max_confidence": 0.95,
     "tags": [
       "boundary",
-      "near_miss",
-      "golden_rule"
+      "golden_rule",
+      "near_miss"
     ]
   },
   {
-    "id": "boundary_approval_017",
-    "text": "استیک کم حجم بود؛ عبارت برند بسته بندی خود رستوران در اینجا فقط توصیف تجربه غذاست نه تخلف.",
+    "id": "boundary_golden_017",
+    "text": "استیک کمی کم حجم بود ولی نقد من محترمانه و کامل است.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.85,
+    "max_confidence": 0.95,
     "tags": [
       "boundary",
-      "near_miss",
-      "golden_rule"
+      "golden_rule",
+      "near_miss"
     ]
   },
   {
-    "id": "boundary_approval_018",
-    "text": "میرزاقاسمی پر حجم بود؛ عبارت تخفیف طعم و کیفیت در اینجا فقط توصیف تجربه غذاست نه تخلف.",
+    "id": "boundary_golden_018",
+    "text": "کاش میرزاقاسمی گرم تر می رسید اما در کل قابل قبول بود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.85,
+    "max_confidence": 0.95,
     "tags": [
       "boundary",
-      "near_miss",
-      "golden_rule"
+      "golden_rule",
+      "near_miss"
     ]
   },
   {
-    "id": "boundary_approval_019",
-    "text": "عدس پلو منظم بسته بندی شده بود؛ عبارت آدرس مزه غذا در اینجا فقط توصیف تجربه غذاست نه تخلف.",
+    "id": "boundary_golden_019",
+    "text": "عدس پلو معمولی بود و انتظار بهتری داشتم.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.85,
+    "max_confidence": 0.95,
     "tags": [
       "boundary",
-      "near_miss",
-      "golden_rule"
+      "golden_rule",
+      "near_miss"
     ]
   },
   {
-    "id": "boundary_approval_020",
-    "text": "املت بد بسته بندی شده بود؛ عبارت پیک طعم ادویه در اینجا فقط توصیف تجربه غذاست نه تخلف.",
+    "id": "boundary_golden_020",
+    "text": "سرعت تحویل خوب بود ولی املت کمی سرد شده بود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.85,
+    "max_confidence": 0.95,
     "tags": [
       "boundary",
-      "near_miss",
-      "golden_rule"
+      "golden_rule",
+      "near_miss"
     ]
   },
   {
-    "id": "boundary_approval_021",
-    "text": "پیتزا خوب بود؛ عبارت سیاست قیمت گذاری رستوران در اینجا فقط توصیف تجربه غذاست نه تخلف.",
+    "id": "boundary_golden_021",
+    "text": "پیتزا کمی کم حجم بود ولی نقد من محترمانه و کامل است.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.85,
+    "max_confidence": 0.95,
     "tags": [
       "boundary",
-      "near_miss",
-      "golden_rule"
+      "golden_rule",
+      "near_miss"
     ]
   },
   {
-    "id": "boundary_approval_022",
-    "text": "برگر معمولی بود؛ عبارت برند بسته بندی خود رستوران در اینجا فقط توصیف تجربه غذاست نه تخلف.",
+    "id": "boundary_golden_022",
+    "text": "کاش برگر گرم تر می رسید اما در کل قابل قبول بود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.85,
+    "max_confidence": 0.95,
     "tags": [
       "boundary",
-      "near_miss",
-      "golden_rule"
+      "golden_rule",
+      "near_miss"
     ]
   },
   {
-    "id": "boundary_approval_023",
-    "text": "کباب گرم بود؛ عبارت تخفیف طعم و کیفیت در اینجا فقط توصیف تجربه غذاست نه تخلف.",
+    "id": "boundary_golden_023",
+    "text": "کباب معمولی بود و انتظار بهتری داشتم.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.85,
+    "max_confidence": 0.95,
     "tags": [
       "boundary",
-      "near_miss",
-      "golden_rule"
+      "golden_rule",
+      "near_miss"
     ]
   },
   {
-    "id": "boundary_approval_024",
-    "text": "چلو مرغ کم نمک بود؛ عبارت آدرس مزه غذا در اینجا فقط توصیف تجربه غذاست نه تخلف.",
+    "id": "boundary_golden_024",
+    "text": "سرعت تحویل خوب بود ولی چلو مرغ کمی سرد شده بود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.85,
+    "max_confidence": 0.95,
     "tags": [
       "boundary",
-      "near_miss",
-      "golden_rule"
+      "golden_rule",
+      "near_miss"
     ]
   },
   {
-    "id": "boundary_approval_025",
-    "text": "سوپ پر ادویه بود؛ عبارت پیک طعم ادویه در اینجا فقط توصیف تجربه غذاست نه تخلف.",
+    "id": "boundary_golden_025",
+    "text": "سوپ کمی کم حجم بود ولی نقد من محترمانه و کامل است.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.85,
+    "max_confidence": 0.95,
     "tags": [
       "boundary",
-      "near_miss",
-      "golden_rule"
+      "golden_rule",
+      "near_miss"
     ]
   },
   {
-    "id": "boundary_approval_026",
-    "text": "سالاد تازه بود؛ عبارت سیاست قیمت گذاری رستوران در اینجا فقط توصیف تجربه غذاست نه تخلف.",
+    "id": "boundary_golden_026",
+    "text": "کاش سالاد گرم تر می رسید اما در کل قابل قبول بود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.85,
+    "max_confidence": 0.95,
     "tags": [
       "boundary",
-      "near_miss",
-      "golden_rule"
+      "golden_rule",
+      "near_miss"
     ]
   },
   {
-    "id": "boundary_approval_027",
-    "text": "ساندویچ دیررسیده بود؛ عبارت برند بسته بندی خود رستوران در اینجا فقط توصیف تجربه غذاست نه تخلف.",
+    "id": "boundary_golden_027",
+    "text": "ساندویچ معمولی بود و انتظار بهتری داشتم.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.85,
+    "max_confidence": 0.95,
     "tags": [
       "boundary",
-      "near_miss",
-      "golden_rule"
+      "golden_rule",
+      "near_miss"
     ]
   },
   {
-    "id": "boundary_approval_028",
-    "text": "قورمه سبزی خوشمزه بود؛ عبارت تخفیف طعم و کیفیت در اینجا فقط توصیف تجربه غذاست نه تخلف.",
+    "id": "boundary_golden_028",
+    "text": "سرعت تحویل خوب بود ولی قورمه سبزی کمی سرد شده بود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.85,
+    "max_confidence": 0.95,
     "tags": [
       "boundary",
-      "near_miss",
-      "golden_rule"
+      "golden_rule",
+      "near_miss"
     ]
   },
   {
-    "id": "boundary_approval_029",
-    "text": "لازانیا سنگین بود؛ عبارت آدرس مزه غذا در اینجا فقط توصیف تجربه غذاست نه تخلف.",
+    "id": "boundary_golden_029",
+    "text": "لازانیا کمی کم حجم بود ولی نقد من محترمانه و کامل است.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.85,
+    "max_confidence": 0.95,
     "tags": [
       "boundary",
-      "near_miss",
-      "golden_rule"
+      "golden_rule",
+      "near_miss"
     ]
   },
   {
-    "id": "boundary_approval_030",
-    "text": "سیب زمینی سبک بود؛ عبارت پیک طعم ادویه در اینجا فقط توصیف تجربه غذاست نه تخلف.",
+    "id": "boundary_golden_030",
+    "text": "کاش سیب زمینی گرم تر می رسید اما در کل قابل قبول بود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.85,
+    "max_confidence": 0.95,
     "tags": [
       "boundary",
-      "near_miss",
-      "golden_rule"
+      "golden_rule",
+      "near_miss"
     ]
   },
   {
-    "id": "boundary_approval_031",
-    "text": "قهوه بدون سس بود؛ عبارت سیاست قیمت گذاری رستوران در اینجا فقط توصیف تجربه غذاست نه تخلف.",
+    "id": "boundary_golden_031",
+    "text": "قهوه معمولی بود و انتظار بهتری داشتم.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.85,
+    "max_confidence": 0.95,
     "tags": [
       "boundary",
-      "near_miss",
-      "golden_rule"
+      "golden_rule",
+      "near_miss"
     ]
   },
   {
-    "id": "boundary_approval_032",
-    "text": "چای پر سس بود؛ عبارت برند بسته بندی خود رستوران در اینجا فقط توصیف تجربه غذاست نه تخلف.",
+    "id": "boundary_golden_032",
+    "text": "سرعت تحویل خوب بود ولی چای کمی سرد شده بود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.85,
+    "max_confidence": 0.95,
     "tags": [
       "boundary",
-      "near_miss",
-      "golden_rule"
+      "golden_rule",
+      "near_miss"
     ]
   },
   {
-    "id": "boundary_approval_033",
-    "text": "کیک خشک بود؛ عبارت تخفیف طعم و کیفیت در اینجا فقط توصیف تجربه غذاست نه تخلف.",
+    "id": "boundary_golden_033",
+    "text": "کیک کمی کم حجم بود ولی نقد من محترمانه و کامل است.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.85,
+    "max_confidence": 0.95,
     "tags": [
       "boundary",
-      "near_miss",
-      "golden_rule"
+      "golden_rule",
+      "near_miss"
     ]
   },
   {
-    "id": "boundary_approval_034",
-    "text": "بستنی آبدار بود؛ عبارت آدرس مزه غذا در اینجا فقط توصیف تجربه غذاست نه تخلف.",
+    "id": "boundary_golden_034",
+    "text": "کاش بستنی گرم تر می رسید اما در کل قابل قبول بود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.85,
+    "max_confidence": 0.95,
     "tags": [
       "boundary",
-      "near_miss",
-      "golden_rule"
+      "golden_rule",
+      "near_miss"
     ]
   },
   {
-    "id": "boundary_approval_035",
-    "text": "نودل ترد بود؛ عبارت پیک طعم ادویه در اینجا فقط توصیف تجربه غذاست نه تخلف.",
+    "id": "boundary_golden_035",
+    "text": "نودل معمولی بود و انتظار بهتری داشتم.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.85,
+    "max_confidence": 0.95,
     "tags": [
       "boundary",
-      "near_miss",
-      "golden_rule"
+      "golden_rule",
+      "near_miss"
     ]
   },
   {
-    "id": "boundary_approval_036",
-    "text": "فلافل نرم بود؛ عبارت سیاست قیمت گذاری رستوران در اینجا فقط توصیف تجربه غذاست نه تخلف.",
+    "id": "boundary_golden_036",
+    "text": "سرعت تحویل خوب بود ولی فلافل کمی سرد شده بود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.85,
+    "max_confidence": 0.95,
     "tags": [
       "boundary",
-      "near_miss",
-      "golden_rule"
+      "golden_rule",
+      "near_miss"
     ]
   },
   {
-    "id": "boundary_approval_037",
-    "text": "استیک کم حجم بود؛ عبارت برند بسته بندی خود رستوران در اینجا فقط توصیف تجربه غذاست نه تخلف.",
+    "id": "boundary_golden_037",
+    "text": "استیک کمی کم حجم بود ولی نقد من محترمانه و کامل است.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.85,
+    "max_confidence": 0.95,
     "tags": [
       "boundary",
-      "near_miss",
-      "golden_rule"
+      "golden_rule",
+      "near_miss"
     ]
   },
   {
-    "id": "boundary_approval_038",
-    "text": "میرزاقاسمی پر حجم بود؛ عبارت تخفیف طعم و کیفیت در اینجا فقط توصیف تجربه غذاست نه تخلف.",
+    "id": "boundary_golden_038",
+    "text": "کاش میرزاقاسمی گرم تر می رسید اما در کل قابل قبول بود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.85,
+    "max_confidence": 0.95,
     "tags": [
       "boundary",
-      "near_miss",
-      "golden_rule"
+      "golden_rule",
+      "near_miss"
     ]
   },
   {
-    "id": "boundary_approval_039",
-    "text": "عدس پلو منظم بسته بندی شده بود؛ عبارت آدرس مزه غذا در اینجا فقط توصیف تجربه غذاست نه تخلف.",
+    "id": "boundary_golden_039",
+    "text": "عدس پلو معمولی بود و انتظار بهتری داشتم.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.85,
+    "max_confidence": 0.95,
     "tags": [
       "boundary",
-      "near_miss",
-      "golden_rule"
+      "golden_rule",
+      "near_miss"
     ]
   },
   {
-    "id": "boundary_approval_040",
-    "text": "املت بد بسته بندی شده بود؛ عبارت پیک طعم ادویه در اینجا فقط توصیف تجربه غذاست نه تخلف.",
+    "id": "boundary_golden_040",
+    "text": "سرعت تحویل خوب بود ولی املت کمی سرد شده بود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.85,
+    "max_confidence": 0.95,
     "tags": [
       "boundary",
-      "near_miss",
-      "golden_rule"
+      "golden_rule",
+      "near_miss"
     ]
   },
   {
-    "id": "boundary_approval_041",
-    "text": "پیتزا خوب بود؛ عبارت سیاست قیمت گذاری رستوران در اینجا فقط توصیف تجربه غذاست نه تخلف.",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
-    "tags": [
-      "boundary",
-      "near_miss",
-      "golden_rule"
-    ]
-  },
-  {
-    "id": "boundary_approval_042",
-    "text": "برگر معمولی بود؛ عبارت برند بسته بندی خود رستوران در اینجا فقط توصیف تجربه غذاست نه تخلف.",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
-    "tags": [
-      "boundary",
-      "near_miss",
-      "golden_rule"
-    ]
-  },
-  {
-    "id": "boundary_approval_043",
-    "text": "کباب گرم بود؛ عبارت تخفیف طعم و کیفیت در اینجا فقط توصیف تجربه غذاست نه تخلف.",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
-    "tags": [
-      "boundary",
-      "near_miss",
-      "golden_rule"
-    ]
-  },
-  {
-    "id": "boundary_approval_044",
-    "text": "چلو مرغ کم نمک بود؛ عبارت آدرس مزه غذا در اینجا فقط توصیف تجربه غذاست نه تخلف.",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
-    "tags": [
-      "boundary",
-      "near_miss",
-      "golden_rule"
-    ]
-  },
-  {
-    "id": "boundary_approval_045",
-    "text": "سوپ پر ادویه بود؛ عبارت پیک طعم ادویه در اینجا فقط توصیف تجربه غذاست نه تخلف.",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
-    "tags": [
-      "boundary",
-      "near_miss",
-      "golden_rule"
-    ]
-  },
-  {
-    "id": "boundary_approval_046",
-    "text": "سالاد تازه بود؛ عبارت سیاست قیمت گذاری رستوران در اینجا فقط توصیف تجربه غذاست نه تخلف.",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
-    "tags": [
-      "boundary",
-      "near_miss",
-      "golden_rule"
-    ]
-  },
-  {
-    "id": "boundary_approval_047",
-    "text": "ساندویچ دیررسیده بود؛ عبارت برند بسته بندی خود رستوران در اینجا فقط توصیف تجربه غذاست نه تخلف.",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
-    "tags": [
-      "boundary",
-      "near_miss",
-      "golden_rule"
-    ]
-  },
-  {
-    "id": "boundary_approval_048",
-    "text": "قورمه سبزی خوشمزه بود؛ عبارت تخفیف طعم و کیفیت در اینجا فقط توصیف تجربه غذاست نه تخلف.",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
-    "tags": [
-      "boundary",
-      "near_miss",
-      "golden_rule"
-    ]
-  },
-  {
-    "id": "boundary_approval_049",
-    "text": "لازانیا سنگین بود؛ عبارت آدرس مزه غذا در اینجا فقط توصیف تجربه غذاست نه تخلف.",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
-    "tags": [
-      "boundary",
-      "near_miss",
-      "golden_rule"
-    ]
-  },
-  {
-    "id": "boundary_approval_050",
-    "text": "سیب زمینی سبک بود؛ عبارت پیک طعم ادویه در اینجا فقط توصیف تجربه غذاست نه تخلف.",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
-    "tags": [
-      "boundary",
-      "near_miss",
-      "golden_rule"
-    ]
-  },
-  {
-    "id": "boundary_approval_051",
-    "text": "قهوه بدون سس بود؛ عبارت سیاست قیمت گذاری رستوران در اینجا فقط توصیف تجربه غذاست نه تخلف.",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
-    "tags": [
-      "boundary",
-      "near_miss",
-      "golden_rule"
-    ]
-  },
-  {
-    "id": "boundary_approval_052",
-    "text": "چای پر سس بود؛ عبارت برند بسته بندی خود رستوران در اینجا فقط توصیف تجربه غذاست نه تخلف.",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
-    "tags": [
-      "boundary",
-      "near_miss",
-      "golden_rule"
-    ]
-  },
-  {
-    "id": "boundary_approval_053",
-    "text": "کیک خشک بود؛ عبارت تخفیف طعم و کیفیت در اینجا فقط توصیف تجربه غذاست نه تخلف.",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
-    "tags": [
-      "boundary",
-      "near_miss",
-      "golden_rule"
-    ]
-  },
-  {
-    "id": "boundary_approval_054",
-    "text": "بستنی آبدار بود؛ عبارت آدرس مزه غذا در اینجا فقط توصیف تجربه غذاست نه تخلف.",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
-    "tags": [
-      "boundary",
-      "near_miss",
-      "golden_rule"
-    ]
-  },
-  {
-    "id": "boundary_approval_055",
-    "text": "نودل ترد بود؛ عبارت پیک طعم ادویه در اینجا فقط توصیف تجربه غذاست نه تخلف.",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
-    "tags": [
-      "boundary",
-      "near_miss",
-      "golden_rule"
-    ]
-  },
-  {
-    "id": "boundary_approval_056",
-    "text": "فلافل نرم بود؛ عبارت سیاست قیمت گذاری رستوران در اینجا فقط توصیف تجربه غذاست نه تخلف.",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
-    "tags": [
-      "boundary",
-      "near_miss",
-      "golden_rule"
-    ]
-  },
-  {
-    "id": "boundary_approval_057",
-    "text": "استیک کم حجم بود؛ عبارت برند بسته بندی خود رستوران در اینجا فقط توصیف تجربه غذاست نه تخلف.",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
-    "tags": [
-      "boundary",
-      "near_miss",
-      "golden_rule"
-    ]
-  },
-  {
-    "id": "boundary_approval_058",
-    "text": "میرزاقاسمی پر حجم بود؛ عبارت تخفیف طعم و کیفیت در اینجا فقط توصیف تجربه غذاست نه تخلف.",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
-    "tags": [
-      "boundary",
-      "near_miss",
-      "golden_rule"
-    ]
-  },
-  {
-    "id": "boundary_approval_059",
-    "text": "عدس پلو منظم بسته بندی شده بود؛ عبارت آدرس مزه غذا در اینجا فقط توصیف تجربه غذاست نه تخلف.",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
-    "tags": [
-      "boundary",
-      "near_miss",
-      "golden_rule"
-    ]
-  },
-  {
-    "id": "boundary_approval_060",
-    "text": "املت بد بسته بندی شده بود؛ عبارت پیک طعم ادویه در اینجا فقط توصیف تجربه غذاست نه تخلف.",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
-    "tags": [
-      "boundary",
-      "near_miss",
-      "golden_rule"
-    ]
-  },
-  {
-    "id": "boundary_rejection_061",
-    "text": "پیتزا خوب بود اما لطفا اسم اسنپ فود را در نظر بگیرید چون همان کیفیت را دارد.",
-    "expected_label": "rejection",
-    "expected_reason": "override_01_brand",
-    "min_confidence": 0.58,
-    "max_confidence": 1.0,
-    "tags": [
-      "boundary",
-      "thin_boundary",
-      "override_01_brand"
-    ]
-  },
-  {
-    "id": "boundary_rejection_062",
-    "text": "این سفارش بهانه ای شد بگویم هیچ حزب سیاسی وعده های غذایی مردم را جدی نمی گیرد.",
-    "expected_label": "rejection",
-    "expected_reason": "override_02_political",
-    "min_confidence": 0.58,
-    "max_confidence": 1.0,
-    "tags": [
-      "boundary",
-      "thin_boundary",
-      "override_02_political"
-    ]
-  },
-  {
-    "id": "boundary_rejection_063",
-    "text": "نام کامل من علی رضایی کد ملی ۱۲۳۴۵۶۷۸۹۰ است و از این سفارش ناراضی بودم.",
-    "expected_label": "rejection",
-    "expected_reason": "override_03_pii",
-    "min_confidence": 0.58,
-    "max_confidence": 1.0,
-    "tags": [
-      "boundary",
-      "thin_boundary",
-      "override_03_pii"
-    ]
-  },
-  {
-    "id": "boundary_rejection_064",
-    "text": "برخورد صندوق دار توهین آمیز بود و به مشتری گفت بی عرضه.",
-    "expected_label": "rejection",
-    "expected_reason": "override_04_offensive",
-    "min_confidence": 0.58,
-    "max_confidence": 1.0,
-    "tags": [
-      "boundary",
-      "thin_boundary",
-      "override_04_offensive"
-    ]
-  },
-  {
-    "id": "boundary_rejection_065",
-    "text": "این نظر را ثبت می کنم تا بن تخفیف سفارش بعدی را بگیرم.",
-    "expected_label": "rejection",
-    "expected_reason": "override_05_discount",
-    "min_confidence": 0.58,
-    "max_confidence": 1.0,
-    "tags": [
-      "boundary",
-      "thin_boundary",
-      "override_05_discount"
-    ]
-  },
-  {
-    "id": "boundary_rejection_066",
-    "text": "برای خرید عمده سالاد به کانال ما سر بزنید و سفارش مستقیم بدهید.",
-    "expected_label": "rejection",
-    "expected_reason": "override_06_advertising",
-    "min_confidence": 0.58,
-    "max_confidence": 1.0,
-    "tags": [
-      "boundary",
-      "thin_boundary",
-      "override_06_advertising"
-    ]
-  },
-  {
-    "id": "boundary_rejection_067",
-    "text": "بعد از خوردن ساندویچ دل درد شدید گرفتم و حس مسمومیت داشتم.",
-    "expected_label": "rejection",
-    "expected_reason": "override_07_hygiene",
-    "min_confidence": 0.58,
-    "max_confidence": 1.0,
-    "tags": [
-      "boundary",
-      "thin_boundary",
-      "override_07_hygiene"
-    ]
-  },
-  {
-    "id": "boundary_rejection_068",
-    "text": "در رسید سفارش، آدرس کامل فرد دیگری چاپ شده بود و نباید منتشر شود.",
-    "expected_label": "rejection",
-    "expected_reason": "override_08_privacy",
-    "min_confidence": 0.58,
-    "max_confidence": 1.0,
-    "tags": [
-      "boundary",
-      "thin_boundary",
-      "override_08_privacy"
-    ]
-  },
-  {
-    "id": "boundary_rejection_069",
-    "text": "لطفا آدرس ارسال همین سفارش را تغییر دهید و زنگ واحد را نزنید.",
-    "expected_label": "rejection",
-    "expected_reason": "override_09_order_change",
-    "min_confidence": 0.58,
-    "max_confidence": 1.0,
-    "tags": [
-      "boundary",
-      "thin_boundary",
-      "override_09_order_change"
-    ]
-  },
-  {
-    "id": "boundary_rejection_070",
-    "text": "این غذا از نمونه ای که دیروز از یک جای دیگر گرفتم گران تر و کم حجم تر بود.",
-    "expected_label": "rejection",
-    "expected_reason": "override_10_comparison",
-    "min_confidence": 0.58,
-    "max_confidence": 1.0,
-    "tags": [
-      "boundary",
-      "thin_boundary",
-      "override_10_comparison"
-    ]
-  },
-  {
-    "id": "boundary_rejection_071",
-    "text": "به نظرم از آشپزخانه های خانگی اطراف بخرید، بی سر و صدا بهترند.",
-    "expected_label": "rejection",
-    "expected_reason": "override_11_indirect_advertising",
-    "min_confidence": 0.58,
-    "max_confidence": 1.0,
-    "tags": [
-      "boundary",
-      "thin_boundary",
-      "override_11_indirect_advertising"
-    ]
-  },
-  {
-    "id": "boundary_rejection_072",
-    "text": "بسته در مسیر واژگون شده بود و سس داخل کیسه ریخته بود.",
-    "expected_label": "rejection",
-    "expected_reason": "override_12_delivery_problem",
-    "min_confidence": 0.58,
-    "max_confidence": 1.0,
-    "tags": [
-      "boundary",
-      "thin_boundary",
-      "override_12_delivery_problem"
-    ]
-  },
-  {
-    "id": "boundary_rejection_073",
-    "text": "این متن فقط یادداشت روزانه من است و به سفارش غذا ربطی ندارد.",
-    "expected_label": "rejection",
-    "expected_reason": "override_13_offtopic",
-    "min_confidence": 0.58,
-    "max_confidence": 1.0,
-    "tags": [
-      "boundary",
-      "thin_boundary",
-      "override_13_offtopic"
-    ]
-  },
-  {
-    "id": "boundary_rejection_074",
-    "text": "Le repas était froid, service moyen, emballage faible.",
-    "expected_label": "rejection",
-    "expected_reason": "override_14_non_persian",
-    "min_confidence": 0.58,
-    "max_confidence": 1.0,
-    "tags": [
-      "boundary",
-      "thin_boundary",
-      "override_14_non_persian"
-    ]
-  },
-  {
-    "id": "boundary_rejection_075",
-    "text": "سفارش خوب بود اما اصل حرفم دعوت دینی و سخنرانی مذهبی است.",
-    "expected_label": "rejection",
-    "expected_reason": "override_15_religious",
-    "min_confidence": 0.58,
-    "max_confidence": 1.0,
-    "tags": [
-      "boundary",
-      "thin_boundary",
-      "override_15_religious"
-    ]
-  },
-  {
-    "id": "boundary_rejection_076",
-    "text": "🤢🤢",
-    "expected_label": "rejection",
-    "expected_reason": "override_17_emoji",
-    "min_confidence": 0.58,
-    "max_confidence": 1.0,
-    "tags": [
-      "boundary",
-      "thin_boundary",
-      "override_17_emoji"
-    ]
-  },
-  {
-    "id": "boundary_rejection_077",
-    "text": "نقشه برنامه آدرس را اشتباه نشان می داد و سفارش ثبت نمی شد.",
-    "expected_label": "rejection",
-    "expected_reason": "override_18_app_problem",
-    "min_confidence": 0.58,
-    "max_confidence": 1.0,
-    "tags": [
-      "boundary",
-      "thin_boundary",
-      "override_18_app_problem"
-    ]
-  },
-  {
-    "id": "boundary_rejection_078",
-    "text": "پیک چند بار زنگ زد و با عصبانیت آدرس را پرسید.",
-    "expected_label": "rejection",
-    "expected_reason": "override_19_courier",
-    "min_confidence": 0.58,
-    "max_confidence": 1.0,
-    "tags": [
-      "boundary",
-      "thin_boundary",
-      "override_19_courier"
-    ]
-  },
-  {
-    "id": "boundary_rejection_079",
-    "text": "پیتزا اسنپ فود 0912 ؟",
-    "expected_label": "rejection",
-    "expected_reason": "override_20_incomplete",
-    "min_confidence": 0.58,
-    "max_confidence": 1.0,
-    "tags": [
-      "boundary",
-      "thin_boundary",
-      "override_20_incomplete"
-    ]
-  },
-  {
-    "id": "boundary_rejection_080",
-    "text": "کیفیت املت بد نبود ولی نام استارباکس وسط توضیحات غذا آمده بود.",
-    "expected_label": "rejection",
-    "expected_reason": "override_01_brand",
-    "min_confidence": 0.58,
-    "max_confidence": 1.0,
-    "tags": [
-      "boundary",
-      "thin_boundary",
-      "override_01_brand"
-    ]
-  },
-  {
-    "id": "boundary_unknown_081",
-    "text": "شاید پیتزا خوب بود شاید هم نبود؛ متن کافی برای قضاوت ندارم اما توهین یا تبلیغی هم نیست.",
+    "id": "boundary_unknown_041",
+    "text": "غذا را دریافت کردم.",
     "expected_label": "unknown",
     "expected_reason": null,
+    "expected_override": null,
     "min_confidence": 0.5,
-    "max_confidence": 0.85,
+    "max_confidence": 0.65,
+    "tags": [
+      "boundary",
+      "unknown",
+      "factual"
+    ]
+  },
+  {
+    "id": "boundary_unknown_042",
+    "text": "سفارش امروز تحویل شد.",
+    "expected_label": "unknown",
+    "expected_reason": null,
+    "expected_override": null,
+    "min_confidence": 0.5,
+    "max_confidence": 0.65,
+    "tags": [
+      "boundary",
+      "unknown",
+      "factual"
+    ]
+  },
+  {
+    "id": "boundary_unknown_043",
+    "text": "یک بسته غذا آمد.",
+    "expected_label": "unknown",
+    "expected_reason": null,
+    "expected_override": null,
+    "min_confidence": 0.5,
+    "max_confidence": 0.65,
+    "tags": [
+      "boundary",
+      "unknown",
+      "factual"
+    ]
+  },
+  {
+    "id": "boundary_unknown_044",
+    "text": "من از این رستوران خرید کردم.",
+    "expected_label": "unknown",
+    "expected_reason": null,
+    "expected_override": null,
+    "min_confidence": 0.5,
+    "max_confidence": 0.65,
+    "tags": [
+      "boundary",
+      "unknown",
+      "factual"
+    ]
+  },
+  {
+    "id": "boundary_unknown_045",
+    "text": "غذا روی میز بود.",
+    "expected_label": "unknown",
+    "expected_reason": null,
+    "expected_override": null,
+    "min_confidence": 0.5,
+    "max_confidence": 0.65,
+    "tags": [
+      "boundary",
+      "unknown",
+      "factual"
+    ]
+  },
+  {
+    "id": "boundary_unknown_046",
+    "text": "غذا را دریافت کردم.",
+    "expected_label": "unknown",
+    "expected_reason": null,
+    "expected_override": null,
+    "min_confidence": 0.5,
+    "max_confidence": 0.65,
+    "tags": [
+      "boundary",
+      "unknown",
+      "factual"
+    ]
+  },
+  {
+    "id": "boundary_unknown_047",
+    "text": "سفارش امروز تحویل شد.",
+    "expected_label": "unknown",
+    "expected_reason": null,
+    "expected_override": null,
+    "min_confidence": 0.5,
+    "max_confidence": 0.65,
+    "tags": [
+      "boundary",
+      "unknown",
+      "factual"
+    ]
+  },
+  {
+    "id": "boundary_unknown_048",
+    "text": "یک بسته غذا آمد.",
+    "expected_label": "unknown",
+    "expected_reason": null,
+    "expected_override": null,
+    "min_confidence": 0.5,
+    "max_confidence": 0.65,
+    "tags": [
+      "boundary",
+      "unknown",
+      "factual"
+    ]
+  },
+  {
+    "id": "boundary_unknown_049",
+    "text": "من از این رستوران خرید کردم.",
+    "expected_label": "unknown",
+    "expected_reason": null,
+    "expected_override": null,
+    "min_confidence": 0.5,
+    "max_confidence": 0.65,
+    "tags": [
+      "boundary",
+      "unknown",
+      "factual"
+    ]
+  },
+  {
+    "id": "boundary_unknown_050",
+    "text": "غذا روی میز بود.",
+    "expected_label": "unknown",
+    "expected_reason": null,
+    "expected_override": null,
+    "min_confidence": 0.5,
+    "max_confidence": 0.65,
+    "tags": [
+      "boundary",
+      "unknown",
+      "factual"
+    ]
+  },
+  {
+    "id": "boundary_unknown_051",
+    "text": "غذا را دریافت کردم.",
+    "expected_label": "unknown",
+    "expected_reason": null,
+    "expected_override": null,
+    "min_confidence": 0.5,
+    "max_confidence": 0.65,
+    "tags": [
+      "boundary",
+      "unknown",
+      "factual"
+    ]
+  },
+  {
+    "id": "boundary_unknown_052",
+    "text": "سفارش امروز تحویل شد.",
+    "expected_label": "unknown",
+    "expected_reason": null,
+    "expected_override": null,
+    "min_confidence": 0.5,
+    "max_confidence": 0.65,
+    "tags": [
+      "boundary",
+      "unknown",
+      "factual"
+    ]
+  },
+  {
+    "id": "boundary_unknown_053",
+    "text": "یک بسته غذا آمد.",
+    "expected_label": "unknown",
+    "expected_reason": null,
+    "expected_override": null,
+    "min_confidence": 0.5,
+    "max_confidence": 0.65,
+    "tags": [
+      "boundary",
+      "unknown",
+      "factual"
+    ]
+  },
+  {
+    "id": "boundary_unknown_054",
+    "text": "من از این رستوران خرید کردم.",
+    "expected_label": "unknown",
+    "expected_reason": null,
+    "expected_override": null,
+    "min_confidence": 0.5,
+    "max_confidence": 0.65,
+    "tags": [
+      "boundary",
+      "unknown",
+      "factual"
+    ]
+  },
+  {
+    "id": "boundary_unknown_055",
+    "text": "غذا روی میز بود.",
+    "expected_label": "unknown",
+    "expected_reason": null,
+    "expected_override": null,
+    "min_confidence": 0.5,
+    "max_confidence": 0.65,
+    "tags": [
+      "boundary",
+      "unknown",
+      "factual"
+    ]
+  },
+  {
+    "id": "boundary_override_056",
+    "text": "فلافل خوب بود اما نام اسنپ داخل نظر آمده و همین برای قانون برند کافی است.",
+    "expected_label": "disapproval",
+    "expected_reason": "تبلیغات",
+    "expected_override": "override_01_brand",
+    "min_confidence": 0.75,
+    "max_confidence": 1.0,
+    "tags": [
+      "boundary",
+      "thin_boundary",
+      "override_01_brand",
+      "تبلیغات"
+    ]
+  },
+  {
+    "id": "boundary_override_057",
+    "text": "استیک بهانه شد بگویم وضع مملکت و تورم واقعا مردم را خسته کرده است.",
+    "expected_label": "disapproval",
+    "expected_reason": "سياسي",
+    "expected_override": "override_02_political",
+    "min_confidence": 0.75,
+    "max_confidence": 1.0,
+    "tags": [
+      "boundary",
+      "thin_boundary",
+      "override_02_political",
+      "سياسي"
+    ]
+  },
+  {
+    "id": "boundary_override_058",
+    "text": "آدرس من تهران خیابان آزادی پلاک 58 واحد 3 بود و سفارش اشتباه رسید.",
+    "expected_label": "disapproval",
+    "expected_reason": "نقض_حریم_شخصی",
+    "expected_override": "override_03_pii",
+    "min_confidence": 0.75,
+    "max_confidence": 1.0,
+    "tags": [
+      "boundary",
+      "thin_boundary",
+      "override_03_pii",
+      "نقض_حریم_شخصی"
+    ]
+  },
+  {
+    "id": "boundary_override_059",
+    "text": "این سطح از غذای کثافت واقعا توهین به مشتری است.",
+    "expected_label": "disapproval",
+    "expected_reason": "استفاده_از_کلمات_نامناسب",
+    "expected_override": "override_04_offensive",
+    "min_confidence": 0.75,
+    "max_confidence": 1.0,
+    "tags": [
+      "boundary",
+      "thin_boundary",
+      "override_04_offensive",
+      "استفاده_از_کلمات_نامناسب"
+    ]
+  },
+  {
+    "id": "boundary_override_060",
+    "text": "کش بک وعده داده شده برای سفارش من فعال نشد.",
+    "expected_label": "disapproval",
+    "expected_reason": "موارد_مرتبط_با_کد_تخفیف",
+    "expected_override": "override_05_discount",
+    "min_confidence": 0.75,
+    "max_confidence": 1.0,
+    "tags": [
+      "boundary",
+      "thin_boundary",
+      "override_05_discount",
+      "موارد_مرتبط_با_کد_تخفیف"
+    ]
+  },
+  {
+    "id": "boundary_override_061",
+    "text": "برای خرید بهترین پیتزا شهر به صفحه فروش ما پیام بدهید.",
+    "expected_label": "disapproval",
+    "expected_reason": "تبلیغات",
+    "expected_override": "override_06_advertising",
+    "min_confidence": 0.75,
+    "max_confidence": 1.0,
+    "tags": [
+      "boundary",
+      "thin_boundary",
+      "override_06_advertising",
+      "تبلیغات"
+    ]
+  },
+  {
+    "id": "boundary_override_062",
+    "text": "مرغ خام بود و خوردنش از نظر سلامتی خطر داشت.",
+    "expected_label": "disapproval",
+    "expected_reason": "موارد_بهداشتی",
+    "expected_override": "override_07_hygiene",
+    "min_confidence": 0.75,
+    "max_confidence": 1.0,
+    "tags": [
+      "boundary",
+      "thin_boundary",
+      "override_07_hygiene",
+      "موارد_بهداشتی"
+    ]
+  },
+  {
+    "id": "boundary_override_063",
+    "text": "رستوران شماره تماس من را برای افراد دیگر فرستاده بود.",
+    "expected_label": "disapproval",
+    "expected_reason": "نقض_حریم_شخصی",
+    "expected_override": "override_08_privacy",
+    "min_confidence": 0.75,
+    "max_confidence": 1.0,
+    "tags": [
+      "boundary",
+      "thin_boundary",
+      "override_08_privacy",
+      "نقض_حریم_شخصی"
+    ]
+  },
+  {
+    "id": "boundary_override_064",
+    "text": "به جای چلو مرغ لطفا سالاد بفرستید.",
+    "expected_label": "disapproval",
+    "expected_reason": "درخواست_ویرایش_سفارش",
+    "expected_override": "override_09_order_change",
+    "min_confidence": 0.75,
+    "max_confidence": 1.0,
+    "tags": [
+      "boundary",
+      "thin_boundary",
+      "override_09_order_change",
+      "درخواست_ویرایش_سفارش"
+    ]
+  },
+  {
+    "id": "boundary_override_065",
+    "text": "رستوران ترنج را با کافه نارنج مقایسه کردم و تفاوت زیادی داشت.",
+    "expected_label": "disapproval",
+    "expected_reason": "مقایسه_دو_مجموعه_با_یکدیگر",
+    "expected_override": "override_10_comparison",
+    "min_confidence": 0.75,
+    "max_confidence": 1.0,
+    "tags": [
+      "boundary",
+      "thin_boundary",
+      "override_10_comparison",
+      "مقایسه_دو_مجموعه_با_یکدیگر"
+    ]
+  },
+  {
+    "id": "boundary_override_066",
+    "text": "به جای اینجا، فروشنده های محلی اطراف میدان را انتخاب کنید.",
+    "expected_label": "disapproval",
+    "expected_reason": "تبلیغات",
+    "expected_override": "override_11_indirect_advertising",
+    "min_confidence": 0.75,
+    "max_confidence": 1.0,
+    "tags": [
+      "boundary",
+      "thin_boundary",
+      "override_11_indirect_advertising",
+      "تبلیغات"
+    ]
+  },
+  {
+    "id": "boundary_override_067",
+    "text": "ساندویچ سرد رسید و دیگر قابل خوردن نبود.",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_12_delivery_problem",
+    "min_confidence": 0.75,
+    "max_confidence": 1.0,
+    "tags": [
+      "boundary",
+      "thin_boundary",
+      "override_12_delivery_problem",
+      "دیدگاه_نامرتبط"
+    ]
+  },
+  {
+    "id": "boundary_override_068",
+    "text": "بازی فوتبال دیشب خیلی هیجان انگیز بود و ربطی به غذا ندارد.",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_13_offtopic",
+    "min_confidence": 0.75,
+    "max_confidence": 1.0,
+    "tags": [
+      "boundary",
+      "thin_boundary",
+      "override_13_offtopic",
+      "دیدگاه_نامرتبط"
+    ]
+  },
+  {
+    "id": "boundary_override_069",
+    "text": "لازانیا خوب بود but the rest of my review is English.",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_14_non_persian",
+    "min_confidence": 0.75,
+    "max_confidence": 1.0,
+    "tags": [
+      "boundary",
+      "thin_boundary",
+      "override_14_non_persian",
+      "دیدگاه_نامرتبط"
+    ]
+  },
+  {
+    "id": "boundary_override_070",
+    "text": "حلال و حرام را قاطی کردند و جواب درست ندادند.",
+    "expected_label": "disapproval",
+    "expected_reason": "استفاده_از_کلمات_نامناسب",
+    "expected_override": "override_15_religious",
+    "min_confidence": 0.75,
+    "max_confidence": 1.0,
+    "tags": [
+      "boundary",
+      "thin_boundary",
+      "override_15_religious",
+      "استفاده_از_کلمات_نامناسب"
+    ]
+  },
+  {
+    "id": "boundary_override_071",
+    "text": "قهوه خوشمزه بود 😊",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_17_emoji",
+    "min_confidence": 0.75,
+    "max_confidence": 1.0,
+    "tags": [
+      "boundary",
+      "thin_boundary",
+      "override_17_emoji",
+      "دیدگاه_نامرتبط"
+    ]
+  },
+  {
+    "id": "boundary_override_072",
+    "text": "اعلان های اپ قطع بود و وضعیت سفارش معلوم نشد.",
+    "expected_label": "disapproval",
+    "expected_reason": "مشکلات_اپلیکیشن",
+    "expected_override": "override_18_app_problem",
+    "min_confidence": 0.75,
+    "max_confidence": 1.0,
+    "tags": [
+      "boundary",
+      "thin_boundary",
+      "override_18_app_problem",
+      "مشکلات_اپلیکیشن"
+    ]
+  },
+  {
+    "id": "boundary_override_073",
+    "text": "پیک بی ادب بود و با عصبانیت حرف زد.",
+    "expected_label": "disapproval",
+    "expected_reason": "برخورد_نامناسب_پیک",
+    "expected_override": "override_19_courier",
+    "min_confidence": 0.75,
+    "max_confidence": 1.0,
+    "tags": [
+      "boundary",
+      "thin_boundary",
+      "override_19_courier",
+      "برخورد_نامناسب_پیک"
+    ]
+  },
+  {
+    "id": "boundary_override_074",
+    "text": "ولی خوب",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_20_incomplete",
+    "min_confidence": 0.75,
+    "max_confidence": 1.0,
+    "tags": [
+      "boundary",
+      "thin_boundary",
+      "override_20_incomplete",
+      "دیدگاه_نامرتبط"
+    ]
+  },
+  {
+    "id": "boundary_override_075",
+    "text": "snab حتی اگر یک بار در متن بیاید باید باعث رد نظر شود.",
+    "expected_label": "disapproval",
+    "expected_reason": "تبلیغات",
+    "expected_override": "override_01_brand",
+    "min_confidence": 0.75,
+    "max_confidence": 1.0,
+    "tags": [
+      "boundary",
+      "thin_boundary",
+      "override_01_brand",
+      "تبلیغات"
+    ]
+  },
+  {
+    "id": "boundary_incomplete_076",
+    "text": "غذا خوب",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_20_incomplete",
+    "min_confidence": 0.92,
+    "max_confidence": 0.98,
+    "tags": [
+      "boundary",
+      "override_20_precedence",
+      "override_20_incomplete",
+      "دیدگاه_نامرتبط"
+    ]
+  },
+  {
+    "id": "boundary_incomplete_077",
+    "text": "ولی کیفیت",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_20_incomplete",
+    "min_confidence": 0.92,
+    "max_confidence": 0.98,
+    "tags": [
+      "boundary",
+      "override_20_precedence",
+      "override_20_incomplete",
+      "دیدگاه_نامرتبط"
+    ]
+  },
+  {
+    "id": "boundary_incomplete_078",
+    "text": "به نظرم که",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_20_incomplete",
+    "min_confidence": 0.92,
+    "max_confidence": 0.98,
+    "tags": [
+      "boundary",
+      "override_20_precedence",
+      "override_20_incomplete",
+      "دیدگاه_نامرتبط"
+    ]
+  },
+  {
+    "id": "boundary_incomplete_079",
+    "text": "اگر غذا",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_20_incomplete",
+    "min_confidence": 0.92,
+    "max_confidence": 0.98,
+    "tags": [
+      "boundary",
+      "override_20_precedence",
+      "override_20_incomplete",
+      "دیدگاه_نامرتبط"
+    ]
+  },
+  {
+    "id": "boundary_incomplete_080",
+    "text": "خوب و",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_20_incomplete",
+    "min_confidence": 0.92,
+    "max_confidence": 0.98,
+    "tags": [
+      "boundary",
+      "override_20_precedence",
+      "override_20_incomplete",
+      "دیدگاه_نامرتبط"
+    ]
+  },
+  {
+    "id": "boundary_incomplete_081",
+    "text": "پیک که",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_20_incomplete",
+    "min_confidence": 0.92,
+    "max_confidence": 0.98,
+    "tags": [
+      "boundary",
+      "override_20_precedence",
+      "override_20_incomplete",
+      "دیدگاه_نامرتبط"
+    ]
+  },
+  {
+    "id": "boundary_incomplete_082",
+    "text": "کیفیتش",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_20_incomplete",
+    "min_confidence": 0.92,
+    "max_confidence": 0.98,
+    "tags": [
+      "boundary",
+      "override_20_precedence",
+      "override_20_incomplete",
+      "دیدگاه_نامرتبط"
+    ]
+  },
+  {
+    "id": "boundary_incomplete_083",
+    "text": "غذا اما",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_20_incomplete",
+    "min_confidence": 0.92,
+    "max_confidence": 0.98,
+    "tags": [
+      "boundary",
+      "override_20_precedence",
+      "override_20_incomplete",
+      "دیدگاه_نامرتبط"
+    ]
+  },
+  {
+    "id": "boundary_incomplete_084",
+    "text": "خیلی که",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_20_incomplete",
+    "min_confidence": 0.92,
+    "max_confidence": 0.98,
+    "tags": [
+      "boundary",
+      "override_20_precedence",
+      "override_20_incomplete",
+      "دیدگاه_نامرتبط"
+    ]
+  },
+  {
+    "id": "boundary_incomplete_085",
+    "text": "ممنون",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_20_incomplete",
+    "min_confidence": 0.92,
+    "max_confidence": 0.98,
+    "tags": [
+      "boundary",
+      "override_20_precedence",
+      "override_20_incomplete",
+      "دیدگاه_نامرتبط"
+    ]
+  },
+  {
+    "id": "boundary_incomplete_086",
+    "text": "باشه",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_20_incomplete",
+    "min_confidence": 0.92,
+    "max_confidence": 0.98,
+    "tags": [
+      "boundary",
+      "override_20_precedence",
+      "override_20_incomplete",
+      "دیدگاه_نامرتبط"
+    ]
+  },
+  {
+    "id": "boundary_incomplete_087",
+    "text": "آره",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_20_incomplete",
+    "min_confidence": 0.92,
+    "max_confidence": 0.98,
+    "tags": [
+      "boundary",
+      "override_20_precedence",
+      "override_20_incomplete",
+      "دیدگاه_نامرتبط"
+    ]
+  },
+  {
+    "id": "boundary_incomplete_088",
+    "text": "بله",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_20_incomplete",
+    "min_confidence": 0.92,
+    "max_confidence": 0.98,
+    "tags": [
+      "boundary",
+      "override_20_precedence",
+      "override_20_incomplete",
+      "دیدگاه_نامرتبط"
+    ]
+  },
+  {
+    "id": "boundary_incomplete_089",
+    "text": "قضرثصق",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_20_incomplete",
+    "min_confidence": 0.92,
+    "max_confidence": 0.98,
+    "tags": [
+      "boundary",
+      "override_20_precedence",
+      "override_20_incomplete",
+      "دیدگاه_نامرتبط"
+    ]
+  },
+  {
+    "id": "boundary_incomplete_090",
+    "text": "برنج پیک خوب اما نه",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_20_incomplete",
+    "min_confidence": 0.92,
+    "max_confidence": 0.98,
+    "tags": [
+      "boundary",
+      "override_20_precedence",
+      "override_20_incomplete",
+      "دیدگاه_نامرتبط"
+    ]
+  },
+  {
+    "id": "boundary_ambiguous_091",
+    "text": "این غذا خوب و بد بود و دقیق نمی دانم چه نظری بدهم.",
+    "expected_label": "unknown",
+    "expected_reason": null,
+    "expected_override": null,
+    "min_confidence": 0.45,
+    "max_confidence": 0.6,
     "tags": [
       "boundary",
       "ambiguous"
     ]
   },
   {
-    "id": "boundary_unknown_082",
-    "text": "شاید برگر خوب بود شاید هم نبود؛ متن کافی برای قضاوت ندارم اما توهین یا تبلیغی هم نیست.",
+    "id": "boundary_ambiguous_092",
+    "text": "نه راضی بودم نه ناراضی، تجربه کاملا مبهم بود.",
     "expected_label": "unknown",
     "expected_reason": null,
-    "min_confidence": 0.5,
-    "max_confidence": 0.85,
+    "expected_override": null,
+    "min_confidence": 0.45,
+    "max_confidence": 0.6,
     "tags": [
       "boundary",
       "ambiguous"
     ]
   },
   {
-    "id": "boundary_unknown_083",
-    "text": "شاید کباب خوب بود شاید هم نبود؛ متن کافی برای قضاوت ندارم اما توهین یا تبلیغی هم نیست.",
+    "id": "boundary_ambiguous_093",
+    "text": "طعمش همزمان خوب و بد به نظر رسید.",
     "expected_label": "unknown",
     "expected_reason": null,
-    "min_confidence": 0.5,
-    "max_confidence": 0.85,
+    "expected_override": null,
+    "min_confidence": 0.45,
+    "max_confidence": 0.6,
     "tags": [
       "boundary",
       "ambiguous"
     ]
   },
   {
-    "id": "boundary_unknown_084",
-    "text": "شاید چلو مرغ خوب بود شاید هم نبود؛ متن کافی برای قضاوت ندارم اما توهین یا تبلیغی هم نیست.",
+    "id": "boundary_ambiguous_094",
+    "text": "نمی توانم درباره کیفیت این سفارش تصمیم بگیرم.",
     "expected_label": "unknown",
     "expected_reason": null,
-    "min_confidence": 0.5,
-    "max_confidence": 0.85,
+    "expected_override": null,
+    "min_confidence": 0.45,
+    "max_confidence": 0.6,
     "tags": [
       "boundary",
       "ambiguous"
     ]
   },
   {
-    "id": "boundary_unknown_085",
-    "text": "شاید سوپ خوب بود شاید هم نبود؛ متن کافی برای قضاوت ندارم اما توهین یا تبلیغی هم نیست.",
+    "id": "boundary_ambiguous_095",
+    "text": "نظر مشخصی درباره غذا ندارم ولی جمله کامل است.",
     "expected_label": "unknown",
     "expected_reason": null,
-    "min_confidence": 0.5,
-    "max_confidence": 0.85,
+    "expected_override": null,
+    "min_confidence": 0.45,
+    "max_confidence": 0.6,
     "tags": [
       "boundary",
       "ambiguous"
     ]
   },
   {
-    "id": "boundary_unknown_086",
-    "text": "شاید سالاد خوب بود شاید هم نبود؛ متن کافی برای قضاوت ندارم اما توهین یا تبلیغی هم نیست.",
+    "id": "boundary_ambiguous_096",
+    "text": "این غذا خوب و بد بود و دقیق نمی دانم چه نظری بدهم.",
     "expected_label": "unknown",
     "expected_reason": null,
-    "min_confidence": 0.5,
-    "max_confidence": 0.85,
+    "expected_override": null,
+    "min_confidence": 0.45,
+    "max_confidence": 0.6,
     "tags": [
       "boundary",
       "ambiguous"
     ]
   },
   {
-    "id": "boundary_unknown_087",
-    "text": "شاید ساندویچ خوب بود شاید هم نبود؛ متن کافی برای قضاوت ندارم اما توهین یا تبلیغی هم نیست.",
+    "id": "boundary_ambiguous_097",
+    "text": "نه راضی بودم نه ناراضی، تجربه کاملا مبهم بود.",
     "expected_label": "unknown",
     "expected_reason": null,
-    "min_confidence": 0.5,
-    "max_confidence": 0.85,
+    "expected_override": null,
+    "min_confidence": 0.45,
+    "max_confidence": 0.6,
     "tags": [
       "boundary",
       "ambiguous"
     ]
   },
   {
-    "id": "boundary_unknown_088",
-    "text": "شاید قورمه سبزی خوب بود شاید هم نبود؛ متن کافی برای قضاوت ندارم اما توهین یا تبلیغی هم نیست.",
+    "id": "boundary_ambiguous_098",
+    "text": "طعمش همزمان خوب و بد به نظر رسید.",
     "expected_label": "unknown",
     "expected_reason": null,
-    "min_confidence": 0.5,
-    "max_confidence": 0.85,
+    "expected_override": null,
+    "min_confidence": 0.45,
+    "max_confidence": 0.6,
     "tags": [
       "boundary",
       "ambiguous"
     ]
   },
   {
-    "id": "boundary_unknown_089",
-    "text": "شاید لازانیا خوب بود شاید هم نبود؛ متن کافی برای قضاوت ندارم اما توهین یا تبلیغی هم نیست.",
+    "id": "boundary_ambiguous_099",
+    "text": "نمی توانم درباره کیفیت این سفارش تصمیم بگیرم.",
     "expected_label": "unknown",
     "expected_reason": null,
-    "min_confidence": 0.5,
-    "max_confidence": 0.85,
+    "expected_override": null,
+    "min_confidence": 0.45,
+    "max_confidence": 0.6,
     "tags": [
       "boundary",
       "ambiguous"
     ]
   },
   {
-    "id": "boundary_unknown_090",
-    "text": "شاید سیب زمینی خوب بود شاید هم نبود؛ متن کافی برای قضاوت ندارم اما توهین یا تبلیغی هم نیست.",
+    "id": "boundary_ambiguous_100",
+    "text": "نظر مشخصی درباره غذا ندارم ولی جمله کامل است.",
     "expected_label": "unknown",
     "expected_reason": null,
-    "min_confidence": 0.5,
-    "max_confidence": 0.85,
+    "expected_override": null,
+    "min_confidence": 0.45,
+    "max_confidence": 0.6,
     "tags": [
       "boundary",
       "ambiguous"
-    ]
-  },
-  {
-    "id": "boundary_incomplete_091",
-    "text": ".",
-    "expected_label": "rejection",
-    "expected_reason": "override_20_incomplete",
-    "min_confidence": 0.7,
-    "max_confidence": 1.0,
-    "tags": [
-      "boundary",
-      "override_20_precedence",
-      "override_20_incomplete"
-    ]
-  },
-  {
-    "id": "boundary_incomplete_092",
-    "text": "؟",
-    "expected_label": "rejection",
-    "expected_reason": "override_20_incomplete",
-    "min_confidence": 0.7,
-    "max_confidence": 1.0,
-    "tags": [
-      "boundary",
-      "override_20_precedence",
-      "override_20_incomplete"
-    ]
-  },
-  {
-    "id": "boundary_incomplete_093",
-    "text": "خوب؟",
-    "expected_label": "rejection",
-    "expected_reason": "override_20_incomplete",
-    "min_confidence": 0.7,
-    "max_confidence": 1.0,
-    "tags": [
-      "boundary",
-      "override_20_precedence",
-      "override_20_incomplete"
-    ]
-  },
-  {
-    "id": "boundary_incomplete_094",
-    "text": "بد؟",
-    "expected_label": "rejection",
-    "expected_reason": "override_20_incomplete",
-    "min_confidence": 0.7,
-    "max_confidence": 1.0,
-    "tags": [
-      "boundary",
-      "override_20_precedence",
-      "override_20_incomplete"
-    ]
-  },
-  {
-    "id": "boundary_incomplete_095",
-    "text": "---",
-    "expected_label": "rejection",
-    "expected_reason": "override_20_incomplete",
-    "min_confidence": 0.7,
-    "max_confidence": 1.0,
-    "tags": [
-      "boundary",
-      "override_20_precedence",
-      "override_20_incomplete"
-    ]
-  },
-  {
-    "id": "boundary_incomplete_096",
-    "text": "؟؟",
-    "expected_label": "rejection",
-    "expected_reason": "override_20_incomplete",
-    "min_confidence": 0.7,
-    "max_confidence": 1.0,
-    "tags": [
-      "boundary",
-      "override_20_precedence",
-      "override_20_incomplete"
-    ]
-  },
-  {
-    "id": "boundary_incomplete_097",
-    "text": "همین",
-    "expected_label": "rejection",
-    "expected_reason": "override_20_incomplete",
-    "min_confidence": 0.7,
-    "max_confidence": 1.0,
-    "tags": [
-      "boundary",
-      "override_20_precedence",
-      "override_20_incomplete"
-    ]
-  },
-  {
-    "id": "boundary_incomplete_098",
-    "text": "غذا؟",
-    "expected_label": "rejection",
-    "expected_reason": "override_20_incomplete",
-    "min_confidence": 0.7,
-    "max_confidence": 1.0,
-    "tags": [
-      "boundary",
-      "override_20_precedence",
-      "override_20_incomplete"
-    ]
-  },
-  {
-    "id": "boundary_incomplete_099",
-    "text": "اوکی؟",
-    "expected_label": "rejection",
-    "expected_reason": "override_20_incomplete",
-    "min_confidence": 0.7,
-    "max_confidence": 1.0,
-    "tags": [
-      "boundary",
-      "override_20_precedence",
-      "override_20_incomplete"
-    ]
-  },
-  {
-    "id": "boundary_incomplete_100",
-    "text": "نظری ندارم",
-    "expected_label": "rejection",
-    "expected_reason": "override_20_incomplete",
-    "min_confidence": 0.7,
-    "max_confidence": 1.0,
-    "tags": [
-      "boundary",
-      "override_20_precedence",
-      "override_20_incomplete"
     ]
   }
 ]

@@ -31,6 +31,7 @@ def test_data_file_contains_valid_case_schema(filename):
 def test_classifier_output_json_schema_validity(classify, case):
     output = normalize_response(classify(case["text"]))
     assert_output_schema(output)
+    assert set(output["raw"].keys()) == {"comment", "label", "reason", "confidence"}
 
 
 @pytest.mark.parametrize("case", ALL_CASES[::19], ids=case_ids(ALL_CASES[::19]))
@@ -38,7 +39,7 @@ def test_label_reason_consistency(classify, case):
     output = assert_case(classify, case)
     if output["label"] in {"approval", "unknown"}:
         assert output["reason"] is None
-    if output["label"] == "rejection":
+    if output["label"] == "disapproval":
         assert output["reason"] == case["expected_reason"]
 
 
@@ -46,3 +47,4 @@ def test_reason_is_null_for_all_approval_and_unknown_expected_cases():
     for case in ALL_CASES:
         if case["expected_label"] in {"approval", "unknown"}:
             assert case["expected_reason"] is None
+            assert case["expected_override"] is None

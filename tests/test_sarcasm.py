@@ -13,6 +13,6 @@ def test_sarcasm_has_minimum_coverage():
 
 @pytest.mark.parametrize("case", CASES, ids=case_ids(CASES))
 def test_sarcasm_cases(classify, case):
-    """Sarcasm changes tone, not policy reason precedence."""
+    """Sarcasm that demeans or mocks must not be treated as polite criticism."""
     assert_case(classify, case)
 

@@ -13,6 +13,6 @@ def test_adversarial_has_minimum_coverage():
 
 @pytest.mark.parametrize("case", CASES, ids=case_ids(CASES))
 def test_adversarial_cases(classify, case):
-    """Prompt injection and fake JSON must not override the policy classifier."""
+    """Prompt injection instructions must not override classification rules."""
     assert_case(classify, case)
 

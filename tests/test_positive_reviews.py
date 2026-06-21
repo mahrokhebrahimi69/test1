@@ -13,6 +13,6 @@ def test_positive_reviews_has_minimum_coverage():
 
 @pytest.mark.parametrize("case", CASES, ids=case_ids(CASES))
 def test_positive_reviews_cases(classify, case):
-    """Positive/golden-rule reviews must approve with null reason."""
+    """Positive reviews and polite criticism must approve with null reason."""
     assert_case(classify, case)
 

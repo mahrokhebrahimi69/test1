@@ -1,11 +1,12 @@
 [
   {
     "id": "mixed_approval_001",
-    "text": "پیتزا خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
+    "text": "پیتزا خوشمزه بود ولی مقدارش کمی کم بود و محترمانه پیشنهاد می کنم بیشتر شود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "mixed_sentiment",
       "golden_rule"
@@ -13,11 +14,12 @@
   },
   {
     "id": "mixed_approval_002",
-    "text": "برگر خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
+    "text": "برگر خوشمزه بود ولی مقدارش کمی کم بود و محترمانه پیشنهاد می کنم بیشتر شود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "mixed_sentiment",
       "golden_rule"
@@ -25,11 +27,12 @@
   },
   {
     "id": "mixed_approval_003",
-    "text": "کباب خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
+    "text": "کباب خوشمزه بود ولی مقدارش کمی کم بود و محترمانه پیشنهاد می کنم بیشتر شود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "mixed_sentiment",
       "golden_rule"
@@ -37,11 +40,12 @@
   },
   {
     "id": "mixed_approval_004",
-    "text": "چلو مرغ خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
+    "text": "چلو مرغ خوشمزه بود ولی مقدارش کمی کم بود و محترمانه پیشنهاد می کنم بیشتر شود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "mixed_sentiment",
       "golden_rule"
@@ -49,11 +53,12 @@
   },
   {
     "id": "mixed_approval_005",
-    "text": "سوپ خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
+    "text": "سوپ خوشمزه بود ولی مقدارش کمی کم بود و محترمانه پیشنهاد می کنم بیشتر شود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "mixed_sentiment",
       "golden_rule"
@@ -61,11 +66,12 @@
   },
   {
     "id": "mixed_approval_006",
-    "text": "سالاد خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
+    "text": "سالاد خوشمزه بود ولی مقدارش کمی کم بود و محترمانه پیشنهاد می کنم بیشتر شود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "mixed_sentiment",
       "golden_rule"
@@ -73,11 +79,12 @@
   },
   {
     "id": "mixed_approval_007",
-    "text": "ساندویچ خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
+    "text": "ساندویچ خوشمزه بود ولی مقدارش کمی کم بود و محترمانه پیشنهاد می کنم بیشتر شود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "mixed_sentiment",
       "golden_rule"
@@ -85,11 +92,12 @@
   },
   {
     "id": "mixed_approval_008",
-    "text": "قورمه سبزی خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
+    "text": "قورمه سبزی خوشمزه بود ولی مقدارش کمی کم بود و محترمانه پیشنهاد می کنم بیشتر شود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "mixed_sentiment",
       "golden_rule"
@@ -97,11 +105,12 @@
   },
   {
     "id": "mixed_approval_009",
-    "text": "لازانیا خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
+    "text": "لازانیا خوشمزه بود ولی مقدارش کمی کم بود و محترمانه پیشنهاد می کنم بیشتر شود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "mixed_sentiment",
       "golden_rule"
@@ -109,11 +118,12 @@
   },
   {
     "id": "mixed_approval_010",
-    "text": "سیب زمینی خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
+    "text": "سیب زمینی خوشمزه بود ولی مقدارش کمی کم بود و محترمانه پیشنهاد می کنم بیشتر شود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "mixed_sentiment",
       "golden_rule"
@@ -121,11 +131,12 @@
   },
   {
     "id": "mixed_approval_011",
-    "text": "قهوه خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
+    "text": "قهوه خوشمزه بود ولی مقدارش کمی کم بود و محترمانه پیشنهاد می کنم بیشتر شود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "mixed_sentiment",
       "golden_rule"
@@ -133,11 +144,12 @@
   },
   {
     "id": "mixed_approval_012",
-    "text": "چای خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
+    "text": "چای خوشمزه بود ولی مقدارش کمی کم بود و محترمانه پیشنهاد می کنم بیشتر شود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "mixed_sentiment",
       "golden_rule"
@@ -145,11 +157,12 @@
   },
   {
     "id": "mixed_approval_013",
-    "text": "کیک خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
+    "text": "کیک خوشمزه بود ولی مقدارش کمی کم بود و محترمانه پیشنهاد می کنم بیشتر شود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "mixed_sentiment",
       "golden_rule"
@@ -157,11 +170,12 @@
   },
   {
     "id": "mixed_approval_014",
-    "text": "بستنی خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
+    "text": "بستنی خوشمزه بود ولی مقدارش کمی کم بود و محترمانه پیشنهاد می کنم بیشتر شود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "mixed_sentiment",
       "golden_rule"
@@ -169,11 +183,12 @@
   },
   {
     "id": "mixed_approval_015",
-    "text": "نودل خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
+    "text": "نودل خوشمزه بود ولی مقدارش کمی کم بود و محترمانه پیشنهاد می کنم بیشتر شود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "mixed_sentiment",
       "golden_rule"
@@ -181,11 +196,12 @@
   },
   {
     "id": "mixed_approval_016",
-    "text": "فلافل خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
+    "text": "فلافل خوشمزه بود ولی مقدارش کمی کم بود و محترمانه پیشنهاد می کنم بیشتر شود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "mixed_sentiment",
       "golden_rule"
@@ -193,11 +209,12 @@
   },
   {
     "id": "mixed_approval_017",
-    "text": "استیک خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
+    "text": "استیک خوشمزه بود ولی مقدارش کمی کم بود و محترمانه پیشنهاد می کنم بیشتر شود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "mixed_sentiment",
       "golden_rule"
@@ -205,11 +222,12 @@
   },
   {
     "id": "mixed_approval_018",
-    "text": "میرزاقاسمی خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
+    "text": "میرزاقاسمی خوشمزه بود ولی مقدارش کمی کم بود و محترمانه پیشنهاد می کنم بیشتر شود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "mixed_sentiment",
       "golden_rule"
@@ -217,11 +235,12 @@
   },
   {
     "id": "mixed_approval_019",
-    "text": "عدس پلو خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
+    "text": "عدس پلو خوشمزه بود ولی مقدارش کمی کم بود و محترمانه پیشنهاد می کنم بیشتر شود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "mixed_sentiment",
       "golden_rule"
@@ -229,11 +248,12 @@
   },
   {
     "id": "mixed_approval_020",
-    "text": "املت خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
+    "text": "املت خوشمزه بود ولی مقدارش کمی کم بود و محترمانه پیشنهاد می کنم بیشتر شود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "mixed_sentiment",
       "golden_rule"
@@ -241,11 +261,12 @@
   },
   {
     "id": "mixed_approval_021",
-    "text": "پیتزا خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
+    "text": "پیتزا خوشمزه بود ولی مقدارش کمی کم بود و محترمانه پیشنهاد می کنم بیشتر شود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "mixed_sentiment",
       "golden_rule"
@@ -253,11 +274,12 @@
   },
   {
     "id": "mixed_approval_022",
-    "text": "برگر خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
+    "text": "برگر خوشمزه بود ولی مقدارش کمی کم بود و محترمانه پیشنهاد می کنم بیشتر شود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "mixed_sentiment",
       "golden_rule"
@@ -265,11 +287,12 @@
   },
   {
     "id": "mixed_approval_023",
-    "text": "کباب خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
+    "text": "کباب خوشمزه بود ولی مقدارش کمی کم بود و محترمانه پیشنهاد می کنم بیشتر شود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "mixed_sentiment",
       "golden_rule"
@@ -277,11 +300,12 @@
   },
   {
     "id": "mixed_approval_024",
-    "text": "چلو مرغ خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
+    "text": "چلو مرغ خوشمزه بود ولی مقدارش کمی کم بود و محترمانه پیشنهاد می کنم بیشتر شود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "mixed_sentiment",
       "golden_rule"
@@ -289,11 +313,12 @@
   },
   {
     "id": "mixed_approval_025",
-    "text": "سوپ خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
+    "text": "سوپ خوشمزه بود ولی مقدارش کمی کم بود و محترمانه پیشنهاد می کنم بیشتر شود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "mixed_sentiment",
       "golden_rule"
@@ -301,11 +326,12 @@
   },
   {
     "id": "mixed_approval_026",
-    "text": "سالاد خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
+    "text": "سالاد خوشمزه بود ولی مقدارش کمی کم بود و محترمانه پیشنهاد می کنم بیشتر شود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "mixed_sentiment",
       "golden_rule"
@@ -313,11 +339,12 @@
   },
   {
     "id": "mixed_approval_027",
-    "text": "ساندویچ خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
+    "text": "ساندویچ خوشمزه بود ولی مقدارش کمی کم بود و محترمانه پیشنهاد می کنم بیشتر شود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "mixed_sentiment",
       "golden_rule"
@@ -325,11 +352,12 @@
   },
   {
     "id": "mixed_approval_028",
-    "text": "قورمه سبزی خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
+    "text": "قورمه سبزی خوشمزه بود ولی مقدارش کمی کم بود و محترمانه پیشنهاد می کنم بیشتر شود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "mixed_sentiment",
       "golden_rule"
@@ -337,11 +365,12 @@
   },
   {
     "id": "mixed_approval_029",
-    "text": "لازانیا خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
+    "text": "لازانیا خوشمزه بود ولی مقدارش کمی کم بود و محترمانه پیشنهاد می کنم بیشتر شود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "mixed_sentiment",
       "golden_rule"
@@ -349,11 +378,12 @@
   },
   {
     "id": "mixed_approval_030",
-    "text": "سیب زمینی خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
+    "text": "سیب زمینی خوشمزه بود ولی مقدارش کمی کم بود و محترمانه پیشنهاد می کنم بیشتر شود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "mixed_sentiment",
       "golden_rule"
@@ -361,11 +391,12 @@
   },
   {
     "id": "mixed_approval_031",
-    "text": "قهوه خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
+    "text": "قهوه خوشمزه بود ولی مقدارش کمی کم بود و محترمانه پیشنهاد می کنم بیشتر شود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "mixed_sentiment",
       "golden_rule"
@@ -373,11 +404,12 @@
   },
   {
     "id": "mixed_approval_032",
-    "text": "چای خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
+    "text": "چای خوشمزه بود ولی مقدارش کمی کم بود و محترمانه پیشنهاد می کنم بیشتر شود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "mixed_sentiment",
       "golden_rule"
@@ -385,11 +417,12 @@
   },
   {
     "id": "mixed_approval_033",
-    "text": "کیک خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
+    "text": "کیک خوشمزه بود ولی مقدارش کمی کم بود و محترمانه پیشنهاد می کنم بیشتر شود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "mixed_sentiment",
       "golden_rule"
@@ -397,11 +430,12 @@
   },
   {
     "id": "mixed_approval_034",
-    "text": "بستنی خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
+    "text": "بستنی خوشمزه بود ولی مقدارش کمی کم بود و محترمانه پیشنهاد می کنم بیشتر شود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "mixed_sentiment",
       "golden_rule"
@@ -409,11 +443,12 @@
   },
   {
     "id": "mixed_approval_035",
-    "text": "نودل خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
+    "text": "نودل خوشمزه بود ولی مقدارش کمی کم بود و محترمانه پیشنهاد می کنم بیشتر شود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "mixed_sentiment",
       "golden_rule"
@@ -421,11 +456,12 @@
   },
   {
     "id": "mixed_approval_036",
-    "text": "فلافل خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
+    "text": "فلافل خوشمزه بود ولی مقدارش کمی کم بود و محترمانه پیشنهاد می کنم بیشتر شود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "mixed_sentiment",
       "golden_rule"
@@ -433,11 +469,12 @@
   },
   {
     "id": "mixed_approval_037",
-    "text": "استیک خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
+    "text": "استیک خوشمزه بود ولی مقدارش کمی کم بود و محترمانه پیشنهاد می کنم بیشتر شود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "mixed_sentiment",
       "golden_rule"
@@ -445,11 +482,12 @@
   },
   {
     "id": "mixed_approval_038",
-    "text": "میرزاقاسمی خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
+    "text": "میرزاقاسمی خوشمزه بود ولی مقدارش کمی کم بود و محترمانه پیشنهاد می کنم بیشتر شود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "mixed_sentiment",
       "golden_rule"
@@ -457,11 +495,12 @@
   },
   {
     "id": "mixed_approval_039",
-    "text": "عدس پلو خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
+    "text": "عدس پلو خوشمزه بود ولی مقدارش کمی کم بود و محترمانه پیشنهاد می کنم بیشتر شود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "mixed_sentiment",
       "golden_rule"
@@ -469,11 +508,12 @@
   },
   {
     "id": "mixed_approval_040",
-    "text": "املت خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
+    "text": "املت خوشمزه بود ولی مقدارش کمی کم بود و محترمانه پیشنهاد می کنم بیشتر شود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "mixed_sentiment",
       "golden_rule"
@@ -481,11 +521,12 @@
   },
   {
     "id": "mixed_approval_041",
-    "text": "پیتزا خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
+    "text": "پیتزا خوشمزه بود ولی مقدارش کمی کم بود و محترمانه پیشنهاد می کنم بیشتر شود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "mixed_sentiment",
       "golden_rule"
@@ -493,11 +534,12 @@
   },
   {
     "id": "mixed_approval_042",
-    "text": "برگر خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
+    "text": "برگر خوشمزه بود ولی مقدارش کمی کم بود و محترمانه پیشنهاد می کنم بیشتر شود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "mixed_sentiment",
       "golden_rule"
@@ -505,11 +547,12 @@
   },
   {
     "id": "mixed_approval_043",
-    "text": "کباب خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
+    "text": "کباب خوشمزه بود ولی مقدارش کمی کم بود و محترمانه پیشنهاد می کنم بیشتر شود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "mixed_sentiment",
       "golden_rule"
@@ -517,11 +560,12 @@
   },
   {
     "id": "mixed_approval_044",
-    "text": "چلو مرغ خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
+    "text": "چلو مرغ خوشمزه بود ولی مقدارش کمی کم بود و محترمانه پیشنهاد می کنم بیشتر شود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "mixed_sentiment",
       "golden_rule"
@@ -529,609 +573,706 @@
   },
   {
     "id": "mixed_approval_045",
-    "text": "سوپ خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
+    "text": "سوپ خوشمزه بود ولی مقدارش کمی کم بود و محترمانه پیشنهاد می کنم بیشتر شود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "mixed_sentiment",
       "golden_rule"
     ]
   },
   {
-    "id": "mixed_approval_046",
-    "text": "سالاد خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "id": "mixed_disapproval_046",
+    "text": "ظاهر سالاد خوب بود ولی طعمش بد بود، راضی نبودم و دیگر سفارش نمی دهم.",
+    "expected_label": "disapproval",
+    "expected_reason": "انتقاد_و_پیشنهاد",
+    "expected_override": null,
+    "min_confidence": 0.65,
+    "max_confidence": 0.8,
     "tags": [
       "mixed_sentiment",
-      "golden_rule"
+      "dominant_negative",
+      "انتقاد_و_پیشنهاد"
     ]
   },
   {
-    "id": "mixed_approval_047",
-    "text": "ساندویچ خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "id": "mixed_disapproval_047",
+    "text": "ظاهر ساندویچ خوب بود ولی طعمش بد بود، راضی نبودم و دیگر سفارش نمی دهم.",
+    "expected_label": "disapproval",
+    "expected_reason": "انتقاد_و_پیشنهاد",
+    "expected_override": null,
+    "min_confidence": 0.65,
+    "max_confidence": 0.8,
     "tags": [
       "mixed_sentiment",
-      "golden_rule"
+      "dominant_negative",
+      "انتقاد_و_پیشنهاد"
     ]
   },
   {
-    "id": "mixed_approval_048",
-    "text": "قورمه سبزی خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "id": "mixed_disapproval_048",
+    "text": "ظاهر قورمه سبزی خوب بود ولی طعمش بد بود، راضی نبودم و دیگر سفارش نمی دهم.",
+    "expected_label": "disapproval",
+    "expected_reason": "انتقاد_و_پیشنهاد",
+    "expected_override": null,
+    "min_confidence": 0.65,
+    "max_confidence": 0.8,
     "tags": [
       "mixed_sentiment",
-      "golden_rule"
+      "dominant_negative",
+      "انتقاد_و_پیشنهاد"
     ]
   },
   {
-    "id": "mixed_approval_049",
-    "text": "لازانیا خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "id": "mixed_disapproval_049",
+    "text": "ظاهر لازانیا خوب بود ولی طعمش بد بود، راضی نبودم و دیگر سفارش نمی دهم.",
+    "expected_label": "disapproval",
+    "expected_reason": "انتقاد_و_پیشنهاد",
+    "expected_override": null,
+    "min_confidence": 0.65,
+    "max_confidence": 0.8,
     "tags": [
       "mixed_sentiment",
-      "golden_rule"
+      "dominant_negative",
+      "انتقاد_و_پیشنهاد"
     ]
   },
   {
-    "id": "mixed_approval_050",
-    "text": "سیب زمینی خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "id": "mixed_disapproval_050",
+    "text": "ظاهر سیب زمینی خوب بود ولی طعمش بد بود، راضی نبودم و دیگر سفارش نمی دهم.",
+    "expected_label": "disapproval",
+    "expected_reason": "انتقاد_و_پیشنهاد",
+    "expected_override": null,
+    "min_confidence": 0.65,
+    "max_confidence": 0.8,
     "tags": [
       "mixed_sentiment",
-      "golden_rule"
+      "dominant_negative",
+      "انتقاد_و_پیشنهاد"
     ]
   },
   {
-    "id": "mixed_approval_051",
-    "text": "قهوه خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "id": "mixed_disapproval_051",
+    "text": "ظاهر قهوه خوب بود ولی طعمش بد بود، راضی نبودم و دیگر سفارش نمی دهم.",
+    "expected_label": "disapproval",
+    "expected_reason": "انتقاد_و_پیشنهاد",
+    "expected_override": null,
+    "min_confidence": 0.65,
+    "max_confidence": 0.8,
     "tags": [
       "mixed_sentiment",
-      "golden_rule"
+      "dominant_negative",
+      "انتقاد_و_پیشنهاد"
     ]
   },
   {
-    "id": "mixed_approval_052",
-    "text": "چای خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "id": "mixed_disapproval_052",
+    "text": "ظاهر چای خوب بود ولی طعمش بد بود، راضی نبودم و دیگر سفارش نمی دهم.",
+    "expected_label": "disapproval",
+    "expected_reason": "انتقاد_و_پیشنهاد",
+    "expected_override": null,
+    "min_confidence": 0.65,
+    "max_confidence": 0.8,
     "tags": [
       "mixed_sentiment",
-      "golden_rule"
+      "dominant_negative",
+      "انتقاد_و_پیشنهاد"
     ]
   },
   {
-    "id": "mixed_approval_053",
-    "text": "کیک خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "id": "mixed_disapproval_053",
+    "text": "ظاهر کیک خوب بود ولی طعمش بد بود، راضی نبودم و دیگر سفارش نمی دهم.",
+    "expected_label": "disapproval",
+    "expected_reason": "انتقاد_و_پیشنهاد",
+    "expected_override": null,
+    "min_confidence": 0.65,
+    "max_confidence": 0.8,
     "tags": [
       "mixed_sentiment",
-      "golden_rule"
+      "dominant_negative",
+      "انتقاد_و_پیشنهاد"
     ]
   },
   {
-    "id": "mixed_approval_054",
-    "text": "بستنی خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "id": "mixed_disapproval_054",
+    "text": "ظاهر بستنی خوب بود ولی طعمش بد بود، راضی نبودم و دیگر سفارش نمی دهم.",
+    "expected_label": "disapproval",
+    "expected_reason": "انتقاد_و_پیشنهاد",
+    "expected_override": null,
+    "min_confidence": 0.65,
+    "max_confidence": 0.8,
     "tags": [
       "mixed_sentiment",
-      "golden_rule"
+      "dominant_negative",
+      "انتقاد_و_پیشنهاد"
     ]
   },
   {
-    "id": "mixed_approval_055",
-    "text": "نودل خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "id": "mixed_disapproval_055",
+    "text": "ظاهر نودل خوب بود ولی طعمش بد بود، راضی نبودم و دیگر سفارش نمی دهم.",
+    "expected_label": "disapproval",
+    "expected_reason": "انتقاد_و_پیشنهاد",
+    "expected_override": null,
+    "min_confidence": 0.65,
+    "max_confidence": 0.8,
     "tags": [
       "mixed_sentiment",
-      "golden_rule"
+      "dominant_negative",
+      "انتقاد_و_پیشنهاد"
     ]
   },
   {
-    "id": "mixed_approval_056",
-    "text": "فلافل خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "id": "mixed_disapproval_056",
+    "text": "ظاهر فلافل خوب بود ولی طعمش بد بود، راضی نبودم و دیگر سفارش نمی دهم.",
+    "expected_label": "disapproval",
+    "expected_reason": "انتقاد_و_پیشنهاد",
+    "expected_override": null,
+    "min_confidence": 0.65,
+    "max_confidence": 0.8,
     "tags": [
       "mixed_sentiment",
-      "golden_rule"
+      "dominant_negative",
+      "انتقاد_و_پیشنهاد"
     ]
   },
   {
-    "id": "mixed_approval_057",
-    "text": "استیک خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "id": "mixed_disapproval_057",
+    "text": "ظاهر استیک خوب بود ولی طعمش بد بود، راضی نبودم و دیگر سفارش نمی دهم.",
+    "expected_label": "disapproval",
+    "expected_reason": "انتقاد_و_پیشنهاد",
+    "expected_override": null,
+    "min_confidence": 0.65,
+    "max_confidence": 0.8,
     "tags": [
       "mixed_sentiment",
-      "golden_rule"
+      "dominant_negative",
+      "انتقاد_و_پیشنهاد"
     ]
   },
   {
-    "id": "mixed_approval_058",
-    "text": "میرزاقاسمی خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "id": "mixed_disapproval_058",
+    "text": "ظاهر میرزاقاسمی خوب بود ولی طعمش بد بود، راضی نبودم و دیگر سفارش نمی دهم.",
+    "expected_label": "disapproval",
+    "expected_reason": "انتقاد_و_پیشنهاد",
+    "expected_override": null,
+    "min_confidence": 0.65,
+    "max_confidence": 0.8,
     "tags": [
       "mixed_sentiment",
-      "golden_rule"
+      "dominant_negative",
+      "انتقاد_و_پیشنهاد"
     ]
   },
   {
-    "id": "mixed_approval_059",
-    "text": "عدس پلو خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "id": "mixed_disapproval_059",
+    "text": "ظاهر عدس پلو خوب بود ولی طعمش بد بود، راضی نبودم و دیگر سفارش نمی دهم.",
+    "expected_label": "disapproval",
+    "expected_reason": "انتقاد_و_پیشنهاد",
+    "expected_override": null,
+    "min_confidence": 0.65,
+    "max_confidence": 0.8,
     "tags": [
       "mixed_sentiment",
-      "golden_rule"
+      "dominant_negative",
+      "انتقاد_و_پیشنهاد"
     ]
   },
   {
-    "id": "mixed_approval_060",
-    "text": "املت خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "id": "mixed_disapproval_060",
+    "text": "ظاهر املت خوب بود ولی طعمش بد بود، راضی نبودم و دیگر سفارش نمی دهم.",
+    "expected_label": "disapproval",
+    "expected_reason": "انتقاد_و_پیشنهاد",
+    "expected_override": null,
+    "min_confidence": 0.65,
+    "max_confidence": 0.8,
     "tags": [
       "mixed_sentiment",
-      "golden_rule"
+      "dominant_negative",
+      "انتقاد_و_پیشنهاد"
     ]
   },
   {
-    "id": "mixed_approval_061",
-    "text": "پیتزا خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "id": "mixed_disapproval_061",
+    "text": "ظاهر پیتزا خوب بود ولی طعمش بد بود، راضی نبودم و دیگر سفارش نمی دهم.",
+    "expected_label": "disapproval",
+    "expected_reason": "انتقاد_و_پیشنهاد",
+    "expected_override": null,
+    "min_confidence": 0.65,
+    "max_confidence": 0.8,
     "tags": [
       "mixed_sentiment",
-      "golden_rule"
+      "dominant_negative",
+      "انتقاد_و_پیشنهاد"
     ]
   },
   {
-    "id": "mixed_approval_062",
-    "text": "برگر خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "id": "mixed_disapproval_062",
+    "text": "ظاهر برگر خوب بود ولی طعمش بد بود، راضی نبودم و دیگر سفارش نمی دهم.",
+    "expected_label": "disapproval",
+    "expected_reason": "انتقاد_و_پیشنهاد",
+    "expected_override": null,
+    "min_confidence": 0.65,
+    "max_confidence": 0.8,
     "tags": [
       "mixed_sentiment",
-      "golden_rule"
+      "dominant_negative",
+      "انتقاد_و_پیشنهاد"
     ]
   },
   {
-    "id": "mixed_approval_063",
-    "text": "کباب خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "id": "mixed_disapproval_063",
+    "text": "ظاهر کباب خوب بود ولی طعمش بد بود، راضی نبودم و دیگر سفارش نمی دهم.",
+    "expected_label": "disapproval",
+    "expected_reason": "انتقاد_و_پیشنهاد",
+    "expected_override": null,
+    "min_confidence": 0.65,
+    "max_confidence": 0.8,
     "tags": [
       "mixed_sentiment",
-      "golden_rule"
+      "dominant_negative",
+      "انتقاد_و_پیشنهاد"
     ]
   },
   {
-    "id": "mixed_approval_064",
-    "text": "چلو مرغ خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "id": "mixed_disapproval_064",
+    "text": "ظاهر چلو مرغ خوب بود ولی طعمش بد بود، راضی نبودم و دیگر سفارش نمی دهم.",
+    "expected_label": "disapproval",
+    "expected_reason": "انتقاد_و_پیشنهاد",
+    "expected_override": null,
+    "min_confidence": 0.65,
+    "max_confidence": 0.8,
     "tags": [
       "mixed_sentiment",
-      "golden_rule"
+      "dominant_negative",
+      "انتقاد_و_پیشنهاد"
     ]
   },
   {
-    "id": "mixed_approval_065",
-    "text": "سوپ خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.55,
-    "max_confidence": 1.0,
+    "id": "mixed_disapproval_065",
+    "text": "ظاهر سوپ خوب بود ولی طعمش بد بود، راضی نبودم و دیگر سفارش نمی دهم.",
+    "expected_label": "disapproval",
+    "expected_reason": "انتقاد_و_پیشنهاد",
+    "expected_override": null,
+    "min_confidence": 0.65,
+    "max_confidence": 0.8,
     "tags": [
       "mixed_sentiment",
-      "golden_rule"
+      "dominant_negative",
+      "انتقاد_و_پیشنهاد"
     ]
   },
   {
-    "id": "mixed_approval_066",
-    "text": "سالاد خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.55,
+    "id": "mixed_hygiene_066",
+    "text": "سالاد خوشمزه بود اما داخل بسته یک حشره دیدم.",
+    "expected_label": "disapproval",
+    "expected_reason": "موارد_بهداشتی",
+    "expected_override": "override_07_hygiene",
+    "min_confidence": 0.9,
     "max_confidence": 1.0,
     "tags": [
       "mixed_sentiment",
-      "golden_rule"
+      "override",
+      "override_07_hygiene",
+      "موارد_بهداشتی"
     ]
   },
   {
-    "id": "mixed_approval_067",
-    "text": "ساندویچ خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.55,
+    "id": "mixed_hygiene_067",
+    "text": "ساندویچ خوشمزه بود اما داخل بسته یک حشره دیدم.",
+    "expected_label": "disapproval",
+    "expected_reason": "موارد_بهداشتی",
+    "expected_override": "override_07_hygiene",
+    "min_confidence": 0.9,
     "max_confidence": 1.0,
     "tags": [
       "mixed_sentiment",
-      "golden_rule"
+      "override",
+      "override_07_hygiene",
+      "موارد_بهداشتی"
     ]
   },
   {
-    "id": "mixed_approval_068",
-    "text": "قورمه سبزی خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.55,
+    "id": "mixed_hygiene_068",
+    "text": "قورمه سبزی خوشمزه بود اما داخل بسته یک حشره دیدم.",
+    "expected_label": "disapproval",
+    "expected_reason": "موارد_بهداشتی",
+    "expected_override": "override_07_hygiene",
+    "min_confidence": 0.9,
     "max_confidence": 1.0,
     "tags": [
       "mixed_sentiment",
-      "golden_rule"
+      "override",
+      "override_07_hygiene",
+      "موارد_بهداشتی"
     ]
   },
   {
-    "id": "mixed_approval_069",
-    "text": "لازانیا خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.55,
+    "id": "mixed_hygiene_069",
+    "text": "لازانیا خوشمزه بود اما داخل بسته یک حشره دیدم.",
+    "expected_label": "disapproval",
+    "expected_reason": "موارد_بهداشتی",
+    "expected_override": "override_07_hygiene",
+    "min_confidence": 0.9,
     "max_confidence": 1.0,
     "tags": [
       "mixed_sentiment",
-      "golden_rule"
+      "override",
+      "override_07_hygiene",
+      "موارد_بهداشتی"
     ]
   },
   {
-    "id": "mixed_approval_070",
-    "text": "سیب زمینی خوشمزه بود اما حجمش کم بود؛ در مجموع تجربه سفارش قابل قبول بود.",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.55,
+    "id": "mixed_hygiene_070",
+    "text": "سیب زمینی خوشمزه بود اما داخل بسته یک حشره دیدم.",
+    "expected_label": "disapproval",
+    "expected_reason": "موارد_بهداشتی",
+    "expected_override": "override_07_hygiene",
+    "min_confidence": 0.9,
     "max_confidence": 1.0,
     "tags": [
       "mixed_sentiment",
-      "golden_rule"
+      "override",
+      "override_07_hygiene",
+      "موارد_بهداشتی"
     ]
   },
   {
     "id": "mixed_hygiene_071",
-    "text": "قهوه خوشمزه بود اما داخل بسته یک مو دیدم و دیگر نتوانستم ادامه بدهم.",
-    "expected_label": "rejection",
-    "expected_reason": "override_07_hygiene",
-    "min_confidence": 0.65,
+    "text": "قهوه خوشمزه بود اما داخل بسته یک حشره دیدم.",
+    "expected_label": "disapproval",
+    "expected_reason": "موارد_بهداشتی",
+    "expected_override": "override_07_hygiene",
+    "min_confidence": 0.9,
     "max_confidence": 1.0,
     "tags": [
       "mixed_sentiment",
       "override",
-      "override_07_hygiene"
+      "override_07_hygiene",
+      "موارد_بهداشتی"
     ]
   },
   {
     "id": "mixed_hygiene_072",
-    "text": "چای خوشمزه بود اما داخل بسته یک مو دیدم و دیگر نتوانستم ادامه بدهم.",
-    "expected_label": "rejection",
-    "expected_reason": "override_07_hygiene",
-    "min_confidence": 0.65,
+    "text": "چای خوشمزه بود اما داخل بسته یک حشره دیدم.",
+    "expected_label": "disapproval",
+    "expected_reason": "موارد_بهداشتی",
+    "expected_override": "override_07_hygiene",
+    "min_confidence": 0.9,
     "max_confidence": 1.0,
     "tags": [
       "mixed_sentiment",
       "override",
-      "override_07_hygiene"
+      "override_07_hygiene",
+      "موارد_بهداشتی"
     ]
   },
   {
     "id": "mixed_hygiene_073",
-    "text": "کیک خوشمزه بود اما داخل بسته یک مو دیدم و دیگر نتوانستم ادامه بدهم.",
-    "expected_label": "rejection",
-    "expected_reason": "override_07_hygiene",
-    "min_confidence": 0.65,
+    "text": "کیک خوشمزه بود اما داخل بسته یک حشره دیدم.",
+    "expected_label": "disapproval",
+    "expected_reason": "موارد_بهداشتی",
+    "expected_override": "override_07_hygiene",
+    "min_confidence": 0.9,
     "max_confidence": 1.0,
     "tags": [
       "mixed_sentiment",
       "override",
-      "override_07_hygiene"
+      "override_07_hygiene",
+      "موارد_بهداشتی"
     ]
   },
   {
     "id": "mixed_hygiene_074",
-    "text": "بستنی خوشمزه بود اما داخل بسته یک مو دیدم و دیگر نتوانستم ادامه بدهم.",
-    "expected_label": "rejection",
-    "expected_reason": "override_07_hygiene",
-    "min_confidence": 0.65,
+    "text": "بستنی خوشمزه بود اما داخل بسته یک حشره دیدم.",
+    "expected_label": "disapproval",
+    "expected_reason": "موارد_بهداشتی",
+    "expected_override": "override_07_hygiene",
+    "min_confidence": 0.9,
     "max_confidence": 1.0,
     "tags": [
       "mixed_sentiment",
       "override",
-      "override_07_hygiene"
+      "override_07_hygiene",
+      "موارد_بهداشتی"
     ]
   },
   {
     "id": "mixed_hygiene_075",
-    "text": "نودل خوشمزه بود اما داخل بسته یک مو دیدم و دیگر نتوانستم ادامه بدهم.",
-    "expected_label": "rejection",
-    "expected_reason": "override_07_hygiene",
-    "min_confidence": 0.65,
+    "text": "نودل خوشمزه بود اما داخل بسته یک حشره دیدم.",
+    "expected_label": "disapproval",
+    "expected_reason": "موارد_بهداشتی",
+    "expected_override": "override_07_hygiene",
+    "min_confidence": 0.9,
     "max_confidence": 1.0,
     "tags": [
       "mixed_sentiment",
       "override",
-      "override_07_hygiene"
+      "override_07_hygiene",
+      "موارد_بهداشتی"
     ]
   },
   {
     "id": "mixed_hygiene_076",
-    "text": "فلافل خوشمزه بود اما داخل بسته یک مو دیدم و دیگر نتوانستم ادامه بدهم.",
-    "expected_label": "rejection",
-    "expected_reason": "override_07_hygiene",
-    "min_confidence": 0.65,
+    "text": "فلافل خوشمزه بود اما داخل بسته یک حشره دیدم.",
+    "expected_label": "disapproval",
+    "expected_reason": "موارد_بهداشتی",
+    "expected_override": "override_07_hygiene",
+    "min_confidence": 0.9,
     "max_confidence": 1.0,
     "tags": [
       "mixed_sentiment",
       "override",
-      "override_07_hygiene"
+      "override_07_hygiene",
+      "موارد_بهداشتی"
     ]
   },
   {
     "id": "mixed_hygiene_077",
-    "text": "استیک خوشمزه بود اما داخل بسته یک مو دیدم و دیگر نتوانستم ادامه بدهم.",
-    "expected_label": "rejection",
-    "expected_reason": "override_07_hygiene",
-    "min_confidence": 0.65,
+    "text": "استیک خوشمزه بود اما داخل بسته یک حشره دیدم.",
+    "expected_label": "disapproval",
+    "expected_reason": "موارد_بهداشتی",
+    "expected_override": "override_07_hygiene",
+    "min_confidence": 0.9,
     "max_confidence": 1.0,
     "tags": [
       "mixed_sentiment",
       "override",
-      "override_07_hygiene"
+      "override_07_hygiene",
+      "موارد_بهداشتی"
     ]
   },
   {
     "id": "mixed_hygiene_078",
-    "text": "میرزاقاسمی خوشمزه بود اما داخل بسته یک مو دیدم و دیگر نتوانستم ادامه بدهم.",
-    "expected_label": "rejection",
-    "expected_reason": "override_07_hygiene",
-    "min_confidence": 0.65,
+    "text": "میرزاقاسمی خوشمزه بود اما داخل بسته یک حشره دیدم.",
+    "expected_label": "disapproval",
+    "expected_reason": "موارد_بهداشتی",
+    "expected_override": "override_07_hygiene",
+    "min_confidence": 0.9,
     "max_confidence": 1.0,
     "tags": [
       "mixed_sentiment",
       "override",
-      "override_07_hygiene"
+      "override_07_hygiene",
+      "موارد_بهداشتی"
     ]
   },
   {
     "id": "mixed_hygiene_079",
-    "text": "عدس پلو خوشمزه بود اما داخل بسته یک مو دیدم و دیگر نتوانستم ادامه بدهم.",
-    "expected_label": "rejection",
-    "expected_reason": "override_07_hygiene",
-    "min_confidence": 0.65,
+    "text": "عدس پلو خوشمزه بود اما داخل بسته یک حشره دیدم.",
+    "expected_label": "disapproval",
+    "expected_reason": "موارد_بهداشتی",
+    "expected_override": "override_07_hygiene",
+    "min_confidence": 0.9,
     "max_confidence": 1.0,
     "tags": [
       "mixed_sentiment",
       "override",
-      "override_07_hygiene"
+      "override_07_hygiene",
+      "موارد_بهداشتی"
     ]
   },
   {
     "id": "mixed_hygiene_080",
-    "text": "املت خوشمزه بود اما داخل بسته یک مو دیدم و دیگر نتوانستم ادامه بدهم.",
-    "expected_label": "rejection",
-    "expected_reason": "override_07_hygiene",
-    "min_confidence": 0.65,
+    "text": "املت خوشمزه بود اما داخل بسته یک حشره دیدم.",
+    "expected_label": "disapproval",
+    "expected_reason": "موارد_بهداشتی",
+    "expected_override": "override_07_hygiene",
+    "min_confidence": 0.9,
     "max_confidence": 1.0,
     "tags": [
       "mixed_sentiment",
       "override",
-      "override_07_hygiene"
+      "override_07_hygiene",
+      "موارد_بهداشتی"
     ]
   },
   {
-    "id": "mixed_hygiene_081",
-    "text": "پیتزا خوشمزه بود اما داخل بسته یک مو دیدم و دیگر نتوانستم ادامه بدهم.",
-    "expected_label": "rejection",
-    "expected_reason": "override_07_hygiene",
-    "min_confidence": 0.65,
+    "id": "mixed_order_change_081",
+    "text": "پیتزا خوب بود اما لطفا همین سفارش را لغو کنید.",
+    "expected_label": "disapproval",
+    "expected_reason": "درخواست_ویرایش_سفارش",
+    "expected_override": "override_09_order_change",
+    "min_confidence": 0.9,
     "max_confidence": 1.0,
     "tags": [
       "mixed_sentiment",
       "override",
-      "override_07_hygiene"
+      "override_09_order_change",
+      "درخواست_ویرایش_سفارش"
     ]
   },
   {
-    "id": "mixed_hygiene_082",
-    "text": "برگر خوشمزه بود اما داخل بسته یک مو دیدم و دیگر نتوانستم ادامه بدهم.",
-    "expected_label": "rejection",
-    "expected_reason": "override_07_hygiene",
-    "min_confidence": 0.65,
+    "id": "mixed_order_change_082",
+    "text": "برگر خوب بود اما لطفا همین سفارش را لغو کنید.",
+    "expected_label": "disapproval",
+    "expected_reason": "درخواست_ویرایش_سفارش",
+    "expected_override": "override_09_order_change",
+    "min_confidence": 0.9,
     "max_confidence": 1.0,
     "tags": [
       "mixed_sentiment",
       "override",
-      "override_07_hygiene"
+      "override_09_order_change",
+      "درخواست_ویرایش_سفارش"
     ]
   },
   {
     "id": "mixed_order_change_083",
-    "text": "طعم کباب خوب بود ولی لطفا همین سفارش را عوض کنید و نوشیدنی را حذف کنید.",
-    "expected_label": "rejection",
-    "expected_reason": "override_09_order_change",
-    "min_confidence": 0.62,
+    "text": "کباب خوب بود اما لطفا همین سفارش را لغو کنید.",
+    "expected_label": "disapproval",
+    "expected_reason": "درخواست_ویرایش_سفارش",
+    "expected_override": "override_09_order_change",
+    "min_confidence": 0.9,
     "max_confidence": 1.0,
     "tags": [
       "mixed_sentiment",
       "override",
-      "override_09_order_change"
+      "override_09_order_change",
+      "درخواست_ویرایش_سفارش"
     ]
   },
   {
     "id": "mixed_order_change_084",
-    "text": "طعم چلو مرغ خوب بود ولی لطفا همین سفارش را عوض کنید و نوشیدنی را حذف کنید.",
-    "expected_label": "rejection",
-    "expected_reason": "override_09_order_change",
-    "min_confidence": 0.62,
+    "text": "چلو مرغ خوب بود اما لطفا همین سفارش را لغو کنید.",
+    "expected_label": "disapproval",
+    "expected_reason": "درخواست_ویرایش_سفارش",
+    "expected_override": "override_09_order_change",
+    "min_confidence": 0.9,
     "max_confidence": 1.0,
     "tags": [
       "mixed_sentiment",
       "override",
-      "override_09_order_change"
+      "override_09_order_change",
+      "درخواست_ویرایش_سفارش"
     ]
   },
   {
     "id": "mixed_order_change_085",
-    "text": "طعم سوپ خوب بود ولی لطفا همین سفارش را عوض کنید و نوشیدنی را حذف کنید.",
-    "expected_label": "rejection",
-    "expected_reason": "override_09_order_change",
-    "min_confidence": 0.62,
+    "text": "سوپ خوب بود اما لطفا همین سفارش را لغو کنید.",
+    "expected_label": "disapproval",
+    "expected_reason": "درخواست_ویرایش_سفارش",
+    "expected_override": "override_09_order_change",
+    "min_confidence": 0.9,
     "max_confidence": 1.0,
     "tags": [
       "mixed_sentiment",
       "override",
-      "override_09_order_change"
+      "override_09_order_change",
+      "درخواست_ویرایش_سفارش"
     ]
   },
   {
     "id": "mixed_order_change_086",
-    "text": "طعم سالاد خوب بود ولی لطفا همین سفارش را عوض کنید و نوشیدنی را حذف کنید.",
-    "expected_label": "rejection",
-    "expected_reason": "override_09_order_change",
-    "min_confidence": 0.62,
+    "text": "سالاد خوب بود اما لطفا همین سفارش را لغو کنید.",
+    "expected_label": "disapproval",
+    "expected_reason": "درخواست_ویرایش_سفارش",
+    "expected_override": "override_09_order_change",
+    "min_confidence": 0.9,
     "max_confidence": 1.0,
     "tags": [
       "mixed_sentiment",
       "override",
-      "override_09_order_change"
+      "override_09_order_change",
+      "درخواست_ویرایش_سفارش"
     ]
   },
   {
     "id": "mixed_order_change_087",
-    "text": "طعم ساندویچ خوب بود ولی لطفا همین سفارش را عوض کنید و نوشیدنی را حذف کنید.",
-    "expected_label": "rejection",
-    "expected_reason": "override_09_order_change",
-    "min_confidence": 0.62,
+    "text": "ساندویچ خوب بود اما لطفا همین سفارش را لغو کنید.",
+    "expected_label": "disapproval",
+    "expected_reason": "درخواست_ویرایش_سفارش",
+    "expected_override": "override_09_order_change",
+    "min_confidence": 0.9,
     "max_confidence": 1.0,
     "tags": [
       "mixed_sentiment",
       "override",
-      "override_09_order_change"
+      "override_09_order_change",
+      "درخواست_ویرایش_سفارش"
     ]
   },
   {
     "id": "mixed_order_change_088",
-    "text": "طعم قورمه سبزی خوب بود ولی لطفا همین سفارش را عوض کنید و نوشیدنی را حذف کنید.",
-    "expected_label": "rejection",
-    "expected_reason": "override_09_order_change",
-    "min_confidence": 0.62,
+    "text": "قورمه سبزی خوب بود اما لطفا همین سفارش را لغو کنید.",
+    "expected_label": "disapproval",
+    "expected_reason": "درخواست_ویرایش_سفارش",
+    "expected_override": "override_09_order_change",
+    "min_confidence": 0.9,
     "max_confidence": 1.0,
     "tags": [
       "mixed_sentiment",
       "override",
-      "override_09_order_change"
+      "override_09_order_change",
+      "درخواست_ویرایش_سفارش"
     ]
   },
   {
     "id": "mixed_order_change_089",
-    "text": "طعم لازانیا خوب بود ولی لطفا همین سفارش را عوض کنید و نوشیدنی را حذف کنید.",
-    "expected_label": "rejection",
-    "expected_reason": "override_09_order_change",
-    "min_confidence": 0.62,
+    "text": "لازانیا خوب بود اما لطفا همین سفارش را لغو کنید.",
+    "expected_label": "disapproval",
+    "expected_reason": "درخواست_ویرایش_سفارش",
+    "expected_override": "override_09_order_change",
+    "min_confidence": 0.9,
     "max_confidence": 1.0,
     "tags": [
       "mixed_sentiment",
       "override",
-      "override_09_order_change"
+      "override_09_order_change",
+      "درخواست_ویرایش_سفارش"
     ]
   },
   {
     "id": "mixed_order_change_090",
-    "text": "طعم سیب زمینی خوب بود ولی لطفا همین سفارش را عوض کنید و نوشیدنی را حذف کنید.",
-    "expected_label": "rejection",
-    "expected_reason": "override_09_order_change",
-    "min_confidence": 0.62,
+    "text": "سیب زمینی خوب بود اما لطفا همین سفارش را لغو کنید.",
+    "expected_label": "disapproval",
+    "expected_reason": "درخواست_ویرایش_سفارش",
+    "expected_override": "override_09_order_change",
+    "min_confidence": 0.9,
     "max_confidence": 1.0,
     "tags": [
       "mixed_sentiment",
       "override",
-      "override_09_order_change"
+      "override_09_order_change",
+      "درخواست_ویرایش_سفارش"
     ]
   },
   {
-    "id": "mixed_order_change_091",
-    "text": "طعم قهوه خوب بود ولی لطفا همین سفارش را عوض کنید و نوشیدنی را حذف کنید.",
-    "expected_label": "rejection",
-    "expected_reason": "override_09_order_change",
-    "min_confidence": 0.62,
-    "max_confidence": 1.0,
+    "id": "mixed_unknown_091",
+    "text": "قهوه هم خوب بود هم بد و نمی توانم تصمیم روشنی بگیرم.",
+    "expected_label": "unknown",
+    "expected_reason": null,
+    "expected_override": null,
+    "min_confidence": 0.5,
+    "max_confidence": 0.6,
     "tags": [
       "mixed_sentiment",
-      "override",
-      "override_09_order_change"
+      "ambiguous"
     ]
   },
   {
-    "id": "mixed_order_change_092",
-    "text": "طعم چای خوب بود ولی لطفا همین سفارش را عوض کنید و نوشیدنی را حذف کنید.",
-    "expected_label": "rejection",
-    "expected_reason": "override_09_order_change",
-    "min_confidence": 0.62,
-    "max_confidence": 1.0,
+    "id": "mixed_unknown_092",
+    "text": "چای هم خوب بود هم بد و نمی توانم تصمیم روشنی بگیرم.",
+    "expected_label": "unknown",
+    "expected_reason": null,
+    "expected_override": null,
+    "min_confidence": 0.5,
+    "max_confidence": 0.6,
     "tags": [
       "mixed_sentiment",
-      "override",
-      "override_09_order_change"
+      "ambiguous"
     ]
   },
   {
     "id": "mixed_unknown_093",
-    "text": "کیک از یک طرف خوب بود و از طرف دیگر بد؛ بیشتر نمی توانم توضیح بدهم.",
+    "text": "کیک هم خوب بود هم بد و نمی توانم تصمیم روشنی بگیرم.",
     "expected_label": "unknown",
     "expected_reason": null,
+    "expected_override": null,
     "min_confidence": 0.5,
-    "max_confidence": 0.85,
+    "max_confidence": 0.6,
     "tags": [
       "mixed_sentiment",
       "ambiguous"
@@ -1139,11 +1280,12 @@
   },
   {
     "id": "mixed_unknown_094",
-    "text": "بستنی از یک طرف خوب بود و از طرف دیگر بد؛ بیشتر نمی توانم توضیح بدهم.",
+    "text": "بستنی هم خوب بود هم بد و نمی توانم تصمیم روشنی بگیرم.",
     "expected_label": "unknown",
     "expected_reason": null,
+    "expected_override": null,
     "min_confidence": 0.5,
-    "max_confidence": 0.85,
+    "max_confidence": 0.6,
     "tags": [
       "mixed_sentiment",
       "ambiguous"
@@ -1151,11 +1293,12 @@
   },
   {
     "id": "mixed_unknown_095",
-    "text": "نودل از یک طرف خوب بود و از طرف دیگر بد؛ بیشتر نمی توانم توضیح بدهم.",
+    "text": "نودل هم خوب بود هم بد و نمی توانم تصمیم روشنی بگیرم.",
     "expected_label": "unknown",
     "expected_reason": null,
+    "expected_override": null,
     "min_confidence": 0.5,
-    "max_confidence": 0.85,
+    "max_confidence": 0.6,
     "tags": [
       "mixed_sentiment",
       "ambiguous"
@@ -1163,11 +1306,12 @@
   },
   {
     "id": "mixed_unknown_096",
-    "text": "فلافل از یک طرف خوب بود و از طرف دیگر بد؛ بیشتر نمی توانم توضیح بدهم.",
+    "text": "فلافل هم خوب بود هم بد و نمی توانم تصمیم روشنی بگیرم.",
     "expected_label": "unknown",
     "expected_reason": null,
+    "expected_override": null,
     "min_confidence": 0.5,
-    "max_confidence": 0.85,
+    "max_confidence": 0.6,
     "tags": [
       "mixed_sentiment",
       "ambiguous"
@@ -1175,11 +1319,12 @@
   },
   {
     "id": "mixed_unknown_097",
-    "text": "استیک از یک طرف خوب بود و از طرف دیگر بد؛ بیشتر نمی توانم توضیح بدهم.",
+    "text": "استیک هم خوب بود هم بد و نمی توانم تصمیم روشنی بگیرم.",
     "expected_label": "unknown",
     "expected_reason": null,
+    "expected_override": null,
     "min_confidence": 0.5,
-    "max_confidence": 0.85,
+    "max_confidence": 0.6,
     "tags": [
       "mixed_sentiment",
       "ambiguous"
@@ -1187,11 +1332,12 @@
   },
   {
     "id": "mixed_unknown_098",
-    "text": "میرزاقاسمی از یک طرف خوب بود و از طرف دیگر بد؛ بیشتر نمی توانم توضیح بدهم.",
+    "text": "میرزاقاسمی هم خوب بود هم بد و نمی توانم تصمیم روشنی بگیرم.",
     "expected_label": "unknown",
     "expected_reason": null,
+    "expected_override": null,
     "min_confidence": 0.5,
-    "max_confidence": 0.85,
+    "max_confidence": 0.6,
     "tags": [
       "mixed_sentiment",
       "ambiguous"
@@ -1199,11 +1345,12 @@
   },
   {
     "id": "mixed_unknown_099",
-    "text": "عدس پلو از یک طرف خوب بود و از طرف دیگر بد؛ بیشتر نمی توانم توضیح بدهم.",
+    "text": "عدس پلو هم خوب بود هم بد و نمی توانم تصمیم روشنی بگیرم.",
     "expected_label": "unknown",
     "expected_reason": null,
+    "expected_override": null,
     "min_confidence": 0.5,
-    "max_confidence": 0.85,
+    "max_confidence": 0.6,
     "tags": [
       "mixed_sentiment",
       "ambiguous"
@@ -1211,11 +1358,12 @@
   },
   {
     "id": "mixed_unknown_100",
-    "text": "املت از یک طرف خوب بود و از طرف دیگر بد؛ بیشتر نمی توانم توضیح بدهم.",
+    "text": "املت هم خوب بود هم بد و نمی توانم تصمیم روشنی بگیرم.",
     "expected_label": "unknown",
     "expected_reason": null,
+    "expected_override": null,
     "min_confidence": 0.5,
-    "max_confidence": 0.85,
+    "max_confidence": 0.6,
     "tags": [
       "mixed_sentiment",
       "ambiguous"

@@ -1,11 +1,12 @@
 [
   {
     "id": "noise_approval_001",
-    "text": "خیییلی بود!!! پیتزا با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
+    "text": "پیتزا خیییلی بود!!! ولی جمله کامل و محترمانه است؟؟",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "noise",
       "golden_rule"
@@ -13,11 +14,12 @@
   },
   {
     "id": "noise_approval_002",
-    "text": "عااالی بود!!! برگر با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
+    "text": "برگر عااالی بود!!! ولی جمله کامل و محترمانه است؟؟",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "noise",
       "golden_rule"
@@ -25,11 +27,12 @@
   },
   {
     "id": "noise_approval_003",
-    "text": "بــــد بود!!! کباب با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
+    "text": "کباب خوووب بود!!! ولی جمله کامل و محترمانه است؟؟",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "noise",
       "golden_rule"
@@ -37,11 +40,12 @@
   },
   {
     "id": "noise_approval_004",
-    "text": "خوووب بود!!! چلو مرغ با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
+    "text": "چلو مرغ گرررم بود!!! ولی جمله کامل و محترمانه است؟؟",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "noise",
       "golden_rule"
@@ -49,11 +53,12 @@
   },
   {
     "id": "noise_approval_005",
-    "text": "افتضااح بود!!! سوپ با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
+    "text": "سوپ سسسس بود!!! ولی جمله کامل و محترمانه است؟؟",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "noise",
       "golden_rule"
@@ -61,11 +66,12 @@
   },
   {
     "id": "noise_approval_006",
-    "text": "واااقعا بود!!! سالاد با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
+    "text": "سالاد کممم بود!!! ولی جمله کامل و محترمانه است؟؟",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "noise",
       "golden_rule"
@@ -73,11 +79,12 @@
   },
   {
     "id": "noise_approval_007",
-    "text": "پیتزااا بود!!! ساندویچ با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
+    "text": "ساندویچ شووور بود!!! ولی جمله کامل و محترمانه است؟؟",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "noise",
       "golden_rule"
@@ -85,11 +92,12 @@
   },
   {
     "id": "noise_approval_008",
-    "text": "گرررم بود!!! قورمه سبزی با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
+    "text": "قورمه سبزی معمووولی بود!!! ولی جمله کامل و محترمانه است؟؟",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "noise",
       "golden_rule"
@@ -97,11 +105,12 @@
   },
   {
     "id": "noise_approval_009",
-    "text": "سرددد بود!!! لازانیا با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
+    "text": "لازانیا خوشمزههه بود!!! ولی جمله کامل و محترمانه است؟؟",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "noise",
       "golden_rule"
@@ -109,11 +118,12 @@
   },
   {
     "id": "noise_approval_010",
-    "text": "سسسس بود!!! سیب زمینی با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
+    "text": "سیب زمینی تاخیررر بود!!! ولی جمله کامل و محترمانه است؟؟",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "noise",
       "golden_rule"
@@ -121,11 +131,12 @@
   },
   {
     "id": "noise_approval_011",
-    "text": "خیییلی بود!!! قهوه با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
+    "text": "قهوه خیییلی بود!!! ولی جمله کامل و محترمانه است؟؟",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "noise",
       "golden_rule"
@@ -133,11 +144,12 @@
   },
   {
     "id": "noise_approval_012",
-    "text": "عااالی بود!!! چای با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
+    "text": "چای عااالی بود!!! ولی جمله کامل و محترمانه است؟؟",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "noise",
       "golden_rule"
@@ -145,11 +157,12 @@
   },
   {
     "id": "noise_approval_013",
-    "text": "بــــد بود!!! کیک با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
+    "text": "کیک خوووب بود!!! ولی جمله کامل و محترمانه است؟؟",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "noise",
       "golden_rule"
@@ -157,11 +170,12 @@
   },
   {
     "id": "noise_approval_014",
-    "text": "خوووب بود!!! بستنی با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
+    "text": "بستنی گرررم بود!!! ولی جمله کامل و محترمانه است؟؟",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "noise",
       "golden_rule"
@@ -169,11 +183,12 @@
   },
   {
     "id": "noise_approval_015",
-    "text": "افتضااح بود!!! نودل با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
+    "text": "نودل سسسس بود!!! ولی جمله کامل و محترمانه است؟؟",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "noise",
       "golden_rule"
@@ -181,11 +196,12 @@
   },
   {
     "id": "noise_approval_016",
-    "text": "واااقعا بود!!! فلافل با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
+    "text": "فلافل کممم بود!!! ولی جمله کامل و محترمانه است؟؟",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "noise",
       "golden_rule"
@@ -193,11 +209,12 @@
   },
   {
     "id": "noise_approval_017",
-    "text": "پیتزااا بود!!! استیک با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
+    "text": "استیک شووور بود!!! ولی جمله کامل و محترمانه است؟؟",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "noise",
       "golden_rule"
@@ -205,11 +222,12 @@
   },
   {
     "id": "noise_approval_018",
-    "text": "گرررم بود!!! میرزاقاسمی با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
+    "text": "میرزاقاسمی معمووولی بود!!! ولی جمله کامل و محترمانه است؟؟",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "noise",
       "golden_rule"
@@ -217,11 +235,12 @@
   },
   {
     "id": "noise_approval_019",
-    "text": "سرددد بود!!! عدس پلو با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
+    "text": "عدس پلو خوشمزههه بود!!! ولی جمله کامل و محترمانه است؟؟",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "noise",
       "golden_rule"
@@ -229,11 +248,12 @@
   },
   {
     "id": "noise_approval_020",
-    "text": "سسسس بود!!! املت با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
+    "text": "املت تاخیررر بود!!! ولی جمله کامل و محترمانه است؟؟",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "noise",
       "golden_rule"
@@ -241,11 +261,12 @@
   },
   {
     "id": "noise_approval_021",
-    "text": "خیییلی بود!!! پیتزا با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
+    "text": "پیتزا خیییلی بود!!! ولی جمله کامل و محترمانه است؟؟",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "noise",
       "golden_rule"
@@ -253,11 +274,12 @@
   },
   {
     "id": "noise_approval_022",
-    "text": "عااالی بود!!! برگر با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
+    "text": "برگر عااالی بود!!! ولی جمله کامل و محترمانه است؟؟",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "noise",
       "golden_rule"
@@ -265,11 +287,12 @@
   },
   {
     "id": "noise_approval_023",
-    "text": "بــــد بود!!! کباب با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
+    "text": "کباب خوووب بود!!! ولی جمله کامل و محترمانه است؟؟",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "noise",
       "golden_rule"
@@ -277,11 +300,12 @@
   },
   {
     "id": "noise_approval_024",
-    "text": "خوووب بود!!! چلو مرغ با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
+    "text": "چلو مرغ گرررم بود!!! ولی جمله کامل و محترمانه است؟؟",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "noise",
       "golden_rule"
@@ -289,11 +313,12 @@
   },
   {
     "id": "noise_approval_025",
-    "text": "افتضااح بود!!! سوپ با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
+    "text": "سوپ سسسس بود!!! ولی جمله کامل و محترمانه است؟؟",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "noise",
       "golden_rule"
@@ -301,11 +326,12 @@
   },
   {
     "id": "noise_approval_026",
-    "text": "واااقعا بود!!! سالاد با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
+    "text": "سالاد کممم بود!!! ولی جمله کامل و محترمانه است؟؟",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "noise",
       "golden_rule"
@@ -313,11 +339,12 @@
   },
   {
     "id": "noise_approval_027",
-    "text": "پیتزااا بود!!! ساندویچ با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
+    "text": "ساندویچ شووور بود!!! ولی جمله کامل و محترمانه است؟؟",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "noise",
       "golden_rule"
@@ -325,11 +352,12 @@
   },
   {
     "id": "noise_approval_028",
-    "text": "گرررم بود!!! قورمه سبزی با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
+    "text": "قورمه سبزی معمووولی بود!!! ولی جمله کامل و محترمانه است؟؟",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "noise",
       "golden_rule"
@@ -337,11 +365,12 @@
   },
   {
     "id": "noise_approval_029",
-    "text": "سرددد بود!!! لازانیا با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
+    "text": "لازانیا خوشمزههه بود!!! ولی جمله کامل و محترمانه است؟؟",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "noise",
       "golden_rule"
@@ -349,11 +378,12 @@
   },
   {
     "id": "noise_approval_030",
-    "text": "سسسس بود!!! سیب زمینی با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
+    "text": "سیب زمینی تاخیررر بود!!! ولی جمله کامل و محترمانه است؟؟",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "noise",
       "golden_rule"
@@ -361,11 +391,12 @@
   },
   {
     "id": "noise_approval_031",
-    "text": "خیییلی بود!!! قهوه با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
+    "text": "قهوه خیییلی بود!!! ولی جمله کامل و محترمانه است؟؟",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "noise",
       "golden_rule"
@@ -373,11 +404,12 @@
   },
   {
     "id": "noise_approval_032",
-    "text": "عااالی بود!!! چای با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
+    "text": "چای عااالی بود!!! ولی جمله کامل و محترمانه است؟؟",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "noise",
       "golden_rule"
@@ -385,11 +417,12 @@
   },
   {
     "id": "noise_approval_033",
-    "text": "بــــد بود!!! کیک با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
+    "text": "کیک خوووب بود!!! ولی جمله کامل و محترمانه است؟؟",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "noise",
       "golden_rule"
@@ -397,11 +430,12 @@
   },
   {
     "id": "noise_approval_034",
-    "text": "خوووب بود!!! بستنی با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
+    "text": "بستنی گرررم بود!!! ولی جمله کامل و محترمانه است؟؟",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "noise",
       "golden_rule"
@@ -409,11 +443,12 @@
   },
   {
     "id": "noise_approval_035",
-    "text": "افتضااح بود!!! نودل با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
+    "text": "نودل سسسس بود!!! ولی جمله کامل و محترمانه است؟؟",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "noise",
       "golden_rule"
@@ -421,11 +456,12 @@
   },
   {
     "id": "noise_approval_036",
-    "text": "واااقعا بود!!! فلافل با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
+    "text": "فلافل کممم بود!!! ولی جمله کامل و محترمانه است؟؟",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "noise",
       "golden_rule"
@@ -433,11 +469,12 @@
   },
   {
     "id": "noise_approval_037",
-    "text": "پیتزااا بود!!! استیک با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
+    "text": "استیک شووور بود!!! ولی جمله کامل و محترمانه است؟؟",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "noise",
       "golden_rule"
@@ -445,11 +482,12 @@
   },
   {
     "id": "noise_approval_038",
-    "text": "گرررم بود!!! میرزاقاسمی با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
+    "text": "میرزاقاسمی معمووولی بود!!! ولی جمله کامل و محترمانه است؟؟",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "noise",
       "golden_rule"
@@ -457,11 +495,12 @@
   },
   {
     "id": "noise_approval_039",
-    "text": "سرددد بود!!! عدس پلو با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
+    "text": "عدس پلو خوشمزههه بود!!! ولی جمله کامل و محترمانه است؟؟",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "noise",
       "golden_rule"
@@ -469,11 +508,12 @@
   },
   {
     "id": "noise_approval_040",
-    "text": "سسسس بود!!! املت با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
+    "text": "املت تاخیررر بود!!! ولی جمله کامل و محترمانه است؟؟",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "noise",
       "golden_rule"
@@ -481,11 +521,12 @@
   },
   {
     "id": "noise_approval_041",
-    "text": "خیییلی بود!!! پیتزا با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
+    "text": "پیتزا خیییلی بود!!! ولی جمله کامل و محترمانه است؟؟",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "noise",
       "golden_rule"
@@ -493,11 +534,12 @@
   },
   {
     "id": "noise_approval_042",
-    "text": "عااالی بود!!! برگر با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
+    "text": "برگر عااالی بود!!! ولی جمله کامل و محترمانه است؟؟",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "noise",
       "golden_rule"
@@ -505,11 +547,12 @@
   },
   {
     "id": "noise_approval_043",
-    "text": "بــــد بود!!! کباب با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
+    "text": "کباب خوووب بود!!! ولی جمله کامل و محترمانه است؟؟",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "noise",
       "golden_rule"
@@ -517,11 +560,12 @@
   },
   {
     "id": "noise_approval_044",
-    "text": "خوووب بود!!! چلو مرغ با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
+    "text": "چلو مرغ گرررم بود!!! ولی جمله کامل و محترمانه است؟؟",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "noise",
       "golden_rule"
@@ -529,724 +573,840 @@
   },
   {
     "id": "noise_approval_045",
-    "text": "افتضااح بود!!! سوپ با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
+    "text": "سوپ سسسس بود!!! ولی جمله کامل و محترمانه است؟؟",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
+    "expected_override": null,
+    "min_confidence": 0.8,
+    "max_confidence": 0.95,
     "tags": [
       "noise",
       "golden_rule"
     ]
   },
   {
-    "id": "noise_approval_046",
-    "text": "واااقعا بود!!! سالاد با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
-    "tags": [
-      "noise",
-      "golden_rule"
-    ]
-  },
-  {
-    "id": "noise_approval_047",
-    "text": "پیتزااا بود!!! ساندویچ با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
-    "tags": [
-      "noise",
-      "golden_rule"
-    ]
-  },
-  {
-    "id": "noise_approval_048",
-    "text": "گرررم بود!!! قورمه سبزی با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
-    "tags": [
-      "noise",
-      "golden_rule"
-    ]
-  },
-  {
-    "id": "noise_approval_049",
-    "text": "سرددد بود!!! لازانیا با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
-    "tags": [
-      "noise",
-      "golden_rule"
-    ]
-  },
-  {
-    "id": "noise_approval_050",
-    "text": "سسسس بود!!! سیب زمینی با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
-    "tags": [
-      "noise",
-      "golden_rule"
-    ]
-  },
-  {
-    "id": "noise_approval_051",
-    "text": "خیییلی بود!!! قهوه با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
-    "tags": [
-      "noise",
-      "golden_rule"
-    ]
-  },
-  {
-    "id": "noise_approval_052",
-    "text": "عااالی بود!!! چای با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
-    "tags": [
-      "noise",
-      "golden_rule"
-    ]
-  },
-  {
-    "id": "noise_approval_053",
-    "text": "بــــد بود!!! کیک با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
-    "tags": [
-      "noise",
-      "golden_rule"
-    ]
-  },
-  {
-    "id": "noise_approval_054",
-    "text": "خوووب بود!!! بستنی با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
-    "tags": [
-      "noise",
-      "golden_rule"
-    ]
-  },
-  {
-    "id": "noise_approval_055",
-    "text": "افتضااح بود!!! نودل با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
-    "tags": [
-      "noise",
-      "golden_rule"
-    ]
-  },
-  {
-    "id": "noise_approval_056",
-    "text": "واااقعا بود!!! فلافل با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
-    "tags": [
-      "noise",
-      "golden_rule"
-    ]
-  },
-  {
-    "id": "noise_approval_057",
-    "text": "پیتزااا بود!!! استیک با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
-    "tags": [
-      "noise",
-      "golden_rule"
-    ]
-  },
-  {
-    "id": "noise_approval_058",
-    "text": "گرررم بود!!! میرزاقاسمی با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
-    "tags": [
-      "noise",
-      "golden_rule"
-    ]
-  },
-  {
-    "id": "noise_approval_059",
-    "text": "سرددد بود!!! عدس پلو با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
-    "tags": [
-      "noise",
-      "golden_rule"
-    ]
-  },
-  {
-    "id": "noise_approval_060",
-    "text": "سسسس بود!!! املت با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
-    "tags": [
-      "noise",
-      "golden_rule"
-    ]
-  },
-  {
-    "id": "noise_approval_061",
-    "text": "خیییلی بود!!! پیتزا با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
-    "tags": [
-      "noise",
-      "golden_rule"
-    ]
-  },
-  {
-    "id": "noise_approval_062",
-    "text": "عااالی بود!!! برگر با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
-    "tags": [
-      "noise",
-      "golden_rule"
-    ]
-  },
-  {
-    "id": "noise_approval_063",
-    "text": "بــــد بود!!! کباب با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
-    "tags": [
-      "noise",
-      "golden_rule"
-    ]
-  },
-  {
-    "id": "noise_approval_064",
-    "text": "خوووب بود!!! چلو مرغ با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
-    "tags": [
-      "noise",
-      "golden_rule"
-    ]
-  },
-  {
-    "id": "noise_approval_065",
-    "text": "افتضااح بود!!! سوپ با بسته بندی قابل قبول رسید :) فقط کمی نمک زیاد داشت؟؟",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.54,
-    "max_confidence": 1.0,
-    "tags": [
-      "noise",
-      "golden_rule"
-    ]
-  },
-  {
-    "id": "noise_hygiene_066",
-    "text": "واااقعا داخل سالاد مووو پیدا شد!!! واقعا بهداشت رعایت نشده بود؟؟؟",
-    "expected_label": "rejection",
-    "expected_reason": "override_07_hygiene",
-    "min_confidence": 0.64,
-    "max_confidence": 1.0,
-    "tags": [
-      "noise",
-      "normalization",
-      "override",
-      "override_07_hygiene"
-    ]
-  },
-  {
-    "id": "noise_hygiene_067",
-    "text": "پیتزااا داخل ساندویچ مووو پیدا شد!!! واقعا بهداشت رعایت نشده بود؟؟؟",
-    "expected_label": "rejection",
-    "expected_reason": "override_07_hygiene",
-    "min_confidence": 0.64,
-    "max_confidence": 1.0,
-    "tags": [
-      "noise",
-      "normalization",
-      "override",
-      "override_07_hygiene"
-    ]
-  },
-  {
-    "id": "noise_hygiene_068",
-    "text": "گرررم داخل قورمه سبزی مووو پیدا شد!!! واقعا بهداشت رعایت نشده بود؟؟؟",
-    "expected_label": "rejection",
-    "expected_reason": "override_07_hygiene",
-    "min_confidence": 0.64,
-    "max_confidence": 1.0,
-    "tags": [
-      "noise",
-      "normalization",
-      "override",
-      "override_07_hygiene"
-    ]
-  },
-  {
-    "id": "noise_hygiene_069",
-    "text": "سرددد داخل لازانیا مووو پیدا شد!!! واقعا بهداشت رعایت نشده بود؟؟؟",
-    "expected_label": "rejection",
-    "expected_reason": "override_07_hygiene",
-    "min_confidence": 0.64,
-    "max_confidence": 1.0,
-    "tags": [
-      "noise",
-      "normalization",
-      "override",
-      "override_07_hygiene"
-    ]
-  },
-  {
-    "id": "noise_hygiene_070",
-    "text": "سسسس داخل سیب زمینی مووو پیدا شد!!! واقعا بهداشت رعایت نشده بود؟؟؟",
-    "expected_label": "rejection",
-    "expected_reason": "override_07_hygiene",
-    "min_confidence": 0.64,
-    "max_confidence": 1.0,
-    "tags": [
-      "noise",
-      "normalization",
-      "override",
-      "override_07_hygiene"
-    ]
-  },
-  {
-    "id": "noise_hygiene_071",
-    "text": "خیییلی داخل قهوه مووو پیدا شد!!! واقعا بهداشت رعایت نشده بود؟؟؟",
-    "expected_label": "rejection",
-    "expected_reason": "override_07_hygiene",
-    "min_confidence": 0.64,
-    "max_confidence": 1.0,
-    "tags": [
-      "noise",
-      "normalization",
-      "override",
-      "override_07_hygiene"
-    ]
-  },
-  {
-    "id": "noise_hygiene_072",
-    "text": "عااالی داخل چای مووو پیدا شد!!! واقعا بهداشت رعایت نشده بود؟؟؟",
-    "expected_label": "rejection",
-    "expected_reason": "override_07_hygiene",
-    "min_confidence": 0.64,
-    "max_confidence": 1.0,
-    "tags": [
-      "noise",
-      "normalization",
-      "override",
-      "override_07_hygiene"
-    ]
-  },
-  {
-    "id": "noise_hygiene_073",
-    "text": "بــــد داخل کیک مووو پیدا شد!!! واقعا بهداشت رعایت نشده بود؟؟؟",
-    "expected_label": "rejection",
-    "expected_reason": "override_07_hygiene",
-    "min_confidence": 0.64,
-    "max_confidence": 1.0,
-    "tags": [
-      "noise",
-      "normalization",
-      "override",
-      "override_07_hygiene"
-    ]
-  },
-  {
-    "id": "noise_hygiene_074",
-    "text": "خوووب داخل بستنی مووو پیدا شد!!! واقعا بهداشت رعایت نشده بود؟؟؟",
-    "expected_label": "rejection",
-    "expected_reason": "override_07_hygiene",
-    "min_confidence": 0.64,
-    "max_confidence": 1.0,
-    "tags": [
-      "noise",
-      "normalization",
-      "override",
-      "override_07_hygiene"
-    ]
-  },
-  {
-    "id": "noise_hygiene_075",
-    "text": "افتضااح داخل نودل مووو پیدا شد!!! واقعا بهداشت رعایت نشده بود؟؟؟",
-    "expected_label": "rejection",
-    "expected_reason": "override_07_hygiene",
-    "min_confidence": 0.64,
-    "max_confidence": 1.0,
-    "tags": [
-      "noise",
-      "normalization",
-      "override",
-      "override_07_hygiene"
-    ]
-  },
-  {
-    "id": "noise_hygiene_076",
-    "text": "واااقعا داخل فلافل مووو پیدا شد!!! واقعا بهداشت رعایت نشده بود؟؟؟",
-    "expected_label": "rejection",
-    "expected_reason": "override_07_hygiene",
-    "min_confidence": 0.64,
-    "max_confidence": 1.0,
-    "tags": [
-      "noise",
-      "normalization",
-      "override",
-      "override_07_hygiene"
-    ]
-  },
-  {
-    "id": "noise_hygiene_077",
-    "text": "پیتزااا داخل استیک مووو پیدا شد!!! واقعا بهداشت رعایت نشده بود؟؟؟",
-    "expected_label": "rejection",
-    "expected_reason": "override_07_hygiene",
-    "min_confidence": 0.64,
-    "max_confidence": 1.0,
-    "tags": [
-      "noise",
-      "normalization",
-      "override",
-      "override_07_hygiene"
-    ]
-  },
-  {
-    "id": "noise_hygiene_078",
-    "text": "گرررم داخل میرزاقاسمی مووو پیدا شد!!! واقعا بهداشت رعایت نشده بود؟؟؟",
-    "expected_label": "rejection",
-    "expected_reason": "override_07_hygiene",
-    "min_confidence": 0.64,
-    "max_confidence": 1.0,
-    "tags": [
-      "noise",
-      "normalization",
-      "override",
-      "override_07_hygiene"
-    ]
-  },
-  {
-    "id": "noise_hygiene_079",
-    "text": "سرددد داخل عدس پلو مووو پیدا شد!!! واقعا بهداشت رعایت نشده بود؟؟؟",
-    "expected_label": "rejection",
-    "expected_reason": "override_07_hygiene",
-    "min_confidence": 0.64,
-    "max_confidence": 1.0,
-    "tags": [
-      "noise",
-      "normalization",
-      "override",
-      "override_07_hygiene"
-    ]
-  },
-  {
-    "id": "noise_hygiene_080",
-    "text": "سسسس داخل املت مووو پیدا شد!!! واقعا بهداشت رعایت نشده بود؟؟؟",
-    "expected_label": "rejection",
-    "expected_reason": "override_07_hygiene",
-    "min_confidence": 0.64,
-    "max_confidence": 1.0,
-    "tags": [
-      "noise",
-      "normalization",
-      "override",
-      "override_07_hygiene"
-    ]
-  },
-  {
-    "id": "noise_app_081",
-    "text": "خیییلی اپ خطااا داد و پرداخت دو بار کم شد!!!",
-    "expected_label": "rejection",
-    "expected_reason": "override_18_app_problem",
-    "min_confidence": 0.62,
+    "id": "noise_hygiene_046",
+    "text": "داخل سالاد مووو پیدا کردم!!! ظرف هم کثیف بود؟؟",
+    "expected_label": "disapproval",
+    "expected_reason": "موارد_بهداشتی",
+    "expected_override": "override_07_hygiene",
+    "min_confidence": 0.9,
     "max_confidence": 1.0,
     "tags": [
       "noise",
       "override",
-      "override_18_app_problem"
+      "override_07_hygiene",
+      "موارد_بهداشتی"
     ]
   },
   {
-    "id": "noise_app_082",
-    "text": "عااالی اپ خطااا داد و پرداخت دو بار کم شد!!!",
-    "expected_label": "rejection",
-    "expected_reason": "override_18_app_problem",
-    "min_confidence": 0.62,
+    "id": "noise_hygiene_047",
+    "text": "داخل ساندویچ مووو پیدا کردم!!! ظرف هم کثیف بود؟؟",
+    "expected_label": "disapproval",
+    "expected_reason": "موارد_بهداشتی",
+    "expected_override": "override_07_hygiene",
+    "min_confidence": 0.9,
     "max_confidence": 1.0,
     "tags": [
       "noise",
       "override",
-      "override_18_app_problem"
+      "override_07_hygiene",
+      "موارد_بهداشتی"
     ]
   },
   {
-    "id": "noise_app_083",
-    "text": "بــــد اپ خطااا داد و پرداخت دو بار کم شد!!!",
-    "expected_label": "rejection",
-    "expected_reason": "override_18_app_problem",
-    "min_confidence": 0.62,
+    "id": "noise_hygiene_048",
+    "text": "داخل قورمه سبزی مووو پیدا کردم!!! ظرف هم کثیف بود؟؟",
+    "expected_label": "disapproval",
+    "expected_reason": "موارد_بهداشتی",
+    "expected_override": "override_07_hygiene",
+    "min_confidence": 0.9,
     "max_confidence": 1.0,
     "tags": [
       "noise",
       "override",
-      "override_18_app_problem"
+      "override_07_hygiene",
+      "موارد_بهداشتی"
     ]
   },
   {
-    "id": "noise_app_084",
-    "text": "خوووب اپ خطااا داد و پرداخت دو بار کم شد!!!",
-    "expected_label": "rejection",
-    "expected_reason": "override_18_app_problem",
-    "min_confidence": 0.62,
+    "id": "noise_hygiene_049",
+    "text": "داخل لازانیا مووو پیدا کردم!!! ظرف هم کثیف بود؟؟",
+    "expected_label": "disapproval",
+    "expected_reason": "موارد_بهداشتی",
+    "expected_override": "override_07_hygiene",
+    "min_confidence": 0.9,
     "max_confidence": 1.0,
     "tags": [
       "noise",
       "override",
-      "override_18_app_problem"
+      "override_07_hygiene",
+      "موارد_بهداشتی"
     ]
   },
   {
-    "id": "noise_app_085",
-    "text": "افتضااح اپ خطااا داد و پرداخت دو بار کم شد!!!",
-    "expected_label": "rejection",
-    "expected_reason": "override_18_app_problem",
-    "min_confidence": 0.62,
+    "id": "noise_hygiene_050",
+    "text": "داخل سیب زمینی مووو پیدا کردم!!! ظرف هم کثیف بود؟؟",
+    "expected_label": "disapproval",
+    "expected_reason": "موارد_بهداشتی",
+    "expected_override": "override_07_hygiene",
+    "min_confidence": 0.9,
     "max_confidence": 1.0,
     "tags": [
       "noise",
       "override",
-      "override_18_app_problem"
+      "override_07_hygiene",
+      "موارد_بهداشتی"
     ]
   },
   {
-    "id": "noise_app_086",
-    "text": "واااقعا اپ خطااا داد و پرداخت دو بار کم شد!!!",
-    "expected_label": "rejection",
-    "expected_reason": "override_18_app_problem",
-    "min_confidence": 0.62,
+    "id": "noise_hygiene_051",
+    "text": "داخل قهوه مووو پیدا کردم!!! ظرف هم کثیف بود؟؟",
+    "expected_label": "disapproval",
+    "expected_reason": "موارد_بهداشتی",
+    "expected_override": "override_07_hygiene",
+    "min_confidence": 0.9,
     "max_confidence": 1.0,
     "tags": [
       "noise",
       "override",
-      "override_18_app_problem"
+      "override_07_hygiene",
+      "موارد_بهداشتی"
     ]
   },
   {
-    "id": "noise_app_087",
-    "text": "پیتزااا اپ خطااا داد و پرداخت دو بار کم شد!!!",
-    "expected_label": "rejection",
-    "expected_reason": "override_18_app_problem",
-    "min_confidence": 0.62,
+    "id": "noise_hygiene_052",
+    "text": "داخل چای مووو پیدا کردم!!! ظرف هم کثیف بود؟؟",
+    "expected_label": "disapproval",
+    "expected_reason": "موارد_بهداشتی",
+    "expected_override": "override_07_hygiene",
+    "min_confidence": 0.9,
     "max_confidence": 1.0,
     "tags": [
       "noise",
       "override",
-      "override_18_app_problem"
+      "override_07_hygiene",
+      "موارد_بهداشتی"
     ]
   },
   {
-    "id": "noise_app_088",
-    "text": "گرررم اپ خطااا داد و پرداخت دو بار کم شد!!!",
-    "expected_label": "rejection",
-    "expected_reason": "override_18_app_problem",
-    "min_confidence": 0.62,
+    "id": "noise_hygiene_053",
+    "text": "داخل کیک مووو پیدا کردم!!! ظرف هم کثیف بود؟؟",
+    "expected_label": "disapproval",
+    "expected_reason": "موارد_بهداشتی",
+    "expected_override": "override_07_hygiene",
+    "min_confidence": 0.9,
     "max_confidence": 1.0,
     "tags": [
       "noise",
       "override",
-      "override_18_app_problem"
+      "override_07_hygiene",
+      "موارد_بهداشتی"
     ]
   },
   {
-    "id": "noise_app_089",
-    "text": "سرددد اپ خطااا داد و پرداخت دو بار کم شد!!!",
-    "expected_label": "rejection",
-    "expected_reason": "override_18_app_problem",
-    "min_confidence": 0.62,
+    "id": "noise_hygiene_054",
+    "text": "داخل بستنی مووو پیدا کردم!!! ظرف هم کثیف بود؟؟",
+    "expected_label": "disapproval",
+    "expected_reason": "موارد_بهداشتی",
+    "expected_override": "override_07_hygiene",
+    "min_confidence": 0.9,
     "max_confidence": 1.0,
     "tags": [
       "noise",
       "override",
-      "override_18_app_problem"
+      "override_07_hygiene",
+      "موارد_بهداشتی"
     ]
   },
   {
-    "id": "noise_app_090",
-    "text": "سسسس اپ خطااا داد و پرداخت دو بار کم شد!!!",
-    "expected_label": "rejection",
-    "expected_reason": "override_18_app_problem",
-    "min_confidence": 0.62,
+    "id": "noise_hygiene_055",
+    "text": "داخل نودل مووو پیدا کردم!!! ظرف هم کثیف بود؟؟",
+    "expected_label": "disapproval",
+    "expected_reason": "موارد_بهداشتی",
+    "expected_override": "override_07_hygiene",
+    "min_confidence": 0.9,
     "max_confidence": 1.0,
     "tags": [
       "noise",
       "override",
-      "override_18_app_problem"
+      "override_07_hygiene",
+      "موارد_بهداشتی"
     ]
   },
   {
-    "id": "noise_incomplete_091",
-    "text": "....",
-    "expected_label": "rejection",
-    "expected_reason": "override_20_incomplete",
-    "min_confidence": 0.68,
+    "id": "noise_hygiene_056",
+    "text": "داخل فلافل مووو پیدا کردم!!! ظرف هم کثیف بود؟؟",
+    "expected_label": "disapproval",
+    "expected_reason": "موارد_بهداشتی",
+    "expected_override": "override_07_hygiene",
+    "min_confidence": 0.9,
     "max_confidence": 1.0,
+    "tags": [
+      "noise",
+      "override",
+      "override_07_hygiene",
+      "موارد_بهداشتی"
+    ]
+  },
+  {
+    "id": "noise_hygiene_057",
+    "text": "داخل استیک مووو پیدا کردم!!! ظرف هم کثیف بود؟؟",
+    "expected_label": "disapproval",
+    "expected_reason": "موارد_بهداشتی",
+    "expected_override": "override_07_hygiene",
+    "min_confidence": 0.9,
+    "max_confidence": 1.0,
+    "tags": [
+      "noise",
+      "override",
+      "override_07_hygiene",
+      "موارد_بهداشتی"
+    ]
+  },
+  {
+    "id": "noise_hygiene_058",
+    "text": "داخل میرزاقاسمی مووو پیدا کردم!!! ظرف هم کثیف بود؟؟",
+    "expected_label": "disapproval",
+    "expected_reason": "موارد_بهداشتی",
+    "expected_override": "override_07_hygiene",
+    "min_confidence": 0.9,
+    "max_confidence": 1.0,
+    "tags": [
+      "noise",
+      "override",
+      "override_07_hygiene",
+      "موارد_بهداشتی"
+    ]
+  },
+  {
+    "id": "noise_hygiene_059",
+    "text": "داخل عدس پلو مووو پیدا کردم!!! ظرف هم کثیف بود؟؟",
+    "expected_label": "disapproval",
+    "expected_reason": "موارد_بهداشتی",
+    "expected_override": "override_07_hygiene",
+    "min_confidence": 0.9,
+    "max_confidence": 1.0,
+    "tags": [
+      "noise",
+      "override",
+      "override_07_hygiene",
+      "موارد_بهداشتی"
+    ]
+  },
+  {
+    "id": "noise_hygiene_060",
+    "text": "داخل املت مووو پیدا کردم!!! ظرف هم کثیف بود؟؟",
+    "expected_label": "disapproval",
+    "expected_reason": "موارد_بهداشتی",
+    "expected_override": "override_07_hygiene",
+    "min_confidence": 0.9,
+    "max_confidence": 1.0,
+    "tags": [
+      "noise",
+      "override",
+      "override_07_hygiene",
+      "موارد_بهداشتی"
+    ]
+  },
+  {
+    "id": "noise_app_061",
+    "text": "اپلیکیشن هییی خطااا داد و سفارش ثبت نشد!!!",
+    "expected_label": "disapproval",
+    "expected_reason": "مشکلات_اپلیکیشن",
+    "expected_override": "override_18_app_problem",
+    "min_confidence": 0.9,
+    "max_confidence": 1.0,
+    "tags": [
+      "noise",
+      "override",
+      "override_18_app_problem",
+      "مشکلات_اپلیکیشن"
+    ]
+  },
+  {
+    "id": "noise_app_062",
+    "text": "اپلیکیشن هییی خطااا داد و سفارش ثبت نشد!!!",
+    "expected_label": "disapproval",
+    "expected_reason": "مشکلات_اپلیکیشن",
+    "expected_override": "override_18_app_problem",
+    "min_confidence": 0.9,
+    "max_confidence": 1.0,
+    "tags": [
+      "noise",
+      "override",
+      "override_18_app_problem",
+      "مشکلات_اپلیکیشن"
+    ]
+  },
+  {
+    "id": "noise_app_063",
+    "text": "اپلیکیشن هییی خطااا داد و سفارش ثبت نشد!!!",
+    "expected_label": "disapproval",
+    "expected_reason": "مشکلات_اپلیکیشن",
+    "expected_override": "override_18_app_problem",
+    "min_confidence": 0.9,
+    "max_confidence": 1.0,
+    "tags": [
+      "noise",
+      "override",
+      "override_18_app_problem",
+      "مشکلات_اپلیکیشن"
+    ]
+  },
+  {
+    "id": "noise_app_064",
+    "text": "اپلیکیشن هییی خطااا داد و سفارش ثبت نشد!!!",
+    "expected_label": "disapproval",
+    "expected_reason": "مشکلات_اپلیکیشن",
+    "expected_override": "override_18_app_problem",
+    "min_confidence": 0.9,
+    "max_confidence": 1.0,
+    "tags": [
+      "noise",
+      "override",
+      "override_18_app_problem",
+      "مشکلات_اپلیکیشن"
+    ]
+  },
+  {
+    "id": "noise_app_065",
+    "text": "اپلیکیشن هییی خطااا داد و سفارش ثبت نشد!!!",
+    "expected_label": "disapproval",
+    "expected_reason": "مشکلات_اپلیکیشن",
+    "expected_override": "override_18_app_problem",
+    "min_confidence": 0.9,
+    "max_confidence": 1.0,
+    "tags": [
+      "noise",
+      "override",
+      "override_18_app_problem",
+      "مشکلات_اپلیکیشن"
+    ]
+  },
+  {
+    "id": "noise_app_066",
+    "text": "اپلیکیشن هییی خطااا داد و سفارش ثبت نشد!!!",
+    "expected_label": "disapproval",
+    "expected_reason": "مشکلات_اپلیکیشن",
+    "expected_override": "override_18_app_problem",
+    "min_confidence": 0.9,
+    "max_confidence": 1.0,
+    "tags": [
+      "noise",
+      "override",
+      "override_18_app_problem",
+      "مشکلات_اپلیکیشن"
+    ]
+  },
+  {
+    "id": "noise_app_067",
+    "text": "اپلیکیشن هییی خطااا داد و سفارش ثبت نشد!!!",
+    "expected_label": "disapproval",
+    "expected_reason": "مشکلات_اپلیکیشن",
+    "expected_override": "override_18_app_problem",
+    "min_confidence": 0.9,
+    "max_confidence": 1.0,
+    "tags": [
+      "noise",
+      "override",
+      "override_18_app_problem",
+      "مشکلات_اپلیکیشن"
+    ]
+  },
+  {
+    "id": "noise_app_068",
+    "text": "اپلیکیشن هییی خطااا داد و سفارش ثبت نشد!!!",
+    "expected_label": "disapproval",
+    "expected_reason": "مشکلات_اپلیکیشن",
+    "expected_override": "override_18_app_problem",
+    "min_confidence": 0.9,
+    "max_confidence": 1.0,
+    "tags": [
+      "noise",
+      "override",
+      "override_18_app_problem",
+      "مشکلات_اپلیکیشن"
+    ]
+  },
+  {
+    "id": "noise_app_069",
+    "text": "اپلیکیشن هییی خطااا داد و سفارش ثبت نشد!!!",
+    "expected_label": "disapproval",
+    "expected_reason": "مشکلات_اپلیکیشن",
+    "expected_override": "override_18_app_problem",
+    "min_confidence": 0.9,
+    "max_confidence": 1.0,
+    "tags": [
+      "noise",
+      "override",
+      "override_18_app_problem",
+      "مشکلات_اپلیکیشن"
+    ]
+  },
+  {
+    "id": "noise_app_070",
+    "text": "اپلیکیشن هییی خطااا داد و سفارش ثبت نشد!!!",
+    "expected_label": "disapproval",
+    "expected_reason": "مشکلات_اپلیکیشن",
+    "expected_override": "override_18_app_problem",
+    "min_confidence": 0.9,
+    "max_confidence": 1.0,
+    "tags": [
+      "noise",
+      "override",
+      "override_18_app_problem",
+      "مشکلات_اپلیکیشن"
+    ]
+  },
+  {
+    "id": "noise_app_071",
+    "text": "اپلیکیشن هییی خطااا داد و سفارش ثبت نشد!!!",
+    "expected_label": "disapproval",
+    "expected_reason": "مشکلات_اپلیکیشن",
+    "expected_override": "override_18_app_problem",
+    "min_confidence": 0.9,
+    "max_confidence": 1.0,
+    "tags": [
+      "noise",
+      "override",
+      "override_18_app_problem",
+      "مشکلات_اپلیکیشن"
+    ]
+  },
+  {
+    "id": "noise_app_072",
+    "text": "اپلیکیشن هییی خطااا داد و سفارش ثبت نشد!!!",
+    "expected_label": "disapproval",
+    "expected_reason": "مشکلات_اپلیکیشن",
+    "expected_override": "override_18_app_problem",
+    "min_confidence": 0.9,
+    "max_confidence": 1.0,
+    "tags": [
+      "noise",
+      "override",
+      "override_18_app_problem",
+      "مشکلات_اپلیکیشن"
+    ]
+  },
+  {
+    "id": "noise_app_073",
+    "text": "اپلیکیشن هییی خطااا داد و سفارش ثبت نشد!!!",
+    "expected_label": "disapproval",
+    "expected_reason": "مشکلات_اپلیکیشن",
+    "expected_override": "override_18_app_problem",
+    "min_confidence": 0.9,
+    "max_confidence": 1.0,
+    "tags": [
+      "noise",
+      "override",
+      "override_18_app_problem",
+      "مشکلات_اپلیکیشن"
+    ]
+  },
+  {
+    "id": "noise_app_074",
+    "text": "اپلیکیشن هییی خطااا داد و سفارش ثبت نشد!!!",
+    "expected_label": "disapproval",
+    "expected_reason": "مشکلات_اپلیکیشن",
+    "expected_override": "override_18_app_problem",
+    "min_confidence": 0.9,
+    "max_confidence": 1.0,
+    "tags": [
+      "noise",
+      "override",
+      "override_18_app_problem",
+      "مشکلات_اپلیکیشن"
+    ]
+  },
+  {
+    "id": "noise_app_075",
+    "text": "اپلیکیشن هییی خطااا داد و سفارش ثبت نشد!!!",
+    "expected_label": "disapproval",
+    "expected_reason": "مشکلات_اپلیکیشن",
+    "expected_override": "override_18_app_problem",
+    "min_confidence": 0.9,
+    "max_confidence": 1.0,
+    "tags": [
+      "noise",
+      "override",
+      "override_18_app_problem",
+      "مشکلات_اپلیکیشن"
+    ]
+  },
+  {
+    "id": "noise_incomplete_076",
+    "text": "خوب و",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_20_incomplete",
+    "min_confidence": 0.92,
+    "max_confidence": 0.98,
     "tags": [
       "noise",
       "override_20_precedence",
-      "override_20_incomplete"
+      "override_20_incomplete",
+      "دیدگاه_نامرتبط"
     ]
   },
   {
-    "id": "noise_incomplete_092",
-    "text": "؟؟؟!!!",
-    "expected_label": "rejection",
-    "expected_reason": "override_20_incomplete",
-    "min_confidence": 0.68,
-    "max_confidence": 1.0,
+    "id": "noise_incomplete_077",
+    "text": "غذا اما",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_20_incomplete",
+    "min_confidence": 0.92,
+    "max_confidence": 0.98,
     "tags": [
       "noise",
       "override_20_precedence",
-      "override_20_incomplete"
+      "override_20_incomplete",
+      "دیدگاه_نامرتبط"
     ]
   },
   {
-    "id": "noise_incomplete_093",
-    "text": "خخخخ",
-    "expected_label": "rejection",
-    "expected_reason": "override_20_incomplete",
-    "min_confidence": 0.68,
-    "max_confidence": 1.0,
+    "id": "noise_incomplete_078",
+    "text": "به نظرم که",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_20_incomplete",
+    "min_confidence": 0.92,
+    "max_confidence": 0.98,
     "tags": [
       "noise",
       "override_20_precedence",
-      "override_20_incomplete"
+      "override_20_incomplete",
+      "دیدگاه_نامرتبط"
     ]
   },
   {
-    "id": "noise_incomplete_094",
-    "text": "اوکییی؟",
-    "expected_label": "rejection",
-    "expected_reason": "override_20_incomplete",
-    "min_confidence": 0.68,
-    "max_confidence": 1.0,
+    "id": "noise_incomplete_079",
+    "text": "؟؟؟؟",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_20_incomplete",
+    "min_confidence": 0.92,
+    "max_confidence": 0.98,
     "tags": [
       "noise",
       "override_20_precedence",
-      "override_20_incomplete"
+      "override_20_incomplete",
+      "دیدگاه_نامرتبط"
     ]
   },
   {
-    "id": "noise_incomplete_095",
-    "text": "غذااا",
-    "expected_label": "rejection",
-    "expected_reason": "override_20_incomplete",
-    "min_confidence": 0.68,
-    "max_confidence": 1.0,
+    "id": "noise_incomplete_080",
+    "text": "باشه",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_20_incomplete",
+    "min_confidence": 0.92,
+    "max_confidence": 0.98,
     "tags": [
       "noise",
       "override_20_precedence",
-      "override_20_incomplete"
+      "override_20_incomplete",
+      "دیدگاه_نامرتبط"
     ]
   },
   {
-    "id": "noise_incomplete_096",
-    "text": "نظرممم",
-    "expected_label": "rejection",
-    "expected_reason": "override_20_incomplete",
-    "min_confidence": 0.68,
-    "max_confidence": 1.0,
+    "id": "noise_incomplete_081",
+    "text": "خیلی که",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_20_incomplete",
+    "min_confidence": 0.92,
+    "max_confidence": 0.98,
     "tags": [
       "noise",
       "override_20_precedence",
-      "override_20_incomplete"
+      "override_20_incomplete",
+      "دیدگاه_نامرتبط"
     ]
   },
   {
-    "id": "noise_incomplete_097",
-    "text": "---؟؟",
-    "expected_label": "rejection",
-    "expected_reason": "override_20_incomplete",
-    "min_confidence": 0.68,
-    "max_confidence": 1.0,
+    "id": "noise_incomplete_082",
+    "text": "ولی کیفیت",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_20_incomplete",
+    "min_confidence": 0.92,
+    "max_confidence": 0.98,
     "tags": [
       "noise",
       "override_20_precedence",
-      "override_20_incomplete"
+      "override_20_incomplete",
+      "دیدگاه_نامرتبط"
     ]
   },
   {
-    "id": "noise_incomplete_098",
-    "text": "ها؟",
-    "expected_label": "rejection",
-    "expected_reason": "override_20_incomplete",
-    "min_confidence": 0.68,
-    "max_confidence": 1.0,
+    "id": "noise_incomplete_083",
+    "text": "پیک که",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_20_incomplete",
+    "min_confidence": 0.92,
+    "max_confidence": 0.98,
     "tags": [
       "noise",
       "override_20_precedence",
-      "override_20_incomplete"
+      "override_20_incomplete",
+      "دیدگاه_نامرتبط"
     ]
   },
   {
-    "id": "noise_incomplete_099",
-    "text": "چییی",
-    "expected_label": "rejection",
-    "expected_reason": "override_20_incomplete",
-    "min_confidence": 0.68,
-    "max_confidence": 1.0,
+    "id": "noise_incomplete_084",
+    "text": "کیفیتش",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_20_incomplete",
+    "min_confidence": 0.92,
+    "max_confidence": 0.98,
     "tags": [
       "noise",
       "override_20_precedence",
-      "override_20_incomplete"
+      "override_20_incomplete",
+      "دیدگاه_نامرتبط"
     ]
   },
   {
-    "id": "noise_incomplete_100",
-    "text": "بد خوب",
-    "expected_label": "rejection",
-    "expected_reason": "override_20_incomplete",
-    "min_confidence": 0.68,
-    "max_confidence": 1.0,
+    "id": "noise_incomplete_085",
+    "text": "آره",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_20_incomplete",
+    "min_confidence": 0.92,
+    "max_confidence": 0.98,
     "tags": [
       "noise",
       "override_20_precedence",
-      "override_20_incomplete"
+      "override_20_incomplete",
+      "دیدگاه_نامرتبط"
+    ]
+  },
+  {
+    "id": "noise_incomplete_086",
+    "text": "ممنون",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_20_incomplete",
+    "min_confidence": 0.92,
+    "max_confidence": 0.98,
+    "tags": [
+      "noise",
+      "override_20_precedence",
+      "override_20_incomplete",
+      "دیدگاه_نامرتبط"
+    ]
+  },
+  {
+    "id": "noise_incomplete_087",
+    "text": "قضرثصق",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_20_incomplete",
+    "min_confidence": 0.92,
+    "max_confidence": 0.98,
+    "tags": [
+      "noise",
+      "override_20_precedence",
+      "override_20_incomplete",
+      "دیدگاه_نامرتبط"
+    ]
+  },
+  {
+    "id": "noise_incomplete_088",
+    "text": "خوب خوب خوب",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_20_incomplete",
+    "min_confidence": 0.92,
+    "max_confidence": 0.98,
+    "tags": [
+      "noise",
+      "override_20_precedence",
+      "override_20_incomplete",
+      "دیدگاه_نامرتبط"
+    ]
+  },
+  {
+    "id": "noise_incomplete_089",
+    "text": "اسیبنتلاس",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_20_incomplete",
+    "min_confidence": 0.92,
+    "max_confidence": 0.98,
+    "tags": [
+      "noise",
+      "override_20_precedence",
+      "override_20_incomplete",
+      "دیدگاه_نامرتبط"
+    ]
+  },
+  {
+    "id": "noise_incomplete_090",
+    "text": "اگر غذا",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_20_incomplete",
+    "min_confidence": 0.92,
+    "max_confidence": 0.98,
+    "tags": [
+      "noise",
+      "override_20_precedence",
+      "override_20_incomplete",
+      "دیدگاه_نامرتبط"
+    ]
+  },
+  {
+    "id": "noise_emoji_091",
+    "text": "قهوه بد نبوددد :)",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_17_emoji",
+    "min_confidence": 0.95,
+    "max_confidence": 1.0,
+    "tags": [
+      "noise",
+      "emoji",
+      "override_17_emoji",
+      "دیدگاه_نامرتبط"
+    ]
+  },
+  {
+    "id": "noise_emoji_092",
+    "text": "چای بد نبوددد :)",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_17_emoji",
+    "min_confidence": 0.95,
+    "max_confidence": 1.0,
+    "tags": [
+      "noise",
+      "emoji",
+      "override_17_emoji",
+      "دیدگاه_نامرتبط"
+    ]
+  },
+  {
+    "id": "noise_emoji_093",
+    "text": "کیک بد نبوددد :)",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_17_emoji",
+    "min_confidence": 0.95,
+    "max_confidence": 1.0,
+    "tags": [
+      "noise",
+      "emoji",
+      "override_17_emoji",
+      "دیدگاه_نامرتبط"
+    ]
+  },
+  {
+    "id": "noise_emoji_094",
+    "text": "بستنی بد نبوددد :)",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_17_emoji",
+    "min_confidence": 0.95,
+    "max_confidence": 1.0,
+    "tags": [
+      "noise",
+      "emoji",
+      "override_17_emoji",
+      "دیدگاه_نامرتبط"
+    ]
+  },
+  {
+    "id": "noise_emoji_095",
+    "text": "نودل بد نبوددد :)",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_17_emoji",
+    "min_confidence": 0.95,
+    "max_confidence": 1.0,
+    "tags": [
+      "noise",
+      "emoji",
+      "override_17_emoji",
+      "دیدگاه_نامرتبط"
+    ]
+  },
+  {
+    "id": "noise_emoji_096",
+    "text": "فلافل بد نبوددد :)",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_17_emoji",
+    "min_confidence": 0.95,
+    "max_confidence": 1.0,
+    "tags": [
+      "noise",
+      "emoji",
+      "override_17_emoji",
+      "دیدگاه_نامرتبط"
+    ]
+  },
+  {
+    "id": "noise_emoji_097",
+    "text": "استیک بد نبوددد :)",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_17_emoji",
+    "min_confidence": 0.95,
+    "max_confidence": 1.0,
+    "tags": [
+      "noise",
+      "emoji",
+      "override_17_emoji",
+      "دیدگاه_نامرتبط"
+    ]
+  },
+  {
+    "id": "noise_emoji_098",
+    "text": "میرزاقاسمی بد نبوددد :)",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_17_emoji",
+    "min_confidence": 0.95,
+    "max_confidence": 1.0,
+    "tags": [
+      "noise",
+      "emoji",
+      "override_17_emoji",
+      "دیدگاه_نامرتبط"
+    ]
+  },
+  {
+    "id": "noise_emoji_099",
+    "text": "عدس پلو بد نبوددد :)",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_17_emoji",
+    "min_confidence": 0.95,
+    "max_confidence": 1.0,
+    "tags": [
+      "noise",
+      "emoji",
+      "override_17_emoji",
+      "دیدگاه_نامرتبط"
+    ]
+  },
+  {
+    "id": "noise_emoji_100",
+    "text": "املت بد نبوددد :)",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_17_emoji",
+    "min_confidence": 0.95,
+    "max_confidence": 1.0,
+    "tags": [
+      "noise",
+      "emoji",
+      "override_17_emoji",
+      "دیدگاه_نامرتبط"
     ]
   }
 ]

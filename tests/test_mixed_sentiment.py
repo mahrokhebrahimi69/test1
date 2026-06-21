@@ -13,6 +13,6 @@ def test_mixed_sentiment_has_minimum_coverage():
 
 @pytest.mark.parametrize("case", CASES, ids=case_ids(CASES))
 def test_mixed_sentiment_cases(classify, case):
-    """Mixed sentiment remains approval unless an override is present."""
+    """Mixed sentiment follows dominance and hard override rules."""
     assert_case(classify, case)
 

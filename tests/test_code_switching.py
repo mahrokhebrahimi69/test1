@@ -13,6 +13,6 @@ def test_code_switching_has_minimum_coverage():
 
 @pytest.mark.parametrize("case", CASES, ids=case_ids(CASES))
 def test_code_switching_cases(classify, case):
-    """Persian code-switching is allowed while primarily non-Persian text is rejected."""
+    """Non-Persian content is rejected except allowed English food item names."""
     assert_case(classify, case)
 

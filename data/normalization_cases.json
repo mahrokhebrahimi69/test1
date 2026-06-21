@@ -1,1377 +1,1562 @@
 [
   {
     "id": "normalization_01_01",
-    "text": "کباب خیلی خوب بود و بسته بندی تمیز رسید. #1",
+    "text": "کباب خیلی خوب بود و بسته بندی تمیز رسید.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.55,
+    "expected_override": null,
+    "min_confidence": 0.5,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "golden_rule"
     ],
-    "equivalence_group": "norm_01"
+    "equivalence_group": "norm_approval_good"
   },
   {
     "id": "normalization_01_02",
-    "text": "كباب خيلي خوب بود و بسته بندي تميز رسيد. #1",
+    "text": "كباب خیلی خوب بود و بسته بندی تمیز رسید.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.55,
+    "expected_override": null,
+    "min_confidence": 0.5,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "golden_rule"
     ],
-    "equivalence_group": "norm_01"
+    "equivalence_group": "norm_approval_good"
   },
   {
     "id": "normalization_01_03",
-    "text": "کِباب خیلییی خوب بود!!! بسته‌بندی تمیز رسید. #1",
+    "text": "کِباب خیلییی خوب بود و بسته‌بندی تمیز رسید.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.55,
+    "expected_override": null,
+    "min_confidence": 0.5,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "golden_rule"
     ],
-    "equivalence_group": "norm_01"
+    "equivalence_group": "norm_approval_good"
   },
   {
     "id": "normalization_01_04",
-    "text": "كـباب   خیلی   خوب بود، بسته بندي تميز رسيد #1",
+    "text": "کباب   خیلی   خوب بود، بسته بندی تمیز رسید.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.55,
+    "expected_override": null,
+    "min_confidence": 0.5,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "golden_rule"
     ],
-    "equivalence_group": "norm_01"
+    "equivalence_group": "norm_approval_good"
   },
   {
     "id": "normalization_01_05",
-    "text": "کباب خیلی خوب بود و بسته بندی تمیز رسید :) #1",
+    "text": "کباب خیلی خوب بود و بسته بندی تمیز رسید",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.55,
+    "expected_override": null,
+    "min_confidence": 0.5,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "golden_rule"
     ],
-    "equivalence_group": "norm_01"
+    "equivalence_group": "norm_approval_good"
   },
   {
     "id": "normalization_02_01",
-    "text": "داخل پیتزا مو پیدا کردم و ظرف بوی بد می داد. مورد 2",
-    "expected_label": "rejection",
-    "expected_reason": "override_07_hygiene",
-    "min_confidence": 0.55,
+    "text": "داخل پیتزا مو پیدا کردم و ظرف بوی بد می داد.",
+    "expected_label": "disapproval",
+    "expected_reason": "موارد_بهداشتی",
+    "expected_override": "override_07_hygiene",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_07_hygiene"
+      "override_07_hygiene",
+      "موارد_بهداشتی"
     ],
-    "equivalence_group": "norm_02"
+    "equivalence_group": "norm_hygiene_hair"
   },
   {
     "id": "normalization_02_02",
-    "text": "داخل پيتزا مو پيدا كردم و ظرف بوي بد مي داد. مورد 2",
-    "expected_label": "rejection",
-    "expected_reason": "override_07_hygiene",
-    "min_confidence": 0.55,
+    "text": "داخل پيتزا مو پيدا كردم و ظرف بوی بد می داد.",
+    "expected_label": "disapproval",
+    "expected_reason": "موارد_بهداشتی",
+    "expected_override": "override_07_hygiene",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_07_hygiene"
+      "override_07_hygiene",
+      "موارد_بهداشتی"
     ],
-    "equivalence_group": "norm_02"
+    "equivalence_group": "norm_hygiene_hair"
   },
   {
     "id": "normalization_02_03",
-    "text": "داااخل پیتزا مووو پیدا کردم!!! ظرف بووی بد میداد مورد 2",
-    "expected_label": "rejection",
-    "expected_reason": "override_07_hygiene",
-    "min_confidence": 0.55,
+    "text": "داااخل پیتزا مووو پیدا کردم و ظرف بوی بد می داد.",
+    "expected_label": "disapproval",
+    "expected_reason": "موارد_بهداشتی",
+    "expected_override": "override_07_hygiene",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_07_hygiene"
+      "override_07_hygiene",
+      "موارد_بهداشتی"
     ],
-    "equivalence_group": "norm_02"
+    "equivalence_group": "norm_hygiene_hair"
   },
   {
     "id": "normalization_02_04",
-    "text": "داخل پیتزا مُو پیدا کردم و ظرف بوی بد می‌داد. مورد 2",
-    "expected_label": "rejection",
-    "expected_reason": "override_07_hygiene",
-    "min_confidence": 0.55,
+    "text": "داخل پیتزا مُو پیدا کردم و ظرف بوی بد می‌داد.",
+    "expected_label": "disapproval",
+    "expected_reason": "موارد_بهداشتی",
+    "expected_override": "override_07_hygiene",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_07_hygiene"
+      "override_07_hygiene",
+      "موارد_بهداشتی"
     ],
-    "equivalence_group": "norm_02"
+    "equivalence_group": "norm_hygiene_hair"
   },
   {
     "id": "normalization_02_05",
-    "text": "داخل پـیتزا مو پیدا کردم و ظرف بوی بد می داد؟؟ مورد 2",
-    "expected_label": "rejection",
-    "expected_reason": "override_07_hygiene",
-    "min_confidence": 0.55,
+    "text": "داخل پـیتزا مو پیدا کردم و ظرف بوی بد می داد.",
+    "expected_label": "disapproval",
+    "expected_reason": "موارد_بهداشتی",
+    "expected_override": "override_07_hygiene",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_07_hygiene"
+      "override_07_hygiene",
+      "موارد_بهداشتی"
     ],
-    "equivalence_group": "norm_02"
+    "equivalence_group": "norm_hygiene_hair"
   },
   {
     "id": "normalization_03_01",
-    "text": "اپلیکیشن موقع پرداخت خطا داد و پول دو بار کم شد. مورد 3",
-    "expected_label": "rejection",
-    "expected_reason": "override_18_app_problem",
-    "min_confidence": 0.55,
+    "text": "اپلیکیشن موقع پرداخت خطا داد و سفارش ثبت نشد.",
+    "expected_label": "disapproval",
+    "expected_reason": "مشکلات_اپلیکیشن",
+    "expected_override": "override_18_app_problem",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_18_app_problem"
+      "override_18_app_problem",
+      "مشکلات_اپلیکیشن"
     ],
-    "equivalence_group": "norm_03"
+    "equivalence_group": "norm_app_error"
   },
   {
     "id": "normalization_03_02",
-    "text": "اپليكيشن موقع پرداخت خطا داد و پول دو بار كم شد. مورد 3",
-    "expected_label": "rejection",
-    "expected_reason": "override_18_app_problem",
-    "min_confidence": 0.55,
+    "text": "اپليكيشن موقع پرداخت خطا داد و سفارش ثبت نشد.",
+    "expected_label": "disapproval",
+    "expected_reason": "مشکلات_اپلیکیشن",
+    "expected_override": "override_18_app_problem",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_18_app_problem"
+      "override_18_app_problem",
+      "مشکلات_اپلیکیشن"
     ],
-    "equivalence_group": "norm_03"
+    "equivalence_group": "norm_app_error"
   },
   {
     "id": "normalization_03_03",
-    "text": "اَپلیکیشن موقع پرداخت خَطا داد!!! پول دوبار کم شد مورد 3",
-    "expected_label": "rejection",
-    "expected_reason": "override_18_app_problem",
-    "min_confidence": 0.55,
+    "text": "اَپلیکیشن موقع پرداخت خَطا داد و سفارش ثبت نشد.",
+    "expected_label": "disapproval",
+    "expected_reason": "مشکلات_اپلیکیشن",
+    "expected_override": "override_18_app_problem",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_18_app_problem"
+      "override_18_app_problem",
+      "مشکلات_اپلیکیشن"
     ],
-    "equivalence_group": "norm_03"
+    "equivalence_group": "norm_app_error"
   },
   {
     "id": "normalization_03_04",
-    "text": "اپلیکیشن   موقع   پرداخت   خطا داد و پول دو بار کم شد. مورد 3",
-    "expected_label": "rejection",
-    "expected_reason": "override_18_app_problem",
-    "min_confidence": 0.55,
+    "text": "اپلیکیشن   موقع   پرداخت   خطا داد و سفارش ثبت نشد.",
+    "expected_label": "disapproval",
+    "expected_reason": "مشکلات_اپلیکیشن",
+    "expected_override": "override_18_app_problem",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_18_app_problem"
+      "override_18_app_problem",
+      "مشکلات_اپلیکیشن"
     ],
-    "equivalence_group": "norm_03"
+    "equivalence_group": "norm_app_error"
   },
   {
     "id": "normalization_03_05",
-    "text": "اپليكیشن موقع payment خطا داد و پول ۲ بار کم شد. مورد 3",
-    "expected_label": "rejection",
-    "expected_reason": "override_18_app_problem",
-    "min_confidence": 0.55,
+    "text": "برنامه موقع پرداخت خطا داد و سفارش ثبت نشد.",
+    "expected_label": "disapproval",
+    "expected_reason": "مشکلات_اپلیکیشن",
+    "expected_override": "override_18_app_problem",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_18_app_problem"
+      "override_18_app_problem",
+      "مشکلات_اپلیکیشن"
     ],
-    "equivalence_group": "norm_03"
+    "equivalence_group": "norm_app_error"
   },
   {
     "id": "normalization_04_01",
-    "text": "لطفا همین سفارش را عوض کنید و نوشابه را حذف کنید. مورد 4",
-    "expected_label": "rejection",
-    "expected_reason": "override_09_order_change",
-    "min_confidence": 0.55,
+    "text": "لطفا همین سفارش را عوض کنید و نوشابه را حذف کنید.",
+    "expected_label": "disapproval",
+    "expected_reason": "درخواست_ویرایش_سفارش",
+    "expected_override": "override_09_order_change",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_09_order_change"
+      "override_09_order_change",
+      "درخواست_ویرایش_سفارش"
     ],
-    "equivalence_group": "norm_04"
+    "equivalence_group": "norm_order_change"
   },
   {
     "id": "normalization_04_02",
-    "text": "لطفاً همين سفارش را عوض كنيد و نوشابه را حذف كنيد. مورد 4",
-    "expected_label": "rejection",
-    "expected_reason": "override_09_order_change",
-    "min_confidence": 0.55,
+    "text": "لطفاً همین سفارش را عوض کنید و نوشابه را حذف کنید.",
+    "expected_label": "disapproval",
+    "expected_reason": "درخواست_ویرایش_سفارش",
+    "expected_override": "override_09_order_change",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_09_order_change"
+      "override_09_order_change",
+      "درخواست_ویرایش_سفارش"
     ],
-    "equivalence_group": "norm_04"
+    "equivalence_group": "norm_order_change"
   },
   {
     "id": "normalization_04_03",
-    "text": "لطفااا همین سفارش را عوض کنید!!! نوشابه را حذف کنید مورد 4",
-    "expected_label": "rejection",
-    "expected_reason": "override_09_order_change",
-    "min_confidence": 0.55,
+    "text": "لطفااا همین سفارش را عوض کنید و نوشابه را حذف کنید.",
+    "expected_label": "disapproval",
+    "expected_reason": "درخواست_ویرایش_سفارش",
+    "expected_override": "override_09_order_change",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_09_order_change"
+      "override_09_order_change",
+      "درخواست_ویرایش_سفارش"
     ],
-    "equivalence_group": "norm_04"
+    "equivalence_group": "norm_order_change"
   },
   {
     "id": "normalization_04_04",
-    "text": "لطفا همین سفارش را عوض‌کنید و نوشابه را حذف‌کنید. مورد 4",
-    "expected_label": "rejection",
-    "expected_reason": "override_09_order_change",
-    "min_confidence": 0.55,
+    "text": "لطفا همین سفارش رو عوض کنین و نوشابه رو حذف کنین.",
+    "expected_label": "disapproval",
+    "expected_reason": "درخواست_ویرایش_سفارش",
+    "expected_override": "override_09_order_change",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_09_order_change"
+      "override_09_order_change",
+      "درخواست_ویرایش_سفارش"
     ],
-    "equivalence_group": "norm_04"
+    "equivalence_group": "norm_order_change"
   },
   {
     "id": "normalization_04_05",
-    "text": "لطفا همین سفارش رو عوض کنین و نوشابه رو حذف کنین. مورد 4",
-    "expected_label": "rejection",
-    "expected_reason": "override_09_order_change",
-    "min_confidence": 0.55,
+    "text": "لطفا همین سفارش را عوض‌کنید و نوشابه را حذف‌کنید.",
+    "expected_label": "disapproval",
+    "expected_reason": "درخواست_ویرایش_سفارش",
+    "expected_override": "override_09_order_change",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_09_order_change"
+      "override_09_order_change",
+      "درخواست_ویرایش_سفارش"
     ],
-    "equivalence_group": "norm_04"
+    "equivalence_group": "norm_order_change"
   },
   {
     "id": "normalization_05_01",
-    "text": "کباب خیلی خوب بود و بسته بندی تمیز رسید. #5",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.55,
+    "text": "غذا خوب",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_20_incomplete",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
-      "golden_rule"
+      "override",
+      "override_20_incomplete",
+      "دیدگاه_نامرتبط"
     ],
-    "equivalence_group": "norm_05"
+    "equivalence_group": "norm_incomplete"
   },
   {
     "id": "normalization_05_02",
-    "text": "كباب خيلي خوب بود و بسته بندي تميز رسيد. #5",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.55,
+    "text": "غذا   خوب",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_20_incomplete",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
-      "golden_rule"
+      "override",
+      "override_20_incomplete",
+      "دیدگاه_نامرتبط"
     ],
-    "equivalence_group": "norm_05"
+    "equivalence_group": "norm_incomplete"
   },
   {
     "id": "normalization_05_03",
-    "text": "کِباب خیلییی خوب بود!!! بسته‌بندی تمیز رسید. #5",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.55,
+    "text": "غذااا خوب",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_20_incomplete",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
-      "golden_rule"
+      "override",
+      "override_20_incomplete",
+      "دیدگاه_نامرتبط"
     ],
-    "equivalence_group": "norm_05"
+    "equivalence_group": "norm_incomplete"
   },
   {
     "id": "normalization_05_04",
-    "text": "كـباب   خیلی   خوب بود، بسته بندي تميز رسيد #5",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.55,
+    "text": "غذا خوب؟",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_20_incomplete",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
-      "golden_rule"
+      "override",
+      "override_20_incomplete",
+      "دیدگاه_نامرتبط"
     ],
-    "equivalence_group": "norm_05"
+    "equivalence_group": "norm_incomplete"
   },
   {
     "id": "normalization_05_05",
-    "text": "کباب خیلی خوب بود و بسته بندی تمیز رسید :) #5",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.55,
+    "text": "غذا خوب...",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_20_incomplete",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
-      "golden_rule"
+      "override",
+      "override_20_incomplete",
+      "دیدگاه_نامرتبط"
     ],
-    "equivalence_group": "norm_05"
+    "equivalence_group": "norm_incomplete"
   },
   {
     "id": "normalization_06_01",
-    "text": "داخل پیتزا مو پیدا کردم و ظرف بوی بد می داد. مورد 6",
-    "expected_label": "rejection",
-    "expected_reason": "override_07_hygiene",
-    "min_confidence": 0.55,
+    "text": "کد تخفیف برای سفارش بعدی بدهید.",
+    "expected_label": "disapproval",
+    "expected_reason": "موارد_مرتبط_با_کد_تخفیف",
+    "expected_override": "override_05_discount",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_07_hygiene"
+      "override_05_discount",
+      "موارد_مرتبط_با_کد_تخفیف"
     ],
-    "equivalence_group": "norm_06"
+    "equivalence_group": "norm_discount"
   },
   {
     "id": "normalization_06_02",
-    "text": "داخل پيتزا مو پيدا كردم و ظرف بوي بد مي داد. مورد 6",
-    "expected_label": "rejection",
-    "expected_reason": "override_07_hygiene",
-    "min_confidence": 0.55,
+    "text": "كد تخفيف برای سفارش بعدی بدهید.",
+    "expected_label": "disapproval",
+    "expected_reason": "موارد_مرتبط_با_کد_تخفیف",
+    "expected_override": "override_05_discount",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_07_hygiene"
+      "override_05_discount",
+      "موارد_مرتبط_با_کد_تخفیف"
     ],
-    "equivalence_group": "norm_06"
+    "equivalence_group": "norm_discount"
   },
   {
     "id": "normalization_06_03",
-    "text": "داااخل پیتزا مووو پیدا کردم!!! ظرف بووی بد میداد مورد 6",
-    "expected_label": "rejection",
-    "expected_reason": "override_07_hygiene",
-    "min_confidence": 0.55,
+    "text": "کد تخفیففف برای سفارش بعدی بدهید.",
+    "expected_label": "disapproval",
+    "expected_reason": "موارد_مرتبط_با_کد_تخفیف",
+    "expected_override": "override_05_discount",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_07_hygiene"
+      "override_05_discount",
+      "موارد_مرتبط_با_کد_تخفیف"
     ],
-    "equivalence_group": "norm_06"
+    "equivalence_group": "norm_discount"
   },
   {
     "id": "normalization_06_04",
-    "text": "داخل پیتزا مُو پیدا کردم و ظرف بوی بد می‌داد. مورد 6",
-    "expected_label": "rejection",
-    "expected_reason": "override_07_hygiene",
-    "min_confidence": 0.55,
+    "text": "کد‌تخفیف برای سفارش بعدی بدهید.",
+    "expected_label": "disapproval",
+    "expected_reason": "موارد_مرتبط_با_کد_تخفیف",
+    "expected_override": "override_05_discount",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_07_hygiene"
+      "override_05_discount",
+      "موارد_مرتبط_با_کد_تخفیف"
     ],
-    "equivalence_group": "norm_06"
+    "equivalence_group": "norm_discount"
   },
   {
     "id": "normalization_06_05",
-    "text": "داخل پـیتزا مو پیدا کردم و ظرف بوی بد می داد؟؟ مورد 6",
-    "expected_label": "rejection",
-    "expected_reason": "override_07_hygiene",
-    "min_confidence": 0.55,
+    "text": "کوپن برای سفارش بعدی بدهید.",
+    "expected_label": "disapproval",
+    "expected_reason": "موارد_مرتبط_با_کد_تخفیف",
+    "expected_override": "override_05_discount",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_07_hygiene"
+      "override_05_discount",
+      "موارد_مرتبط_با_کد_تخفیف"
     ],
-    "equivalence_group": "norm_06"
+    "equivalence_group": "norm_discount"
   },
   {
     "id": "normalization_07_01",
-    "text": "اپلیکیشن موقع پرداخت خطا داد و پول دو بار کم شد. مورد 7",
-    "expected_label": "rejection",
-    "expected_reason": "override_18_app_problem",
-    "min_confidence": 0.55,
+    "text": "پیک بی ادب بود و با عصبانیت حرف زد.",
+    "expected_label": "disapproval",
+    "expected_reason": "برخورد_نامناسب_پیک",
+    "expected_override": "override_19_courier",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_18_app_problem"
+      "override_19_courier",
+      "برخورد_نامناسب_پیک"
     ],
-    "equivalence_group": "norm_07"
+    "equivalence_group": "norm_courier"
   },
   {
     "id": "normalization_07_02",
-    "text": "اپليكيشن موقع پرداخت خطا داد و پول دو بار كم شد. مورد 7",
-    "expected_label": "rejection",
-    "expected_reason": "override_18_app_problem",
-    "min_confidence": 0.55,
+    "text": "پيك بی ادب بود و با عصبانیت حرف زد.",
+    "expected_label": "disapproval",
+    "expected_reason": "برخورد_نامناسب_پیک",
+    "expected_override": "override_19_courier",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_18_app_problem"
+      "override_19_courier",
+      "برخورد_نامناسب_پیک"
     ],
-    "equivalence_group": "norm_07"
+    "equivalence_group": "norm_courier"
   },
   {
     "id": "normalization_07_03",
-    "text": "اَپلیکیشن موقع پرداخت خَطا داد!!! پول دوبار کم شد مورد 7",
-    "expected_label": "rejection",
-    "expected_reason": "override_18_app_problem",
-    "min_confidence": 0.55,
+    "text": "پیک بی‌ادب بود و با عصبانیت حرف زد.",
+    "expected_label": "disapproval",
+    "expected_reason": "برخورد_نامناسب_پیک",
+    "expected_override": "override_19_courier",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_18_app_problem"
+      "override_19_courier",
+      "برخورد_نامناسب_پیک"
     ],
-    "equivalence_group": "norm_07"
+    "equivalence_group": "norm_courier"
   },
   {
     "id": "normalization_07_04",
-    "text": "اپلیکیشن   موقع   پرداخت   خطا داد و پول دو بار کم شد. مورد 7",
-    "expected_label": "rejection",
-    "expected_reason": "override_18_app_problem",
-    "min_confidence": 0.55,
+    "text": "پیک بی ادب بود و با عصبانيت حرف زد.",
+    "expected_label": "disapproval",
+    "expected_reason": "برخورد_نامناسب_پیک",
+    "expected_override": "override_19_courier",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_18_app_problem"
+      "override_19_courier",
+      "برخورد_نامناسب_پیک"
     ],
-    "equivalence_group": "norm_07"
+    "equivalence_group": "norm_courier"
   },
   {
     "id": "normalization_07_05",
-    "text": "اپليكیشن موقع payment خطا داد و پول ۲ بار کم شد. مورد 7",
-    "expected_label": "rejection",
-    "expected_reason": "override_18_app_problem",
-    "min_confidence": 0.55,
+    "text": "سفیر بی ادب بود و با عصبانیت حرف زد.",
+    "expected_label": "disapproval",
+    "expected_reason": "برخورد_نامناسب_پیک",
+    "expected_override": "override_19_courier",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_18_app_problem"
+      "override_19_courier",
+      "برخورد_نامناسب_پیک"
     ],
-    "equivalence_group": "norm_07"
+    "equivalence_group": "norm_courier"
   },
   {
     "id": "normalization_08_01",
-    "text": "لطفا همین سفارش را عوض کنید و نوشابه را حذف کنید. مورد 8",
-    "expected_label": "rejection",
-    "expected_reason": "override_09_order_change",
-    "min_confidence": 0.55,
+    "text": "اسنپ در متن نظر آمده است.",
+    "expected_label": "disapproval",
+    "expected_reason": "تبلیغات",
+    "expected_override": "override_01_brand",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_09_order_change"
+      "override_01_brand",
+      "تبلیغات"
     ],
-    "equivalence_group": "norm_08"
+    "equivalence_group": "norm_brand"
   },
   {
     "id": "normalization_08_02",
-    "text": "لطفاً همين سفارش را عوض كنيد و نوشابه را حذف كنيد. مورد 8",
-    "expected_label": "rejection",
-    "expected_reason": "override_09_order_change",
-    "min_confidence": 0.55,
+    "text": "اسنب در متن نظر آمده است.",
+    "expected_label": "disapproval",
+    "expected_reason": "تبلیغات",
+    "expected_override": "override_01_brand",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_09_order_change"
+      "override_01_brand",
+      "تبلیغات"
     ],
-    "equivalence_group": "norm_08"
+    "equivalence_group": "norm_brand"
   },
   {
     "id": "normalization_08_03",
-    "text": "لطفااا همین سفارش را عوض کنید!!! نوشابه را حذف کنید مورد 8",
-    "expected_label": "rejection",
-    "expected_reason": "override_09_order_change",
-    "min_confidence": 0.55,
+    "text": "snapp در متن نظر آمده است.",
+    "expected_label": "disapproval",
+    "expected_reason": "تبلیغات",
+    "expected_override": "override_01_brand",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_09_order_change"
+      "override_01_brand",
+      "تبلیغات"
     ],
-    "equivalence_group": "norm_08"
+    "equivalence_group": "norm_brand"
   },
   {
     "id": "normalization_08_04",
-    "text": "لطفا همین سفارش را عوض‌کنید و نوشابه را حذف‌کنید. مورد 8",
-    "expected_label": "rejection",
-    "expected_reason": "override_09_order_change",
-    "min_confidence": 0.55,
+    "text": "snap در متن نظر آمده است.",
+    "expected_label": "disapproval",
+    "expected_reason": "تبلیغات",
+    "expected_override": "override_01_brand",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_09_order_change"
+      "override_01_brand",
+      "تبلیغات"
     ],
-    "equivalence_group": "norm_08"
+    "equivalence_group": "norm_brand"
   },
   {
     "id": "normalization_08_05",
-    "text": "لطفا همین سفارش رو عوض کنین و نوشابه رو حذف کنین. مورد 8",
-    "expected_label": "rejection",
-    "expected_reason": "override_09_order_change",
-    "min_confidence": 0.55,
+    "text": "SNAP در متن نظر آمده است.",
+    "expected_label": "disapproval",
+    "expected_reason": "تبلیغات",
+    "expected_override": "override_01_brand",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_09_order_change"
+      "override_01_brand",
+      "تبلیغات"
     ],
-    "equivalence_group": "norm_08"
+    "equivalence_group": "norm_brand"
   },
   {
     "id": "normalization_09_01",
-    "text": "کباب خیلی خوب بود و بسته بندی تمیز رسید. #9",
+    "text": "غذا حلال و خوشمزه بود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.55,
+    "expected_override": null,
+    "min_confidence": 0.5,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "golden_rule"
     ],
-    "equivalence_group": "norm_09"
+    "equivalence_group": "norm_halal"
   },
   {
     "id": "normalization_09_02",
-    "text": "كباب خيلي خوب بود و بسته بندي تميز رسيد. #9",
+    "text": "غذا حلال و خوش مزه بود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.55,
+    "expected_override": null,
+    "min_confidence": 0.5,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "golden_rule"
     ],
-    "equivalence_group": "norm_09"
+    "equivalence_group": "norm_halal"
   },
   {
     "id": "normalization_09_03",
-    "text": "کِباب خیلییی خوب بود!!! بسته‌بندی تمیز رسید. #9",
+    "text": "غذا حلال و خیلی خوشمزه بود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.55,
+    "expected_override": null,
+    "min_confidence": 0.5,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "golden_rule"
     ],
-    "equivalence_group": "norm_09"
+    "equivalence_group": "norm_halal"
   },
   {
     "id": "normalization_09_04",
-    "text": "كـباب   خیلی   خوب بود، بسته بندي تميز رسيد #9",
+    "text": "مواد حلال استفاده کرده بودند و غذا خوشمزه بود.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.55,
+    "expected_override": null,
+    "min_confidence": 0.5,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "golden_rule"
     ],
-    "equivalence_group": "norm_09"
+    "equivalence_group": "norm_halal"
   },
   {
     "id": "normalization_09_05",
-    "text": "کباب خیلی خوب بود و بسته بندی تمیز رسید :) #9",
+    "text": "این غذا حلال بود و کیفیت خوبی داشت.",
     "expected_label": "approval",
     "expected_reason": null,
-    "min_confidence": 0.55,
+    "expected_override": null,
+    "min_confidence": 0.5,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "golden_rule"
     ],
-    "equivalence_group": "norm_09"
+    "equivalence_group": "norm_halal"
   },
   {
     "id": "normalization_10_01",
-    "text": "داخل پیتزا مو پیدا کردم و ظرف بوی بد می داد. مورد 10",
-    "expected_label": "rejection",
-    "expected_reason": "override_07_hygiene",
-    "min_confidence": 0.55,
+    "text": "وضع مملکت باعث شده غذا خریدن سخت شود.",
+    "expected_label": "disapproval",
+    "expected_reason": "سياسي",
+    "expected_override": "override_02_political",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_07_hygiene"
+      "override_02_political",
+      "سياسي"
     ],
-    "equivalence_group": "norm_10"
+    "equivalence_group": "norm_political"
   },
   {
     "id": "normalization_10_02",
-    "text": "داخل پيتزا مو پيدا كردم و ظرف بوي بد مي داد. مورد 10",
-    "expected_label": "rejection",
-    "expected_reason": "override_07_hygiene",
-    "min_confidence": 0.55,
+    "text": "وضع كشور باعث شده غذا خریدن سخت شود.",
+    "expected_label": "disapproval",
+    "expected_reason": "سياسي",
+    "expected_override": "override_02_political",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_07_hygiene"
+      "override_02_political",
+      "سياسي"
     ],
-    "equivalence_group": "norm_10"
+    "equivalence_group": "norm_political"
   },
   {
     "id": "normalization_10_03",
-    "text": "داااخل پیتزا مووو پیدا کردم!!! ظرف بووی بد میداد مورد 10",
-    "expected_label": "rejection",
-    "expected_reason": "override_07_hygiene",
-    "min_confidence": 0.55,
+    "text": "تورم و دولت باعث شده غذا خریدن سخت شود.",
+    "expected_label": "disapproval",
+    "expected_reason": "سياسي",
+    "expected_override": "override_02_political",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_07_hygiene"
+      "override_02_political",
+      "سياسي"
     ],
-    "equivalence_group": "norm_10"
+    "equivalence_group": "norm_political"
   },
   {
     "id": "normalization_10_04",
-    "text": "داخل پیتزا مُو پیدا کردم و ظرف بوی بد می‌داد. مورد 10",
-    "expected_label": "rejection",
-    "expected_reason": "override_07_hygiene",
-    "min_confidence": 0.55,
+    "text": "زن زندگی آزادی را در متن نظر می نویسم.",
+    "expected_label": "disapproval",
+    "expected_reason": "سياسي",
+    "expected_override": "override_02_political",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_07_hygiene"
+      "override_02_political",
+      "سياسي"
     ],
-    "equivalence_group": "norm_10"
+    "equivalence_group": "norm_political"
   },
   {
     "id": "normalization_10_05",
-    "text": "داخل پـیتزا مو پیدا کردم و ظرف بوی بد می داد؟؟ مورد 10",
-    "expected_label": "rejection",
-    "expected_reason": "override_07_hygiene",
-    "min_confidence": 0.55,
+    "text": "مسئولین باید جواب گرونی غذا را بدهند.",
+    "expected_label": "disapproval",
+    "expected_reason": "سياسي",
+    "expected_override": "override_02_political",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_07_hygiene"
+      "override_02_political",
+      "سياسي"
     ],
-    "equivalence_group": "norm_10"
+    "equivalence_group": "norm_political"
   },
   {
     "id": "normalization_11_01",
-    "text": "اپلیکیشن موقع پرداخت خطا داد و پول دو بار کم شد. مورد 11",
-    "expected_label": "rejection",
-    "expected_reason": "override_18_app_problem",
-    "min_confidence": 0.55,
+    "text": "رستوران بهار از کافه نارنج بهتر است.",
+    "expected_label": "disapproval",
+    "expected_reason": "مقایسه_دو_مجموعه_با_یکدیگر",
+    "expected_override": "override_10_comparison",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_18_app_problem"
+      "override_10_comparison",
+      "مقایسه_دو_مجموعه_با_یکدیگر"
     ],
-    "equivalence_group": "norm_11"
+    "equivalence_group": "norm_comparison"
   },
   {
     "id": "normalization_11_02",
-    "text": "اپليكيشن موقع پرداخت خطا داد و پول دو بار كم شد. مورد 11",
-    "expected_label": "rejection",
-    "expected_reason": "override_18_app_problem",
-    "min_confidence": 0.55,
+    "text": "رستوران بهار از كافه نارنج بهتر است.",
+    "expected_label": "disapproval",
+    "expected_reason": "مقایسه_دو_مجموعه_با_یکدیگر",
+    "expected_override": "override_10_comparison",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_18_app_problem"
+      "override_10_comparison",
+      "مقایسه_دو_مجموعه_با_یکدیگر"
     ],
-    "equivalence_group": "norm_11"
+    "equivalence_group": "norm_comparison"
   },
   {
     "id": "normalization_11_03",
-    "text": "اَپلیکیشن موقع پرداخت خَطا داد!!! پول دوبار کم شد مورد 11",
-    "expected_label": "rejection",
-    "expected_reason": "override_18_app_problem",
-    "min_confidence": 0.55,
+    "text": "رستوران بهار از کافه نارنج بهتره.",
+    "expected_label": "disapproval",
+    "expected_reason": "مقایسه_دو_مجموعه_با_یکدیگر",
+    "expected_override": "override_10_comparison",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_18_app_problem"
+      "override_10_comparison",
+      "مقایسه_دو_مجموعه_با_یکدیگر"
     ],
-    "equivalence_group": "norm_11"
+    "equivalence_group": "norm_comparison"
   },
   {
     "id": "normalization_11_04",
-    "text": "اپلیکیشن   موقع   پرداخت   خطا داد و پول دو بار کم شد. مورد 11",
-    "expected_label": "rejection",
-    "expected_reason": "override_18_app_problem",
-    "min_confidence": 0.55,
+    "text": "رستوران بهار نسبت به کافه نارنج بهتر است.",
+    "expected_label": "disapproval",
+    "expected_reason": "مقایسه_دو_مجموعه_با_یکدیگر",
+    "expected_override": "override_10_comparison",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_18_app_problem"
+      "override_10_comparison",
+      "مقایسه_دو_مجموعه_با_یکدیگر"
     ],
-    "equivalence_group": "norm_11"
+    "equivalence_group": "norm_comparison"
   },
   {
     "id": "normalization_11_05",
-    "text": "اپليكیشن موقع payment خطا داد و پول ۲ بار کم شد. مورد 11",
-    "expected_label": "rejection",
-    "expected_reason": "override_18_app_problem",
-    "min_confidence": 0.55,
+    "text": "بین رستوران بهار و کافه نارنج اولی بهتر بود.",
+    "expected_label": "disapproval",
+    "expected_reason": "مقایسه_دو_مجموعه_با_یکدیگر",
+    "expected_override": "override_10_comparison",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_18_app_problem"
+      "override_10_comparison",
+      "مقایسه_دو_مجموعه_با_یکدیگر"
     ],
-    "equivalence_group": "norm_11"
+    "equivalence_group": "norm_comparison"
   },
   {
     "id": "normalization_12_01",
-    "text": "لطفا همین سفارش را عوض کنید و نوشابه را حذف کنید. مورد 12",
-    "expected_label": "rejection",
-    "expected_reason": "override_09_order_change",
-    "min_confidence": 0.55,
+    "text": "غذا را دریافت کردم.",
+    "expected_label": "unknown",
+    "expected_reason": null,
+    "expected_override": null,
+    "min_confidence": 0.5,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
-      "override",
-      "override_09_order_change"
+      "unknown"
     ],
-    "equivalence_group": "norm_12"
+    "equivalence_group": "norm_unknown"
   },
   {
     "id": "normalization_12_02",
-    "text": "لطفاً همين سفارش را عوض كنيد و نوشابه را حذف كنيد. مورد 12",
-    "expected_label": "rejection",
-    "expected_reason": "override_09_order_change",
-    "min_confidence": 0.55,
+    "text": "سفارش تحویل شد.",
+    "expected_label": "unknown",
+    "expected_reason": null,
+    "expected_override": null,
+    "min_confidence": 0.5,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
-      "override",
-      "override_09_order_change"
+      "unknown"
     ],
-    "equivalence_group": "norm_12"
+    "equivalence_group": "norm_unknown"
   },
   {
     "id": "normalization_12_03",
-    "text": "لطفااا همین سفارش را عوض کنید!!! نوشابه را حذف کنید مورد 12",
-    "expected_label": "rejection",
-    "expected_reason": "override_09_order_change",
-    "min_confidence": 0.55,
+    "text": "یک بسته غذا آمد.",
+    "expected_label": "unknown",
+    "expected_reason": null,
+    "expected_override": null,
+    "min_confidence": 0.5,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
-      "override",
-      "override_09_order_change"
+      "unknown"
     ],
-    "equivalence_group": "norm_12"
+    "equivalence_group": "norm_unknown"
   },
   {
     "id": "normalization_12_04",
-    "text": "لطفا همین سفارش را عوض‌کنید و نوشابه را حذف‌کنید. مورد 12",
-    "expected_label": "rejection",
-    "expected_reason": "override_09_order_change",
-    "min_confidence": 0.55,
+    "text": "من غذا گرفتم.",
+    "expected_label": "unknown",
+    "expected_reason": null,
+    "expected_override": null,
+    "min_confidence": 0.5,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
-      "override",
-      "override_09_order_change"
+      "unknown"
     ],
-    "equivalence_group": "norm_12"
+    "equivalence_group": "norm_unknown"
   },
   {
     "id": "normalization_12_05",
-    "text": "لطفا همین سفارش رو عوض کنین و نوشابه رو حذف کنین. مورد 12",
-    "expected_label": "rejection",
-    "expected_reason": "override_09_order_change",
-    "min_confidence": 0.55,
+    "text": "سفارش روی میز بود.",
+    "expected_label": "unknown",
+    "expected_reason": null,
+    "expected_override": null,
+    "min_confidence": 0.5,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
-      "override",
-      "override_09_order_change"
+      "unknown"
     ],
-    "equivalence_group": "norm_12"
+    "equivalence_group": "norm_unknown"
   },
   {
     "id": "normalization_13_01",
-    "text": "کباب خیلی خوب بود و بسته بندی تمیز رسید. #13",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.55,
+    "text": "غذا خوب بود 😊",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_17_emoji",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
-      "golden_rule"
+      "override",
+      "override_17_emoji",
+      "دیدگاه_نامرتبط"
     ],
-    "equivalence_group": "norm_13"
+    "equivalence_group": "norm_emoji"
   },
   {
     "id": "normalization_13_02",
-    "text": "كباب خيلي خوب بود و بسته بندي تميز رسيد. #13",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.55,
+    "text": "غذا خوب بود :)",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_17_emoji",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
-      "golden_rule"
+      "override",
+      "override_17_emoji",
+      "دیدگاه_نامرتبط"
     ],
-    "equivalence_group": "norm_13"
+    "equivalence_group": "norm_emoji"
   },
   {
     "id": "normalization_13_03",
-    "text": "کِباب خیلییی خوب بود!!! بسته‌بندی تمیز رسید. #13",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.55,
+    "text": "غذا خوب بود ★",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_17_emoji",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
-      "golden_rule"
+      "override",
+      "override_17_emoji",
+      "دیدگاه_نامرتبط"
     ],
-    "equivalence_group": "norm_13"
+    "equivalence_group": "norm_emoji"
   },
   {
     "id": "normalization_13_04",
-    "text": "كـباب   خیلی   خوب بود، بسته بندي تميز رسيد #13",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.55,
+    "text": "غذا خوب بود ♥",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_17_emoji",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
-      "golden_rule"
+      "override",
+      "override_17_emoji",
+      "دیدگاه_نامرتبط"
     ],
-    "equivalence_group": "norm_13"
+    "equivalence_group": "norm_emoji"
   },
   {
     "id": "normalization_13_05",
-    "text": "کباب خیلی خوب بود و بسته بندی تمیز رسید :) #13",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.55,
+    "text": "غذا خوب بود 👍",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_17_emoji",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
-      "golden_rule"
+      "override",
+      "override_17_emoji",
+      "دیدگاه_نامرتبط"
     ],
-    "equivalence_group": "norm_13"
+    "equivalence_group": "norm_emoji"
   },
   {
     "id": "normalization_14_01",
-    "text": "داخل پیتزا مو پیدا کردم و ظرف بوی بد می داد. مورد 14",
-    "expected_label": "rejection",
-    "expected_reason": "override_07_hygiene",
-    "min_confidence": 0.55,
+    "text": "شماره من 09123456789 است.",
+    "expected_label": "disapproval",
+    "expected_reason": "نقض_حریم_شخصی",
+    "expected_override": "override_03_pii",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_07_hygiene"
+      "override_03_pii",
+      "نقض_حریم_شخصی"
     ],
-    "equivalence_group": "norm_14"
+    "equivalence_group": "norm_privacy"
   },
   {
     "id": "normalization_14_02",
-    "text": "داخل پيتزا مو پيدا كردم و ظرف بوي بد مي داد. مورد 14",
-    "expected_label": "rejection",
-    "expected_reason": "override_07_hygiene",
-    "min_confidence": 0.55,
+    "text": "شماره من ۰۹۱۲۳۴۵۶۷۸۹ است.",
+    "expected_label": "disapproval",
+    "expected_reason": "نقض_حریم_شخصی",
+    "expected_override": "override_03_pii",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_07_hygiene"
+      "override_03_pii",
+      "نقض_حریم_شخصی"
     ],
-    "equivalence_group": "norm_14"
+    "equivalence_group": "norm_privacy"
   },
   {
     "id": "normalization_14_03",
-    "text": "داااخل پیتزا مووو پیدا کردم!!! ظرف بووی بد میداد مورد 14",
-    "expected_label": "rejection",
-    "expected_reason": "override_07_hygiene",
-    "min_confidence": 0.55,
+    "text": "آدرس من خیابان آزادی پلاک ۱۲ است.",
+    "expected_label": "disapproval",
+    "expected_reason": "نقض_حریم_شخصی",
+    "expected_override": "override_03_pii",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_07_hygiene"
+      "override_03_pii",
+      "نقض_حریم_شخصی"
     ],
-    "equivalence_group": "norm_14"
+    "equivalence_group": "norm_privacy"
   },
   {
     "id": "normalization_14_04",
-    "text": "داخل پیتزا مُو پیدا کردم و ظرف بوی بد می‌داد. مورد 14",
-    "expected_label": "rejection",
-    "expected_reason": "override_07_hygiene",
-    "min_confidence": 0.55,
+    "text": "نامم علی احمدی است.",
+    "expected_label": "disapproval",
+    "expected_reason": "نقض_حریم_شخصی",
+    "expected_override": "override_03_pii",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_07_hygiene"
+      "override_03_pii",
+      "نقض_حریم_شخصی"
     ],
-    "equivalence_group": "norm_14"
+    "equivalence_group": "norm_privacy"
   },
   {
     "id": "normalization_14_05",
-    "text": "داخل پـیتزا مو پیدا کردم و ظرف بوی بد می داد؟؟ مورد 14",
-    "expected_label": "rejection",
-    "expected_reason": "override_07_hygiene",
-    "min_confidence": 0.55,
+    "text": "کد ملی ۱۲۳۴۵۶۷۸۹۰ دارم.",
+    "expected_label": "disapproval",
+    "expected_reason": "نقض_حریم_شخصی",
+    "expected_override": "override_03_pii",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_07_hygiene"
+      "override_03_pii",
+      "نقض_حریم_شخصی"
     ],
-    "equivalence_group": "norm_14"
+    "equivalence_group": "norm_privacy"
   },
   {
     "id": "normalization_15_01",
-    "text": "اپلیکیشن موقع پرداخت خطا داد و پول دو بار کم شد. مورد 15",
-    "expected_label": "rejection",
-    "expected_reason": "override_18_app_problem",
-    "min_confidence": 0.55,
+    "text": "غذا سرد رسید و قابل خوردن نبود.",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_12_delivery_problem",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_18_app_problem"
+      "override_12_delivery_problem",
+      "دیدگاه_نامرتبط"
     ],
-    "equivalence_group": "norm_15"
+    "equivalence_group": "norm_delivery"
   },
   {
     "id": "normalization_15_02",
-    "text": "اپليكيشن موقع پرداخت خطا داد و پول دو بار كم شد. مورد 15",
-    "expected_label": "rejection",
-    "expected_reason": "override_18_app_problem",
-    "min_confidence": 0.55,
+    "text": "غذا یخ کرده رسید و قابل خوردن نبود.",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_12_delivery_problem",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_18_app_problem"
+      "override_12_delivery_problem",
+      "دیدگاه_نامرتبط"
     ],
-    "equivalence_group": "norm_15"
+    "equivalence_group": "norm_delivery"
   },
   {
     "id": "normalization_15_03",
-    "text": "اَپلیکیشن موقع پرداخت خَطا داد!!! پول دوبار کم شد مورد 15",
-    "expected_label": "rejection",
-    "expected_reason": "override_18_app_problem",
-    "min_confidence": 0.55,
+    "text": "بسته غذا له شده بود.",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_12_delivery_problem",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_18_app_problem"
+      "override_12_delivery_problem",
+      "دیدگاه_نامرتبط"
     ],
-    "equivalence_group": "norm_15"
+    "equivalence_group": "norm_delivery"
   },
   {
     "id": "normalization_15_04",
-    "text": "اپلیکیشن   موقع   پرداخت   خطا داد و پول دو بار کم شد. مورد 15",
-    "expected_label": "rejection",
-    "expected_reason": "override_18_app_problem",
-    "min_confidence": 0.55,
+    "text": "سفارش اشتباه فرستادند.",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_12_delivery_problem",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_18_app_problem"
+      "override_12_delivery_problem",
+      "دیدگاه_نامرتبط"
     ],
-    "equivalence_group": "norm_15"
+    "equivalence_group": "norm_delivery"
   },
   {
     "id": "normalization_15_05",
-    "text": "اپليكیشن موقع payment خطا داد و پول ۲ بار کم شد. مورد 15",
-    "expected_label": "rejection",
-    "expected_reason": "override_18_app_problem",
-    "min_confidence": 0.55,
+    "text": "یک آیتم از سفارش ناقص بود.",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_12_delivery_problem",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_18_app_problem"
+      "override_12_delivery_problem",
+      "دیدگاه_نامرتبط"
     ],
-    "equivalence_group": "norm_15"
+    "equivalence_group": "norm_delivery"
   },
   {
     "id": "normalization_16_01",
-    "text": "لطفا همین سفارش را عوض کنید و نوشابه را حذف کنید. مورد 16",
-    "expected_label": "rejection",
-    "expected_reason": "override_09_order_change",
-    "min_confidence": 0.55,
+    "text": "غذا دیر رسید ولی محترمانه می گویم خوب بود.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "expected_override": null,
+    "min_confidence": 0.5,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
-      "override",
-      "override_09_order_change"
+      "golden_rule"
     ],
-    "equivalence_group": "norm_16"
+    "equivalence_group": "norm_delay_exception"
   },
   {
     "id": "normalization_16_02",
-    "text": "لطفاً همين سفارش را عوض كنيد و نوشابه را حذف كنيد. مورد 16",
-    "expected_label": "rejection",
-    "expected_reason": "override_09_order_change",
-    "min_confidence": 0.55,
+    "text": "غذا کمی دیر رسید ولی کیفیت قابل قبول بود.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "expected_override": null,
+    "min_confidence": 0.5,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
-      "override",
-      "override_09_order_change"
+      "golden_rule"
     ],
-    "equivalence_group": "norm_16"
+    "equivalence_group": "norm_delay_exception"
   },
   {
     "id": "normalization_16_03",
-    "text": "لطفااا همین سفارش را عوض کنید!!! نوشابه را حذف کنید مورد 16",
-    "expected_label": "rejection",
-    "expected_reason": "override_09_order_change",
-    "min_confidence": 0.55,
+    "text": "تحویل دیرتر از موعد رسید اما نقد من آرام است.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "expected_override": null,
+    "min_confidence": 0.5,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
-      "override",
-      "override_09_order_change"
+      "golden_rule"
     ],
-    "equivalence_group": "norm_16"
+    "equivalence_group": "norm_delay_exception"
   },
   {
     "id": "normalization_16_04",
-    "text": "لطفا همین سفارش را عوض‌کنید و نوشابه را حذف‌کنید. مورد 16",
-    "expected_label": "rejection",
-    "expected_reason": "override_09_order_change",
-    "min_confidence": 0.55,
+    "text": "سفارش تاخیر داشت ولی غذا خوب بود.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "expected_override": null,
+    "min_confidence": 0.5,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
-      "override",
-      "override_09_order_change"
+      "golden_rule"
     ],
-    "equivalence_group": "norm_16"
+    "equivalence_group": "norm_delay_exception"
   },
   {
     "id": "normalization_16_05",
-    "text": "لطفا همین سفارش رو عوض کنین و نوشابه رو حذف کنین. مورد 16",
-    "expected_label": "rejection",
-    "expected_reason": "override_09_order_change",
-    "min_confidence": 0.55,
+    "text": "پیک دیر رسید ولی برخوردش محترمانه بود.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "expected_override": null,
+    "min_confidence": 0.5,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
-      "override",
-      "override_09_order_change"
+      "golden_rule"
     ],
-    "equivalence_group": "norm_16"
+    "equivalence_group": "norm_delay_exception"
   },
   {
     "id": "normalization_17_01",
-    "text": "کباب خیلی خوب بود و بسته بندی تمیز رسید. #17",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.55,
+    "text": "این غذا حلال و حرامش معلوم نبود.",
+    "expected_label": "disapproval",
+    "expected_reason": "استفاده_از_کلمات_نامناسب",
+    "expected_override": "override_15_religious",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
-      "golden_rule"
+      "override",
+      "override_15_religious",
+      "استفاده_از_کلمات_نامناسب"
     ],
-    "equivalence_group": "norm_17"
+    "equivalence_group": "norm_religious_offensive"
   },
   {
     "id": "normalization_17_02",
-    "text": "كباب خيلي خوب بود و بسته بندي تميز رسيد. #17",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.55,
+    "text": "غذا حلال و حرومش معلوم نبود.",
+    "expected_label": "disapproval",
+    "expected_reason": "استفاده_از_کلمات_نامناسب",
+    "expected_override": "override_15_religious",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
-      "golden_rule"
+      "override",
+      "override_15_religious",
+      "استفاده_از_کلمات_نامناسب"
     ],
-    "equivalence_group": "norm_17"
+    "equivalence_group": "norm_religious_offensive"
   },
   {
     "id": "normalization_17_03",
-    "text": "کِباب خیلییی خوب بود!!! بسته‌بندی تمیز رسید. #17",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.55,
+    "text": "این غذا نجس به نظر می رسید.",
+    "expected_label": "disapproval",
+    "expected_reason": "استفاده_از_کلمات_نامناسب",
+    "expected_override": "override_15_religious",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
-      "golden_rule"
+      "override",
+      "override_15_religious",
+      "استفاده_از_کلمات_نامناسب"
     ],
-    "equivalence_group": "norm_17"
+    "equivalence_group": "norm_religious_offensive"
   },
   {
     "id": "normalization_17_04",
-    "text": "كـباب   خیلی   خوب بود، بسته بندي تميز رسيد #17",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.55,
+    "text": "به اسم حلال غذای حروم دادند.",
+    "expected_label": "disapproval",
+    "expected_reason": "استفاده_از_کلمات_نامناسب",
+    "expected_override": "override_15_religious",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
-      "golden_rule"
+      "override",
+      "override_15_religious",
+      "استفاده_از_کلمات_نامناسب"
     ],
-    "equivalence_group": "norm_17"
+    "equivalence_group": "norm_religious_offensive"
   },
   {
     "id": "normalization_17_05",
-    "text": "کباب خیلی خوب بود و بسته بندی تمیز رسید :) #17",
-    "expected_label": "approval",
-    "expected_reason": null,
-    "min_confidence": 0.55,
+    "text": "بسم الله را هم با این غذا خراب کردند.",
+    "expected_label": "disapproval",
+    "expected_reason": "استفاده_از_کلمات_نامناسب",
+    "expected_override": "override_15_religious",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
-      "golden_rule"
+      "override",
+      "override_15_religious",
+      "استفاده_از_کلمات_نامناسب"
     ],
-    "equivalence_group": "norm_17"
+    "equivalence_group": "norm_religious_offensive"
   },
   {
     "id": "normalization_18_01",
-    "text": "داخل پیتزا مو پیدا کردم و ظرف بوی بد می داد. مورد 18",
-    "expected_label": "rejection",
-    "expected_reason": "override_07_hygiene",
-    "min_confidence": 0.55,
+    "text": "توی ولیعصر بودم.",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_13_offtopic",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_07_hygiene"
+      "override_13_offtopic",
+      "دیدگاه_نامرتبط"
     ],
-    "equivalence_group": "norm_18"
+    "equivalence_group": "norm_offtopic_place"
   },
   {
     "id": "normalization_18_02",
-    "text": "داخل پيتزا مو پيدا كردم و ظرف بوي بد مي داد. مورد 18",
-    "expected_label": "rejection",
-    "expected_reason": "override_07_hygiene",
-    "min_confidence": 0.55,
+    "text": "در میدان ونک بودم.",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_13_offtopic",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_07_hygiene"
+      "override_13_offtopic",
+      "دیدگاه_نامرتبط"
     ],
-    "equivalence_group": "norm_18"
+    "equivalence_group": "norm_offtopic_place"
   },
   {
     "id": "normalization_18_03",
-    "text": "داااخل پیتزا مووو پیدا کردم!!! ظرف بووی بد میداد مورد 18",
-    "expected_label": "rejection",
-    "expected_reason": "override_07_hygiene",
-    "min_confidence": 0.55,
+    "text": "از خیابان سهروردی نوشتم.",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_13_offtopic",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_07_hygiene"
+      "override_13_offtopic",
+      "دیدگاه_نامرتبط"
     ],
-    "equivalence_group": "norm_18"
+    "equivalence_group": "norm_offtopic_place"
   },
   {
     "id": "normalization_18_04",
-    "text": "داخل پیتزا مُو پیدا کردم و ظرف بوی بد می‌داد. مورد 18",
-    "expected_label": "rejection",
-    "expected_reason": "override_07_hygiene",
-    "min_confidence": 0.55,
+    "text": "محله جردن شلوغ بود.",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_13_offtopic",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_07_hygiene"
+      "override_13_offtopic",
+      "دیدگاه_نامرتبط"
     ],
-    "equivalence_group": "norm_18"
+    "equivalence_group": "norm_offtopic_place"
   },
   {
     "id": "normalization_18_05",
-    "text": "داخل پـیتزا مو پیدا کردم و ظرف بوی بد می داد؟؟ مورد 18",
-    "expected_label": "rejection",
-    "expected_reason": "override_07_hygiene",
-    "min_confidence": 0.55,
+    "text": "پل سیدخندان را دیدم.",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_13_offtopic",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_07_hygiene"
+      "override_13_offtopic",
+      "دیدگاه_نامرتبط"
     ],
-    "equivalence_group": "norm_18"
+    "equivalence_group": "norm_offtopic_place"
   },
   {
     "id": "normalization_19_01",
-    "text": "اپلیکیشن موقع پرداخت خطا داد و پول دو بار کم شد. مورد 19",
-    "expected_label": "rejection",
-    "expected_reason": "override_18_app_problem",
-    "min_confidence": 0.55,
+    "text": "برای خرید غذای عالی به صفحه فروش ما پیام بدهید.",
+    "expected_label": "disapproval",
+    "expected_reason": "تبلیغات",
+    "expected_override": "override_06_advertising",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_18_app_problem"
+      "override_06_advertising",
+      "تبلیغات"
     ],
-    "equivalence_group": "norm_19"
+    "equivalence_group": "norm_advertising"
   },
   {
     "id": "normalization_19_02",
-    "text": "اپليكيشن موقع پرداخت خطا داد و پول دو بار كم شد. مورد 19",
-    "expected_label": "rejection",
-    "expected_reason": "override_18_app_problem",
-    "min_confidence": 0.55,
+    "text": "برای خرید غذا به پیج فروش ما پیام بدهید.",
+    "expected_label": "disapproval",
+    "expected_reason": "تبلیغات",
+    "expected_override": "override_06_advertising",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_18_app_problem"
+      "override_06_advertising",
+      "تبلیغات"
     ],
-    "equivalence_group": "norm_19"
+    "equivalence_group": "norm_advertising"
   },
   {
     "id": "normalization_19_03",
-    "text": "اَپلیکیشن موقع پرداخت خَطا داد!!! پول دوبار کم شد مورد 19",
-    "expected_label": "rejection",
-    "expected_reason": "override_18_app_problem",
-    "min_confidence": 0.55,
+    "text": "منوی ویژه امروز ما آماده سفارش است.",
+    "expected_label": "disapproval",
+    "expected_reason": "تبلیغات",
+    "expected_override": "override_06_advertising",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_18_app_problem"
+      "override_06_advertising",
+      "تبلیغات"
     ],
-    "equivalence_group": "norm_19"
+    "equivalence_group": "norm_advertising"
   },
   {
     "id": "normalization_19_04",
-    "text": "اپلیکیشن   موقع   پرداخت   خطا داد و پول دو بار کم شد. مورد 19",
-    "expected_label": "rejection",
-    "expected_reason": "override_18_app_problem",
-    "min_confidence": 0.55,
+    "text": "رستوران ما بهترین انتخاب شهر است و همه باید سفارش دهند.",
+    "expected_label": "disapproval",
+    "expected_reason": "تبلیغات",
+    "expected_override": "override_06_advertising",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_18_app_problem"
+      "override_06_advertising",
+      "تبلیغات"
     ],
-    "equivalence_group": "norm_19"
+    "equivalence_group": "norm_advertising"
   },
   {
     "id": "normalization_19_05",
-    "text": "اپليكیشن موقع payment خطا داد و پول ۲ بار کم شد. مورد 19",
-    "expected_label": "rejection",
-    "expected_reason": "override_18_app_problem",
-    "min_confidence": 0.55,
+    "text": "غذای خانگی ما را برای سفارش مستقیم انتخاب کنید.",
+    "expected_label": "disapproval",
+    "expected_reason": "تبلیغات",
+    "expected_override": "override_06_advertising",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_18_app_problem"
+      "override_06_advertising",
+      "تبلیغات"
     ],
-    "equivalence_group": "norm_19"
+    "equivalence_group": "norm_advertising"
   },
   {
     "id": "normalization_20_01",
-    "text": "لطفا همین سفارش را عوض کنید و نوشابه را حذف کنید. مورد 20",
-    "expected_label": "rejection",
-    "expected_reason": "override_09_order_change",
-    "min_confidence": 0.55,
+    "text": "The food was good.",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_14_non_persian",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_09_order_change"
+      "override_14_non_persian",
+      "دیدگاه_نامرتبط"
     ],
-    "equivalence_group": "norm_20"
+    "equivalence_group": "norm_non_persian"
   },
   {
     "id": "normalization_20_02",
-    "text": "لطفاً همين سفارش را عوض كنيد و نوشابه را حذف كنيد. مورد 20",
-    "expected_label": "rejection",
-    "expected_reason": "override_09_order_change",
-    "min_confidence": 0.55,
+    "text": "food خوب بود.",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_14_non_persian",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_09_order_change"
+      "override_14_non_persian",
+      "دیدگاه_نامرتبط"
     ],
-    "equivalence_group": "norm_20"
+    "equivalence_group": "norm_non_persian"
   },
   {
     "id": "normalization_20_03",
-    "text": "لطفااا همین سفارش را عوض کنید!!! نوشابه را حذف کنید مورد 20",
-    "expected_label": "rejection",
-    "expected_reason": "override_09_order_change",
-    "min_confidence": 0.55,
+    "text": "delivery دیر شد.",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_14_non_persian",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_09_order_change"
+      "override_14_non_persian",
+      "دیدگاه_نامرتبط"
     ],
-    "equivalence_group": "norm_20"
+    "equivalence_group": "norm_non_persian"
   },
   {
     "id": "normalization_20_04",
-    "text": "لطفا همین سفارش را عوض‌کنید و نوشابه را حذف‌کنید. مورد 20",
-    "expected_label": "rejection",
-    "expected_reason": "override_09_order_change",
-    "min_confidence": 0.55,
+    "text": "La comida estaba fria.",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_14_non_persian",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_09_order_change"
+      "override_14_non_persian",
+      "دیدگاه_نامرتبط"
     ],
-    "equivalence_group": "norm_20"
+    "equivalence_group": "norm_non_persian"
   },
   {
     "id": "normalization_20_05",
-    "text": "لطفا همین سفارش رو عوض کنین و نوشابه رو حذف کنین. مورد 20",
-    "expected_label": "rejection",
-    "expected_reason": "override_09_order_change",
-    "min_confidence": 0.55,
+    "text": "هذا التعليق عربي.",
+    "expected_label": "disapproval",
+    "expected_reason": "دیدگاه_نامرتبط",
+    "expected_override": "override_14_non_persian",
+    "min_confidence": 0.75,
     "max_confidence": 1.0,
     "tags": [
       "normalization",
       "override",
-      "override_09_order_change"
+      "override_14_non_persian",
+      "دیدگاه_نامرتبط"
     ],
-    "equivalence_group": "norm_20"
+    "equivalence_group": "norm_non_persian"
   }
 ]

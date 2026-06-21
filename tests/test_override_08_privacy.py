@@ -2,10 +2,11 @@ from __future__ import annotations
 
 import pytest
 
-from .qa_helpers import assert_case, case_ids, cases_for_reason
+from .qa_helpers import assert_case, case_ids, cases_for_override
 
-REASON = "override_08_privacy"
-CASES = cases_for_reason(REASON)
+OVERRIDE_ID = "override_08_privacy"
+EXPECTED_REASON = "نقض_حریم_شخصی"
+CASES = cases_for_override(OVERRIDE_ID)
 
 
 def test_override_08_privacy_has_minimum_coverage():
@@ -15,5 +16,6 @@ def test_override_08_privacy_has_minimum_coverage():
 @pytest.mark.parametrize("case", CASES, ids=case_ids(CASES))
 def test_override_08_privacy_classifies_privacy(classify, case):
     output = assert_case(classify, case)
-    assert output["label"] == "rejection"
-    assert output["reason"] == REASON
+    assert output["label"] == "disapproval"
+    assert output["reason"] == EXPECTED_REASON
+    assert case["expected_override"] == OVERRIDE_ID
