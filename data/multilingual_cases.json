@@ -1,0 +1,1322 @@
+[
+  {
+    "id": "multilingual_codeswitch_001",
+    "text": "پیتزا خوب بود و overall very tasty؛ متن اصلی فارسی و درباره تجربه غذاست.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "multilingual_codeswitch_002",
+    "text": "برگر خوب بود و overall cold delivery؛ متن اصلی فارسی و درباره تجربه غذاست.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "multilingual_codeswitch_003",
+    "text": "کباب خوب بود و overall good packaging؛ متن اصلی فارسی و درباره تجربه غذاست.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "multilingual_codeswitch_004",
+    "text": "چلو مرغ خوب بود و overall not bad؛ متن اصلی فارسی و درباره تجربه غذاست.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "multilingual_codeswitch_005",
+    "text": "سوپ خوب بود و overall too salty؛ متن اصلی فارسی و درباره تجربه غذاست.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "multilingual_codeswitch_006",
+    "text": "سالاد خوب بود و overall very tasty؛ متن اصلی فارسی و درباره تجربه غذاست.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "multilingual_codeswitch_007",
+    "text": "ساندویچ خوب بود و overall cold delivery؛ متن اصلی فارسی و درباره تجربه غذاست.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "multilingual_codeswitch_008",
+    "text": "قورمه سبزی خوب بود و overall good packaging؛ متن اصلی فارسی و درباره تجربه غذاست.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "multilingual_codeswitch_009",
+    "text": "لازانیا خوب بود و overall not bad؛ متن اصلی فارسی و درباره تجربه غذاست.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "multilingual_codeswitch_010",
+    "text": "سیب زمینی خوب بود و overall too salty؛ متن اصلی فارسی و درباره تجربه غذاست.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "multilingual_codeswitch_011",
+    "text": "قهوه خوب بود و overall very tasty؛ متن اصلی فارسی و درباره تجربه غذاست.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "multilingual_codeswitch_012",
+    "text": "چای خوب بود و overall cold delivery؛ متن اصلی فارسی و درباره تجربه غذاست.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "multilingual_codeswitch_013",
+    "text": "کیک خوب بود و overall good packaging؛ متن اصلی فارسی و درباره تجربه غذاست.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "multilingual_codeswitch_014",
+    "text": "بستنی خوب بود و overall not bad؛ متن اصلی فارسی و درباره تجربه غذاست.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "multilingual_codeswitch_015",
+    "text": "نودل خوب بود و overall too salty؛ متن اصلی فارسی و درباره تجربه غذاست.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "multilingual_codeswitch_016",
+    "text": "فلافل خوب بود و overall very tasty؛ متن اصلی فارسی و درباره تجربه غذاست.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "multilingual_codeswitch_017",
+    "text": "استیک خوب بود و overall cold delivery؛ متن اصلی فارسی و درباره تجربه غذاست.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "multilingual_codeswitch_018",
+    "text": "میرزاقاسمی خوب بود و overall good packaging؛ متن اصلی فارسی و درباره تجربه غذاست.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "multilingual_codeswitch_019",
+    "text": "عدس پلو خوب بود و overall not bad؛ متن اصلی فارسی و درباره تجربه غذاست.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "multilingual_codeswitch_020",
+    "text": "املت خوب بود و overall too salty؛ متن اصلی فارسی و درباره تجربه غذاست.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "multilingual_codeswitch_021",
+    "text": "پیتزا خوب بود و overall very tasty؛ متن اصلی فارسی و درباره تجربه غذاست.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "multilingual_codeswitch_022",
+    "text": "برگر خوب بود و overall cold delivery؛ متن اصلی فارسی و درباره تجربه غذاست.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "multilingual_codeswitch_023",
+    "text": "کباب خوب بود و overall good packaging؛ متن اصلی فارسی و درباره تجربه غذاست.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "multilingual_codeswitch_024",
+    "text": "چلو مرغ خوب بود و overall not bad؛ متن اصلی فارسی و درباره تجربه غذاست.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "multilingual_codeswitch_025",
+    "text": "سوپ خوب بود و overall too salty؛ متن اصلی فارسی و درباره تجربه غذاست.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "multilingual_codeswitch_026",
+    "text": "سالاد خوب بود و overall very tasty؛ متن اصلی فارسی و درباره تجربه غذاست.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "multilingual_codeswitch_027",
+    "text": "ساندویچ خوب بود و overall cold delivery؛ متن اصلی فارسی و درباره تجربه غذاست.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "multilingual_codeswitch_028",
+    "text": "قورمه سبزی خوب بود و overall good packaging؛ متن اصلی فارسی و درباره تجربه غذاست.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "multilingual_codeswitch_029",
+    "text": "لازانیا خوب بود و overall not bad؛ متن اصلی فارسی و درباره تجربه غذاست.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "multilingual_codeswitch_030",
+    "text": "سیب زمینی خوب بود و overall too salty؛ متن اصلی فارسی و درباره تجربه غذاست.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "multilingual_codeswitch_031",
+    "text": "قهوه خوب بود و overall very tasty؛ متن اصلی فارسی و درباره تجربه غذاست.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "multilingual_codeswitch_032",
+    "text": "چای خوب بود و overall cold delivery؛ متن اصلی فارسی و درباره تجربه غذاست.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "multilingual_codeswitch_033",
+    "text": "کیک خوب بود و overall good packaging؛ متن اصلی فارسی و درباره تجربه غذاست.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "multilingual_codeswitch_034",
+    "text": "بستنی خوب بود و overall not bad؛ متن اصلی فارسی و درباره تجربه غذاست.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "multilingual_codeswitch_035",
+    "text": "نودل خوب بود و overall too salty؛ متن اصلی فارسی و درباره تجربه غذاست.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "multilingual_codeswitch_036",
+    "text": "فلافل خوب بود و overall very tasty؛ متن اصلی فارسی و درباره تجربه غذاست.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "multilingual_codeswitch_037",
+    "text": "استیک خوب بود و overall cold delivery؛ متن اصلی فارسی و درباره تجربه غذاست.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "multilingual_codeswitch_038",
+    "text": "میرزاقاسمی خوب بود و overall good packaging؛ متن اصلی فارسی و درباره تجربه غذاست.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "multilingual_codeswitch_039",
+    "text": "عدس پلو خوب بود و overall not bad؛ متن اصلی فارسی و درباره تجربه غذاست.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "multilingual_codeswitch_040",
+    "text": "املت خوب بود و overall too salty؛ متن اصلی فارسی و درباره تجربه غذاست.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "multilingual_codeswitch_041",
+    "text": "پیتزا خوب بود و overall very tasty؛ متن اصلی فارسی و درباره تجربه غذاست.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "multilingual_codeswitch_042",
+    "text": "برگر خوب بود و overall cold delivery؛ متن اصلی فارسی و درباره تجربه غذاست.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "multilingual_codeswitch_043",
+    "text": "کباب خوب بود و overall good packaging؛ متن اصلی فارسی و درباره تجربه غذاست.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "multilingual_codeswitch_044",
+    "text": "چلو مرغ خوب بود و overall not bad؛ متن اصلی فارسی و درباره تجربه غذاست.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "multilingual_codeswitch_045",
+    "text": "سوپ خوب بود و overall too salty؛ متن اصلی فارسی و درباره تجربه غذاست.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "multilingual_codeswitch_046",
+    "text": "سالاد خوب بود و overall very tasty؛ متن اصلی فارسی و درباره تجربه غذاست.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "multilingual_codeswitch_047",
+    "text": "ساندویچ خوب بود و overall cold delivery؛ متن اصلی فارسی و درباره تجربه غذاست.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "multilingual_codeswitch_048",
+    "text": "قورمه سبزی خوب بود و overall good packaging؛ متن اصلی فارسی و درباره تجربه غذاست.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "multilingual_codeswitch_049",
+    "text": "لازانیا خوب بود و overall not bad؛ متن اصلی فارسی و درباره تجربه غذاست.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "multilingual_codeswitch_050",
+    "text": "سیب زمینی خوب بود و overall too salty؛ متن اصلی فارسی و درباره تجربه غذاست.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "multilingual_codeswitch_051",
+    "text": "قهوه خوب بود و overall very tasty؛ متن اصلی فارسی و درباره تجربه غذاست.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "multilingual_codeswitch_052",
+    "text": "چای خوب بود و overall cold delivery؛ متن اصلی فارسی و درباره تجربه غذاست.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "multilingual_codeswitch_053",
+    "text": "کیک خوب بود و overall good packaging؛ متن اصلی فارسی و درباره تجربه غذاست.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "multilingual_codeswitch_054",
+    "text": "بستنی خوب بود و overall not bad؛ متن اصلی فارسی و درباره تجربه غذاست.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "multilingual_codeswitch_055",
+    "text": "نودل خوب بود و overall too salty؛ متن اصلی فارسی و درباره تجربه غذاست.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "multilingual_non_persian_056",
+    "text": "This review is entirely English and only says the burger was cold and late.",
+    "expected_label": "rejection",
+    "expected_reason": "override_14_non_persian",
+    "min_confidence": 0.68,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "non_persian",
+      "override_14_non_persian"
+    ]
+  },
+  {
+    "id": "multilingual_non_persian_057",
+    "text": "La comida estaba fría y el empaque llegó roto, sin texto persa suficiente.",
+    "expected_label": "rejection",
+    "expected_reason": "override_14_non_persian",
+    "min_confidence": 0.68,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "non_persian",
+      "override_14_non_persian"
+    ]
+  },
+  {
+    "id": "multilingual_non_persian_058",
+    "text": "هذا التعليق مكتوب بالعربية بشكل كامل تقريبا عن الطعام.",
+    "expected_label": "rejection",
+    "expected_reason": "override_14_non_persian",
+    "min_confidence": 0.68,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "non_persian",
+      "override_14_non_persian"
+    ]
+  },
+  {
+    "id": "multilingual_non_persian_059",
+    "text": "Le repas était correct mais le commentaire nest pas en persan.",
+    "expected_label": "rejection",
+    "expected_reason": "override_14_non_persian",
+    "min_confidence": 0.68,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "non_persian",
+      "override_14_non_persian"
+    ]
+  },
+  {
+    "id": "multilingual_non_persian_060",
+    "text": "Yemek soğuktu ve yorum neredeyse tamamen Türkçe yazıldı.",
+    "expected_label": "rejection",
+    "expected_reason": "override_14_non_persian",
+    "min_confidence": 0.68,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "non_persian",
+      "override_14_non_persian"
+    ]
+  },
+  {
+    "id": "multilingual_non_persian_061",
+    "text": "This review is entirely English and only says the burger was cold and late.",
+    "expected_label": "rejection",
+    "expected_reason": "override_14_non_persian",
+    "min_confidence": 0.68,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "non_persian",
+      "override_14_non_persian"
+    ]
+  },
+  {
+    "id": "multilingual_non_persian_062",
+    "text": "La comida estaba fría y el empaque llegó roto, sin texto persa suficiente.",
+    "expected_label": "rejection",
+    "expected_reason": "override_14_non_persian",
+    "min_confidence": 0.68,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "non_persian",
+      "override_14_non_persian"
+    ]
+  },
+  {
+    "id": "multilingual_non_persian_063",
+    "text": "هذا التعليق مكتوب بالعربية بشكل كامل تقريبا عن الطعام.",
+    "expected_label": "rejection",
+    "expected_reason": "override_14_non_persian",
+    "min_confidence": 0.68,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "non_persian",
+      "override_14_non_persian"
+    ]
+  },
+  {
+    "id": "multilingual_non_persian_064",
+    "text": "Le repas était correct mais le commentaire nest pas en persan.",
+    "expected_label": "rejection",
+    "expected_reason": "override_14_non_persian",
+    "min_confidence": 0.68,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "non_persian",
+      "override_14_non_persian"
+    ]
+  },
+  {
+    "id": "multilingual_non_persian_065",
+    "text": "Yemek soğuktu ve yorum neredeyse tamamen Türkçe yazıldı.",
+    "expected_label": "rejection",
+    "expected_reason": "override_14_non_persian",
+    "min_confidence": 0.68,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "non_persian",
+      "override_14_non_persian"
+    ]
+  },
+  {
+    "id": "multilingual_non_persian_066",
+    "text": "This review is entirely English and only says the burger was cold and late.",
+    "expected_label": "rejection",
+    "expected_reason": "override_14_non_persian",
+    "min_confidence": 0.68,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "non_persian",
+      "override_14_non_persian"
+    ]
+  },
+  {
+    "id": "multilingual_non_persian_067",
+    "text": "La comida estaba fría y el empaque llegó roto, sin texto persa suficiente.",
+    "expected_label": "rejection",
+    "expected_reason": "override_14_non_persian",
+    "min_confidence": 0.68,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "non_persian",
+      "override_14_non_persian"
+    ]
+  },
+  {
+    "id": "multilingual_non_persian_068",
+    "text": "هذا التعليق مكتوب بالعربية بشكل كامل تقريبا عن الطعام.",
+    "expected_label": "rejection",
+    "expected_reason": "override_14_non_persian",
+    "min_confidence": 0.68,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "non_persian",
+      "override_14_non_persian"
+    ]
+  },
+  {
+    "id": "multilingual_non_persian_069",
+    "text": "Le repas était correct mais le commentaire nest pas en persan.",
+    "expected_label": "rejection",
+    "expected_reason": "override_14_non_persian",
+    "min_confidence": 0.68,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "non_persian",
+      "override_14_non_persian"
+    ]
+  },
+  {
+    "id": "multilingual_non_persian_070",
+    "text": "Yemek soğuktu ve yorum neredeyse tamamen Türkçe yazıldı.",
+    "expected_label": "rejection",
+    "expected_reason": "override_14_non_persian",
+    "min_confidence": 0.68,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "non_persian",
+      "override_14_non_persian"
+    ]
+  },
+  {
+    "id": "multilingual_non_persian_071",
+    "text": "This review is entirely English and only says the burger was cold and late.",
+    "expected_label": "rejection",
+    "expected_reason": "override_14_non_persian",
+    "min_confidence": 0.68,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "non_persian",
+      "override_14_non_persian"
+    ]
+  },
+  {
+    "id": "multilingual_non_persian_072",
+    "text": "La comida estaba fría y el empaque llegó roto, sin texto persa suficiente.",
+    "expected_label": "rejection",
+    "expected_reason": "override_14_non_persian",
+    "min_confidence": 0.68,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "non_persian",
+      "override_14_non_persian"
+    ]
+  },
+  {
+    "id": "multilingual_non_persian_073",
+    "text": "هذا التعليق مكتوب بالعربية بشكل كامل تقريبا عن الطعام.",
+    "expected_label": "rejection",
+    "expected_reason": "override_14_non_persian",
+    "min_confidence": 0.68,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "non_persian",
+      "override_14_non_persian"
+    ]
+  },
+  {
+    "id": "multilingual_non_persian_074",
+    "text": "Le repas était correct mais le commentaire nest pas en persan.",
+    "expected_label": "rejection",
+    "expected_reason": "override_14_non_persian",
+    "min_confidence": 0.68,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "non_persian",
+      "override_14_non_persian"
+    ]
+  },
+  {
+    "id": "multilingual_non_persian_075",
+    "text": "Yemek soğuktu ve yorum neredeyse tamamen Türkçe yazıldı.",
+    "expected_label": "rejection",
+    "expected_reason": "override_14_non_persian",
+    "min_confidence": 0.68,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "non_persian",
+      "override_14_non_persian"
+    ]
+  },
+  {
+    "id": "multilingual_non_persian_076",
+    "text": "This review is entirely English and only says the burger was cold and late.",
+    "expected_label": "rejection",
+    "expected_reason": "override_14_non_persian",
+    "min_confidence": 0.68,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "non_persian",
+      "override_14_non_persian"
+    ]
+  },
+  {
+    "id": "multilingual_non_persian_077",
+    "text": "La comida estaba fría y el empaque llegó roto, sin texto persa suficiente.",
+    "expected_label": "rejection",
+    "expected_reason": "override_14_non_persian",
+    "min_confidence": 0.68,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "non_persian",
+      "override_14_non_persian"
+    ]
+  },
+  {
+    "id": "multilingual_non_persian_078",
+    "text": "هذا التعليق مكتوب بالعربية بشكل كامل تقريبا عن الطعام.",
+    "expected_label": "rejection",
+    "expected_reason": "override_14_non_persian",
+    "min_confidence": 0.68,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "non_persian",
+      "override_14_non_persian"
+    ]
+  },
+  {
+    "id": "multilingual_non_persian_079",
+    "text": "Le repas était correct mais le commentaire nest pas en persan.",
+    "expected_label": "rejection",
+    "expected_reason": "override_14_non_persian",
+    "min_confidence": 0.68,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "non_persian",
+      "override_14_non_persian"
+    ]
+  },
+  {
+    "id": "multilingual_non_persian_080",
+    "text": "Yemek soğuktu ve yorum neredeyse tamamen Türkçe yazıldı.",
+    "expected_label": "rejection",
+    "expected_reason": "override_14_non_persian",
+    "min_confidence": 0.68,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "non_persian",
+      "override_14_non_persian"
+    ]
+  },
+  {
+    "id": "multilingual_pii_081",
+    "text": "پیتزا خوب بود ولی phone number من 09123456789 روی رسید آمده بود.",
+    "expected_label": "rejection",
+    "expected_reason": "override_03_pii",
+    "min_confidence": 0.65,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "override",
+      "override_03_pii"
+    ]
+  },
+  {
+    "id": "multilingual_pii_082",
+    "text": "برگر خوب بود ولی phone number من 09123456789 روی رسید آمده بود.",
+    "expected_label": "rejection",
+    "expected_reason": "override_03_pii",
+    "min_confidence": 0.65,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "override",
+      "override_03_pii"
+    ]
+  },
+  {
+    "id": "multilingual_pii_083",
+    "text": "کباب خوب بود ولی phone number من 09123456789 روی رسید آمده بود.",
+    "expected_label": "rejection",
+    "expected_reason": "override_03_pii",
+    "min_confidence": 0.65,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "override",
+      "override_03_pii"
+    ]
+  },
+  {
+    "id": "multilingual_pii_084",
+    "text": "چلو مرغ خوب بود ولی phone number من 09123456789 روی رسید آمده بود.",
+    "expected_label": "rejection",
+    "expected_reason": "override_03_pii",
+    "min_confidence": 0.65,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "override",
+      "override_03_pii"
+    ]
+  },
+  {
+    "id": "multilingual_pii_085",
+    "text": "سوپ خوب بود ولی phone number من 09123456789 روی رسید آمده بود.",
+    "expected_label": "rejection",
+    "expected_reason": "override_03_pii",
+    "min_confidence": 0.65,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "override",
+      "override_03_pii"
+    ]
+  },
+  {
+    "id": "multilingual_pii_086",
+    "text": "سالاد خوب بود ولی phone number من 09123456789 روی رسید آمده بود.",
+    "expected_label": "rejection",
+    "expected_reason": "override_03_pii",
+    "min_confidence": 0.65,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "override",
+      "override_03_pii"
+    ]
+  },
+  {
+    "id": "multilingual_pii_087",
+    "text": "ساندویچ خوب بود ولی phone number من 09123456789 روی رسید آمده بود.",
+    "expected_label": "rejection",
+    "expected_reason": "override_03_pii",
+    "min_confidence": 0.65,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "override",
+      "override_03_pii"
+    ]
+  },
+  {
+    "id": "multilingual_pii_088",
+    "text": "قورمه سبزی خوب بود ولی phone number من 09123456789 روی رسید آمده بود.",
+    "expected_label": "rejection",
+    "expected_reason": "override_03_pii",
+    "min_confidence": 0.65,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "override",
+      "override_03_pii"
+    ]
+  },
+  {
+    "id": "multilingual_pii_089",
+    "text": "لازانیا خوب بود ولی phone number من 09123456789 روی رسید آمده بود.",
+    "expected_label": "rejection",
+    "expected_reason": "override_03_pii",
+    "min_confidence": 0.65,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "override",
+      "override_03_pii"
+    ]
+  },
+  {
+    "id": "multilingual_pii_090",
+    "text": "سیب زمینی خوب بود ولی phone number من 09123456789 روی رسید آمده بود.",
+    "expected_label": "rejection",
+    "expected_reason": "override_03_pii",
+    "min_confidence": 0.65,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "override",
+      "override_03_pii"
+    ]
+  },
+  {
+    "id": "multilingual_app_091",
+    "text": "قهوه عالی بود اما app موقع payment خطا داد و سفارش گیر کرد.",
+    "expected_label": "rejection",
+    "expected_reason": "override_18_app_problem",
+    "min_confidence": 0.62,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "override",
+      "override_18_app_problem"
+    ]
+  },
+  {
+    "id": "multilingual_app_092",
+    "text": "چای عالی بود اما app موقع payment خطا داد و سفارش گیر کرد.",
+    "expected_label": "rejection",
+    "expected_reason": "override_18_app_problem",
+    "min_confidence": 0.62,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "override",
+      "override_18_app_problem"
+    ]
+  },
+  {
+    "id": "multilingual_app_093",
+    "text": "کیک عالی بود اما app موقع payment خطا داد و سفارش گیر کرد.",
+    "expected_label": "rejection",
+    "expected_reason": "override_18_app_problem",
+    "min_confidence": 0.62,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "override",
+      "override_18_app_problem"
+    ]
+  },
+  {
+    "id": "multilingual_app_094",
+    "text": "بستنی عالی بود اما app موقع payment خطا داد و سفارش گیر کرد.",
+    "expected_label": "rejection",
+    "expected_reason": "override_18_app_problem",
+    "min_confidence": 0.62,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "override",
+      "override_18_app_problem"
+    ]
+  },
+  {
+    "id": "multilingual_app_095",
+    "text": "نودل عالی بود اما app موقع payment خطا داد و سفارش گیر کرد.",
+    "expected_label": "rejection",
+    "expected_reason": "override_18_app_problem",
+    "min_confidence": 0.62,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "override",
+      "override_18_app_problem"
+    ]
+  },
+  {
+    "id": "multilingual_app_096",
+    "text": "فلافل عالی بود اما app موقع payment خطا داد و سفارش گیر کرد.",
+    "expected_label": "rejection",
+    "expected_reason": "override_18_app_problem",
+    "min_confidence": 0.62,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "override",
+      "override_18_app_problem"
+    ]
+  },
+  {
+    "id": "multilingual_app_097",
+    "text": "استیک عالی بود اما app موقع payment خطا داد و سفارش گیر کرد.",
+    "expected_label": "rejection",
+    "expected_reason": "override_18_app_problem",
+    "min_confidence": 0.62,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "override",
+      "override_18_app_problem"
+    ]
+  },
+  {
+    "id": "multilingual_app_098",
+    "text": "میرزاقاسمی عالی بود اما app موقع payment خطا داد و سفارش گیر کرد.",
+    "expected_label": "rejection",
+    "expected_reason": "override_18_app_problem",
+    "min_confidence": 0.62,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "override",
+      "override_18_app_problem"
+    ]
+  },
+  {
+    "id": "multilingual_app_099",
+    "text": "عدس پلو عالی بود اما app موقع payment خطا داد و سفارش گیر کرد.",
+    "expected_label": "rejection",
+    "expected_reason": "override_18_app_problem",
+    "min_confidence": 0.62,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "override",
+      "override_18_app_problem"
+    ]
+  },
+  {
+    "id": "multilingual_app_100",
+    "text": "املت عالی بود اما app موقع payment خطا داد و سفارش گیر کرد.",
+    "expected_label": "rejection",
+    "expected_reason": "override_18_app_problem",
+    "min_confidence": 0.62,
+    "max_confidence": 1.0,
+    "tags": [
+      "multilingual",
+      "code_switching",
+      "override",
+      "override_18_app_problem"
+    ]
+  }
+]

@@ -1,0 +1,1232 @@
+[
+  {
+    "id": "sarcasm_approval_001",
+    "text": "چه پیتزا شاهکاری بود؛ آنقدر خوب که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_002",
+    "text": "چه برگر شاهکاری بود؛ آنقدر معمولی که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_003",
+    "text": "چه کباب شاهکاری بود؛ آنقدر گرم که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_004",
+    "text": "چه چلو مرغ شاهکاری بود؛ آنقدر کم نمک که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_005",
+    "text": "چه سوپ شاهکاری بود؛ آنقدر پر ادویه که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_006",
+    "text": "چه سالاد شاهکاری بود؛ آنقدر تازه که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_007",
+    "text": "چه ساندویچ شاهکاری بود؛ آنقدر دیررسیده که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_008",
+    "text": "چه قورمه سبزی شاهکاری بود؛ آنقدر خوشمزه که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_009",
+    "text": "چه لازانیا شاهکاری بود؛ آنقدر سنگین که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_010",
+    "text": "چه سیب زمینی شاهکاری بود؛ آنقدر سبک که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_011",
+    "text": "چه قهوه شاهکاری بود؛ آنقدر بدون سس که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_012",
+    "text": "چه چای شاهکاری بود؛ آنقدر پر سس که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_013",
+    "text": "چه کیک شاهکاری بود؛ آنقدر خشک که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_014",
+    "text": "چه بستنی شاهکاری بود؛ آنقدر آبدار که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_015",
+    "text": "چه نودل شاهکاری بود؛ آنقدر ترد که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_016",
+    "text": "چه فلافل شاهکاری بود؛ آنقدر نرم که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_017",
+    "text": "چه استیک شاهکاری بود؛ آنقدر کم حجم که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_018",
+    "text": "چه میرزاقاسمی شاهکاری بود؛ آنقدر پر حجم که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_019",
+    "text": "چه عدس پلو شاهکاری بود؛ آنقدر منظم بسته بندی شده که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_020",
+    "text": "چه املت شاهکاری بود؛ آنقدر بد بسته بندی شده که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_021",
+    "text": "چه پیتزا شاهکاری بود؛ آنقدر خوب که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_022",
+    "text": "چه برگر شاهکاری بود؛ آنقدر معمولی که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_023",
+    "text": "چه کباب شاهکاری بود؛ آنقدر گرم که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_024",
+    "text": "چه چلو مرغ شاهکاری بود؛ آنقدر کم نمک که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_025",
+    "text": "چه سوپ شاهکاری بود؛ آنقدر پر ادویه که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_026",
+    "text": "چه سالاد شاهکاری بود؛ آنقدر تازه که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_027",
+    "text": "چه ساندویچ شاهکاری بود؛ آنقدر دیررسیده که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_028",
+    "text": "چه قورمه سبزی شاهکاری بود؛ آنقدر خوشمزه که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_029",
+    "text": "چه لازانیا شاهکاری بود؛ آنقدر سنگین که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_030",
+    "text": "چه سیب زمینی شاهکاری بود؛ آنقدر سبک که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_031",
+    "text": "چه قهوه شاهکاری بود؛ آنقدر بدون سس که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_032",
+    "text": "چه چای شاهکاری بود؛ آنقدر پر سس که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_033",
+    "text": "چه کیک شاهکاری بود؛ آنقدر خشک که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_034",
+    "text": "چه بستنی شاهکاری بود؛ آنقدر آبدار که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_035",
+    "text": "چه نودل شاهکاری بود؛ آنقدر ترد که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_036",
+    "text": "چه فلافل شاهکاری بود؛ آنقدر نرم که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_037",
+    "text": "چه استیک شاهکاری بود؛ آنقدر کم حجم که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_038",
+    "text": "چه میرزاقاسمی شاهکاری بود؛ آنقدر پر حجم که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_039",
+    "text": "چه عدس پلو شاهکاری بود؛ آنقدر منظم بسته بندی شده که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_040",
+    "text": "چه املت شاهکاری بود؛ آنقدر بد بسته بندی شده که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_041",
+    "text": "چه پیتزا شاهکاری بود؛ آنقدر خوب که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_042",
+    "text": "چه برگر شاهکاری بود؛ آنقدر معمولی که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_043",
+    "text": "چه کباب شاهکاری بود؛ آنقدر گرم که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_044",
+    "text": "چه چلو مرغ شاهکاری بود؛ آنقدر کم نمک که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_045",
+    "text": "چه سوپ شاهکاری بود؛ آنقدر پر ادویه که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_046",
+    "text": "چه سالاد شاهکاری بود؛ آنقدر تازه که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_047",
+    "text": "چه ساندویچ شاهکاری بود؛ آنقدر دیررسیده که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_048",
+    "text": "چه قورمه سبزی شاهکاری بود؛ آنقدر خوشمزه که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_049",
+    "text": "چه لازانیا شاهکاری بود؛ آنقدر سنگین که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_050",
+    "text": "چه سیب زمینی شاهکاری بود؛ آنقدر سبک که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_051",
+    "text": "چه قهوه شاهکاری بود؛ آنقدر بدون سس که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_052",
+    "text": "چه چای شاهکاری بود؛ آنقدر پر سس که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_053",
+    "text": "چه کیک شاهکاری بود؛ آنقدر خشک که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_054",
+    "text": "چه بستنی شاهکاری بود؛ آنقدر آبدار که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_055",
+    "text": "چه نودل شاهکاری بود؛ آنقدر ترد که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_056",
+    "text": "چه فلافل شاهکاری بود؛ آنقدر نرم که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_057",
+    "text": "چه استیک شاهکاری بود؛ آنقدر کم حجم که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_058",
+    "text": "چه میرزاقاسمی شاهکاری بود؛ آنقدر پر حجم که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_059",
+    "text": "چه عدس پلو شاهکاری بود؛ آنقدر منظم بسته بندی شده که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_060",
+    "text": "چه املت شاهکاری بود؛ آنقدر بد بسته بندی شده که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_061",
+    "text": "چه پیتزا شاهکاری بود؛ آنقدر خوب که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_062",
+    "text": "چه برگر شاهکاری بود؛ آنقدر معمولی که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_063",
+    "text": "چه کباب شاهکاری بود؛ آنقدر گرم که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_064",
+    "text": "چه چلو مرغ شاهکاری بود؛ آنقدر کم نمک که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_065",
+    "text": "چه سوپ شاهکاری بود؛ آنقدر پر ادویه که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_066",
+    "text": "چه سالاد شاهکاری بود؛ آنقدر تازه که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_067",
+    "text": "چه ساندویچ شاهکاری بود؛ آنقدر دیررسیده که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_068",
+    "text": "چه قورمه سبزی شاهکاری بود؛ آنقدر خوشمزه که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_069",
+    "text": "چه لازانیا شاهکاری بود؛ آنقدر سنگین که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_approval_070",
+    "text": "چه سیب زمینی شاهکاری بود؛ آنقدر سبک که تا آخرش فقط لبخند کنایه آمیز زدم.",
+    "expected_label": "approval",
+    "expected_reason": null,
+    "min_confidence": 0.54,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "golden_rule"
+    ]
+  },
+  {
+    "id": "sarcasm_hygiene_071",
+    "text": "به به، داخل قهوه هم مو بود؛ دیگر از این تمیزتر نمی شد!",
+    "expected_label": "rejection",
+    "expected_reason": "override_07_hygiene",
+    "min_confidence": 0.64,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "override",
+      "override_07_hygiene"
+    ]
+  },
+  {
+    "id": "sarcasm_hygiene_072",
+    "text": "به به، داخل چای هم مو بود؛ دیگر از این تمیزتر نمی شد!",
+    "expected_label": "rejection",
+    "expected_reason": "override_07_hygiene",
+    "min_confidence": 0.64,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "override",
+      "override_07_hygiene"
+    ]
+  },
+  {
+    "id": "sarcasm_hygiene_073",
+    "text": "به به، داخل کیک هم مو بود؛ دیگر از این تمیزتر نمی شد!",
+    "expected_label": "rejection",
+    "expected_reason": "override_07_hygiene",
+    "min_confidence": 0.64,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "override",
+      "override_07_hygiene"
+    ]
+  },
+  {
+    "id": "sarcasm_hygiene_074",
+    "text": "به به، داخل بستنی هم مو بود؛ دیگر از این تمیزتر نمی شد!",
+    "expected_label": "rejection",
+    "expected_reason": "override_07_hygiene",
+    "min_confidence": 0.64,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "override",
+      "override_07_hygiene"
+    ]
+  },
+  {
+    "id": "sarcasm_hygiene_075",
+    "text": "به به، داخل نودل هم مو بود؛ دیگر از این تمیزتر نمی شد!",
+    "expected_label": "rejection",
+    "expected_reason": "override_07_hygiene",
+    "min_confidence": 0.64,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "override",
+      "override_07_hygiene"
+    ]
+  },
+  {
+    "id": "sarcasm_hygiene_076",
+    "text": "به به، داخل فلافل هم مو بود؛ دیگر از این تمیزتر نمی شد!",
+    "expected_label": "rejection",
+    "expected_reason": "override_07_hygiene",
+    "min_confidence": 0.64,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "override",
+      "override_07_hygiene"
+    ]
+  },
+  {
+    "id": "sarcasm_hygiene_077",
+    "text": "به به، داخل استیک هم مو بود؛ دیگر از این تمیزتر نمی شد!",
+    "expected_label": "rejection",
+    "expected_reason": "override_07_hygiene",
+    "min_confidence": 0.64,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "override",
+      "override_07_hygiene"
+    ]
+  },
+  {
+    "id": "sarcasm_hygiene_078",
+    "text": "به به، داخل میرزاقاسمی هم مو بود؛ دیگر از این تمیزتر نمی شد!",
+    "expected_label": "rejection",
+    "expected_reason": "override_07_hygiene",
+    "min_confidence": 0.64,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "override",
+      "override_07_hygiene"
+    ]
+  },
+  {
+    "id": "sarcasm_hygiene_079",
+    "text": "به به، داخل عدس پلو هم مو بود؛ دیگر از این تمیزتر نمی شد!",
+    "expected_label": "rejection",
+    "expected_reason": "override_07_hygiene",
+    "min_confidence": 0.64,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "override",
+      "override_07_hygiene"
+    ]
+  },
+  {
+    "id": "sarcasm_hygiene_080",
+    "text": "به به، داخل املت هم مو بود؛ دیگر از این تمیزتر نمی شد!",
+    "expected_label": "rejection",
+    "expected_reason": "override_07_hygiene",
+    "min_confidence": 0.64,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "override",
+      "override_07_hygiene"
+    ]
+  },
+  {
+    "id": "sarcasm_hygiene_081",
+    "text": "به به، داخل پیتزا هم مو بود؛ دیگر از این تمیزتر نمی شد!",
+    "expected_label": "rejection",
+    "expected_reason": "override_07_hygiene",
+    "min_confidence": 0.64,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "override",
+      "override_07_hygiene"
+    ]
+  },
+  {
+    "id": "sarcasm_hygiene_082",
+    "text": "به به، داخل برگر هم مو بود؛ دیگر از این تمیزتر نمی شد!",
+    "expected_label": "rejection",
+    "expected_reason": "override_07_hygiene",
+    "min_confidence": 0.64,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "override",
+      "override_07_hygiene"
+    ]
+  },
+  {
+    "id": "sarcasm_hygiene_083",
+    "text": "به به، داخل کباب هم مو بود؛ دیگر از این تمیزتر نمی شد!",
+    "expected_label": "rejection",
+    "expected_reason": "override_07_hygiene",
+    "min_confidence": 0.64,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "override",
+      "override_07_hygiene"
+    ]
+  },
+  {
+    "id": "sarcasm_hygiene_084",
+    "text": "به به، داخل چلو مرغ هم مو بود؛ دیگر از این تمیزتر نمی شد!",
+    "expected_label": "rejection",
+    "expected_reason": "override_07_hygiene",
+    "min_confidence": 0.64,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "override",
+      "override_07_hygiene"
+    ]
+  },
+  {
+    "id": "sarcasm_hygiene_085",
+    "text": "به به، داخل سوپ هم مو بود؛ دیگر از این تمیزتر نمی شد!",
+    "expected_label": "rejection",
+    "expected_reason": "override_07_hygiene",
+    "min_confidence": 0.64,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "override",
+      "override_07_hygiene"
+    ]
+  },
+  {
+    "id": "sarcasm_courier_086",
+    "text": "عالی بود، فقط پیک با عصبانیت بسته سالاد را پرت کرد؛ واقعا ممنون!",
+    "expected_label": "rejection",
+    "expected_reason": "override_19_courier",
+    "min_confidence": 0.62,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "override",
+      "override_19_courier"
+    ]
+  },
+  {
+    "id": "sarcasm_courier_087",
+    "text": "عالی بود، فقط پیک با عصبانیت بسته ساندویچ را پرت کرد؛ واقعا ممنون!",
+    "expected_label": "rejection",
+    "expected_reason": "override_19_courier",
+    "min_confidence": 0.62,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "override",
+      "override_19_courier"
+    ]
+  },
+  {
+    "id": "sarcasm_courier_088",
+    "text": "عالی بود، فقط پیک با عصبانیت بسته قورمه سبزی را پرت کرد؛ واقعا ممنون!",
+    "expected_label": "rejection",
+    "expected_reason": "override_19_courier",
+    "min_confidence": 0.62,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "override",
+      "override_19_courier"
+    ]
+  },
+  {
+    "id": "sarcasm_courier_089",
+    "text": "عالی بود، فقط پیک با عصبانیت بسته لازانیا را پرت کرد؛ واقعا ممنون!",
+    "expected_label": "rejection",
+    "expected_reason": "override_19_courier",
+    "min_confidence": 0.62,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "override",
+      "override_19_courier"
+    ]
+  },
+  {
+    "id": "sarcasm_courier_090",
+    "text": "عالی بود، فقط پیک با عصبانیت بسته سیب زمینی را پرت کرد؛ واقعا ممنون!",
+    "expected_label": "rejection",
+    "expected_reason": "override_19_courier",
+    "min_confidence": 0.62,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "override",
+      "override_19_courier"
+    ]
+  },
+  {
+    "id": "sarcasm_courier_091",
+    "text": "عالی بود، فقط پیک با عصبانیت بسته قهوه را پرت کرد؛ واقعا ممنون!",
+    "expected_label": "rejection",
+    "expected_reason": "override_19_courier",
+    "min_confidence": 0.62,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "override",
+      "override_19_courier"
+    ]
+  },
+  {
+    "id": "sarcasm_courier_092",
+    "text": "عالی بود، فقط پیک با عصبانیت بسته چای را پرت کرد؛ واقعا ممنون!",
+    "expected_label": "rejection",
+    "expected_reason": "override_19_courier",
+    "min_confidence": 0.62,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "override",
+      "override_19_courier"
+    ]
+  },
+  {
+    "id": "sarcasm_courier_093",
+    "text": "عالی بود، فقط پیک با عصبانیت بسته کیک را پرت کرد؛ واقعا ممنون!",
+    "expected_label": "rejection",
+    "expected_reason": "override_19_courier",
+    "min_confidence": 0.62,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "override",
+      "override_19_courier"
+    ]
+  },
+  {
+    "id": "sarcasm_courier_094",
+    "text": "عالی بود، فقط پیک با عصبانیت بسته بستنی را پرت کرد؛ واقعا ممنون!",
+    "expected_label": "rejection",
+    "expected_reason": "override_19_courier",
+    "min_confidence": 0.62,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "override",
+      "override_19_courier"
+    ]
+  },
+  {
+    "id": "sarcasm_courier_095",
+    "text": "عالی بود، فقط پیک با عصبانیت بسته نودل را پرت کرد؛ واقعا ممنون!",
+    "expected_label": "rejection",
+    "expected_reason": "override_19_courier",
+    "min_confidence": 0.62,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "override",
+      "override_19_courier"
+    ]
+  },
+  {
+    "id": "sarcasm_courier_096",
+    "text": "عالی بود، فقط پیک با عصبانیت بسته فلافل را پرت کرد؛ واقعا ممنون!",
+    "expected_label": "rejection",
+    "expected_reason": "override_19_courier",
+    "min_confidence": 0.62,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "override",
+      "override_19_courier"
+    ]
+  },
+  {
+    "id": "sarcasm_courier_097",
+    "text": "عالی بود، فقط پیک با عصبانیت بسته استیک را پرت کرد؛ واقعا ممنون!",
+    "expected_label": "rejection",
+    "expected_reason": "override_19_courier",
+    "min_confidence": 0.62,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "override",
+      "override_19_courier"
+    ]
+  },
+  {
+    "id": "sarcasm_courier_098",
+    "text": "عالی بود، فقط پیک با عصبانیت بسته میرزاقاسمی را پرت کرد؛ واقعا ممنون!",
+    "expected_label": "rejection",
+    "expected_reason": "override_19_courier",
+    "min_confidence": 0.62,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "override",
+      "override_19_courier"
+    ]
+  },
+  {
+    "id": "sarcasm_courier_099",
+    "text": "عالی بود، فقط پیک با عصبانیت بسته عدس پلو را پرت کرد؛ واقعا ممنون!",
+    "expected_label": "rejection",
+    "expected_reason": "override_19_courier",
+    "min_confidence": 0.62,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "override",
+      "override_19_courier"
+    ]
+  },
+  {
+    "id": "sarcasm_courier_100",
+    "text": "عالی بود، فقط پیک با عصبانیت بسته املت را پرت کرد؛ واقعا ممنون!",
+    "expected_label": "rejection",
+    "expected_reason": "override_19_courier",
+    "min_confidence": 0.62,
+    "max_confidence": 1.0,
+    "tags": [
+      "sarcasm",
+      "override",
+      "override_19_courier"
+    ]
+  }
+]
