@@ -1,0 +1,17 @@
+{
+  "name": "comment-moderation-qa",
+  "version": "1.0.0",
+  "description": "Comment Moderation QA runner with Postman Collection Runner and Newman",
+  "private": true,
+  "scripts": {
+    "run": "node scripts/newman-runner.js",
+    "run:fresh": "node scripts/newman-runner.js --fresh",
+    "run:clear": "node scripts/newman-runner.js --fresh --clear-results"
+  },
+  "dependencies": {
+    "newman": "^6.2.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

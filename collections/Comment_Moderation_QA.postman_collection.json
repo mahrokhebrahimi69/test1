@@ -1,0 +1,125 @@
+{
+  "info": {
+    "_postman_id": "18bd99ee-fcec-4628-8dd5-713bb8fa008c",
+    "name": "Comment Moderation QA",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "18684997"
+  },
+  "item": [
+    {
+      "name": "Health",
+      "item": [
+        {
+          "name": "Moderate Runner",
+          "event": [
+            {
+              "listen": "prerequest",
+              "script": {
+                "exec": [
+                  "// فقط در iteration اول همان اجرا، results را خالی کن.",
+                  "// بین Runهای مختلف پاک نمی‌شود مگر دستی Variable را reset کنید.",
+                  "if (pm.info.iteration === 0) {",
+                  "    const existing = pm.collectionVariables.get(\"results\");",
+                  "    if (!existing || existing === \"\") {",
+                  "        pm.collectionVariables.set(\"results\", \"[]\");",
+                  "    }",
+                  "}"
+                ],
+                "type": "text/javascript"
+              }
+            },
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "if (!pm.response || !pm.response.code) {",
+                  "    console.warn(`[${pm.info.iteration + 1}] no HTTP response — skipped`);",
+                  "    return;",
+                  "}",
+                  "",
+                  "let resultsRaw = pm.collectionVariables.get(\"results\");",
+                  "let results = [];",
+                  "",
+                  "try {",
+                  "    results = JSON.parse(resultsRaw || \"[]\");",
+                  "    if (!Array.isArray(results)) results = [];",
+                  "} catch (e) {",
+                  "    results = [];",
+                  "}",
+                  "",
+                  "const comment = pm.iterationData.get(\"comment\") || \"\";",
+                  "const statusCode = pm.response.code;",
+                  "",
+                  "let responseBody = null;",
+                  "const contentType = (pm.response.headers.get(\"Content-Type\") || \"\").toLowerCase();",
+                  "",
+                  "try {",
+                  "    if (contentType.includes(\"application/json\")) {",
+                  "        responseBody = pm.response.json();",
+                  "    } else {",
+                  "        responseBody = pm.response.text();",
+                  "    }",
+                  "} catch (e) {",
+                  "    responseBody = pm.response.text() || null;",
+                  "}",
+                  "",
+                  "results.push({",
+                  "    comment: comment,",
+                  "    status: statusCode,",
+                  "    response: responseBody,",
+                  "    timestamp: new Date().toISOString()",
+                  "});",
+                  "",
+                  "pm.collectionVariables.set(\"results\", JSON.stringify(results));",
+                  "",
+                  "console.log(",
+                  "    `[${pm.info.iteration + 1}/${pm.info.iterationCount}] status=${statusCode} comment=\"${comment.substring(0, 50)}\"`",
+                  ");"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "{{content_type}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"comment\": \"{{comment}}\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{base_url}}/moderate",
+              "host": ["{{base_url}}"],
+              "path": ["moderate"]
+            }
+          },
+          "response": []
+        }
+      ]
+    }
+  ],
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "https://comment.foodstg.com"
+    },
+    {
+      "key": "content_type",
+      "value": "application/json"
+    },
+    {
+      "key": "results",
+      "value": "[]"
+    }
+  ]
+}

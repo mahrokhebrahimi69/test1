@@ -1,0 +1,5 @@
+node_modules/
+results/*.jsonl
+results/checkpoint.json
+results/.temp-data.json
+results/.runner.lock
