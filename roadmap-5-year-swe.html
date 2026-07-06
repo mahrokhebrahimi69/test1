@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>نقشه راه ۵ ساله — از QA Lead به مهندس نرم‌افزار بین‌المللی</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 18mm 15mm 20mm 15mm;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Noto Naskh Arabic", "Noto Kufi Arabic", "DejaVu Sans", sans-serif;
+      font-size: 11pt;
+      line-height: 1.75;
+      color: #1a1a2e;
+      background: #fff;
+      margin: 0;
+      padding: 0;
+      direction: rtl;
+      text-align: right;
+    }
+
+    .cover {
+      page-break-after: always;
+      min-height: 90vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background: linear-gradient(135deg, #0f3460 0%, #16213e 50%, #1a1a2e 100%);
+      color: #fff;
+      padding: 40px;
+      margin: -18mm -15mm 0 -15mm;
+      padding-top: 60mm;
+      padding-bottom: 60mm;
+    }
+
+    .cover h1 {
+      font-size: 26pt;
+      margin: 0 0 16px 0;
+      font-weight: bold;
+      line-height: 1.4;
+    }
+
+    .cover .subtitle {
+      font-size: 14pt;
+      opacity: 0.9;
+      margin-bottom: 40px;
+    }
+
+    .cover .meta {
+      font-size: 11pt;
+      opacity: 0.8;
+      border-top: 1px solid rgba(255,255,255,0.3);
+      padding-top: 20px;
+      margin-top: 20px;
+    }
+
+    .cover .meta p {
+      margin: 6px 0;
+    }
+
+    h2 {
+      color: #0f3460;
+      font-size: 16pt;
+      border-bottom: 2px solid #e94560;
+      padding-bottom: 6px;
+      margin-top: 28px;
+      margin-bottom: 14px;
+      page-break-after: avoid;
+    }
+
+    h3 {
+      color: #16213e;
+      font-size: 13pt;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      page-break-after: avoid;
+    }
+
+    h4 {
+      color: #533483;
+      font-size: 11.5pt;
+      margin-top: 14px;
+      margin-bottom: 8px;
+    }
+
+    p {
+      margin: 8px 0;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0 18px 0;
+      font-size: 10pt;
+      page-break-inside: avoid;
+    }
+
+    th {
+      background: #0f3460;
+      color: #fff;
+      padding: 8px 10px;
+      text-align: right;
+      font-weight: bold;
+    }
+
+    td {
+      border: 1px solid #ddd;
+      padding: 7px 10px;
+      text-align: right;
+      vertical-align: top;
+    }
+
+    tr:nth-child(even) td {
+      background: #f8f9fa;
+    }
+
+    ul, ol {
+      margin: 8px 0;
+      padding-right: 24px;
+      padding-left: 0;
+    }
+
+    li {
+      margin: 4px 0;
+    }
+
+    .phase-box {
+      border: 1px solid #ddd;
+      border-right: 4px solid #e94560;
+      border-radius: 4px;
+      padding: 14px 16px;
+      margin: 14px 0;
+      background: #fafbfc;
+      page-break-inside: avoid;
+    }
+
+    .phase-title {
+      font-weight: bold;
+      color: #0f3460;
+      font-size: 12pt;
+      margin-bottom: 8px;
+    }
+
+    .duration {
+      display: inline-block;
+      background: #e94560;
+      color: #fff;
+      padding: 2px 10px;
+      border-radius: 12px;
+      font-size: 9pt;
+      margin-right: 8px;
+    }
+
+    .timeline {
+      background: #f0f4f8;
+      border-radius: 6px;
+      padding: 16px 20px;
+      margin: 16px 0;
+      font-family: "DejaVu Sans Mono", monospace;
+      font-size: 9.5pt;
+      line-height: 1.9;
+      direction: ltr;
+      text-align: left;
+      white-space: pre-wrap;
+    }
+
+    .highlight-box {
+      background: #fff3cd;
+      border: 1px solid #ffc107;
+      border-radius: 4px;
+      padding: 12px 16px;
+      margin: 14px 0;
+    }
+
+    .formula-box {
+      background: #e8f4fd;
+      border: 1px solid #0f3460;
+      border-radius: 4px;
+      padding: 14px 18px;
+      margin: 14px 0;
+      text-align: center;
+      font-size: 11pt;
+    }
+
+    .checklist {
+      list-style: none;
+      padding-right: 0;
+    }
+
+    .checklist li::before {
+      content: "☐ ";
+      color: #0f3460;
+    }
+
+    .page-break {
+      page-break-before: always;
+    }
+
+    .section-intro {
+      color: #555;
+      font-style: italic;
+      margin-bottom: 16px;
+    }
+
+    .tag {
+      display: inline-block;
+      background: #0f3460;
+      color: #fff;
+      padding: 1px 8px;
+      border-radius: 3px;
+      font-size: 9pt;
+      margin: 2px;
+    }
+
+    .footer-note {
+      font-size: 9pt;
+      color: #888;
+      text-align: center;
+      margin-top: 30px;
+      border-top: 1px solid #eee;
+      padding-top: 10px;
+    }
+
+  </style>
+</head>
+<body>
+
+<!-- صفحه جلد -->
+<div class="cover">
+  <h1>نقشه راه ۵ ساله</h1>
+  <div class="subtitle">از QA Lead به مهندس نرم‌افزار بین‌المللی</div>
+  <div class="meta">
+    <p><strong>زبان:</strong> TypeScript</p>
+    <p><strong>نقش هدف:</strong> Backend Software Engineer با ذهنیت Reliability/Quality</p>
+    <p><strong>زمان:</strong> ۱۰ ساعت در هفته · ۲۶۰۰ ساعت · ۲۰۲۶ تا ۲۰۳۱</p>
+    <p><strong>بازار:</strong> بین‌المللی · ریموت · مقاوم در برابر AI</p>
+  </div>
+</div>
+
+<!-- مقدمه -->
+<h2>خلاصه تصمیمات</h2>
+<table>
+  <tr><th>موضوع</th><th>انتخاب</th><th>دلیل</th></tr>
+  <tr><td>زبان اصلی</td><td><strong>TypeScript</strong></td><td>بیشترین فرصت شغلی ریموت · type safety · یک زبان برای backend و frontend · اتصال به Playwright</td></tr>
+  <tr><td>نقش هدف</td><td><strong>Backend SWE</strong> + QE mindset</td><td>بیشترین تقاضا · سقف شغلی بالا · QA background در سال ۳+ مزیت می‌شود</td></tr>
+  <tr><td>نقش ثانویه</td><td>Platform Engineer / SRE-lite</td><td>AI-resistant · حقوق بالا · هم‌راستا با تجربه QE</td></tr>
+  <tr><td>زمان کل</td><td>۵ سال (۲۶۰ هفته)</td><td>۲۶۰ هفته × ۱۰ ساعت = ۲۶۰۰ ساعت یادگیری</td></tr>
+</table>
+
+<div class="formula-box">
+  <strong>فرمول موفقیت:</strong><br>
+  SWE fundamentals (۶۰٪) + System Design (۲۰٪) + Quality/Reliability mindset (۲۰٪) = مهندس رقابتی جهانی
+</div>
+
+<h2>زمان‌بندی کلی ۵ سال</h2>
+<div class="timeline">سال ۱ (هفته ۱–۵۲)     → پایه برنامه‌نویسی + CS           [۵۲۰ ساعت]
+سال ۲ (هفته ۵۳–۱۰۴)   → Backend SWE + پروژه واقعی          [۵۲۰ ساعت]
+سال ۳ (هفته ۱۰۵–۱۵۶)  → DevOps + QE مهندسی‌شده             [۵۲۰ ساعت]
+سال ۴ (هفته ۱۵۷–۲۰۸)  → System Design + Production         [۵۲۰ ساعت]
+سال ۵ (هفته ۲۰۹–۲۶۰)  → Senior track + مصاحبه + شغل        [۵۲۰ ساعت]</div>
+
+<table>
+  <tr><th>سال</th><th>سطح</th><th>خروجی</th></tr>
+  <tr><td>۱</td><td>مبتدی قوی</td><td>برنامه ساده بنویسی، DSA پایه حل کنی</td></tr>
+  <tr><td>۲</td><td>Junior-ready</td><td>REST API کامل با تست deploy کنی</td></tr>
+  <tr><td>۳</td><td>Junior/Mid</td><td>CI/CD، observability، quality gates راه بیندازی</td></tr>
+  <tr><td>۴</td><td>Mid-level</td><td>سیستم توزیع‌شده طراحی و debug کنی</td></tr>
+  <tr><td>۵</td><td>Mid/Senior-</td><td>مصاحبه بدهی، پیشنهاد شغل ریموت بگیری</td></tr>
+</table>
+
+<h2>تقسیم ۱۰ ساعت هفتگی</h2>
+<table>
+  <tr><th>فعالیت</th><th>ساعت</th><th>توضیح</th></tr>
+  <tr><td>یادگیری فنی</td><td>۳</td><td>ویدیو، کتاب، مستندات</td></tr>
+  <tr><td>کدنویسی عملی</td><td>۴</td><td>پروژه و تمرین</td></tr>
+  <tr><td>انگلیسی فنی</td><td>۲</td><td>مستندات + listening</td></tr>
+  <tr><td>مرور و یادداشت</td><td>۱</td><td>Feynman technique</td></tr>
+</table>
+
+<!-- سال ۱ -->
+<div class="page-break"></div>
+<h2>سال ۱: پایه‌ها (هفته ۱–۵۲ · ۵۲۰ ساعت)</h2>
+<p class="section-intro">هدف: برنامه‌نویسی راحت + ساختار داده پایه + یک پروژه کامل</p>
+
+<div class="phase-box">
+  <div class="phase-title"><span class="duration">۴ هفته · ۴۰ ساعت</span> فاز ۱.۱ — آشنایی با برنامه‌نویسی</div>
+  <h4>اهداف</h4>
+  <ul><li>محیط توسعه راه‌اندازی</li><li>متغیر، تابع، شرط، حلقه</li><li>TypeScript basics</li></ul>
+  <h4>مفاهیم کلیدی</h4>
+  <p>Variables، types، functions، control flow، arrays، objects، Node.js، npm</p>
+  <h4>منابع</h4>
+  <ul>
+    <li>TypeScript Handbook (رایگان)</li>
+    <li>freeCodeCamp — Scientific Computing (مفاهیم عمومی)</li>
+    <li>کتاب Eloquent JavaScript (فصل ۱–۶)</li>
+  </ul>
+  <h4>پروژه</h4>
+  <p>ماشین‌حساب CLI + بازی حدس عدد</p>
+  <h4>معیار تسلط</h4>
+  <ul class="checklist">
+    <li>بدون نگاه کردن، تابع sort بنویسی</li>
+    <li>خطای type در TypeScript را fix کنی</li>
+    <li>Git init، commit، push بلد باشی</li>
+  </ul>
+  <h4>نقش AI</h4>
+  <p>✅ autocomplete و توضیح خطا · ❌ نگذار کل پروژه را AI بنویسد · <strong>قانون:</strong> هر خط AI را باید توضیح دهی</p>
+</div>
+
+<div class="phase-box">
+  <div class="phase-title"><span class="duration">۴ هفته · ۴۰ ساعت</span> فاز ۱.۲ — OOP و Functional Basics</div>
+  <h4>مفاهیم کلیدی</h4>
+  <p>Classes، interfaces، inheritance، map/filter/reduce، error handling، async/await</p>
+  <h4>پروژه</h4>
+  <p>سیستم مدیریت کتابخانه شخصی (CLI) — class Book و Library، ذخیره JSON</p>
+  <h4>Unknown Unknown: Immutability</h4>
+  <p>AI کد mutable می‌نویسد که race condition می‌دهد. درک immutability = مهارت ۲۰۳۱.</p>
+</div>
+
+<div class="phase-box">
+  <div class="phase-title"><span class="duration">۶ هفته · ۶۰ ساعت</span> فاز ۱.۳ — ساختار داده و الگوریتم (پایه)</div>
+  <h4>مفاهیم کلیدی</h4>
+  <p>Array، Linked List، Stack، Queue، Hash Map، Tree، Graph (BFS/DFS)، Big-O، Sorting</p>
+  <h4>منابع</h4>
+  <ul><li>کتاب Grokking Algorithms</li><li>NeetCode.io و LeetCode Easy</li></ul>
+  <h4>تمرین</h4>
+  <p>۳۰ مسئله LeetCode Easy — هفته‌ای ۵ مسئله · بدون نگاه به جواب</p>
+  <h4>نقش AI</h4>
+  <p>✅ بررسی راه‌حل بعد از حل خودت · ❌ AI مسئله را حل نکند — <strong>مهم‌ترین فاز ضد-AI</strong></p>
+</div>
+
+<div class="phase-box">
+  <div class="phase-title"><span class="duration">۲ هفته · ۲۰ ساعت</span> فاز ۱.۴ — Git و Workflow حرفه‌ای</div>
+  <p>branch، merge، rebase، PR workflow، conventional commits · منبع: Pro Git Book</p>
+  <h4>خروجی</h4>
+  <p>GitHub profile با ۲–۳ repo تمیز</p>
+</div>
+
+<div class="phase-box">
+  <div class="phase-title"><span class="duration">۶ هفته · ۶۰ ساعت</span> فاز ۱.۵ — پروژه جامع سال ۱</div>
+  <h4>پروژه: Task Manager API</h4>
+  <ul>
+    <li>REST API با Node.js + Express + TypeScript</li>
+    <li>CRUD، validation، unit tests با Jest</li>
+    <li>Dockerfile ساده، README انگلیسی</li>
+  </ul>
+  <p><strong>خروجی سال ۱:</strong> Junior developer تازه‌کار با پایه محکم</p>
+</div>
+
+<!-- سال ۲ -->
+<div class="page-break"></div>
+<h2>سال ۲: Backend Engineer (هفته ۵۳–۱۰۴ · ۵۲۰ ساعت)</h2>
+<p class="section-intro">هدف: REST API حرفه‌ای + Database + Auth + Deploy</p>
+
+<div class="phase-box">
+  <div class="phase-title"><span class="duration">۴ هفته</span> فاز ۲.۱ — HTTP و REST API حرفه‌ای</div>
+  <p>HTTP methods، status codes، Express/Fastify، middleware، Zod validation · پروژه: Blog API</p>
+</div>
+
+<div class="phase-box">
+  <div class="phase-title"><span class="duration">۶ هفته</span> فاز ۲.۲ — Database (SQL)</div>
+  <p>PostgreSQL، Prisma/Drizzle، migrations، indexing، transactions، normalization</p>
+  <p>کتاب: Designing Data-Intensive Applications (فصل ۱–۳)</p>
+  <h4>Unknown Unknown: Database Migrations در Production</h4>
+  <p>هر SWE بین‌المللی باید zero-downtime migration بشناسد.</p>
+</div>
+
+<div class="phase-box">
+  <div class="phase-title"><span class="duration">۴ هفته</span> فاز ۲.۳ — Authentication و Security</div>
+  <p>JWT، bcrypt، OAuth 2.0، OWASP Top 10، CORS · پروژه: Auth system کامل</p>
+</div>
+
+<div class="phase-box">
+  <div class="phase-title"><span class="duration">۴ هفته</span> فاز ۲.۴ — Testing (اتصال QA background)</div>
+  <p>Unit/integration/e2e، Jest، Supertest، TDD، test doubles · پروژه: ۷۰٪+ coverage</p>
+  <h4>Unknown Unknown: Property-Based Testing</h4>
+  <p>AI کد با edge case زیاد می‌نویسد. fast-check این را catch می‌کند.</p>
+</div>
+
+<div class="phase-box">
+  <div class="phase-title"><span class="duration">۴ هفته</span> فاز ۲.۵ — Linux و Networking</div>
+  <p>Linux CLI، TCP/IP، DNS، HTTP/2، curl، SSH · منبع: Linux Journey</p>
+</div>
+
+<div class="phase-box">
+  <div class="phase-title"><span class="duration">۴ هفته</span> فاز ۲.۶ — Docker و Deploy</div>
+  <p>Dockerfile، docker-compose، multi-stage builds · Deploy به Railway/Render/Fly.io</p>
+</div>
+
+<div class="phase-box">
+  <div class="phase-title"><span class="duration">۸ هفته</span> فاز ۲.۷ — پروژه جامع سال ۲: E-Commerce Backend API</div>
+  <ul>
+    <li>Products، Cart، Orders، Users</li>
+    <li>PostgreSQL + Prisma، JWT + RBAC</li>
+    <li>۵۰+ tests، Docker + GitHub Actions CI</li>
+    <li>Deployed + documented + Postman collection</li>
+  </ul>
+  <p><strong>خروجی سال ۲:</strong> Junior Backend Engineer ready — آماده مصاحبه Junior</p>
+</div>
+
+<!-- سال ۳ -->
+<div class="page-break"></div>
+<h2>سال ۳: DevOps + Quality Engineering (هفته ۱۰۵–۱۵۶ · ۵۲۰ ساعت)</h2>
+<p class="section-intro">هدف: CI/CD + Observability + Quality Gates — <strong>QA background تو اینجا طلایی می‌شود</strong></p>
+
+<div class="phase-box">
+  <div class="phase-title"><span class="duration">۴ هفته</span> فاز ۳.۱ — CI/CD Pipeline</div>
+  <p>GitHub Actions، lint → test → build → deploy، branch protection، semantic versioning</p>
+</div>
+
+<div class="phase-box">
+  <div class="phase-title"><span class="duration">۴ هفته</span> فاز ۳.۲ — Observability</div>
+  <p>Structured logging، Prometheus، OpenTelemetry، SLI/SLO/error budget</p>
+  <h4>Unknown Unknown: OpenTelemetry</h4>
+  <p>استاندارد صنعتی ۲۰۳۰. هر engineer باید trace کامل request را بخواند.</p>
+</div>
+
+<div class="phase-box">
+  <div class="phase-title"><span class="duration">۴ هفته</span> فاز ۳.۳ — Performance و Load Testing</div>
+  <p>k6، profiling Node.js، Redis caching، query optimization · گزارش load test بنویس</p>
+</div>
+
+<div class="phase-box">
+  <div class="phase-title"><span class="duration">۴ هفته</span> فاز ۳.۴ — API Design پیشرفته</div>
+  <p>Versioning، pagination، rate limiting، idempotency، webhooks، OpenAPI/Swagger</p>
+</div>
+
+<div class="phase-box">
+  <div class="phase-title"><span class="duration">۶ هفته</span> فاز ۳.۵ — DSA متوسط</div>
+  <p>۴۰ مسئله LeetCode Medium — هفته‌ای ۷ مسئله · هدف: ۳ Medium در ۴۵ دقیقه</p>
+</div>
+
+<div class="phase-box">
+  <div class="phase-title"><span class="duration">۸ هفته</span> فاز ۳.۶ — پروژه جامع سال ۳: URL Shortener</div>
+  <ul>
+    <li>Shorten/redirect، analytics، Redis caching</li>
+    <li>Rate limiting، full CI/CD، load test results</li>
+    <li>System design document (ADR)، monitoring dashboard</li>
+  </ul>
+  <p><strong>خروجی سال ۳:</strong> Mid-level Backend Engineer با quality mindset</p>
+</div>
+
+<!-- سال ۴ -->
+<div class="page-break"></div>
+<h2>سال ۴: System Design + Production (هفته ۱۵۷–۲۰۸ · ۵۲۰ ساعت)</h2>
+<p class="section-intro">هدف: طراحی سیستم + مهارت production</p>
+
+<div class="phase-box">
+  <div class="phase-title"><span class="duration">۶ هفته</span> فاز ۴.۱ — System Design Fundamentals</div>
+  <p>Scalability، load balancing، caching، sharding، CAP theorem، microservices vs monolith</p>
+  <p>منابع: DDIA (فصل ۴–۹)، System Design Primer</p>
+  <p>تمرین: طراحی Twitter feed، Notification system، Rate limiter، Chat app، File storage</p>
+</div>
+
+<div class="phase-box">
+  <div class="phase-title"><span class="duration">۴ هفته</span> فاز ۴.۲ — Message Queues و Event-Driven</div>
+  <p>Pub/Sub، idempotency، dead letter queues، eventual consistency · پروژه: event-driven E-Commerce</p>
+</div>
+
+<div class="phase-box">
+  <div class="phase-title"><span class="duration">۶ هفته</span> فاز ۴.۳ — Kubernetes مقدماتی</div>
+  <p>Pods، Services، Deployments، Ingress، HPA، Helm · پروژه: deploy روی K8s</p>
+</div>
+
+<div class="phase-box">
+  <div class="phase-title"><span class="duration">۴ هفته</span> فاز ۴.۴ — Security پیشرفته</div>
+  <p>OWASP کامل، secrets management، dependency scanning، SAST/DAST</p>
+</div>
+
+<div class="phase-box">
+  <div class="phase-title"><span class="duration">۶ هفته</span> فاز ۴.۵ — DSA پیشرفته + مصاحبه</div>
+  <p>۳۰ Medium + ۵ Hard · mock interview هفتگی</p>
+</div>
+
+<div class="phase-box">
+  <div class="phase-title"><span class="duration">۸ هفته</span> فاز ۴.۶ — پروژه جامع سال ۴: Real-Time Chat Platform</div>
+  <ul>
+    <li>WebSocket، message persistence، online presence</li>
+    <li>Horizontal scaling design doc، K8s deployment</li>
+    <li>Full observability · load test: ۱۰۰۰ concurrent users</li>
+  </ul>
+  <p><strong>خروجی سال ۴:</strong> Mid-level Engineer — آماده System Design interview</p>
+</div>
+
+<!-- سال ۵ -->
+<div class="page-break"></div>
+<h2>سال ۵: Senior Track + بازار کار (هفته ۲۰۹–۲۶۰ · ۵۲۰ ساعت)</h2>
+<p class="section-intro">هدف: مصاحبه بدهی، شغل ریموت بگیری</p>
+
+<div class="phase-box">
+  <div class="phase-title"><span class="duration">۶ هفته</span> فاز ۵.۱ — System Design پیشرفته</div>
+  <p>۱۰ سیستم طراحی · mock interview هفته‌ای ۲ بار · DDIA فصل ۱۰–۱۲</p>
+</div>
+
+<div class="phase-box">
+  <div class="phase-title"><span class="duration">۶ هفته</span> فاز ۵.۲ — Open Source Contribution</div>
+  <p>۳–۵ PR به پروژه open source (TypeScript/Node) — حیاتی برای رزومه بین‌المللی</p>
+</div>
+
+<div class="phase-box">
+  <div class="phase-title"><span class="duration">۴ هفته</span> فاز ۵.۳ — Portfolio و Branding</div>
+  <p>GitHub حرفه‌ای · ۴ مقاله blog انگلیسی · LinkedIn · Resume ATS-friendly</p>
+</div>
+
+<div class="phase-box">
+  <div class="phase-title"><span class="duration">۸ هفته</span> فاز ۵.۴ — مصاحبه فنی</div>
+  <p>Coding: روزانه ۱ مسئله · System design: هفته‌ای ۲ · Behavioral: STAR — ۲۰ داستان · Pramp</p>
+</div>
+
+<div class="phase-box">
+  <div class="phase-title"><span class="duration">۱۲ هفته</span> فاز ۵.۵ — جستجوی شغل</div>
+  <p>هفته‌ای ۱۰–۱۵ application · شرکت‌های remote-first: GitLab، Automattic، Zapier، Doist</p>
+  <p>حقوق هدف: $۸۰K–$۱۲۰K remote (Junior-Mid)</p>
+  <p><strong>خروجی سال ۵:</strong> شغل ریموت بین‌المللی Backend/Platform Engineer</p>
+</div>
+
+<!-- انگلیسی -->
+<h2>برنامه موازی انگلیسی (۲ ساعت در هفته)</h2>
+<table>
+  <tr><th>سال</th><th>Reading</th><th>Listening</th><th>Speaking</th><th>Writing</th></tr>
+  <tr><td>۱</td><td>مستندات TypeScript/MDN</td><td>Fireship، Traversy</td><td>تکرار اصطلاحات فنی</td><td>commit message انگلیسی</td></tr>
+  <tr><td>۲</td><td>DDIA فصل ۱–۳</td><td>Software Engineering Daily</td><td>توضیح کد به AI</td><td>README + API docs</td></tr>
+  <tr><td>۳</td><td>AWS/docs فنی</td><td>GOTO، Strange Loop</td><td>ضبط توضیح پروژه</td><td>ADR + blog post</td></tr>
+  <tr><td>۴</td><td>Netflix/Uber blogs</td><td>System Design podcast</td><td>Mock interview</td><td>RFC بنویس</td></tr>
+  <tr><td>۵</td><td>Job descriptions</td><td>Interview podcasts</td><td>مصاحبه واقعی</td><td>Cover letter + blog</td></tr>
+</table>
+
+<!-- AI -->
+<h2>نقش AI در هر سال</h2>
+<table>
+  <tr><th>سال</th><th>استفاده درست ✅</th><th>استفاده غلط ❌</th></tr>
+  <tr><td>۱</td><td>توضیح خطا، مفهوم</td><td>حل تمرین و پروژه</td></tr>
+  <tr><td>۲</td><td>code review، refactor</td><td>نوشتن کل API</td></tr>
+  <tr><td>۳</td><td>تولید test case، debug log</td><td>طراحی architecture</td></tr>
+  <tr><td>۴</td><td>mock interview، feedback</td><td>طراحی سیستم بدون فکر</td></tr>
+  <tr><td>۵</td><td>resume review، behavioral</td><td>جواب مصاحبه</td></tr>
+</table>
+
+<div class="highlight-box">
+  <strong>قانون طلایی:</strong> AI دستیار است، نه جایگزین. اگر نتوانی بدون AI همان کار را بکنی، هنوز یاد نگرفته‌ای.
+</div>
+
+<!-- ارزیابی ماهانه -->
+<div class="page-break"></div>
+<h2>ارزیابی ماهانه (آخر هر ماه · ۱ ساعت)</h2>
+
+<h3>چک‌لیست فنی</h3>
+<ul class="checklist">
+  <li>ساعت مطالعه: ___ / ۴۰ (هدف ماهانه)</li>
+  <li>تمرین کدنویسی: ___ جلسه</li>
+  <li>مسائل LeetCode: ___ حل شده</li>
+  <li>commitهای GitHub: ___</li>
+</ul>
+
+<h3>پیشرفت پروژه</h3>
+<ul class="checklist">
+  <li>پیشرفت فاز فعلی: ___٪</li>
+  <li>blocker فعلی: ___</li>
+</ul>
+
+<h3>خودارزیابی (۱ تا ۵)</h3>
+<table>
+  <tr><th>مهارت</th><th>ماه قبل</th><th>این ماه</th></tr>
+  <tr><td>برنامه‌نویسی</td><td></td><td></td></tr>
+  <tr><td>DSA</td><td></td><td></td></tr>
+  <tr><td>System thinking</td><td></td><td></td></tr>
+  <tr><td>انگلیسی فنی</td><td></td><td></td></tr>
+</table>
+
+<h3>سوالات بازتاب</h3>
+<ol>
+  <li>سخت‌ترین مفهوم این ماه چه بود؟</li>
+  <li>آیا بدون AI توانستم حل کنم؟</li>
+  <li>آیا فاز را باید طولانی‌تر کنم؟</li>
+</ol>
+
+<h3>معیار اصلاح مسیر</h3>
+<table>
+  <tr><th>وضعیت</th><th>اقدام</th></tr>
+  <tr><td>۲ ماه متوالی عقب</td><td>فاز فعلی را نصف کن — مفاهیم را عمیق‌تر یاد بگیر</td></tr>
+  <tr><td>خسته‌کننده است</td><td>پروژه جانبی اضافه کن تا انگیزه حفظ شود</td></tr>
+  <tr><td>خیلی آسان است</td><td>فاز بعدی را زودتر شروع کن</td></tr>
+</table>
+
+<h2>چرا این مسیر در برابر AI مقاوم است؟</h2>
+<table>
+  <tr><th>نقش</th><th>وضعیت در ۲۰۳۱</th></tr>
+  <tr><td>Manual QA</td><td>شدیداً در حال کوچک شدن</td></tr>
+  <tr><td>SDET (فقط اتومیشن)</td><td>بخش زیادی automate می‌شود</td></tr>
+  <tr><td>QE جدا از dev</td><td>مرزها محو می‌شوند</td></tr>
+  <tr><td><strong>SWE با درک عمیق کیفیت</strong></td><td><strong>ارزشش بیشتر می‌شود</strong></td></tr>
+</table>
+
+<p>AI می‌تواند تست بنویسد و کد boilerplate تولید کند. اما نمی‌تواند trade-off معماری بدهد، سیستم توزیع‌شده debug کند، یا reliability را در سطح طراحی لحاظ کند.</p>
+
+<h2>نقش‌های شغلی هدف در ۲۰۳۱</h2>
+<ol>
+  <li>Backend Software Engineer (با culture قوی تست)</li>
+  <li>Platform Engineer (CI/CD، developer tooling)</li>
+  <li>Site Reliability Engineer (SRE)</li>
+  <li>Software Engineer — Developer Experience</li>
+  <li>Staff Engineer با تخصص reliability/quality</li>
+</ol>
+
+<div class="footer-note">
+  نقشه راه ۵ ساله — از QA Lead به مهندس نرم‌افزار بین‌المللی · ۲۰۲۶–۲۰۳۱ · ۱۰ ساعت/هفته · TypeScript
+</div>
+
+</body>
+</html>
