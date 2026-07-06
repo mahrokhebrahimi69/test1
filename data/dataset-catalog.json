@@ -1,0 +1,48 @@
+[
+  { "cluster": "positive", "comment": "غذا خیلی خوشمزه بود", "note": "تحسین ساده فارسی" },
+  { "cluster": "positive", "comment": "برگر عالی بود، دقیقاً همان طعمی که انتظار داشتم", "note": "تحسین با جزئیات" },
+  { "cluster": "positive", "comment": "پیتزا گرم و تازه رسید", "note": "تحسین + کیفیت تحویل" },
+  { "cluster": "positive", "comment": "کیفیت عالی، حتماً دوباره سفارش می‌دهم", "note": "رضایت بالا + intent تکرار" },
+  { "cluster": "positive", "comment": "very good food, thank you", "note": "تحسین انگلیسی" },
+
+  { "cluster": "complaint", "comment": "غذا سرد رسید", "note": "شکایت کیفیت غذا" },
+  { "cluster": "complaint", "comment": "تاخیر ۴۵ دقیقه‌ای داشت", "note": "شکایت زمان تحویل" },
+  { "cluster": "complaint", "comment": "کیفیت نسبت به قیمت پایین بود", "note": "شکایت ارزش خرید" },
+  { "cluster": "complaint", "comment": "بسته‌بندی باز شده رسید", "note": "شکایت بسته‌بندی" },
+  { "cluster": "complaint", "comment": "قاشق و چنگال نفرستادید", "note": "نواقص سفارش" },
+
+  { "cluster": "toxic", "comment": "خیلی بی‌ادب هستید", "note": "توهین مستقیم" },
+  { "cluster": "toxic", "comment": "افتضاح و بی‌کفایت", "note": "توهین به سرویس" },
+  { "cluster": "toxic", "comment": "احمق‌های بی‌شرف", "note": "فحش/توهین شدید" },
+  { "cluster": "toxic", "comment": "مزخرف‌ترین سفارش عمرم", "note": "توهین با hyperbole" },
+
+  { "cluster": "spam", "comment": "!!!!!", "note": "فقط علامت" },
+  { "cluster": "spam", "comment": "😂😂😂😂😂😂😂", "note": "فقط ایموجی" },
+  { "cluster": "spam", "comment": "test test test", "note": "متن تستی" },
+  { "cluster": "spam", "comment": "asdf qwerty 123", "note": "گبیج/کیبورد رندوم" },
+  { "cluster": "spam", "comment": "خخخخخخخخ", "note": "تکرار کاراکتر" },
+
+  { "cluster": "food_safety", "comment": "مو داخل غذا بود", "note": "آلودگی فیزیکی" },
+  { "cluster": "food_safety", "comment": "دستکش داخل ساندویچ پیدا کردم", "note": "جسم خارجی" },
+  { "cluster": "food_safety", "comment": "غذا بوی کهنگی می‌داد", "note": "فساد/کیفیت خطرناک" },
+
+  { "cluster": "sensitive", "comment": "این غذا حرام است", "note": "حساسیت مذهبی" },
+  { "cluster": "sensitive", "comment": "از نظر مذهبی برای ما قابل قبول نیست", "note": "حساسیت مذهبی ملایم‌تر" },
+
+  { "cluster": "boundary", "comment": "خ", "note": "خیلی کوتاه (۱ کاراکتر)" },
+  { "cluster": "boundary", "comment": "عالی", "note": "کوتاه مثبت" },
+  { "cluster": "boundary", "comment": "خیلی خیلی خیلی خوب بود و واقعاً از همه نظر عالی بود و پیشنهاد می‌کنم حتماً امتحان کنید", "note": "طولانی" },
+  { "cluster": "boundary", "comment": "The food was ok but پیک خیلی محترم نبود", "note": "دو زبانه" },
+
+  { "cluster": "neutral", "comment": "سفارش ساعت ۸ رسید", "note": "گزارش خنثی" },
+  { "cluster": "neutral", "comment": "فقط پاستا سفارش داده بودم", "note": "اطلاعات سفارش" },
+  { "cluster": "boundary", "comment": "   ", "note": "فقط فاصله" },
+  { "cluster": "boundary", "comment": "۱۲۳۴۵۶۷۸۹", "note": "فقط عدد" },
+
+  { "cluster": "policy", "comment": "رستوران روبروی شما غذای بهتری داره", "note": "تبلیغ رقیب" },
+  { "cluster": "policy", "comment": "تماس بگیرید ۰۹۱۲۱۲۳۴۵۶۷", "note": "PII / شماره تماس" },
+
+  { "cluster": "ambiguous", "comment": "نمیدونم چی بگم", "note": "مبهم" },
+  { "cluster": "ambiguous", "comment": "نه خوب بود نه بد", "note": "خنثی-مبهم" },
+  { "cluster": "ambiguous", "comment": "شاید دوباره امتحان کنم", "note": "تردید" }
+]
