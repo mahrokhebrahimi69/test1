@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>نقشه راه ۶ ماهه شخصی — QA Lead به مهندس نرم‌افزار</title>
+  <style>
+    @page { size: A4; margin: 16mm 14mm 18mm 14mm; }
+    * { box-sizing: border-box; }
+    body {
+      font-family: "Noto Naskh Arabic", "Noto Kufi Arabic", "DejaVu Sans", sans-serif;
+      font-size: 10.5pt;
+      line-height: 1.7;
+      color: #1a1a2e;
+      margin: 0;
+      padding: 0;
+      direction: rtl;
+      text-align: right;
+    }
+    .cover {
+      page-break-after: always;
+      min-height: 92vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background: linear-gradient(145deg, #1a472a 0%, #2d5a3d 40%, #1a1a2e 100%);
+      color: #fff;
+      padding: 40px;
+      margin: -16mm -14mm 0 -14mm;
+      padding-top: 55mm;
+      padding-bottom: 55mm;
+    }
+    .cover h1 { font-size: 24pt; margin: 0 0 12px; line-height: 1.5; }
+    .cover .sub { font-size: 13pt; opacity: 0.92; margin-bottom: 30px; }
+    .cover .meta { font-size: 10.5pt; opacity: 0.85; border-top: 1px solid rgba(255,255,255,0.25); padding-top: 18px; }
+    .cover .meta p { margin: 5px 0; }
+    h2 {
+      color: #1a472a;
+      font-size: 15pt;
+      border-bottom: 2px solid #e67e22;
+      padding-bottom: 5px;
+      margin: 24px 0 12px;
+      page-break-after: avoid;
+    }
+    h3 { color: #2d5a3d; font-size: 12pt; margin: 16px 0 8px; page-break-after: avoid; }
+    h4 { color: #533483; font-size: 11pt; margin: 12px 0 6px; }
+    p { margin: 6px 0; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 10px 0 14px;
+      font-size: 9.5pt;
+      page-break-inside: avoid;
+    }
+    th { background: #1a472a; color: #fff; padding: 7px 9px; text-align: right; }
+    td { border: 1px solid #ccc; padding: 6px 9px; vertical-align: top; }
+    tr:nth-child(even) td { background: #f6f8f6; }
+    ul, ol { margin: 6px 0; padding-right: 22px; padding-left: 0; }
+    li { margin: 3px 0; }
+    .stars { color: #e67e22; letter-spacing: 1px; }
+    .box {
+      border: 1px solid #ccc;
+      border-right: 4px solid #e67e22;
+      border-radius: 4px;
+      padding: 12px 14px;
+      margin: 12px 0;
+      background: #fafcfa;
+      page-break-inside: avoid;
+    }
+    .box-title { font-weight: bold; color: #1a472a; font-size: 11pt; margin-bottom: 6px; }
+    .month-tag {
+      display: inline-block;
+      background: #1a472a;
+      color: #fff;
+      padding: 2px 12px;
+      border-radius: 10px;
+      font-size: 9pt;
+      margin-left: 6px;
+    }
+    .code {
+      background: #f0f0f0;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      padding: 10px 14px;
+      font-family: "DejaVu Sans Mono", monospace;
+      font-size: 9pt;
+      direction: ltr;
+      text-align: left;
+      margin: 8px 0;
+      white-space: pre-wrap;
+    }
+    .highlight {
+      background: #fff8e6;
+      border: 1px solid #e67e22;
+      border-radius: 4px;
+      padding: 10px 14px;
+      margin: 10px 0;
+    }
+    .progress {
+      background: #eef2ee;
+      padding: 12px 16px;
+      border-radius: 4px;
+      font-size: 9.5pt;
+      margin: 10px 0;
+      line-height: 2;
+    }
+    .before-after td:first-child { background: #fde8e8; }
+    .before-after td:last-child { background: #e8f5e9; }
+    .page-break { page-break-before: always; }
+    .footer {
+      font-size: 8.5pt;
+      color: #888;
+      text-align: center;
+      margin-top: 24px;
+      border-top: 1px solid #eee;
+      padding-top: 8px;
+    }
+    .checklist { list-style: none; padding-right: 0; }
+    .checklist li::before { content: "☐ "; color: #1a472a; }
+  </style>
+</head>
+<body>
+
+<div class="cover">
+  <h1>نقشه راه ۶ ماهه شخصی</h1>
+  <div class="sub">از QA Lead به مهندس نرم‌افزار با ذهنیت کیفیت</div>
+  <div class="meta">
+    <p><strong>زبان:</strong> Python (ادامه pytest موجود)</p>
+    <p><strong>زمان:</strong> ۱۰ ساعت در هفته · ۲۶۰ ساعت</p>
+    <p><strong>پروفایل:</strong> QA Lead · تیم ۶ نفره · Postman · Playwright · JMeter</p>
+    <p><strong>تاریخ تهیه:</strong> تیر ۱۴۰۵ / ژوئیه ۲۰۲۶</p>
+  </div>
+</div>
+
+<h2>جمع‌بندی ارزیابی</h2>
+<p>تو <strong>تستر حرفه‌ای</strong> هستی که باید بشه <strong>مهندس با ذهنیت تست</strong>. از صفر شروع نمی‌کنی — ۱۴ سال تجربه QA مزیت توست.</p>
+
+<h3>Skill Matrix — سطح واقعی</h3>
+<table>
+  <tr><th>حوزه</th><th>نمره</th><th>وضعیت</th></tr>
+  <tr><td>Test Strategy &amp; Test Case</td><td class="stars">⭐⭐⭐⭐⭐</td><td>قوی — مزیت رقابتی</td></tr>
+  <tr><td>API Testing (Postman)</td><td class="stars">⭐⭐⭐⭐</td><td>حرفه‌ای</td></tr>
+  <tr><td>Test Automation (Playwright/Selenium)</td><td class="stars">⭐⭐⭐</td><td>می‌دانی، تنها انجام می‌دهی</td></tr>
+  <tr><td>Performance Testing (JMeter)</td><td class="stars">⭐⭐⭐</td><td>تجربه داری</td></tr>
+  <tr><td>CI/CD</td><td class="stars">⭐⭐⭐</td><td>استفاده کردی، عمیق نیست</td></tr>
+  <tr><td>Git</td><td class="stars">⭐⭐</td><td>توی کار می‌زنی، پایه سوراخ دارد</td></tr>
+  <tr><td>SQL</td><td class="stars">⭐⭐⭐</td><td>JOIN بلدی</td></tr>
+  <tr><td>Programming (Python/JS)</td><td class="stars">⭐⭐</td><td>script می‌نویسی، نه engineer</td></tr>
+  <tr><td>Docker</td><td class="stars">⭐</td><td>فقط شنیدی</td></tr>
+  <tr><td>CS Concepts</td><td class="stars">⭐⭐</td><td>HTTP خوب، race condition نمی‌دانی</td></tr>
+  <tr><td>Debugging / Logs</td><td class="stars">⭐⭐</td><td>گاهی می‌فهمی</td></tr>
+  <tr><td>System Concepts</td><td class="stars">⭐⭐</td><td>شنیدی، عمیق نیست</td></tr>
+</table>
+
+<h3>فاصله با مهندس جهانی</h3>
+<div class="progress">
+  تو الان:          ████████░░░░░░░░░░░░  QA Lead قوی<br>
+  هدف ۶ ماه:       ██████████░░░░░░░░░░  QA Engineer + پایه SWE<br>
+  هدف ۲ سال:       ██████████████░░░░░░  Junior Backend SWE<br>
+  هدف ۵ سال:       ██████████████████░░  Mid/Senior SWE
+</div>
+
+<h3>چیزهایی که داری (مهندس تازه‌کار ندارد)</h3>
+<ul>
+  <li>Test strategy و test case حرفه‌ای</li>
+  <li>Postman، Playwright، JMeter</li>
+  <li>درک flaky test، staging vs production</li>
+  <li>Python در pytest و JS در Postman</li>
+</ul>
+
+<h3>چیزهایی که باید بسازی</h3>
+<ul>
+  <li>Git واقعی (نه فقط pull)</li>
+  <li>Docker عملی</li>
+  <li>برنامه‌نویسی engineer-level</li>
+  <li>مفاهیم: consumer، backward compatible، race condition</li>
+  <li>خواندن log و debug</li>
+</ul>
+
+<div class="page-break"></div>
+
+<h2>اصلاح مفاهیم HTTP</h2>
+<table>
+  <tr><th>کد</th><th>معنی درست</th><th>اشتباه رایج</th></tr>
+  <tr><td><strong>404</strong></td><td>منبع پیدا نشد (Not Found)</td><td>❌ دسترسی نداری</td></tr>
+  <tr><td><strong>403</strong></td><td>دسترسی ممنوع (Forbidden)</td><td>—</td></tr>
+  <tr><td><strong>401</strong></td><td>احراز هویت نشده (Unauthorized)</td><td>—</td></tr>
+  <tr><td><strong>500</strong></td><td>خطای سرور (Internal Server Error)</td><td>✓ درست می‌دانی</td></tr>
+</table>
+
+<h2>مفاهیم کلیدی — توضیح ساده</h2>
+
+<div class="box">
+  <div class="box-title">Git — دفترچه تغییرات تیم</div>
+  <p>هر تغییر کد = commit. هر feature = branch. PR = درخواست merge.</p>
+  <div class="code">git add نام-فایل
+git commit -m "اضافه کردن تست لاگین"
+git push</div>
+</div>
+
+<div class="box">
+  <div class="box-title">Docker — جعبه آماده اجرا</div>
+  <p>برنامه + همه dependencyها در یک container. روی لپتاپ و سرور یکسان اجرا می‌شود.</p>
+</div>
+
+<div class="box">
+  <div class="box-title">Backward Compatible — تغییر جدید، قدیمی را نشکند</div>
+  <p>API نسخه ۲ فیلد جدید اضافه می‌کند ولی فیلد قدیمی را حذف نمی‌کند. اپ قدیمی هنوز کار می‌کند.</p>
+  <p><strong>سوال در جلسه:</strong> «این تغییر backward compatible هست؟»</p>
+</div>
+
+<div class="box">
+  <div class="box-title">Consumer / Producer</div>
+  <p>Producer پیام می‌فرستد → [صف پیام] → Consumer پیام را می‌گیرد و واکنش نشان می‌دهد.</p>
+  <p><strong>سوالات تست:</strong> اگر پیام دوبار برسد؟ اگر consumer خاموش باشد؟</p>
+</div>
+
+<div class="box">
+  <div class="box-title">Race Condition</div>
+  <p>دو عملیات همزمان روی یک منبع → نتیجه غلط. مثال: دو نفر همزمان یک صندلی رزرو کنند و هر دو موفق شوند.</p>
+</div>
+
+<div class="page-break"></div>
+
+<h2>نقشه ۶ ماهه — هفته به هفته</h2>
+
+<div class="box">
+  <div class="box-title"><span class="month-tag">ماه ۱</span> Git + Docker</div>
+  <p><strong>چرا اول؟</strong> فردا در کار به کارت می‌آید. ضعیف‌ترین بخش فعلی تو.</p>
+  <h4>هفته ۱–۲: Git</h4>
+  <table>
+    <tr><th>روز</th><th>کار (۱.۵ ساعت)</th></tr>
+    <tr><td>۱</td><td>نصب Git — git config — اولین git init</td></tr>
+    <tr><td>۲</td><td>git add → commit → status</td></tr>
+    <tr><td>۳</td><td>git log → git diff روی repo کاری</td></tr>
+    <tr><td>۴</td><td>git branch → checkout — branch جدید</td></tr>
+    <tr><td>۵</td><td>git merge — conflict بساز و حل کن</td></tr>
+    <tr><td>۶</td><td>Pull Request روی GitHub</td></tr>
+    <tr><td>۷</td><td>مرور + یادداشت</td></tr>
+  </table>
+  <h4>هفته ۳–۴: Docker</h4>
+  <ul>
+    <li>docker run hello-world</li>
+    <li>docker run postgres — دیتابیس بالا بیاور</li>
+    <li>docker-compose.yml بنویس</li>
+    <li>محیط تست محلی با Docker</li>
+  </ul>
+  <p><strong>خروجی:</strong> ۵ commit روی GitHub + docker-compose با PostgreSQL</p>
+</div>
+
+<div class="box">
+  <div class="box-title"><span class="month-tag">ماه ۲</span> مفاهیم سیستمی + API عمیق</div>
+  <h4>هفته ۵–۶: API عمیق‌تر</h4>
+  <ul>
+    <li>REST: headers، query params، body types</li>
+    <li>API versioning: /v1/users vs /v2/users</li>
+    <li>Backward compatible و contract testing</li>
+  </ul>
+  <p><strong>تمرین:</strong> API واقعی تست کن — کدام تغییر breaking است؟</p>
+  <h4>هفته ۷–۸: Messaging + Race Condition</h4>
+  <p>Consumer/Producer، سوالات تست async، یک flaky test واقعی تحلیل کن.</p>
+  <p><strong>خروجی:</strong> سند ۱ صفحه‌ای «Backward compatibility در پروژه ما»</p>
+</div>
+
+<div class="box">
+  <div class="box-title"><span class="month-tag">ماه ۳</span> Python Engineer (از pytest)</div>
+  <h4>هفته ۹–۱۰: Python محکم</h4>
+  <p>Functions، classes، file I/O، error handling، venv + requirements.txt</p>
+  <h4>هفته ۱۱–۱۲: FastAPI — اولین API</h4>
+  <div class="code">GET  /tasks      → لیست
+POST /tasks      → ایجاد
+GET  /tasks/{id} → یک task</div>
+  <p>تست با pytest + httpx</p>
+  <p><strong>خروجی:</strong> API روی GitHub با تست‌های pytest</p>
+</div>
+
+<div class="page-break"></div>
+
+<div class="box">
+  <div class="box-title"><span class="month-tag">ماه ۴</span> CI/CD + Log + Debug</div>
+  <h4>هفته ۱۳–۱۴: GitHub Actions</h4>
+  <p>commit → lint → test → build — هر push تست خودکار</p>
+  <h4>هفته ۱۵–۱۶: خواندن Log</h4>
+  <ul>
+    <li>Log levels: DEBUG، INFO، WARNING، ERROR</li>
+    <li>grep / tail -f</li>
+    <li>trace یک باگ واقعی از کار</li>
+  </ul>
+  <p><strong>خروجی:</strong> pipeline سبز + توانایی خواندن log</p>
+</div>
+
+<div class="box">
+  <div class="box-title"><span class="month-tag">ماه ۵</span> SQL + Database</div>
+  <h4>هفته ۱۷–۱۸: PostgreSQL + Python</h4>
+  <p>API را به PostgreSQL وصل کن — migration backward compatible</p>
+  <h4>هفته ۱۹–۲۰: Query Optimization</h4>
+  <p>EXPLAIN ANALYZE — query کند پیدا و بهینه کن</p>
+  <p><strong>خروجی:</strong> API با database واقعی</p>
+</div>
+
+<div class="box">
+  <div class="box-title"><span class="month-tag">ماه ۶</span> پروژه جمع‌بندی</div>
+  <h4>هفته ۲۱–۲۶: Task Manager Engineer Edition</h4>
+  <ul class="checklist">
+    <li>FastAPI + PostgreSQL</li>
+    <li>CRUD کامل</li>
+    <li>pytest — حداقل ۲۰ تست (unit + integration)</li>
+    <li>Docker + docker-compose</li>
+    <li>GitHub Actions CI</li>
+    <li>README انگلیسی</li>
+    <li>یک ADR: «چرا این طراحی؟»</li>
+  </ul>
+  <p><strong>این پروژه = رزومه ۶ ماه بعد.</strong></p>
+</div>
+
+<h2>تقسیم ۱۰ ساعت هفتگی</h2>
+<table>
+  <tr><th>فعالیت</th><th>ساعت</th></tr>
+  <tr><td>یادگیری (یک مفهوم)</td><td>۳</td></tr>
+  <tr><td>دست‌به‌کار (تمرین/پروژه)</td><td>۴</td></tr>
+  <tr><td>انگلیسی (مستندات همان موضوع)</td><td>۲</td></tr>
+  <tr><td>یادداشت: «امروز چی یاد گرفتم؟»</td><td>۱</td></tr>
+</table>
+
+<div class="page-break"></div>
+
+<h2>هفته ۱ — شروع از فردا</h2>
+<table>
+  <tr><th>روز</th><th>دقیقاً چه کار کن</th></tr>
+  <tr><td>شنبه</td><td>Git نصب — git config --global user.name و user.email</td></tr>
+  <tr><td>یکشنبه</td><td>پوشه بساز — git init — README.md — git add — git commit</td></tr>
+  <tr><td>دوشنبه</td><td>repo کاری: git log --oneline -10</td></tr>
+  <tr><td>سه‌شنبه</td><td>git branch test-branch — checkout — تغییر — commit</td></tr>
+  <tr><td>چهارشنبه</td><td>git merge test-branch</td></tr>
+  <tr><td>پنج‌شنبه</td><td>GitHub — repo عمومی — push</td></tr>
+  <tr><td>جمعه</td><td>یادداشت: «Git یعنی چی و QA Lead چرا باید بلد باشد؟»</td></tr>
+</table>
+
+<h2>قبل و بعد — ۶ ماه</h2>
+<table class="before-after">
+  <tr><th>الان</th><th>۶ ماه بعد</th></tr>
+  <tr><td>Git می‌زنم ولی commit بلد نیستم</td><td>Git workflow راحت</td></tr>
+  <tr><td>Docker شنیدم</td><td>محیط تست با Docker بالا می‌آورم</td></tr>
+  <tr><td>Consumer چیه؟</td><td>سوال درست در جلسه می‌پرسم</td></tr>
+  <tr><td>pytest می‌نویسم</td><td>API + تست + CI خودم ساختم</td></tr>
+  <tr><td>Log گاهی می‌فهمم</td><td>مسیر debug را می‌دانم</td></tr>
+</table>
+
+<h2>نقش AI — قانون طلایی</h2>
+<table>
+  <tr><th>درست ✅</th><th>غلط ❌</th></tr>
+  <tr><td>«Docker چیه؟ مثل چی می‌ماند؟»</td><td>«کل پروژه را بنویس»</td></tr>
+  <tr><td>«این خطا یعنی چی؟»</td><td>«تست‌هایم را خودت بنویس»</td></tr>
+  <tr><td>«کدم را review کن»</td><td>«به‌جای من یاد بگیر»</td></tr>
+</table>
+
+<div class="highlight">
+  <strong>قانون:</strong> اگر نتوانی بدون AI همان کار را تکرار کنی → هنوز یاد نگرفته‌ای.<br>
+  <strong>قانون کار:</strong> هر چیزی یاد گرفتی، فردا در کار امتحانش کن.
+</div>
+
+<h2>چک‌لیست پایان ۶ ماه</h2>
+<ul class="checklist">
+  <li>۵+ commit واقعی روی GitHub</li>
+  <li>docker-compose کار می‌کند</li>
+  <li>یک API با FastAPI نوشتم</li>
+  <li>۲۰+ تست pytest</li>
+  <li>CI pipeline سبز</li>
+  <li>README انگلیسی</li>
+  <li>می‌فهمم backward compatible یعنی چی</li>
+  <li>می‌فهمم consumer/producer یعنی چی</li>
+  <li>می‌توانم log بخوانم</li>
+</ul>
+
+<div class="footer">
+  نقشه راه ۶ ماهه شخصی — QA Lead به مهندس نرم‌افزار · Python · ۱۰ ساعت/هفته · ۲۰۲۶
+</div>
+
+</body>
+</html>
