@@ -1,0 +1,154 @@
+{
+  "info": {
+    "_postman_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "name": "Classification QA",
+    "description": "Minimal collection for political/comment classification QA. Use with data/political_comment_dataset.flat.json",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "https://comment.foodstg.com"
+    },
+    {
+      "key": "classification_report",
+      "value": "[]"
+    },
+    {
+      "key": "classification_summary",
+      "value": "{}"
+    },
+    {
+      "key": "classification_failures",
+      "value": "[]"
+    }
+  ],
+  "item": [
+    {
+      "name": "Moderate Comment",
+      "event": [
+        {
+          "listen": "prerequest",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "const index = pm.info.iteration;",
+              "if (index === 0) {",
+              "    pm.collectionVariables.set('classification_report', '[]');",
+              "    pm.collectionVariables.set('classification_summary', '{}');",
+              "    pm.collectionVariables.set('classification_failures', '[]');",
+              "    console.log('classification_report reset for new run');",
+              "}"
+            ]
+          }
+        },
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "const json = pm.response.json();",
+              "",
+              "const expectedLabel = String(pm.iterationData.get('expected_label') || '').trim();",
+              "const rawExpectedReason = pm.iterationData.get('expected_reason');",
+              "const expectedReason =",
+              "    rawExpectedReason == null || rawExpectedReason === 'null'",
+              "        ? ''",
+              "        : String(rawExpectedReason).trim();",
+              "",
+              "const actualLabel = String(json.label || '').trim();",
+              "const actualReason = json.reason == null ? '' : String(json.reason).trim();",
+              "const confidence = json.confidence == null ? null : Number(json.confidence);",
+              "",
+              "function classifyStatus(expectedLabel, actualLabel, expectedReason, actualReason) {",
+              "    if (expectedLabel !== actualLabel) {",
+              "        if (expectedLabel === 'disapproval' && actualLabel === 'approval') {",
+              "            return { status: 'FALSE_ACCEPT', mismatch_type: 'should_reject_but_approved' };",
+              "        }",
+              "        if (expectedLabel === 'approval' && actualLabel === 'disapproval') {",
+              "            return { status: 'FALSE_REJECT', mismatch_type: 'should_approve_but_rejected' };",
+              "        }",
+              "        return { status: 'LABEL_MISMATCH', mismatch_type: `${expectedLabel}_to_${actualLabel}` };",
+              "    }",
+              "    if (expectedReason !== actualReason) {",
+              "        return { status: 'REASON_MISMATCH', mismatch_type: 'reason_only' };",
+              "    }",
+              "    return { status: 'PASS', mismatch_type: null };",
+              "}",
+              "",
+              "const { status, mismatch_type } = classifyStatus(",
+              "    expectedLabel, actualLabel, expectedReason, actualReason",
+              ");",
+              "",
+              "const item = {",
+              "    id: pm.iterationData.get('id'),",
+              "    comment: pm.iterationData.get('comment'),",
+              "    category: pm.iterationData.get('category') || null,",
+              "    subcategory: pm.iterationData.get('subcategory') || null,",
+              "    expected_label: expectedLabel,",
+              "    actual_label: actualLabel,",
+              "    expected_reason: expectedReason || null,",
+              "    actual_reason: actualReason || null,",
+              "    confidence,",
+              "    status,",
+              "    mismatch_type,",
+              "    http_status: pm.response.code,",
+              "    duration_ms: pm.response.responseTime,",
+              "    timestamp: new Date().toISOString()",
+              "};",
+              "",
+              "let report = [];",
+              "const existing = pm.collectionVariables.get('classification_report');",
+              "if (existing) {",
+              "    try { report = JSON.parse(existing); } catch (_) { report = []; }",
+              "}",
+              "report.push(item);",
+              "pm.collectionVariables.set('classification_report', JSON.stringify(report));",
+              "",
+              "const failures = report.filter((x) => x.status !== 'PASS');",
+              "const summary = {",
+              "    TOTAL: report.length,",
+              "    PASS: report.length - failures.length,",
+              "    FALSE_ACCEPT: report.filter((x) => x.status === 'FALSE_ACCEPT').length,",
+              "    FALSE_REJECT: report.filter((x) => x.status === 'FALSE_REJECT').length,",
+              "    LABEL_MISMATCH: report.filter((x) => x.status === 'LABEL_MISMATCH').length,",
+              "    REASON_MISMATCH: report.filter((x) => x.status === 'REASON_MISMATCH').length,",
+              "    ACCURACY_STRICT_PCT: (((report.length - failures.length) / report.length) * 100).toFixed(2)",
+              "};",
+              "pm.collectionVariables.set('classification_summary', JSON.stringify(summary));",
+              "pm.collectionVariables.set('classification_failures', JSON.stringify(failures));",
+              "",
+              "pm.test('label', () => pm.expect(actualLabel).to.eql(expectedLabel));",
+              "pm.test('reason', () => pm.expect(actualReason).to.eql(expectedReason));",
+              "pm.test('confidence', () => {",
+              "    pm.expect(confidence).to.be.a('number');",
+              "    pm.expect(confidence).to.be.within(0, 1);",
+              "});",
+              "",
+              "console.log(item);",
+              "console.log(summary);"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"comment\": \"{{comment}}\"\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/moderate",
+          "host": ["{{baseUrl}}"],
+          "path": ["moderate"]
+        }
+      }
+    }
+  ]
+}

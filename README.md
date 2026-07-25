@@ -26,11 +26,24 @@ data/political_comment_dataset.comments.json
 python3 scripts/build_political_dataset.py
 ```
 
-## Postman
-
-راهنما: [`postman/HOW_TO_RUN.md`](postman/HOW_TO_RUN.md)
+## Postman (دیباگ دستی)
 
 - Data File: `data/political_comment_dataset.flat.json`
-- Tests: `postman/Tests_classification_report.js`
+- Collection: `postman/preferred/Classification_QA.postman_collection.json`
+- راهنما: [`postman/HOW_TO_RUN.md`](postman/HOW_TO_RUN.md)
+
+## ترجیح ذخیره سوابق: Newman + JSONL
+
+```bash
+npm install
+npm run qa:fresh
+```
+
+خروجی:
+- `results/runs/<runId>/results.jsonl` — هر کیس + confidence
+- `results/runs/<runId>/summary.json` — آمار FALSE_ACCEPT / FALSE_REJECT
+- `results/runs/index.json` — فهرست runها
+
+چرا این‌طور: [`postman/preferred/WHY_THIS_WAY.md`](postman/preferred/WHY_THIS_WAY.md)
 
 جزئیات خوشه‌ها و اسکیم برچسب: [`data/README.md`](data/README.md)

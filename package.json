@@ -1,0 +1,14 @@
+{
+  "name": "political-comment-dataset",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Persian political comment QA dataset + Newman runner",
+  "scripts": {
+    "qa": "node scripts/newman-classification-runner.js",
+    "qa:fresh": "node scripts/newman-classification-runner.js --fresh",
+    "build:data": "python3 scripts/build_political_dataset.py"
+  },
+  "dependencies": {
+    "newman": "^6.2.1"
+  }
+}
