@@ -13,6 +13,18 @@
 
 دانلود یکجا: `../political_comment_dataset.zip`
 
+## اجرای Postman
+
+اسکریپت آماده در `postman/`:
+
+- Data File: **`political_comment_dataset.flat.json`**
+- Tests: `postman/Tests_classification_report.js`
+- راهنما: [`../postman/HOW_TO_RUN.md`](../postman/HOW_TO_RUN.md)
+
+خروجی در Collection Variables ذخیره می‌شود:
+`classification_report` / `classification_failures` / `classification_summary`
+(هر رکورد شامل `confidence` است).
+
 ## اسکیم برچسب
 
 - **labels:** `approval` | `disapproval` | `unknown`

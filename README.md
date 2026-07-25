@@ -26,4 +26,11 @@ data/political_comment_dataset.comments.json
 python3 scripts/build_political_dataset.py
 ```
 
+## Postman
+
+راهنما: [`postman/HOW_TO_RUN.md`](postman/HOW_TO_RUN.md)
+
+- Data File: `data/political_comment_dataset.flat.json`
+- Tests: `postman/Tests_classification_report.js`
+
 جزئیات خوشه‌ها و اسکیم برچسب: [`data/README.md`](data/README.md)
