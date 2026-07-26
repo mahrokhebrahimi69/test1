@@ -1,0 +1,206 @@
+{
+  "title": "Moderation model failures — staging manual samples",
+  "environment": "https://comment.foodstg.com/moderate",
+  "reported_at": "2026-07-26",
+  "total_failures": 7,
+  "notes": [
+    "API labels are approve/disapprove (not approval/disapproval).",
+    "Final decision often follows LLM even when ML suggests disapprove.",
+    "This file is intended as an email attachment for QA/product review."
+  ],
+  "failures": [
+    {
+      "id": "F001",
+      "category": "infrastructure_or_upstream",
+      "severity": "سیاسی واضح؛ به‌جای کلاس، 502 برگشته",
+      "comment": "مشکلات اقتصادی روی همه چیز تأثیر گذاشته است.",
+      "expected": {
+        "label": "disapprove",
+        "reason": "سياسي"
+      },
+      "actual": {
+        "http_status": 502,
+        "body": "Upstream error"
+      },
+      "observed_at": "2026-07-25T11:17:33Z"
+    },
+    {
+      "id": "F002",
+      "category": "ml_llm_disagreement_price_boundary",
+      "severity": "انتقاد قیمت/کیفیت؛ ML disapprove بود ولی final approve شد",
+      "comment": "قیمت این غذا برای کیفیتش بالاست",
+      "expected": {
+        "label": "disapprove",
+        "reason": "انتقاد_و_پیشنهاد",
+        "product_note": "اگر سیاست golden-rule برای انتقاد محترمانه approve است، باید صریح مستند شود."
+      },
+      "actual": {
+        "label": "approve",
+        "reason": null,
+        "confidence": 0.87,
+        "ml": {
+          "label": "disapprove",
+          "confidence": 0.5754089951515198
+        },
+        "llm": {
+          "label": "approve",
+          "confidence": 0.87,
+          "reason": null
+        }
+      }
+    },
+    {
+      "id": "F003",
+      "category": "sarcasm_truncated_politics",
+      "severity": "طنز/کنایه سیاسی ناقص بدون کلیدواژه مسئولان",
+      "comment": "کاری کردند حتی پیتزا رویایی شود",
+      "expected": {
+        "label": "disapprove",
+        "reason": "سياسي"
+      },
+      "actual": {
+        "label": "approve",
+        "reason": null,
+        "confidence": 0.9,
+        "ml": {
+          "label": "approve",
+          "confidence": 0.6209078431129456
+        },
+        "llm": {
+          "label": "approve",
+          "confidence": 0.9,
+          "reason": null
+        }
+      }
+    },
+    {
+      "id": "F004",
+      "category": "soft_politics_mixed_with_food_praise",
+      "severity": "تحسین غذا + مشکلات کلی؛ سیگنال سیاسی نرم از دست رفته",
+      "comment": "غذا خوشمزه بود هرچند مشکلات اجازه لذت بردن نمی‌دهد",
+      "expected": {
+        "label": "disapprove",
+        "reason": "سياسي"
+      },
+      "actual": {
+        "label": "approve",
+        "reason": null,
+        "confidence": 0.87,
+        "ml": {
+          "label": "approve",
+          "confidence": 0.525671124458313
+        },
+        "llm": {
+          "label": "approve",
+          "confidence": 0.87,
+          "reason": null
+        }
+      }
+    },
+    {
+      "id": "F005",
+      "category": "soft_politics_ml_overridden_by_llm",
+      "severity": "ML نسبتاً مطمئن disapprove داده ولی LLM/final approve کرده",
+      "comment": "سفارش عالی بود، حیف که این روزها حال خوشی نیست",
+      "expected": {
+        "label": "disapprove",
+        "reason": "سياسي"
+      },
+      "actual": {
+        "label": "approve",
+        "reason": null,
+        "confidence": 0.88,
+        "ml": {
+          "label": "disapprove",
+          "confidence": 0.7244129776954651
+        },
+        "llm": {
+          "label": "approve",
+          "confidence": 0.88,
+          "reason": null
+        }
+      }
+    },
+    {
+      "id": "F006",
+      "category": "sensitive_phrase_inside_food_praise",
+      "severity": "عبارت حساس/اجتماعی داخل تعریف غذا؛ ML disapprove ولی final approve",
+      "comment": "الویه های پدر شهید رو عشقه",
+      "expected": {
+        "label": "disapprove",
+        "reason": "نیاز به تعیین تکلیف محصولی (حساس/سیاسی/اجتماعی)",
+        "product_note": "حداقل نباید بدون بررسی/reason حساس به‌سادگی approve شود."
+      },
+      "actual": {
+        "label": "approve",
+        "reason": null,
+        "confidence": 0.95,
+        "ml": {
+          "label": "disapprove",
+          "confidence": 0.7423139214515686
+        },
+        "llm": {
+          "label": "approve",
+          "confidence": 0.95,
+          "reason": null
+        }
+      },
+      "request_example": {
+        "method": "POST",
+        "url": "https://comment.foodstg.com/moderate",
+        "headers": {
+          "accept": "application/json",
+          "Content-Type": "application/json"
+        },
+        "body": {
+          "comment": "الویه های پدر شهید رو عشقه"
+        }
+      }
+    },
+    {
+      "id": "F007",
+      "category": "sensitive_wording_with_food_praise",
+      "severity": "واژه حساس/غیراستاندارد همراه تعریف غذا؛ فعلاً approve شده",
+      "comment": "عقده ام  این است که این غذا عالی بود ",
+      "expected": {
+        "label": "disapprove",
+        "reason": "نیاز به تعیین تکلیف محصولی (لحن حساس/نامناسب)",
+        "product_note": "اگر از نظر محصول قابل انتشار است، صریح مشخص شود؛ در غیر این صورت باید فیلتر/اسکالیشن داشته باشد."
+      },
+      "actual": {
+        "label": "approve",
+        "reason": null,
+        "confidence": 0.92,
+        "ml": {
+          "label": "approve",
+          "confidence": 0.7300911545753479
+        },
+        "llm": {
+          "label": "approve",
+          "confidence": 0.92,
+          "reason": null
+        }
+      },
+      "request_example": {
+        "method": "POST",
+        "url": "https://comment.foodstg.com/moderate",
+        "headers": {
+          "accept": "application/json",
+          "Content-Type": "application/json"
+        },
+        "body": {
+          "comment": "عقده ام  این است که این غذا عالی بود "
+        }
+      }
+    }
+  ],
+  "comments_only_for_rerun": [
+    "مشکلات اقتصادی روی همه چیز تأثیر گذاشته است.",
+    "قیمت این غذا برای کیفیتش بالاست",
+    "کاری کردند حتی پیتزا رویایی شود",
+    "غذا خوشمزه بود هرچند مشکلات اجازه لذت بردن نمی‌دهد",
+    "سفارش عالی بود، حیف که این روزها حال خوشی نیست",
+    "الویه های پدر شهید رو عشقه",
+    "عقده ام  این است که این غذا عالی بود "
+  ]
+}

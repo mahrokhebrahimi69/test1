@@ -1,0 +1,8 @@
+id,category,severity,comment,expected_label,expected_reason,actual_label,actual_reason,actual_confidence,ml_label,ml_confidence,llm_label,llm_confidence,http_status
+F001,infrastructure_or_upstream,سیاسی واضح؛ به‌جای کلاس، 502 برگشته,مشکلات اقتصادی روی همه چیز تأثیر گذاشته است.,disapprove,سياسي,,,,,502
+F002,ml_llm_disagreement_price_boundary,انتقاد قیمت/کیفیت؛ ML disapprove بود ولی final approve شد,قیمت این غذا برای کیفیتش بالاست,disapprove,انتقاد_و_پیشنهاد,approve,,0.87,disapprove,0.5754089951515198,approve,0.87,200
+F003,sarcasm_truncated_politics,طنز/کنایه سیاسی ناقص بدون کلیدواژه مسئولان,کاری کردند حتی پیتزا رویایی شود,disapprove,سياسي,approve,,0.9,approve,0.6209078431129456,approve,0.9,200
+F004,soft_politics_mixed_with_food_praise,تحسین غذا + مشکلات کلی؛ سیگنال سیاسی نرم از دست رفته,غذا خوشمزه بود هرچند مشکلات اجازه لذت بردن نمی‌دهد,disapprove,سياسي,approve,,0.87,approve,0.525671124458313,approve,0.87,200
+F005,soft_politics_ml_overridden_by_llm,ML نسبتاً مطمئن disapprove داده ولی LLM/final approve کرده,سفارش عالی بود، حیف که این روزها حال خوشی نیست,disapprove,سياسي,approve,,0.88,disapprove,0.7244129776954651,approve,0.88,200
+F006,sensitive_phrase_inside_food_praise,عبارت حساس/اجتماعی داخل تعریف غذا؛ ML disapprove ولی final approve,الویه های پدر شهید رو عشقه,disapprove,نیاز به تعیین تکلیف محصولی,approve,,0.95,disapprove,0.7423139214515686,approve,0.95,200
+F007,sensitive_wording_with_food_praise,واژه حساس/غیراستاندارد همراه تعریف غذا؛ فعلاً approve شده,عقده ام  این است که این غذا عالی بود ,disapprove,نیاز به تعیین تکلیف محصولی,approve,,0.92,approve,0.7300911545753479,approve,0.92,200
