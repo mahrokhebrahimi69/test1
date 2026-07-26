@@ -1,0 +1,366 @@
+{
+  "name": "manual_edge_cases_from_live_failures",
+  "version": "1.0.0",
+  "source_observations": [
+    {
+      "comment": "مشکلات اقتصادی روی همه چیز تأثیر گذاشته است.",
+      "observed": "HTTP 502 Upstream error",
+      "note": "کیس سیاسی واضح؛ علاوه بر صحت کلاس، پایداری API هم باید تست شود (retry)."
+    },
+    {
+      "comment": "قیمت این غذا برای کیفیتش بالاست",
+      "observed": {
+        "label": "approve",
+        "confidence": 0.87,
+        "ml": { "label": "disapprove", "confidence": 0.57 },
+        "llm": { "label": "approve", "confidence": 0.87 }
+      },
+      "note": "LLM روی ML ضعیف override کرده. مرز انتقاد قیمت رستوران."
+    },
+    {
+      "comment": "کاری کردند حتی پیتزا رویایی شود",
+      "observed": {
+        "label": "approve",
+        "confidence": 0.9,
+        "ml": { "label": "approve", "confidence": 0.62 },
+        "llm": { "label": "approve", "confidence": 0.9 }
+      },
+      "note": "نسخه ناقص/کوتاه طنز سیاسی؛ بدون کلیدواژه مسئولان/دولت گم شد."
+    },
+    {
+      "comment": "غذا خوشمزه بود هرچند مشکلات اجازه لذت بردن نمی‌دهد",
+      "observed": {
+        "label": "approve",
+        "confidence": 0.87,
+        "ml": { "label": "approve", "confidence": 0.52 },
+        "llm": { "label": "approve", "confidence": 0.87 }
+      },
+      "note": "سیاست نرم: 'مشکلات' بدون کشور/اقتصاد/دولت → سیاسی از دست رفت."
+    }
+  ],
+  "api_label_note": "API واقعی labelها را به صورت approve/disapprove برمی‌گرداند؛ در دیتاست داخلی approval/disapproval است. در مقایسه نرمالایز کن.",
+  "items": [
+    {
+      "id": "obs_fail_001",
+      "family": "observed_fail_soft_politics",
+      "comment": "غذا خوشمزه بود هرچند مشکلات اجازه لذت بردن نمی‌دهد",
+      "expected_label": "disapproval",
+      "expected_api_label": "disapprove",
+      "expected_reason": "سياسي",
+      "why": "همان کیس شکست‌خورده؛ مشکلات کلی + تحسین غذا",
+      "priority": "P0"
+    },
+    {
+      "id": "obs_fail_002",
+      "family": "soft_politics_variants",
+      "comment": "غذا خوب بود ولی مشکلات نمی‌گذارد آدم لذت ببرد",
+      "expected_label": "disapproval",
+      "expected_api_label": "disapprove",
+      "expected_reason": "سياسي",
+      "why": "حذف کلمه اقتصادی؛ فقط 'مشکلات'",
+      "priority": "P0"
+    },
+    {
+      "id": "obs_fail_003",
+      "family": "soft_politics_variants",
+      "comment": "سفارش عالی بود، حیف که این روزها حال خوشی نیست",
+      "expected_label": "disapproval",
+      "expected_api_label": "disapprove",
+      "expected_reason": "سياسي",
+      "why": "سیاست غیرمستقیم با 'این روزها' بدون کلیدواژه کلاسیک",
+      "priority": "P0"
+    },
+    {
+      "id": "obs_fail_004",
+      "family": "soft_politics_variants",
+      "comment": "غذا خوشمزه بود اما اوضاع جوری شده که آدم اشتها ندارد",
+      "expected_label": "disapproval",
+      "expected_api_label": "disapprove",
+      "expected_reason": "سياسي",
+      "why": "اوضاع بدون کشور؛ سیگنال نرم",
+      "priority": "P0"
+    },
+    {
+      "id": "obs_fail_005",
+      "family": "soft_politics_variants",
+      "comment": "پیتزا خوب بود، کاش بقیه چیزها هم همین‌قدر درست بود",
+      "expected_label": "disapproval",
+      "expected_api_label": "disapprove",
+      "expected_reason": "سياسي",
+      "why": "کنایه به شرایط کلی بدون نام بردن دولت",
+      "priority": "P0"
+    },
+    {
+      "id": "obs_fail_006",
+      "family": "soft_politics_variants",
+      "comment": "غذا بد نبود؛ این شرایط نمی‌گذارد آدم خوشحال شود",
+      "expected_label": "disapproval",
+      "expected_api_label": "disapprove",
+      "expected_reason": "سياسي",
+      "why": "شرایط کلی + رضایت نسبی از غذا",
+      "priority": "P0"
+    },
+    {
+      "id": "obs_fail_007",
+      "family": "soft_politics_variants",
+      "comment": "خوشمزه بود ولی با این وضعیت دیگر سفارش بعدی سخت است",
+      "expected_label": "disapproval",
+      "expected_api_label": "disapprove",
+      "expected_reason": "سياسي",
+      "why": "وضعیت مبهم؛ نزدیک به شکست قبلی",
+      "priority": "P0"
+    },
+    {
+      "id": "obs_fail_008",
+      "family": "soft_politics_vs_food_only",
+      "comment": "خوشمزه بود ولی مشکلات گوارشی اجازه لذت نداد",
+      "expected_label": "disapproval",
+      "expected_api_label": "disapprove",
+      "expected_reason": "موارد_بهداشتی",
+      "why": "کنترل منفی: مشکلات = گوارشی/غذایی نه سیاسی",
+      "priority": "P0"
+    },
+    {
+      "id": "obs_fail_009",
+      "family": "soft_politics_vs_food_only",
+      "comment": "غذا خوب بود ولی مشکل دیر رسیدن لذت را کم کرد",
+      "expected_label": "disapproval",
+      "expected_api_label": "disapprove",
+      "expected_reason": "انتقاد_و_پیشنهاد",
+      "why": "کنترل منفی: مشکل عملیاتی سفارش",
+      "priority": "P0"
+    },
+    {
+      "id": "obs_fail_010",
+      "family": "observed_fail_sarcasm_truncated",
+      "comment": "کاری کردند حتی پیتزا رویایی شود",
+      "expected_label": "disapproval",
+      "expected_api_label": "disapprove",
+      "expected_reason": "سياسي",
+      "why": "همان متن ناقص شکست‌خورده",
+      "priority": "P0"
+    },
+    {
+      "id": "obs_fail_011",
+      "family": "sarcasm_no_keyword",
+      "comment": "ممنون؛ کاری کردند پیتزا هم رویایی شود",
+      "expected_label": "disapproval",
+      "expected_api_label": "disapprove",
+      "expected_reason": "سياسي",
+      "why": "طنز بدون مسئولان/دولت",
+      "priority": "P0"
+    },
+    {
+      "id": "obs_fail_012",
+      "family": "sarcasm_no_keyword",
+      "comment": "دمتون گرم، با این وضعیت حتی همبرگر لوکس شده",
+      "expected_label": "disapproval",
+      "expected_api_label": "disapprove",
+      "expected_reason": "سياسي",
+      "why": "تشکر کنایه‌ای + وضعیت",
+      "priority": "P0"
+    },
+    {
+      "id": "obs_fail_013",
+      "family": "sarcasm_no_keyword",
+      "comment": "آفرین، دیگر یک پرس غذا شده آرزو",
+      "expected_label": "disapproval",
+      "expected_api_label": "disapprove",
+      "expected_reason": "سياسي",
+      "why": "تحسین کنایه‌ای معیشتی",
+      "priority": "P0"
+    },
+    {
+      "id": "obs_fail_014",
+      "family": "sarcasm_no_keyword",
+      "comment": "چه پیشرفت قشنگی؛ پیتزا شده کالای خاص",
+      "expected_label": "disapproval",
+      "expected_api_label": "disapprove",
+      "expected_reason": "سياسي",
+      "why": "پیشرفت کنایه‌ای اقتصادی",
+      "priority": "P0"
+    },
+    {
+      "id": "obs_fail_015",
+      "family": "sarcasm_anchor_restore",
+      "comment": "ممنون از مسئولان که کاری کردند حتی پیتزا رویایی شود",
+      "expected_label": "disapproval",
+      "expected_api_label": "disapprove",
+      "expected_reason": "سياسي",
+      "why": "نسخه کامل با لنگر مسئولان؛ باید حتماً بگیرد",
+      "priority": "P0"
+    },
+    {
+      "id": "obs_fail_016",
+      "family": "price_boundary_restaurant",
+      "comment": "قیمت این غذا برای کیفیتش بالاست",
+      "expected_label": "disapproval",
+      "expected_api_label": "disapprove",
+      "expected_reason": "انتقاد_و_پیشنهاد",
+      "why": "کیس شکست‌خورده زنده؛ ML disapprove بود ولی final approve شد",
+      "priority": "P0",
+      "watch": "اگر سیاست محصول golden-rule است و انتقاد محترمانه approve می‌شود، این کیس را به expected approve تغییر بده و جداگانه مستند کن."
+    },
+    {
+      "id": "obs_fail_017",
+      "family": "price_boundary_restaurant",
+      "comment": "نسبت به کیفیتی که داشت گران بود",
+      "expected_label": "disapproval",
+      "expected_api_label": "disapprove",
+      "expected_reason": "انتقاد_و_پیشنهاد",
+      "why": "بازنویسی همان مرز قیمت/کیفیت",
+      "priority": "P0"
+    },
+    {
+      "id": "obs_fail_018",
+      "family": "price_boundary_restaurant",
+      "comment": "برای این کیفیت این قیمت نمی‌ارزد",
+      "expected_label": "disapproval",
+      "expected_api_label": "disapprove",
+      "expected_reason": "انتقاد_و_پیشنهاد",
+      "why": "انتقاد ارزش خرید بدون توهین",
+      "priority": "P0"
+    },
+    {
+      "id": "obs_fail_019",
+      "family": "price_boundary_vs_macro",
+      "comment": "قیمتش برای کیفیت رستوران بالاست، ربطی به کشور ندارد",
+      "expected_label": "disapproval",
+      "expected_api_label": "disapprove",
+      "expected_reason": "انتقاد_و_پیشنهاد",
+      "why": "صریح غیرسیاسی بودن قیمت رستوران",
+      "priority": "P1"
+    },
+    {
+      "id": "obs_fail_020",
+      "family": "price_boundary_vs_macro",
+      "comment": "قیمت غذا بالا نیست؛ این قیمت‌های امروز کشور است",
+      "expected_label": "disapproval",
+      "expected_api_label": "disapprove",
+      "expected_reason": "سياسي",
+      "why": "همان تم قیمت با لنگر کشور",
+      "priority": "P0"
+    },
+    {
+      "id": "obs_fail_021",
+      "family": "ml_llm_disagreement_trap",
+      "comment": "کیفیت متوسط بود و قیمت زیاد",
+      "expected_label": "disapproval",
+      "expected_api_label": "disapprove",
+      "expected_reason": "انتقاد_و_پیشنهاد",
+      "why": "احتمال disagreement مشابه؛ ML ضعیف disapprove / LLM approve",
+      "priority": "P0"
+    },
+    {
+      "id": "obs_fail_022",
+      "family": "ml_llm_disagreement_trap",
+      "comment": "بد نبود ولی می‌شد بهتر و ارزان‌تر باشد",
+      "expected_label": "approval",
+      "expected_api_label": "approve",
+      "expected_reason": null,
+      "why": "کنترل: انتقاد خیلی ملایم؛ اگر سیاست golden-rule است approve درست است",
+      "priority": "P1"
+    },
+    {
+      "id": "obs_fail_023",
+      "family": "economic_without_strong_anchor",
+      "comment": "مشکلات اقتصادی روی همه چیز تأثیر گذاشته است.",
+      "expected_label": "disapproval",
+      "expected_api_label": "disapprove",
+      "expected_reason": "سياسي",
+      "why": "کیس 502؛ هم صحت کلاس هم پایداری",
+      "priority": "P0",
+      "also_check": "retry روی 502؛ نباید silent pass شود"
+    },
+    {
+      "id": "obs_fail_024",
+      "family": "economic_without_strong_anchor",
+      "comment": "مشکلات اقتصادی روی سفارش غذا هم اثر گذاشته",
+      "expected_label": "disapproval",
+      "expected_api_label": "disapprove",
+      "expected_reason": "سياسي",
+      "why": "نسخه متصل به غذا",
+      "priority": "P0"
+    },
+    {
+      "id": "obs_fail_025",
+      "family": "economic_without_strong_anchor",
+      "comment": "با این مشکلات دیگه مثل قبل نمی‌شود سفارش داد",
+      "expected_label": "disapproval",
+      "expected_api_label": "disapprove",
+      "expected_reason": "سياسي",
+      "why": "مشکلات بدون اقتصادی؛ نزدیک به کیس شکست‌خورده",
+      "priority": "P0"
+    },
+    {
+      "id": "obs_fail_026",
+      "family": "praise_then_soft_complaint",
+      "comment": "غذا عالی بود هرچند شرایط سخت شده",
+      "expected_label": "disapproval",
+      "expected_api_label": "disapprove",
+      "expected_reason": "سياسي",
+      "why": "تحسین قوی + شرایط سخت",
+      "priority": "P0"
+    },
+    {
+      "id": "obs_fail_027",
+      "family": "praise_then_soft_complaint",
+      "comment": "از طعم راضی بودم ولی از اوضاع نه",
+      "expected_label": "disapproval",
+      "expected_api_label": "disapprove",
+      "expected_reason": "سياسي",
+      "why": "اوضاع بدون کشور",
+      "priority": "P0"
+    },
+    {
+      "id": "obs_fail_028",
+      "family": "praise_then_soft_complaint",
+      "comment": "کیفیت غذا ۱۰، بقیه چیزها صفر",
+      "expected_label": "disapproval",
+      "expected_api_label": "disapprove",
+      "expected_reason": "سياسي",
+      "why": "کنایه امتیازی به شرایط کلی",
+      "priority": "P1"
+    },
+    {
+      "id": "obs_fail_029",
+      "family": "ellipsis_and_incomplete_politics",
+      "comment": "غذا خوب بود ولی این مملکت...",
+      "expected_label": "disapproval",
+      "expected_api_label": "disapprove",
+      "expected_reason": "سياسي",
+      "why": "ناتمام با لنگر مملکت",
+      "priority": "P0"
+    },
+    {
+      "id": "obs_fail_030",
+      "family": "ellipsis_and_incomplete_politics",
+      "comment": "خوشمزه بود؛ ای کاش بقیه چیزها هم...",
+      "expected_label": "disapproval",
+      "expected_api_label": "disapprove",
+      "expected_reason": "سياسي",
+      "why": "ناتمام نرم شبیه شکست زنده",
+      "priority": "P1"
+    },
+    {
+      "id": "obs_fail_031",
+      "family": "control_should_approve",
+      "comment": "غذا خیلی خوشمزه بود",
+      "expected_label": "approval",
+      "expected_api_label": "approve",
+      "expected_reason": null,
+      "why": "کنترل مثبت خالص",
+      "priority": "P0"
+    },
+    {
+      "id": "obs_fail_032",
+      "family": "control_should_approve",
+      "comment": "غذا کمی شور بود ولی در کل خوب بود",
+      "expected_label": "approval",
+      "expected_api_label": "approve",
+      "expected_reason": null,
+      "why": "کنترل golden-rule",
+      "priority": "P0"
+    }
+  ]
+}

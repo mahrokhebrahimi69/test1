@@ -1,0 +1,226 @@
+[
+  {
+    "id": "obs_fail_001",
+    "comment": "غذا خوشمزه بود هرچند مشکلات اجازه لذت بردن نمی‌دهد",
+    "expected_label": "disapprove",
+    "expected_reason": "سياسي",
+    "family": "observed_fail_soft_politics",
+    "priority": "P0"
+  },
+  {
+    "id": "obs_fail_002",
+    "comment": "غذا خوب بود ولی مشکلات نمی‌گذارد آدم لذت ببرد",
+    "expected_label": "disapprove",
+    "expected_reason": "سياسي",
+    "family": "soft_politics_variants",
+    "priority": "P0"
+  },
+  {
+    "id": "obs_fail_003",
+    "comment": "سفارش عالی بود، حیف که این روزها حال خوشی نیست",
+    "expected_label": "disapprove",
+    "expected_reason": "سياسي",
+    "family": "soft_politics_variants",
+    "priority": "P0"
+  },
+  {
+    "id": "obs_fail_004",
+    "comment": "غذا خوشمزه بود اما اوضاع جوری شده که آدم اشتها ندارد",
+    "expected_label": "disapprove",
+    "expected_reason": "سياسي",
+    "family": "soft_politics_variants",
+    "priority": "P0"
+  },
+  {
+    "id": "obs_fail_005",
+    "comment": "پیتزا خوب بود، کاش بقیه چیزها هم همین‌قدر درست بود",
+    "expected_label": "disapprove",
+    "expected_reason": "سياسي",
+    "family": "soft_politics_variants",
+    "priority": "P0"
+  },
+  {
+    "id": "obs_fail_006",
+    "comment": "غذا بد نبود؛ این شرایط نمی‌گذارد آدم خوشحال شود",
+    "expected_label": "disapprove",
+    "expected_reason": "سياسي",
+    "family": "soft_politics_variants",
+    "priority": "P0"
+  },
+  {
+    "id": "obs_fail_007",
+    "comment": "خوشمزه بود ولی با این وضعیت دیگر سفارش بعدی سخت است",
+    "expected_label": "disapprove",
+    "expected_reason": "سياسي",
+    "family": "soft_politics_variants",
+    "priority": "P0"
+  },
+  {
+    "id": "obs_fail_008",
+    "comment": "خوشمزه بود ولی مشکلات گوارشی اجازه لذت نداد",
+    "expected_label": "disapprove",
+    "expected_reason": "موارد_بهداشتی",
+    "family": "soft_politics_vs_food_only",
+    "priority": "P0"
+  },
+  {
+    "id": "obs_fail_009",
+    "comment": "غذا خوب بود ولی مشکل دیر رسیدن لذت را کم کرد",
+    "expected_label": "disapprove",
+    "expected_reason": "انتقاد_و_پیشنهاد",
+    "family": "soft_politics_vs_food_only",
+    "priority": "P0"
+  },
+  {
+    "id": "obs_fail_010",
+    "comment": "کاری کردند حتی پیتزا رویایی شود",
+    "expected_label": "disapprove",
+    "expected_reason": "سياسي",
+    "family": "observed_fail_sarcasm_truncated",
+    "priority": "P0"
+  },
+  {
+    "id": "obs_fail_011",
+    "comment": "ممنون؛ کاری کردند پیتزا هم رویایی شود",
+    "expected_label": "disapprove",
+    "expected_reason": "سياسي",
+    "family": "sarcasm_no_keyword",
+    "priority": "P0"
+  },
+  {
+    "id": "obs_fail_012",
+    "comment": "دمتون گرم، با این وضعیت حتی همبرگر لوکس شده",
+    "expected_label": "disapprove",
+    "expected_reason": "سياسي",
+    "family": "sarcasm_no_keyword",
+    "priority": "P0"
+  },
+  {
+    "id": "obs_fail_013",
+    "comment": "آفرین، دیگر یک پرس غذا شده آرزو",
+    "expected_label": "disapprove",
+    "expected_reason": "سياسي",
+    "family": "sarcasm_no_keyword",
+    "priority": "P0"
+  },
+  {
+    "id": "obs_fail_014",
+    "comment": "چه پیشرفت قشنگی؛ پیتزا شده کالای خاص",
+    "expected_label": "disapprove",
+    "expected_reason": "سياسي",
+    "family": "sarcasm_no_keyword",
+    "priority": "P0"
+  },
+  {
+    "id": "obs_fail_015",
+    "comment": "ممنون از مسئولان که کاری کردند حتی پیتزا رویایی شود",
+    "expected_label": "disapprove",
+    "expected_reason": "سياسي",
+    "family": "sarcasm_anchor_restore",
+    "priority": "P0"
+  },
+  {
+    "id": "obs_fail_016",
+    "comment": "قیمت این غذا برای کیفیتش بالاست",
+    "expected_label": "disapprove",
+    "expected_reason": "انتقاد_و_پیشنهاد",
+    "family": "price_boundary_restaurant",
+    "priority": "P0"
+  },
+  {
+    "id": "obs_fail_017",
+    "comment": "نسبت به کیفیتی که داشت گران بود",
+    "expected_label": "disapprove",
+    "expected_reason": "انتقاد_و_پیشنهاد",
+    "family": "price_boundary_restaurant",
+    "priority": "P0"
+  },
+  {
+    "id": "obs_fail_018",
+    "comment": "برای این کیفیت این قیمت نمی‌ارزد",
+    "expected_label": "disapprove",
+    "expected_reason": "انتقاد_و_پیشنهاد",
+    "family": "price_boundary_restaurant",
+    "priority": "P0"
+  },
+  {
+    "id": "obs_fail_020",
+    "comment": "قیمت غذا بالا نیست؛ این قیمت‌های امروز کشور است",
+    "expected_label": "disapprove",
+    "expected_reason": "سياسي",
+    "family": "price_boundary_vs_macro",
+    "priority": "P0"
+  },
+  {
+    "id": "obs_fail_021",
+    "comment": "کیفیت متوسط بود و قیمت زیاد",
+    "expected_label": "disapprove",
+    "expected_reason": "انتقاد_و_پیشنهاد",
+    "family": "ml_llm_disagreement_trap",
+    "priority": "P0"
+  },
+  {
+    "id": "obs_fail_023",
+    "comment": "مشکلات اقتصادی روی همه چیز تأثیر گذاشته است.",
+    "expected_label": "disapprove",
+    "expected_reason": "سياسي",
+    "family": "economic_without_strong_anchor",
+    "priority": "P0"
+  },
+  {
+    "id": "obs_fail_024",
+    "comment": "مشکلات اقتصادی روی سفارش غذا هم اثر گذاشته",
+    "expected_label": "disapprove",
+    "expected_reason": "سياسي",
+    "family": "economic_without_strong_anchor",
+    "priority": "P0"
+  },
+  {
+    "id": "obs_fail_025",
+    "comment": "با این مشکلات دیگه مثل قبل نمی‌شود سفارش داد",
+    "expected_label": "disapprove",
+    "expected_reason": "سياسي",
+    "family": "economic_without_strong_anchor",
+    "priority": "P0"
+  },
+  {
+    "id": "obs_fail_026",
+    "comment": "غذا عالی بود هرچند شرایط سخت شده",
+    "expected_label": "disapprove",
+    "expected_reason": "سياسي",
+    "family": "praise_then_soft_complaint",
+    "priority": "P0"
+  },
+  {
+    "id": "obs_fail_027",
+    "comment": "از طعم راضی بودم ولی از اوضاع نه",
+    "expected_label": "disapprove",
+    "expected_reason": "سياسي",
+    "family": "praise_then_soft_complaint",
+    "priority": "P0"
+  },
+  {
+    "id": "obs_fail_029",
+    "comment": "غذا خوب بود ولی این مملکت...",
+    "expected_label": "disapprove",
+    "expected_reason": "سياسي",
+    "family": "ellipsis_and_incomplete_politics",
+    "priority": "P0"
+  },
+  {
+    "id": "obs_fail_031",
+    "comment": "غذا خیلی خوشمزه بود",
+    "expected_label": "approve",
+    "expected_reason": null,
+    "family": "control_should_approve",
+    "priority": "P0"
+  },
+  {
+    "id": "obs_fail_032",
+    "comment": "غذا کمی شور بود ولی در کل خوب بود",
+    "expected_label": "approve",
+    "expected_reason": null,
+    "family": "control_should_approve",
+    "priority": "P0"
+  }
+]
