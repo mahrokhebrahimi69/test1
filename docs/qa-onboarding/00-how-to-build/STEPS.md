@@ -51,22 +51,28 @@ QAONB
 │   └── اجزای اصلی محصول
 ├── 3. نقشه اسکوادها
 │   ├── AI
-│   ├── Chef
-│   ├── COIMP / PROMC
-│   ├── Delivery
-│   ├── Finance
-│   ├── Menu Management
-│   ├── OMS (Order Management)
-│   ├── Platform
-│   ├── Search & Discovery
-│   ├── Vendor
-│   └── TPCH (نیازمند تکمیل)
+│   ├── CHEF
+│   ├── COMP (Basket)
+│   ├── DATA
+│   ├── DEL (Delivery)
+│   ├── FIN (Fintech)
+│   ├── MM (Menu Management)
+│   ├── OMS405
+│   ├── PLAT (Platform)
+│   ├── PROMC (Promotion Center)
+│   ├── SD (Search & Discovery)
+│   ├── TACH (TapsiChef)
+│   └── VEN (Vendor)
 ├── 4. سرویس‌های Platform
-│   ├── Iris (Notification)
-│   ├── Icarus (Auth)
+│   ├── Iris (+ sms/call/gw/social)
+│   ├── Icarus (SSO)
 │   ├── Artemis (User Profile)
+│   ├── Athona (Rate & Review)
 │   ├── Yggdrasil (Category & Tag)
-│   └── Falafel (Review & Rating)
+│   ├── Atlas / BiFrost / Chronos
+│   ├── Melia (Growthbook)
+│   ├── Saga (In-app survey)
+│   └── QA-Scripts
 ├── 5. لینک‌ها و سامانه‌ها
 ├── 6. واژه‌نامه محصول (Carousel, Tile, …)
 ├── 7. QA Playbook

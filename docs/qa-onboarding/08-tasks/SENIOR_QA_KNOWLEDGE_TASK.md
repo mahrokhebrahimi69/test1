@@ -94,113 +94,124 @@ High — بلاکر انبوردینگ نیروهای جدید
 ```text
 [QA Knowledge] AI — Moderator / Chatbot / Category
 ```
-باید مشخص شود:
 - [ ] فلو Comment Moderation از ورود کامنت تا Approve/Reject
 - [ ] قوانین حساسیت محتوا
-- [ ] ارتباط با Falafel
+- [ ] ارتباط با Athona (Rate & Review)
 - [ ] رفتار Chatbot و کانال‌های آن
 - [ ] نقش AI در Category و مرز با Yggdrasil
 
-## B2. Chef
+## B2. CHEF
 ```text
-[QA Knowledge] Chef — Staff Ops Panel & Restaurant Relations
+[QA Knowledge] CHEF — Staff Ops Panel & Restaurant Relations
 ```
 - [ ] نقش‌های کاربری Chef
 - [ ] فلوهای روزانه عملیات
 - [ ] تفاوت Chef با BO و Vendor Panel
+- [ ] تفاوت/رابطه با TACH (TapsiChef)
 - [ ] دسترسی Dev/Stage/Prod
 
-## B3. COIMP
+## B3. COMP (Basket)
 ```text
-[QA Knowledge] COIMP — Promotions Engine
+[QA Knowledge] COMP — Basket Lifecycle
 ```
-- [ ] انواع پروموشن
+- [ ] افزودن/حذف/آپدیت آیتم در سبد
+- [ ] انقضای سبد و conflict قیمت/موجودی
+- [ ] نقطه تحویل از SD به COMP
+- [ ] تعامل با PROMC هنگام اعمال کوپن
+- [ ] تبدیل سبد به سفارش (OMS)
+
+## B4. PROMC (Promotion Center)
+```text
+[QA Knowledge] PROMC — Promotions & Coupons
+```
+- [ ] انواع پروموشن و کوپن
 - [ ] قوانین استک شدن تخفیف‌ها
 - [ ] محدودیت شهر/کاربر/وندور/زمان
-- [ ] اثر روی سبد و پرداخت
+- [ ] مرز با کمپین نمایشی SD/Page Builder
+- [ ] اثر روی Basket و Payment
 
-## B4. PROMC
+## B5. DEL (Delivery)
 ```text
-[QA Knowledge] PROMC — Coupons Scope & Boundary vs COIMP
-```
-- [ ] دامنه دقیق PROMC
-- [ ] تفاوت/هم‌پوشانی با COIMP
-- [ ] Owner نهایی کوپن در هر فلو
-- [ ] سناریوهای تست مشترک و جدا
-
-## B5. Delivery
-```text
-[QA Knowledge] Delivery — Own Delivery vs Zap
+[QA Knowledge] DEL — Own Delivery vs Zap
 ```
 - [ ] State machine ارسال
 - [ ] تفاوت Own / Zap / Pickup
 - [ ] لغو، تأخیر، برگشت پیک
 - [ ] وابستگی به OMS و نوتیفیکیشن
 
-## B6. Finance
+## B6. FIN (Fintech)
 ```text
-[QA Knowledge] Finance — Payment Gateways & Refund
+[QA Knowledge] FIN — Payment Gateways & Refund
 ```
 - [ ] درگاه‌های فعال per env
 - [ ] فلو Success/Fail/Timeout
 - [ ] Refund و Recheck وضعیت پرداخت
 - [ ] لینک مستند GetRefundAndPaymentStatusForOrder و صحت آن
 
-## B7. Menu Management
+## B7. MM (Menu Management)
 ```text
-[QA Knowledge] Menu Management — Catalog & Availability of Items
+[QA Knowledge] MM — Catalog & Item Availability
 ```
 - [ ] موجودیت‌های منو
 - [ ] همگام‌سازی با Vendor و Discovery
-- [ ] اثر تغییر قیمت/موجودی روی سبد باز
+- [ ] اثر تغییر قیمت/موجودی روی سبد باز (COMP)
 
-## B8. OMS
+## B8. OMS405
 ```text
-[QA Knowledge] OMS — Order Lifecycle
+[QA Knowledge] OMS405 — Order Lifecycle
 ```
 - [ ] وضعیت‌های سفارش از ایجاد تا تکمیل
 - [ ] Eventهای بین‌سیستمی
 - [ ] پنل order.tapsi.food و کاربرد هر بخش
+- [ ] معنی کد/پسوند 405 در نام برد
 - [ ] سناریوهای لغو/شکست پرداخت/شکست ارسال
 
-## B9. Platform
+## B9. PLAT (Platform)
 ```text
-[QA Knowledge] Platform — Shared Services Map (Greek/Norse services)
+[QA Knowledge] PLAT — Shared Services Map (git.tapsifood.cloud/ofd/platform)
 ```
-- [ ] لیست کامل سرویس‌های Platform از Git (فراتر از ۵ سرویس فعلی)
+- [ ] تأیید لیست Git: Artemis, Athona, Atlas, BiFrost, Chronos, Icarus, Iris*, Melia, QA-Scripts, Saga, Yggdrasil
 - [ ] Owner هر سرویس
 - [ ] ماتریس وابستگی
-- [ ] تأیید صحت مستندات Iris/Icarus/Artemis/Yggdrasil/Falafel
-- [ ] سرویس‌های بدون مستند QA
+- [ ] تأیید تناظر Falafel docs ↔ Athona
+- [ ] مستند حداقلی برای Atlas / BiFrost / Chronos / Melia / Saga / Iris-*
 
-## B10. Search & Discovery
+## B10. SD (Search & Discovery)
 ```text
-[QA Knowledge] Search & Discovery — Search, Cart pre-order, Availability, Page Builder
+[QA Knowledge] SD — Search, Availability, Page Builder
 ```
 - [ ] فلو سرچ
 - [ ] قوانین Availability بر اساس آدرس
 - [ ] اجزای Page Builder: Carousel / Tile / Banner / ...
 - [ ] Publish per city
-- [ ] تست‌های رگرسیون هوم‌پیج
+- [ ] مرز دقیق با COMP (Basket)
 
-## B11. Vendor
+## B11. VEN (Vendor)
 ```text
-[QA Knowledge] Vendor — Restaurant Panel
+[QA Knowledge] VEN — Restaurant Panel
 ```
 - [ ] نقش‌ها و دسترسی‌ها
 - [ ] فلو دریافت و مدیریت سفارش
 - [ ] مدیریت منو از پنل
 - [ ] تفاوت bo-ui-dev / bo-ui / bo.tapsi.food
 
-## B12. TPCH
+## B12. TACH (TapsiChef)
 ```text
-[QA Knowledge] TPCH — Identify Scope (Unknown Squad)
+[QA Knowledge] TACH — TapsiChef Scope vs CHEF
 ```
-- [ ] معنی مخفف
+- [ ] ماموریت دقیق TapsiChef
 - [ ] Owner
-- [ ] دامنه
+- [ ] تفاوت با CHEF
 - [ ] لینک‌ها و ریپوها
-- [ ] اگر اسکواد منسوخ است، وضعیت Archive شود
+- [ ] سناریوهای QA
+
+## B13. DATA
+```text
+[QA Knowledge] DATA — Squad Scope for QA
+```
+- [ ] ماموریت اسکواد Data
+- [ ] ابزارها و دشبوردها
+- [ ] چه چیزهایی را QA باید بلد باشد
 
 ---
 
@@ -228,9 +239,9 @@ High — بلاکر انبوردینگ نیروهای جدید
 ```
 خروجی:
 ```text
-Login(Icarus) → Profile/Address(Artemis) → Discovery/Availability
-→ Menu → Cart → Coupon(COIMP/PROMC) → Pay(Finance)
-→ OMS → Delivery(Own/Zap) → Notif(Iris) → Review(Falafel)
+Login(Icarus) → Profile/Address(Artemis) → Discovery/Availability(SD)
+→ Menu(MM) → Cart(COMP) → Coupon(PROMC) → Pay(FIN)
+→ OMS405 → Delivery(DEL: Own/Zap) → Notif(Iris) → Review(Athona)
 ```
 برای هر گام: سرویس، پنل، داده تست، معیار پاس
 
@@ -255,11 +266,12 @@ Login(Icarus) → Profile/Address(Artemis) → Discovery/Availability
 # بخش D — روش اجرا (برای Assignee)
 
 1. اول بخش C5 و C1 را ببند (دسترسی و لینک).
-2. بعد B12 (TPCH) را روشن کن؛ اگر Unknown ماند در Gaps بماند.
-3. برای هر اسکواد یک جلسه ۳۰ دقیقه‌ای با Tech Lead/QA همان اسکواد بگذار.
-4. همزمان قالب بخش A را در Confluence پر کن.
-5. روزانه وضعیت را در صفحه Gaps آپدیت کن.
-6. در پایان، با Team Lead Walkthrough انجام بده.
+2. B12 (TACH vs CHEF) و B3/B4/B10 (COMP vs PROMC vs SD) را زود روشن کن.
+3. B9 Platform را با لیست Git تکمیل و نام Athona/Falafel را یکدست کن.
+4. برای هر اسکواد یک جلسه ۳۰ دقیقه‌ای با Tech Lead/QA همان اسکواد بگذار.
+5. همزمان قالب بخش A را در Confluence پر کن.
+6. روزانه وضعیت را در صفحه Gaps آپدیت کن.
+7. در پایان، با Team Lead Walkthrough انجام بده.
 
 ---
 

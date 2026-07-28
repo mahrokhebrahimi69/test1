@@ -1,7 +1,7 @@
 # چک‌لیست کمبودها (Gaps) — چه چیزهایی کم/ناقص است؟
 
-> این صفحه لیست چیزهایی است که با اطلاعات فعلی **کامل نیست** و باید توسط Senior QA / اسکوادها تکمیل شود.  
-> وضعیت‌ها: `Open` / `In Progress` / `Done` / `Blocked`
+> وضعیت‌ها: `Open` / `In Progress` / `Done` / `Blocked`  
+> آپدیت: پس از مشاهده برد Jira و گروه GitLab Platform
 
 ---
 
@@ -9,14 +9,24 @@
 
 | ID | کمبود | چرا مهم است | Owner پیشنهادی | وضعیت |
 | --- | --- | --- | --- | --- |
-| G-01 | معنی و دامنه **TPCH** مشخص نیست | اسکواد بدون تعریف در نقشه تیم می‌ماند | Senior QA + Eng | Open |
-| G-02 | مرز دقیق **COIMP vs PROMC** نامشخص است | تست کوپن/پروموشن دوباره‌کاری یا جاافتادگی دارد | Senior QA + Promo teams | Open |
-| G-03 | لیست کامل سرویس‌های Platform از Git موجود نیست | فقط Iris/Icarus/Artemis/Yggdrasil/Falafel را داریم | Platform + Senior QA | Open |
+| G-01 | دامنه دقیق **TACH (TapsiChef)** vs **CHEF** | نام اصلاح شد، ولی مرز مسئولیت هنوز مبهم است | Senior QA + Chef | Open |
+| G-02 | مرز **COMP (Basket)** vs **SD** vs **PROMC** | سبد/کشف/پروموشن نباید قاطی شوند | Senior QA + مربوطه | Open |
+| G-03 | شناسنامه سرویس‌های Platform تازه‌کشف‌شده | Atlas / BiFrost / Chronos / Melia / Saga / Iris-* | Platform + Senior QA | Open |
 | G-04 | اکانت‌های تست استاندارد نداریم | نیروی جدید عملاً نمی‌تواند Smoke بزند | Senior QA | Open |
 | G-05 | ماتریس دسترسی لینک‌ها ناقص است | لینک‌ها هست، ولی Granted/Blocked مشخص نیست | QA Lead + IT/Sec | Open |
-| G-06 | State Machine سفارش (OMS) مستند نشده | بدون آن E2E و تریاژ باگ ضعیف است | OMS + Senior QA | Open |
-| G-07 | قوانین Availability بر اساس آدرس مکتوب نیست | بخش کلیدی Discovery بدون معیار تست است | Search & Discovery | Open |
-| G-08 | کاتالوگ اجزای Page Builder ناقص است | Carousel/Tile گفته شد؛ بقیه اجزا و قوانین Publish نه | Search & Discovery + Product | Open |
+| G-06 | State Machine سفارش (OMS405) مستند نشده | بدون آن E2E و تریاژ باگ ضعیف است | OMS + Senior QA | Open |
+| G-07 | قوانین Availability بر اساس آدرس مکتوب نیست | بخش کلیدی SD بدون معیار تست است | Search & Discovery | Open |
+| G-08 | کاتالوگ اجزای Page Builder ناقص است | Carousel/Tile گفته شد؛ بقیه اجزا و قوانین Publish نه | SD + Product | Open |
+| G-34 | تأیید تناظر **Falafel ↔ Athona** | دو نام برای Rate & Review گیج‌کننده است | Platform + Senior QA | Open |
+| G-35 | دامنه اسکواد **DATA** | در Jira هست؛ ماموریت مکتوب نیست | Senior QA + Data | Open |
+
+### موارد بسته‌شده با شواهد اسکرین
+
+| ID | نتیجه | وضعیت |
+| --- | --- | --- |
+| G-01-old (TPCH ناشناخته) | همان **TACH = TapsiChef** در Jira | Done |
+| G-02-old (COIMP) | اسکواد سبد **COMP (Basket)** است؛ پروموشن **PROMC** | Done |
+| G-03-old / G-20 (لیست Platform) | لیست اولیه از `git.tapsifood.cloud/ofd/platform` استخراج شد | Done — جزئیات هنوز Open در G-03 |
 
 ---
 
@@ -24,25 +34,32 @@
 
 | ID | کمبود | جزئیات لازم | وضعیت |
 | --- | --- | --- | --- |
-| G-09 | AI | فلو دقیق Moderator، مدل‌ها، پنل، false positive/negative | Open |
-| G-10 | Chef | نقش‌ها، فلوهای عملیاتی، تفاوت با BO | Open |
-| G-11 | Delivery | وضعیت‌ها، Zap integration، لغو/تأخیر | Open |
-| G-12 | Finance | درگاه‌ها per env، refund، reconcilation | Open |
-| G-13 | Menu Management | مدل داده منو، sync با Vendor/Discovery | Open |
-| G-14 | Vendor | نقش‌ها، فلو سفارش در پنل، محیط‌ها | Open |
-| G-15 | Search & Discovery | سرچ relevancy، سبد قبل از سفارش، page builder | Open |
+| G-09 | AI | فلو Moderator، مدل‌ها، پنل، false positive/negative | Open |
+| G-10 | CHEF | نقش‌ها، فلوهای عملیاتی، تفاوت با BO و TACH | Open |
+| G-11 | DEL | وضعیت‌ها، Zap integration، لغو/تأخیر | Open |
+| G-12 | FIN | درگاه‌ها per env، refund، reconciliation | Open |
+| G-13 | MM | مدل داده منو، sync با Vendor/Discovery | Open |
+| G-14 | VEN | نقش‌ها، فلو سفارش در پنل، محیط‌ها | Open |
+| G-15 | SD | سرچ، availability، page builder | Open |
+| G-36 | COMP | lifecycle سبد، انقضا، conflict قیمت/موجودی | Open |
+| G-37 | PROMC | انواع پروموشن/کوپن و اعمال روی Basket | Open |
 
 ---
 
-## کمبودهای Platform (با وجود مستندات خوب)
+## کمبودهای Platform
 
 | ID | کمبود | توضیح | وضعیت |
 | --- | --- | --- | --- |
 | G-16 | تأیید صحت مستندات با کد روز | Drift در Icarus/Yggdrasil/Artemis گزارش شده | Open |
 | G-17 | محیط و Base URL واقعی Stage/Prod هر سرویس | در راهنماها localhost زیاد است | Open |
-| G-18 | مجموعه Postman/Newman رسمی per service | برای انبوردینگ عملی لازم است | Open |
+| G-18 | مجموعه Postman/Newman رسمی per service | QA-Scripts را هم بررسی کن | Open |
 | G-19 | Owner on-call هر سرویس Platform | برای تریاژ | Open |
-| G-20 | سرویس‌های Platform خارج از ۵ مورد فعلی | نام‌های اساطیری دیگر در Git | Open |
+| G-38 | مرز Iris vs Iris-sms/call/gw/social | کلاینت به کدام ریپو/endpoint می‌زند؟ | Open |
+| G-39 | Melia/Growthbook: راهنمای فلگ برای QA | چگونه تست با فلگ انجام شود | Open |
+| G-40 | Atlas admin console: نقش‌ها و ریسک‌ها | عملیات حساس | Open |
+| G-41 | BiFrost/Strapi: محتوای تحت مدیریت | ارتباط با SD | Open |
+| G-42 | Chronos: ماموریت | الان ناشناخته | Open |
+| G-43 | Saga: قوانین نمایش Survey | تداخل با Review؟ | Open |
 
 ---
 
@@ -67,6 +84,7 @@
 | G-28 | سیاست تست Prod | چه چیزهایی مجاز/غیرمجاز است | Open |
 | G-29 | قالب تست‌پلن استاندارد تیم | هنوز توافق‌شده نیست | Open |
 | G-30 | منبع حقیقت برای نسخه دیپلوی‌شده | CD چطور خوانده شود | Open |
+| G-44 | توضیح ستون‌های برد Jira QA | Ready for QA / Developer Test / QA Rejected / … | Open |
 
 ---
 
@@ -74,36 +92,23 @@
 
 | ID | کمبود | توضیح | وضعیت |
 | --- | --- | --- | --- |
-| G-31 | داده‌های حساس در لاگ | Iris/Icarus/Artemis نکات privacy دارند؛ سیاست تیم؟ | Open |
-| G-32 | دسترسی به control-plane/setup/migrate در Icarus | ریسک امنیتی شناخته‌شده؛ کنترل شبکه؟ | Open |
-| G-33 | مدیریت شماره موبایل واقعی برای OTP | فرایند دریافت سیم‌کارت/شماره تست | Open |
+| G-31 | داده‌های حساس در لاگ | سیاست تیم؟ | Open |
+| G-32 | دسترسی به control-plane/setup/migrate در Icarus | کنترل شبکه؟ | Open |
+| G-33 | مدیریت شماره موبایل واقعی برای OTP | فرایند شماره تست | Open |
 
 ---
 
-## چیزهایی که الان خوب است (نیاز به اختراع مجدد ندارد)
+## چیزهایی که الان خوب است
 
-- مستندات عمیق Iris
-- مستندات عمیق Icarus
-- مستندات عمیق Artemis
-- مستندات عمیق Yggdrasil
-- مستندات عمیق Falafel
-- تصویر اولیه اسکوادها و Journey
+- نام Swimlaneهای Jira مشخص شد
+- لیست پروژه‌های Platform از Git مشخص شد
+- مستندات عمیق Iris / Icarus / Artemis / Yggdrasil / Rate&Review
+- تصویر اولیه Journey و واژه‌نامه
 - فهرست اولیه لینک سامانه‌ها
-- تعریف اولیه واژه‌های Carousel/Tile/Page Builder/Availability
 
 ---
 
 ## نحوه بستن هر Gap
-
-برای هر ID:
-
-1. Owner مشخص شود
-2. لینک صفحه Confluence خروجی گذاشته شود
-3. Reviewer (QA Lead) Approve کند
-4. وضعیت `Done` شود
-5. در Changelog انبوردینگ ثبت شود
-
-### قالب آپدیت
 
 ```text
 G-XX | Done

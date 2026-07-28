@@ -1,178 +1,180 @@
 # سرویس‌های Platform
 
-تیم Platform زیرساخت مشترک را نگه می‌دارد. چند سرویس کلیدی با نام‌های اساطیری/پروژه‌ای:
+منبع لیست پروژه‌ها: گروه GitLab  
+`git.tapsifood.cloud/ofd/platform`
 
-| سرویس | نقش ساده | تکنولوژی (خلاصه) |
+ماموریت گروه (از صفحه GitLab):
+
+> We design, build, and maintain scalable platforms and services that power our SaaS offerings. Focus on flexibility, security, performance and enabling teams—without locking into a single technology stack.
+
+---
+
+## نقشه کامل پروژه‌های Platform
+
+| پروژه | نقش رسمی در Git | وضعیت دانش QA |
 | --- | --- | --- |
-| Iris | مرکز ارسال نوتیفیکیشن | SMS / Call / Telegram + RabbitMQ |
-| Icarus | لاگین و هویت | Go + Keycloak + Redis + Iris |
-| Artemis | پروفایل کاربر | .NET + SQL Server |
-| Yggdrasil | دسته‌بندی و تگ | .NET 8 + MySQL + RabbitMQ |
-| Falafel | ریویو و ریتینگ | NestJS + MySQL + Redis + RabbitMQ |
+| Artemis | User Profile | خوب (Flow Guide موجود) |
+| Athona | Rate And Review | خوب‌تر با راهنمای Falafel — باید نام‌گذاری یکسان شود |
+| Atlas | Platform Admin Console | کم |
+| BiFrost | Strapi | کم |
+| Chronos | نامشخص در UI گروه | کم |
+| Icarus | SSO | خوب (Flow Guide موجود) |
+| Iris | Centralized notification service | خوب (Flow Guide موجود) |
+| Iris-call | زیرسرویس تماس Iris | کم |
+| Iris-gw | Gateway مرتبط با Iris | کم |
+| Iris-sms | زیرسرویس SMS Iris | کم |
+| Iris-social | زیرسرویس Social/Telegram؟ | کم |
+| Melia | Growthbook | کم |
+| QA-Scripts | اسکریپت‌های QA | جزئی |
+| Saga | In-app survey | کم |
+| Yggdrasil | Tag and Category Management Taxonomy | خوب (Flow Guide موجود) |
 
-> راهنماهای کامل Flow هر سرویس در ریپو/مستندات جدا موجود است. این صفحه نسخه خلاصه برای انبوردینگ است.
-
----
-
-## Iris — Notification Service
-
-### یک جمله‌ای
-دفتر پست مرکزی نوتیفیکیشن: بقیه سیستم‌ها به Iris می‌گویند پیام بفرست؛ Iris از طریق Provider ارسال می‌کند.
-
-### کانال‌ها
-- `sms`
-- `call`
-- `telegram` (OTP عددی)
-
-### مفاهیم کلیدی
-| مفهوم | معنی |
-| --- | --- |
-| Master API Key | کلید ادمین برای ساخت Profile/Line/Pattern |
-| Profile Generated Key | کلید هر سرویس کلاینت برای ارسال نوتیف |
-| Line | شماره فرستنده SMS |
-| Provider | شرکت ارسال‌کننده (FAVA, PISHGAMAN, KAVENEGAR, MEDIANA) |
-| Pattern | قالب/تمپلیت Provider |
-| ULID | شناسه پیگیری هر گیرنده |
-
-### فلو ساده
-1. ادمین Line/Pattern/Profile می‌سازد
-2. Iris کلید Profile می‌دهد
-3. کلاینت با آن کلید `POST /api/v1/notifications/send` می‌زند
-4. کار وارد RabbitMQ می‌شود
-5. Consumer ارسال می‌کند
-6. کلاینت با ULID وضعیت را می‌پرسد
-
-### نکات QA مهم
-- در development، master key ممکن است چک نشود
-- Telegram فقط ۱ گیرنده و پیام ۴ تا ۸ رقم
-- Call حداکثر ۳۰۰ کاراکتر
-- SMS تا ۵۰ گیرنده (با محدودیت template)
-- Fallback روی Line/Provider بعدی
-
-### Endpoints کلیدی
-- `POST /api/v1/notifications/send`
-- `GET /api/v1/notifications/sms/:ulid`
-- `GET /api/health/liveness|readiness`
-
----
-
-## Icarus — Authentication
-
-### یک جمله‌ای
-میز امنیت ساختمان: OTP، لاگین تپسی، توکن، رفرش، لاگ‌اوت.
-
-### فلو اصلی OTP
-```text
-Phone → OTP SMS (Iris) → Verify → Cookie/Profile user → Keycloak tokens → Cookies
-```
-
-### فلو تپسی SSO
-```text
-Tapsi code → Tapsi profile → Cookie user → Keycloak tokens
-```
-
-### Endpoints کلیدی
-- `POST /api/v1/auth/login`
-- `POST /api/v1/auth/verify`
-- `POST /api/v1/auth/tapsi-login`
-- `GET /api/v1/auth/validate-token`
-- `POST /api/v1/auth/refresh-token`
-- `POST /api/v1/auth/logout`
-
-### نکات QA مهم
-- توکن‌ها عمدتاً از Cookie خوانده می‌شوند (نه فقط Bearer)
-- OTP TTL پیش‌فرض حدود ۱۲۰ ثانیه
-- ریسک‌های شناخته‌شده: ناسازگاری طول OTP، مسیرهای control-plane/setup/migrate بدون middleware واضح
-- وابستگی‌ها: Redis, Keycloak, Iris, Cookie service, Tapsi account
+> نکته نام‌گذاری: راهنمای مفصل Rate & Review که در تیم با نام **Falafel** موجود است، احتمالاً متناظر با ریپوی **Athona** است. Senior QA باید این تناظر را تأیید و در مستندات یکدست کند.
 
 ---
 
 ## Artemis — User Profile
 
-### یک جمله‌ای
-دفترچه پروفایل کاربر: موبایل، نام، کد ملی، تاریخ تولد، آدرس‌ها، Type و Status.
+پروفایل کاربر: موبایل، نام، کد ملی، تاریخ تولد، آدرس‌ها، Type و Status.
 
-### موجودیت‌ها
-- Profile
-- Address
-- Profile Type
-- Profile Status
-- User Identity (در دامنه هست؛ API عمومی فعلاً محدود/ندارد)
-
-### نکته مهم
-`userId` در پاسخ‌ها encode شده است؛ تست‌ها باید با ID انکدشده کار کنند.
-
-### Happy path تست
-1. Create Profile Type / Status
-2. Create Profile
-3. Update Profile
-4. Add/Update/Delete Address
-5. Attach/Detach Type & Status
+نکته QA: `userId` در APIها encode می‌شود.
 
 ---
 
-## Yggdrasil — Category & Tag Catalog
+## Athona — Rate And Review
 
-### یک جمله‌ای
-موتور سازمان‌دهی کاتالوگ: Category درختی + Tag + Association به Product/Vendor/User/Ticket.
+سرویس امتیاز و نظر (Rate & Review).
 
-### مفاهیم
-| مفهوم | معنی |
+اگر راهنمای Falafel همان Athona باشد، فلوهای اصلی این‌هاست:
+- مشتری ریویو می‌نویسد (ORDER / PRODUCT / DELIVERY)
+- Support مودریت می‌کند (PENDING / APPROVED / DISAPPROVED)
+- Vendor پاسخ می‌دهد
+- Public فقط نسخه امن را می‌بیند
+- ریتینگ آپدیت و روی RabbitMQ پابلیش می‌شود
+
+---
+
+## Atlas — Platform Admin Console
+
+کنسول ادمین Platform. دامنه دقیق، نقش‌ها و صفحات باید تکمیل شود.
+
+Checklist دانش:
+- [ ] چه تیم‌هایی از Atlas استفاده می‌کنند؟
+- [ ] چه عملیات حساسی دارد؟
+- [ ] دسترسی Stage/Prod چطور گرفته می‌شود؟
+
+---
+
+## BiFrost — Strapi
+
+احتمالاً CMS مبتنی بر Strapi برای محتوای قابل مدیریت.
+
+Checklist دانش:
+- [ ] چه محتوایی اینجا مدیریت می‌شود؟
+- [ ] ارتباط با Page Builder / SD؟
+- [ ] محیط‌ها و نقش‌های ادیتور
+
+---
+
+## Chronos
+
+نقش در صفحه گروه Git مشخص نبود.
+
+Checklist دانش:
+- [ ] ماموریت یک‌خطی
+- [ ] Owner
+- [ ] وابستگی‌ها
+
+---
+
+## Icarus — SSO / Auth
+
+احراز هویت و نشست:
+- OTP SMS از طریق Iris
+- Tapsi Super App login
+- Validate / Refresh / Logout
+- Keycloak + Redis + Cookie/Profile service
+
+---
+
+## Iris — Notification (+ زیرسرویس‌ها)
+
+مرکز نوتیفیکیشن.
+
+### خانواده Iris در Git
+| ریپو | فرض اولیه |
 | --- | --- |
-| Category | پوشه درختی |
-| Tag | برچسب/بج |
-| Association | لینک آیتم به دسته/تگ |
-| Product Type | User / Product / Vendor / Ticket |
-| Task | کار بک‌گراند (مثلاً حذف Category) |
-| staff-id | هدر ممیزی برای Write APIها |
+| Iris | سرویس اصلی / orchestration |
+| Iris-sms | مسیر SMS |
+| Iris-call | مسیر تماس |
+| Iris-social | مسیر social/telegram |
+| Iris-gw | Gateway ورودی/خروجی |
 
-### نکات QA
-- Auth واقعی روی خیلی از APIها نیست؛ `staff-id` برای audit است
-- حذف Category async است
-- مستندات قدیمی ممکن است با Controller فعلی فرق داشته باشد → Swagger/کد منبع حقیقت است
+Senior QA باید مرز دقیق این ریپوها و این‌که کلاینت به کدام endpoint بزند را مشخص کند.
+
+مفاهیم کلیدی: Master Key، Profile Key، Line، Provider، Pattern، ULID
 
 ---
 
-## Falafel — Review & Rating
+## Melia — Growthbook
 
-### یک جمله‌ای
-مغز امتیاز و نظر: مشتری می‌نویسد، Support مودریت می‌کند، Vendor جواب می‌دهد، Public نسخه امن را می‌بیند، ریتینگ آپدیت می‌شود.
+Feature flag / آزمایش با Growthbook.
 
-### دسته‌بندی ریویو
-- ORDER
-- PRODUCT
-- DELIVERY
-
-### وضعیت‌ها
-- PENDING
-- APPROVED
-- DISAPPROVED
-
-### نکات QA بحرانی
-- کامنت Pending/Rejected نباید اشتباهاً Public شود
-- Mask کردن نام مشتری
-- Duplicate review نباید ریتینگ را باد کند
-- Publish به RabbitMQ روی تغییر ریتینگ
-- Insight وندور با OpenAI (نباید کل Stats را بشکند)
+Checklist دانش:
+- [ ] کجا Feature Flag تعریف می‌شود؟
+- [ ] چطور QA فلگ را برای تست روشن/خاموش می‌کند؟
+- [ ] محیط‌های متصل به Melia
 
 ---
 
-## وابستگی بین سرویس‌ها (برای دیباگ E2E)
+## QA-Scripts
+
+محل اسکریپت‌های QA (احتمالاً Postman/Newman/automation helpers).
+
+Checklist دانش:
+- [ ] چه مجموعه‌هایی داخلش است؟
+- [ ] چطور اجرا می‌شود؟
+- [ ] Owner نگهداری
+
+---
+
+## Saga — In-app survey
+
+سرویس نظرسنجی داخل اپ.
+
+Checklist دانش:
+- [ ] چه زمانی Survey نشان داده می‌شود؟
+- [ ] پنل مدیریت سوالات
+- [ ] اثر روی UX و تداخل با Review (Athona)
+
+---
+
+## Yggdrasil — Tag & Category Taxonomy
+
+موتور دسته‌بندی و تگ برای Product/Vendor/User/Ticket + Associationها.
+
+---
+
+## وابستگی‌های متداول (برای دیباگ E2E)
 
 ```text
-Icarus --OTP SMS--> Iris
-Icarus --create/find user--> Cookie/Profile (Artemis سمت پروفایل)
+Icarus --OTP SMS--> Iris / Iris-sms
+Icarus --user profile--> Artemis (و/یا Cookie service)
 App --address/profile--> Artemis
 Discovery --categories/tags--> Yggdrasil
-Order complete --reviews--> Falafel
-Falafel --rating updated--> سایر سیستم‌ها (RabbitMQ)
+App --feature flags--> Melia (Growthbook)
+CMS/content --> BiFrost (Strapi) --> احتمالاً SD/Page Builder
+Order complete --reviews--> Athona
+Athona --rating updated--> سایر سیستم‌ها
+Survey triggers --> Saga
+Admin ops --> Atlas
 هر سرویس --notif--> Iris
 ```
 
 ---
 
-## لینک مشاهده‌پذیری مرتبط
+## لینک‌ها
 
-- Kibana/APM سرویس‌ها (نمونه Icarus): `https://kibana.tapsifood.cloud/...`
-- Kibana Stage: `https://kibana.foodstg.com/login?next=%2F`
-- Keycloak Stage Admin: `https://kc.foodstg.com/...`
+- Git group: `https://git.tapsifood.cloud/ofd/platform`
+- Kibana/APM سرویس‌ها
+- Keycloak Stage: `https://kc.foodstg.com/...`

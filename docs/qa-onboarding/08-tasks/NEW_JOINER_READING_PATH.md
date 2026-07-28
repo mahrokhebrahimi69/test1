@@ -37,11 +37,12 @@
 
 به ترتیب بخوان و Smoke ذهنی بکش:
 
-1. Icarus (Login)
+1. Icarus (SSO/Login)
 2. Artemis (Profile/Address)
 3. Iris (Notification)
 4. Yggdrasil (Category/Tag)
-5. Falafel (Review)
+5. Athona (Rate & Review)
+6. مرور سریع Atlas / Melia / Saga / BiFrost (فقط بدانند وجود دارند)
 
 **خروجی روز ۳:**  
 نمودار وابستگی روی کاغذ/میرو از Login تا Review
@@ -70,9 +71,9 @@
 با کمک Senior QA یک Happy Path در Stage اجرا کن:
 
 ```text
-Login → Set Address → Discover Vendor → Add to Cart →
-Apply Coupon (if available) → Place Order path →
-Check OMS state → Check notification → (optional) Review
+Login → Set Address → Discover Vendor (SD) → Add to Cart (COMP) →
+Apply Coupon (PROMC) → Place Order path (OMS405) →
+Check delivery state (DEL) → Check notification (Iris) → (optional) Review (Athona)
 ```
 
 **خروجی روز ۵:**  

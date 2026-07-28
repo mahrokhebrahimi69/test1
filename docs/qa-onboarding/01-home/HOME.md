@@ -42,15 +42,16 @@
 ## نقشه سریع محصول
 
 ```text
-کاربر → سرچ/دیسکاوری → انتخاب رستوران/غذا → سبد → سفارش (OMS)
-     → پرداخت (Finance) → ارسال (Delivery / Zap یا رستوران)
-     → نوتیفیکیشن (Iris) → ریویو (Falafel)
+کاربر → سرچ/دیسکاوری (SD) → انتخاب رستوران/غذا → سبد (COMP) → سفارش (OMS405)
+     → کوپن (PROMC) → پرداخت (FIN) → ارسال (DEL / Zap یا رستوران)
+     → نوتیفیکیشن (Iris) → ریویو (Athona)
 ```
 
 زیرساخت مشترک:
 
 ```text
-Login/Auth (Icarus) → Profile (Artemis) → Category/Tag (Yggdrasil)
+Login/SSO (Icarus) → Profile (Artemis) → Category/Tag (Yggdrasil)
+Feature flags (Melia) / CMS (BiFrost) / Survey (Saga) / Admin (Atlas)
 ```
 
 ---
@@ -70,10 +71,11 @@ Login/Auth (Icarus) → Profile (Artemis) → Category/Tag (Yggdrasil)
 | بخش | وضعیت |
 | --- | --- |
 | معرفی محصول | ✅ پیش‌نویس آماده |
-| اسکوادها | ⚠️ ناقص (نیازمند تکمیل Senior QA) |
-| Platform Services | ✅ Iris / Icarus / Artemis / Yggdrasil / Falafel |
+| اسکوادها | ⚠️ نام‌ها از Jira تأیید شد؛ دامنه جزئی |
+| Platform Services | ✅ لیست Git + جزئیات Iris/Icarus/Artemis/Yggdrasil/Athona |
 | لینک‌ها | ⚠️ لیست اولیه؛ دسترسی‌ها باید تأیید شود |
 | واژه‌نامه | ✅ نسخه اول |
-| TPCH | ❌ ناشناخته — باید تکمیل شود |
+| TACH vs CHEF | ⚠️ نام مشخص؛ مرز دامنه باز |
+| COMP vs SD vs PROMC | ⚠️ مرز دقیق باز |
 
 جزئیات کمبودها: صفحه **Gaps**

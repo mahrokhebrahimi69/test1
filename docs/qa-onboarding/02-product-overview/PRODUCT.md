@@ -28,13 +28,13 @@
 3. انتخاب آدرس → تصمیم دسترسی‌پذیری: کدام رستوران/غذا در این آدرس نشان داده شود (**Search & Discovery / Availability**)
 4. سرچ رستوران و غذا
 5. مشاهده هوم‌پیج / کروسل / تایل / دسته‌بندی‌ها
-6. ورود به صفحه رستوران و منو (**Menu Management**)
-7. افزودن به سبد
+6. ورود به صفحه رستوران و منو (**MM**)
+7. افزودن به سبد (**COMP**)
 
 ### ۲) سفارش و پرداخت
 
 1. ثبت سفارش (**OMS**)
-2. اعمال کوپن / پروموشن (**COIMP / PROMC**)
+2. اعمال کوپن / پروموشن (**PROMC**)
 3. پرداخت از درگاه (**Finance**)
 4. نوتیفیکیشن وضعیت (**Iris**)
 
@@ -48,7 +48,7 @@
 
 ### ۴) بعد از سفارش
 
-1. ثبت امتیاز و نظر (**Falafel**)
+1. ثبت امتیاز و نظر (**Athona** / Rate & Review)
 2. مودریشن کامنت در صورت نیاز (**AI / Support**)
 3. به‌روزرسانی ریتینگ وندور/محصول
 
@@ -60,18 +60,19 @@
 | --- | --- | --- |
 | Auth & Session | لاگین OTP، توکن، SSO تپسی | Icarus |
 | Profile & Address | پروفایل، آدرس | Artemis |
-| Discovery | سرچ، هوم، کروسل، تایل، پیج‌بیلدر | Search & Discovery |
-| Availability | نمایش/عدم نمایش بر اساس آدرس | Search & Discovery |
-| Menu | منوی رستوران | Menu Management |
-| Cart → Order | سبد تا ثبت سفارش | Search/OMS |
-| Promotion | کوپن و پروموشن | COIMP / PROMC |
-| Payment | درگاه پرداخت | Finance |
-| Delivery | ارسال رستوران / زپ | Delivery |
+| Discovery | سرچ، هوم، کروسل، تایل، پیج‌بیلدر | SD |
+| Availability | نمایش/عدم نمایش بر اساس آدرس | SD |
+| Menu | منوی رستوران | MM |
+| Basket | سبد خرید | COMP |
+| Order | ثبت و مدیریت سفارش | OMS405 |
+| Promotion | کوپن و پروموشن | PROMC |
+| Payment | درگاه پرداخت | FIN |
+| Delivery | ارسال رستوران / زپ | DEL |
 | Notification | SMS / Call / Telegram OTP | Iris |
-| Review | امتیاز و کامنت | Falafel |
+| Review | امتیاز و کامنت | Athona |
 | Category/Tag | دسته‌بندی و تگ | Yggdrasil |
-| Vendor Panel | پنل رستوران | Vendor |
-| Ops Panel | Chef و بک‌آفیس‌ها | Chef / BO |
+| Vendor Panel | پنل رستوران | VEN |
+| Ops Panel | Chef / TapsiChef و بک‌آفیس‌ها | CHEF / TACH / BO |
 
 ---
 

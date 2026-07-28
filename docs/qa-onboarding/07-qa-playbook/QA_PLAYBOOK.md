@@ -46,7 +46,7 @@
 - [ ] Icarus login/verify
 - [ ] Iris health + send test SMS در Stage
 - [ ] Artemis create/get profile در Stage
-- [ ] Falafel create review path در Stage
+- [ ] Athona create review path در Stage
 
 ---
 
