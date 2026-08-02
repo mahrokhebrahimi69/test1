@@ -1,12 +1,17 @@
 #!/usr/bin/env bash
 # Permanently delete backed-up Cloud Agents from the Cursor account.
+# API: DELETE https://api.cursor.com/v1/agents/{id} (irreversible)
 # Requires CURSOR_API_KEY from https://cursor.com/dashboard/api
+#
 # Usage:
 #   export CURSOR_API_KEY=...
-#   ./chat-history-backup/delete-agents.sh
-# Optional:
-#   SKIP_CURRENT=1  # skip this backup chat (default: 1)
-#   DRY_RUN=1       # print requests only
+#   ./chat-history-backup/delete-agents.sh                 # all backed-up chats
+#   ./chat-history-backup/delete-agents.sh bc-xxxx bc-yyyy # only these chats
+#   ./chat-history-backup/delete-agents.sh --list          # show chats + ids
+#
+# Optional env vars:
+#   DRY_RUN=1       # print requests without deleting
+#   SKIP_CURRENT=0  # also delete the chat that produced this backup
 
 set -euo pipefail
 
@@ -16,18 +21,35 @@ CURRENT_BC_ID="bc-c6224a15-ac68-4eeb-8d95-b0ff9a16fc1f"
 SKIP_CURRENT="${SKIP_CURRENT:-1}"
 DRY_RUN="${DRY_RUN:-0}"
 
-if [[ -z "${CURSOR_API_KEY:-}" ]]; then
-  echo "ERROR: set CURSOR_API_KEY first (https://cursor.com/dashboard/api)" >&2
-  exit 1
-fi
-
 if [[ ! -f "$CATALOG" ]]; then
   echo "ERROR: catalog not found: $CATALOG" >&2
   exit 1
 fi
 
-mapfile -t BC_IDS < <(python3 -c 'import json,sys; from pathlib import Path; data=json.loads(Path(sys.argv[1]).read_text());
+if [[ "${1:-}" == "--list" || "${1:-}" == "-l" ]]; then
+  python3 -c '
+import json, sys
+from pathlib import Path
+data = json.loads(Path(sys.argv[1]).read_text())
+for a in data["agents"]:
+    print(a["bcId"], " ", a["name"])
+' "$CATALOG"
+  exit 0
+fi
+
+if [[ -z "${CURSOR_API_KEY:-}" ]]; then
+  echo "ERROR: set CURSOR_API_KEY first (https://cursor.com/dashboard/api)" >&2
+  exit 1
+fi
+
+if [[ $# -gt 0 ]]; then
+  BC_IDS=("$@")
+  # Explicit ids are always honored, including the current chat.
+  SKIP_CURRENT=0
+else
+  mapfile -t BC_IDS < <(python3 -c 'import json,sys; from pathlib import Path; data=json.loads(Path(sys.argv[1]).read_text());
 [print(a["bcId"]) for a in data["agents"]]' "$CATALOG")
+fi
 
 deleted=0
 skipped=0

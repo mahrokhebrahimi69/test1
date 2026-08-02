@@ -46,40 +46,57 @@
 
 ## حذف سوابق از اکانت Cursor
 
-این بکاپ فقط فایل‌ها را در گیت ذخیره می‌کند. حذف دائمی از اکانت توسط ایجنت ممکن نیست مگر با API key خودتان.
+این بکاپ فقط فایل‌ها را در گیت ذخیره می‌کند. حذف از اکانت را باید خودتان انجام دهید.
 
-### آرشیو از UI (برگشت‌پذیر)
+### روش ۱ — آرشیو از UI (ساده، برگشت‌پذیر)
 1. بروید به [cursor.com/agents](https://cursor.com/agents)
-2. روی هر ایجنت → Archive
+2. روی چت مورد نظر → منوی `...` → **Archive**
+3. برای برگرداندن: فیلتر **Archived**
 
-### حذف دائمی با API (غیرقابل برگشت)
+در UI دکمه‌ی حذف دائمی وجود ندارد؛ برای حذف کامل از روش ۲ استفاده کنید.
 
-### اسکریپت آماده در همین ریپو
+### روش ۲ — حذف دائمی با API (غیرقابل برگشت)
 
+**قدم ۱ — گرفتن API key**  
+از [cursor.com/dashboard/api](https://cursor.com/dashboard/api) یک key بسازید و کپی کنید.
+
+**قدم ۲ — ست کردن key در ترمینال**
 ```bash
-export CURSOR_API_KEY=YOUR_KEY
-# تست بدون حذف واقعی:
-DRY_RUN=1 ./chat-history-backup/delete-agents.sh
-# حذف دائمی همه چت‌های بکاپ‌شده (به‌جز چت فعلی):
+export CURSOR_API_KEY=کلید_واقعی_شما
+```
+
+**قدم ۳ — پیدا کردن شناسه‌ی چت**
+```bash
+./chat-history-backup/delete-agents.sh --list
+```
+شناسه در آدرس هر چت هم هست: `https://cursor.com/agents/bc-...`
+
+**قدم ۴ — تست بدون حذف واقعی**
+```bash
+DRY_RUN=1 ./chat-history-backup/delete-agents.sh bc-XXXX
+```
+
+**قدم ۵ — حذف**
+```bash
+# فقط یک چت:
+./chat-history-backup/delete-agents.sh bc-XXXX
+
+# چند چت:
+./chat-history-backup/delete-agents.sh bc-XXXX bc-YYYY
+
+# همه‌ی چت‌های بکاپ‌شده (به‌جز چت بکاپ):
 ./chat-history-backup/delete-agents.sh
+
+# واقعاً همه، شامل چت بکاپ:
+SKIP_CURRENT=0 ./chat-history-backup/delete-agents.sh
 ```
 
-API key را از [cursor.com/dashboard/api](https://cursor.com/dashboard/api) بگیرید، سپس:
+خروجی موفق: `OK (200): bc-...`
 
+### بدون اسکریپت (فقط curl)
 ```bash
-# برای هر bcId:
-curl -X DELETE https://api.cursor.com/v1/agents/bc-6a54a0b6-55af-54ad-baf9-f0f6cd0e8229 -u "$CURSOR_API_KEY:"
-curl -X DELETE https://api.cursor.com/v1/agents/bc-473a31c7-2463-40d7-aa77-2a82e5d05a09 -u "$CURSOR_API_KEY:"
-curl -X DELETE https://api.cursor.com/v1/agents/bc-0a09ad1d-563e-4562-b61d-1d3645665c4c -u "$CURSOR_API_KEY:"
-curl -X DELETE https://api.cursor.com/v1/agents/bc-6f6ee186-a47a-4289-b9b3-f9596ea1943f -u "$CURSOR_API_KEY:"
-curl -X DELETE https://api.cursor.com/v1/agents/bc-9d9fd971-b3cf-435a-ba5b-b97ef90ec0fd -u "$CURSOR_API_KEY:"
-curl -X DELETE https://api.cursor.com/v1/agents/bc-7c1b8bad-1db4-46dc-8fa0-4f5fd503bfef -u "$CURSOR_API_KEY:"
-curl -X DELETE https://api.cursor.com/v1/agents/bc-dcd1c07d-c5d3-4880-b04c-8484e78c6bcf -u "$CURSOR_API_KEY:"
-curl -X DELETE https://api.cursor.com/v1/agents/bc-1c9606c7-2da2-4432-aef9-bb232a845727 -u "$CURSOR_API_KEY:"
-curl -X DELETE https://api.cursor.com/v1/agents/bc-295aef29-caf7-468a-8826-5185ebd82f8b -u "$CURSOR_API_KEY:"
-curl -X DELETE https://api.cursor.com/v1/agents/bc-8fb1eabf-3f80-494e-99ce-13a494d14029 -u "$CURSOR_API_KEY:"
-curl -X DELETE https://api.cursor.com/v1/agents/bc-3eed5127-4f83-4584-b753-2f97d9fed70a -u "$CURSOR_API_KEY:"
+curl -X DELETE https://api.cursor.com/v1/agents/bc-XXXX -u "$CURSOR_API_KEY:"
 ```
 
-> چت فعلی همین درخواست (`bc-c6224a15-...`) را بعد از اتمام کار جداگانه آرشیو/حذف کنید.
+> چت فعلی همین بکاپ `bc-c6224a15-ac68-4eeb-8d95-b0ff9a16fc1f` است و به‌صورت پیش‌فرض حذف نمی‌شود تا کار تمام شود.
 
