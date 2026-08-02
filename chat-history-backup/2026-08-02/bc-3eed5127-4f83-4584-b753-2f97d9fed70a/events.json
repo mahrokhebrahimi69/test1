@@ -1,0 +1,25 @@
+{
+  "bcId": "bc-3eed5127-4f83-4584-b753-2f97d9fed70a",
+  "count": 2,
+  "events": [
+    {
+      "publicId": "38462aed-7909-11f1-a036-66265db7e6fc",
+      "createdAtMs": 1783321593095,
+      "category": "agent_run",
+      "logLevel": "info",
+      "kind": "pr_created",
+      "title": "Draft pull request created",
+      "detail": "#5 · cursor/newman-comment-moderation-d70a into main",
+      "linkUrl": "https://github.com/mahrokhebrahimi69/test1/pull/5"
+    },
+    {
+      "publicId": "4f5a7a92-790a-11f1-8196-06572b1775d6",
+      "createdAtMs": 1783322061313,
+      "category": "agent_run",
+      "logLevel": "info",
+      "kind": "artifact_created",
+      "title": "Artifact created: comment-moderation-qa.zip",
+      "linkUrl": "https://cursor.com/agents/bc-3eed5127-4f83-4584-b753-2f97d9fed70a/artifacts?path=%2Fopt%2Fcursor%2Fartifacts%2Fcomment-moderation-qa.zip"
+    }
+  ]
+}

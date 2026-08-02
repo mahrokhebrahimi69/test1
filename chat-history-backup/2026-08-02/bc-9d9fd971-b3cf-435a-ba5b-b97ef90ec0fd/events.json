@@ -1,0 +1,79 @@
+{
+  "bcId": "bc-9d9fd971-b3cf-435a-ba5b-b97ef90ec0fd",
+  "count": 8,
+  "events": [
+    {
+      "publicId": "708997b8-881c-11f1-9983-8a690d138c29",
+      "createdAtMs": 1784979115369,
+      "category": "agent_run",
+      "logLevel": "info",
+      "kind": "pr_created",
+      "title": "Draft pull request created",
+      "detail": "#6 · cursor/political-comment-dataset-c0fd into main",
+      "linkUrl": "https://github.com/mahrokhebrahimi69/test1/pull/6"
+    },
+    {
+      "publicId": "72eb7589-881c-11f1-bd54-263f6bd934f0",
+      "createdAtMs": 1784979119366,
+      "category": "agent_run",
+      "logLevel": "info",
+      "kind": "artifact_created",
+      "title": "Artifact created: political_comment_dataset.json",
+      "linkUrl": "https://cursor.com/agents/bc-9d9fd971-b3cf-435a-ba5b-b97ef90ec0fd/artifacts?path=%2Fopt%2Fcursor%2Fartifacts%2Fpolitical_comment_dataset.json"
+    },
+    {
+      "publicId": "72eb8093-881c-11f1-bfaa-0ec79b5193f8",
+      "createdAtMs": 1784979119366,
+      "category": "agent_run",
+      "logLevel": "info",
+      "kind": "artifact_created",
+      "title": "Artifact created: political_comment_dataset.zip",
+      "linkUrl": "https://cursor.com/agents/bc-9d9fd971-b3cf-435a-ba5b-b97ef90ec0fd/artifacts?path=%2Fopt%2Fcursor%2Fartifacts%2Fpolitical_comment_dataset.zip"
+    },
+    {
+      "publicId": "b4f04fab-88cd-11f1-bfaa-0ec79b5193f8",
+      "createdAtMs": 1785055251048,
+      "category": "agent_run",
+      "logLevel": "info",
+      "kind": "artifact_created",
+      "title": "Artifact created: manual_edge_from_observed_failures.json",
+      "linkUrl": "https://cursor.com/agents/bc-9d9fd971-b3cf-435a-ba5b-b97ef90ec0fd/artifacts?path=%2Fopt%2Fcursor%2Fartifacts%2Fmanual_edge_from_observed_failures.json"
+    },
+    {
+      "publicId": "946e1729-88ce-11f1-9e56-ae2269cd5afe",
+      "createdAtMs": 1785055626005,
+      "category": "agent_run",
+      "logLevel": "info",
+      "kind": "artifact_created",
+      "title": "Artifact created: moderation_failures_comments_only.json",
+      "linkUrl": "https://cursor.com/agents/bc-9d9fd971-b3cf-435a-ba5b-b97ef90ec0fd/artifacts?path=%2Fopt%2Fcursor%2Fartifacts%2Fmoderation_failures_comments_only.json"
+    },
+    {
+      "publicId": "946e275a-88ce-11f1-bfaa-0ec79b5193f8",
+      "createdAtMs": 1785055626005,
+      "category": "agent_run",
+      "logLevel": "info",
+      "kind": "artifact_created",
+      "title": "Artifact created: moderation_failures_attach.json",
+      "linkUrl": "https://cursor.com/agents/bc-9d9fd971-b3cf-435a-ba5b-b97ef90ec0fd/artifacts?path=%2Fopt%2Fcursor%2Fartifacts%2Fmoderation_failures_attach.json"
+    },
+    {
+      "publicId": "946e5418-88ce-11f1-9983-8a690d138c29",
+      "createdAtMs": 1785055626006,
+      "category": "agent_run",
+      "logLevel": "info",
+      "kind": "artifact_created",
+      "title": "Artifact created: moderation_failures_email_pack.zip",
+      "linkUrl": "https://cursor.com/agents/bc-9d9fd971-b3cf-435a-ba5b-b97ef90ec0fd/artifacts?path=%2Fopt%2Fcursor%2Fartifacts%2Fmoderation_failures_email_pack.zip"
+    },
+    {
+      "publicId": "946e5908-88ce-11f1-8a03-96ee23b12528",
+      "createdAtMs": 1785055626006,
+      "category": "agent_run",
+      "logLevel": "info",
+      "kind": "artifact_created",
+      "title": "Artifact created: model_failure_report_email.txt",
+      "linkUrl": "https://cursor.com/agents/bc-9d9fd971-b3cf-435a-ba5b-b97ef90ec0fd/artifacts?path=%2Fopt%2Fcursor%2Fartifacts%2Fmodel_failure_report_email.txt"
+    }
+  ]
+}

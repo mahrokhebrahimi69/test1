@@ -1,0 +1,225 @@
+{
+  "exportedAt": "2026-08-02T05:01:47Z",
+  "accountEmail": "qa-tfood@tapsifood.app",
+  "accountName": "QA Cursor ACC",
+  "repoUrl": "github.com/mahrokhebrahimi69/test1",
+  "agentCount": 12,
+  "agents": [
+    {
+      "bcId": "bc-6a54a0b6-55af-54ad-baf9-f0f6cd0e8229",
+      "name": "Cursor chat delete guide",
+      "status": "IDLE",
+      "isArchived": false,
+      "branchName": null,
+      "model": null,
+      "source": "internal",
+      "url": "https://cursor.com/agents/bc-6a54a0b6-55af-54ad-baf9-f0f6cd0e8229",
+      "createdAt": "2026-08-02T05:00:41.285000+00:00",
+      "transcriptBytes": 17057,
+      "files": [
+        "diff-metadata.json",
+        "environment-info.json",
+        "events.json",
+        "transcript.json"
+      ]
+    },
+    {
+      "bcId": "bc-c6224a15-ac68-4eeb-8d95-b0ff9a16fc1f",
+      "name": "بکاپ و حذف سوابق چت",
+      "status": "RUNNING",
+      "isArchived": false,
+      "branchName": null,
+      "model": "auto-smart",
+      "source": "web",
+      "url": "https://cursor.com/agents/bc-c6224a15-ac68-4eeb-8d95-b0ff9a16fc1f",
+      "createdAt": "2026-08-02T05:00:23.491000+00:00",
+      "transcriptBytes": 45616,
+      "files": [
+        "diff-metadata.json",
+        "environment-info.json",
+        "events.json",
+        "transcript.json"
+      ]
+    },
+    {
+      "bcId": "bc-473a31c7-2463-40d7-aa77-2a82e5d05a09",
+      "name": "Empty task instruction",
+      "status": "IDLE",
+      "isArchived": false,
+      "branchName": null,
+      "model": "auto-smart",
+      "source": "web",
+      "url": "https://cursor.com/agents/bc-473a31c7-2463-40d7-aa77-2a82e5d05a09",
+      "createdAt": "2026-08-01T14:14:49.211000+00:00",
+      "transcriptBytes": 355947,
+      "files": [
+        "diff-metadata.json",
+        "environment-info.json",
+        "events.json",
+        "transcript.json"
+      ]
+    },
+    {
+      "bcId": "bc-0a09ad1d-563e-4562-b61d-1d3645665c4c",
+      "name": "دسترسی کاربر جدید جیرا",
+      "status": "IDLE",
+      "isArchived": false,
+      "branchName": null,
+      "model": "auto-smart",
+      "source": "web",
+      "url": "https://cursor.com/agents/bc-0a09ad1d-563e-4562-b61d-1d3645665c4c",
+      "createdAt": "2026-08-01T08:18:53.293000+00:00",
+      "transcriptBytes": 15959,
+      "files": [
+        "diff-metadata.json",
+        "environment-info.json",
+        "events.json",
+        "transcript.json"
+      ]
+    },
+    {
+      "bcId": "bc-6f6ee186-a47a-4289-b9b3-f9596ea1943f",
+      "name": "Empty task instruction",
+      "status": "IDLE",
+      "isArchived": false,
+      "branchName": "cursor/qa-onboarding-confluence-943f",
+      "model": "auto-smart",
+      "source": "web",
+      "url": "https://cursor.com/agents/bc-6f6ee186-a47a-4289-b9b3-f9596ea1943f",
+      "createdAt": "2026-07-28T10:52:12.136000+00:00",
+      "transcriptBytes": 505666,
+      "files": [
+        "diff-metadata.json",
+        "environment-info.json",
+        "events.json",
+        "transcript.json"
+      ]
+    },
+    {
+      "bcId": "bc-9d9fd971-b3cf-435a-ba5b-b97ef90ec0fd",
+      "name": "دیتاست کامنت‌های جامع",
+      "status": "IDLE",
+      "isArchived": false,
+      "branchName": "cursor/political-comment-dataset-c0fd",
+      "model": "auto-smart",
+      "source": "web",
+      "url": "https://cursor.com/agents/bc-9d9fd971-b3cf-435a-ba5b-b97ef90ec0fd",
+      "createdAt": "2026-07-25T11:28:56.075000+00:00",
+      "transcriptBytes": 373232,
+      "files": [
+        "diff-metadata.json",
+        "environment-info.json",
+        "events.json",
+        "transcript.json"
+      ]
+    },
+    {
+      "bcId": "bc-7c1b8bad-1db4-46dc-8fa0-4f5fd503bfef",
+      "name": "چک لیست تست فود دلیوری",
+      "status": "IDLE",
+      "isArchived": false,
+      "branchName": null,
+      "model": "cursor-grok-4.5-high-fast",
+      "source": "web",
+      "url": "https://cursor.com/agents/bc-7c1b8bad-1db4-46dc-8fa0-4f5fd503bfef",
+      "createdAt": "2026-07-14T07:32:57.151000+00:00",
+      "transcriptBytes": 7989,
+      "files": [
+        "diff-metadata.json",
+        "environment-info.json",
+        "events.json",
+        "transcript.json"
+      ]
+    },
+    {
+      "bcId": "bc-dcd1c07d-c5d3-4880-b04c-8484e78c6bcf",
+      "name": "چک لیست تست فود دلیوری",
+      "status": "IDLE",
+      "isArchived": false,
+      "branchName": null,
+      "model": "cursor-grok-4.5-high-fast",
+      "source": "web",
+      "url": "https://cursor.com/agents/bc-dcd1c07d-c5d3-4880-b04c-8484e78c6bcf",
+      "createdAt": "2026-07-14T07:31:37.713000+00:00",
+      "transcriptBytes": 70499,
+      "files": [
+        "diff-metadata.json",
+        "environment-info.json",
+        "events.json",
+        "transcript.json"
+      ]
+    },
+    {
+      "bcId": "bc-1c9606c7-2da2-4432-aef9-bb232a845727",
+      "name": "شماره مرجع کال‌بک پرداخت",
+      "status": "IDLE",
+      "isArchived": false,
+      "branchName": null,
+      "model": "grok-4.5-fast-xhigh",
+      "source": "web",
+      "url": "https://cursor.com/agents/bc-1c9606c7-2da2-4432-aef9-bb232a845727",
+      "createdAt": "2026-07-13T13:15:40.335000+00:00",
+      "transcriptBytes": 134357,
+      "files": [
+        "diff-metadata.json",
+        "environment-info.json",
+        "events.json",
+        "transcript.json"
+      ]
+    },
+    {
+      "bcId": "bc-295aef29-caf7-468a-8826-5185ebd82f8b",
+      "name": "سوالات چالش‌برانگیز رزومه",
+      "status": "IDLE",
+      "isArchived": false,
+      "branchName": null,
+      "model": "cursor-grok-4.5-high-fast",
+      "source": "web",
+      "url": "https://cursor.com/agents/bc-295aef29-caf7-468a-8826-5185ebd82f8b",
+      "createdAt": "2026-07-13T10:38:59.667000+00:00",
+      "transcriptBytes": 25883,
+      "files": [
+        "diff-metadata.json",
+        "environment-info.json",
+        "events.json",
+        "transcript.json"
+      ]
+    },
+    {
+      "bcId": "bc-8fb1eabf-3f80-494e-99ce-13a494d14029",
+      "name": "نقشه راه مهندس نرم‌افزار",
+      "status": "IDLE",
+      "isArchived": true,
+      "branchName": null,
+      "model": "composer-2.5",
+      "source": "web",
+      "url": "https://cursor.com/agents/bc-8fb1eabf-3f80-494e-99ce-13a494d14029",
+      "createdAt": "2026-07-06T08:28:45.608000+00:00",
+      "transcriptBytes": 238432,
+      "files": [
+        "diff-metadata.json",
+        "environment-info.json",
+        "events.json",
+        "transcript.json"
+      ]
+    },
+    {
+      "bcId": "bc-3eed5127-4f83-4584-b753-2f97d9fed70a",
+      "name": "پیکربندی داده‌محور API",
+      "status": "IDLE",
+      "isArchived": false,
+      "branchName": "cursor/newman-comment-moderation-d70a",
+      "model": "composer-2.5",
+      "source": "web",
+      "url": "https://cursor.com/agents/bc-3eed5127-4f83-4584-b753-2f97d9fed70a",
+      "createdAt": "2026-07-06T07:00:01.936000+00:00",
+      "transcriptBytes": 144472,
+      "files": [
+        "diff-metadata.json",
+        "environment-info.json",
+        "events.json",
+        "transcript.json"
+      ]
+    }
+  ]
+}

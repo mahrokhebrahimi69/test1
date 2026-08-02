@@ -1,0 +1,16 @@
+{
+  "bcId": "bc-6f6ee186-a47a-4289-b9b3-f9596ea1943f",
+  "count": 1,
+  "events": [
+    {
+      "publicId": "21d451c6-8a73-11f1-b88f-9a10367427c9",
+      "createdAtMs": 1785236251859,
+      "category": "agent_run",
+      "logLevel": "info",
+      "kind": "pr_created",
+      "title": "Draft pull request created",
+      "detail": "#7 · cursor/qa-onboarding-confluence-943f into main",
+      "linkUrl": "https://github.com/mahrokhebrahimi69/test1/pull/7"
+    }
+  ]
+}

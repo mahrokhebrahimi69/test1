@@ -1,0 +1,9 @@
+{
+  "bcId": "bc-6a54a0b6-55af-54ad-baf9-f0f6cd0e8229",
+  "environment": null,
+  "egress": {
+    "note": "This run's agent state could not be loaded, so the enforced egress policy is unknown."
+  },
+  "build": null,
+  "clientBuildInfo": null
+}

@@ -1,0 +1,23 @@
+{
+  "bcId": "bc-9d9fd971-b3cf-435a-ba5b-b97ef90ec0fd",
+  "environment": {
+    "name": "mahrokhebrahimi69/test1CurserINV",
+    "environmentPublicId": "7f48041c-7095-11f1-8cbf-12b154d6cb29",
+    "environmentVersionPublicId": "ba0915a3-7095-11f1-8cbf-12b154d6cb29",
+    "source": "Team",
+    "recordedVia": "SETUP_FLOW",
+    "createdAtMs": 1782392379876,
+    "repos": [
+      "github.com/mahrokhebrahimi69/test1"
+    ],
+    "environmentJsonPath": null,
+    "url": "https://cursor.com/dashboard/cloud-agents/environments/e/7f48041c-7095-11f1-8cbf-12b154d6cb29",
+    "environmentJson": "{\n  \"snapshot\": \"snapshot-20260625-5fd279b4-bbed-40b8-8f64-0e865e057cb7\"\n}",
+    "environmentJsonNote": null
+  },
+  "egress": {
+    "restricted": false
+  },
+  "build": null,
+  "clientBuildInfo": null
+}
