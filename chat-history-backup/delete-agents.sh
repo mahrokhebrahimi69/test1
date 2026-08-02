@@ -26,14 +26,8 @@ if [[ ! -f "$CATALOG" ]]; then
   exit 1
 fi
 
-mapfile -t BC_IDS < <(python3 - <<'PY' "$CATALOG"
-import json, sys
-from pathlib import Path
-data = json.loads(Path(sys.argv[1]).read_text())
-for a in data["agents"]:
-    print(a["bcId"])
-PY
-)
+mapfile -t BC_IDS < <(python3 -c 'import json,sys; from pathlib import Path; data=json.loads(Path(sys.argv[1]).read_text());
+[print(a["bcId"]) for a in data["agents"]]' "$CATALOG")
 
 deleted=0
 skipped=0
